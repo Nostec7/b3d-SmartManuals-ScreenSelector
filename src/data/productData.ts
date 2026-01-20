@@ -1,6 +1,6 @@
 //==================================================================
 // Hardcoded product data for supported products
-export const hardcodedProductsData = [
+export const hardcodedProductsData = [ 
   {
     id: "jht-j-475", 
     title: "JHT J-475", 

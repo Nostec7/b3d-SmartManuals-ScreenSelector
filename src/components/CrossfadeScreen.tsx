@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-//import { useSimStore } from "../stores/useSimStore";
+import { AnimatePresence, motion } from "framer-motion";
 
 type Props = {
   src: string;
@@ -8,30 +8,17 @@ type Props = {
   imgClassName?: string;
   imgStyle?: React.CSSProperties;
 
-  /** Duration for both fade-out and fade-in */
+  /** Duration of the crossfade (ms) */
   durationMs?: number;
 
-  /** Delay BEFORE the new screen starts fading in (old starts fading out immediately) */
-  incomingDelayMs?: number;
-
-  disableInteractionUntilReady?: boolean;
   children?: React.ReactNode;
 
   onNaturalSize: (size: { w: number; h: number }) => void;
 };
 
-type Layer = {
+type ImageLayer = {
   key: string;
   src: string;
-  opacity: number;
-  transition: string;
-};
-
-type State = {
-  layers: [Layer] | [Layer, Layer];
-  prevSrc: string;
-  contentVisible: boolean;
-  pendingTransition: boolean;
 };
 
 export function CrossfadeScreen({
@@ -41,172 +28,105 @@ export function CrossfadeScreen({
   imgClassName = "absolute inset-0 h-full w-full select-none",
   imgStyle,
   durationMs = 150,
-  incomingDelayMs = 0,
-  //disableInteractionUntilReady = true,
   children,
   onNaturalSize,
 }: Props) {
-  const [state, setState] = useState<State>({
-    layers: [
-      {
-        key: src,
-        src,
-        opacity: 1,
-        transition: `opacity ${durationMs}ms ease-in-out`,
-      },
-    ],
-    prevSrc: src,
-    contentVisible: false,
-    pendingTransition: false,
+  const [current, setCurrent] = useState<ImageLayer>({
+    key: src,
+    src,
   });
 
-  // getDerivedStateFromProps pattern - update state during render if src changed
-  if (src !== state.prevSrc) {
-    const current = state.layers[state.layers.length - 1];
-    const newLayer: Layer = {
-      key: src,
-      src,
-      opacity: 0,
-      transition: `opacity ${durationMs}ms ease-in-out ${incomingDelayMs}ms`,
-    };
-    // Keep old layer at opacity 1 so it's visible during transition
-    const old = {
-      ...current,
-      opacity: 1,
-      transition: `opacity ${durationMs}ms ease-in-out 0ms`,
-    };
+  const [incoming, setIncoming] = useState<ImageLayer | null>(null);
+  const [contentVisible, setContentVisible] = useState(false);
 
-    setState({
-      layers: [old, newLayer],
-      prevSrc: src,
-      contentVisible: false,
-      pendingTransition: true,
-    });
-  }
+  const preloadRef = useRef<HTMLImageElement | null>(null);
 
-  //const showController = useSimStore((s) => s.showController);
-
-  const { layers, contentVisible } = state;
-  const timerRef = useRef<number | null>(null);
-
-  // Kick off the crossfade as soon as we have a pending transition,
-  // without waiting for the image load event (images are preloaded).
+  /**
+   * Preload next image whenever src changes
+   */
   useEffect(() => {
-    if (!state.pendingTransition) return;
+    if (src === current.src) return;
+    const img = new Image();
+    preloadRef.current = img;
 
-    const start = () => {
-      setState((prev) => {
-        const newLayers = [...prev.layers];
+    img.src = src;
 
-        if (newLayers.length > 1) {
-          // Fade out the old layer (first)
-          newLayers[0] = { ...newLayers[0], opacity: 0 };
-          // Fade in the new layer (last)
-          const last = newLayers[newLayers.length - 1];
-          newLayers[newLayers.length - 1] = { ...last, opacity: 1 };
-        }
+    img.onload = () => {
+      // Natural size callback
+      onNaturalSize({ w: img.naturalWidth, h: img.naturalHeight });
 
-        return {
-          ...prev,
-          layers: newLayers as [Layer] | [Layer, Layer],
-          pendingTransition: false,
-        };
-      });
-
-      timerRef.current = window.setTimeout(() => {
-        setState((prev) => {
-          if (prev.layers.length > 1) {
-            return {
-              ...prev,
-              layers: [prev.layers[prev.layers.length - 1]],
-              contentVisible: true,
-            };
-          }
-          return prev.contentVisible ? prev : { ...prev, contentVisible: true };
+      // Only commit if this is still the requested src
+      if (img.src === src) {
+        setIncoming({
+          key: src,
+          src,
         });
-        timerRef.current = null;
-      }, durationMs + incomingDelayMs);
-    };
-
-    const id = requestAnimationFrame(start);
-    return () => {
-      cancelAnimationFrame(id);
-      // Do not clear the timeout here; it must complete to reveal content
-    };
-  }, [
-    state.pendingTransition,
-    durationMs,
-    incomingDelayMs,
-    state.layers.length,
-  ]);
-
-  // Cleanup timer on unmount
-  useEffect(() => {
-    return () => {
-      if (timerRef.current) {
-        clearTimeout(timerRef.current);
-        timerRef.current = null;
       }
     };
-  }, []);
+    
 
-  const onImageLoad = (
-    e: React.SyntheticEvent<HTMLImageElement>,
-    layer: Layer
-  ) => {
-    const img = e.currentTarget;
-    onNaturalSize({ w: img.naturalWidth, h: img.naturalHeight });
+    return () => {
+      preloadRef.current = null;
+    };
+  }, [src, current.src, onNaturalSize]);
 
-    if (layer.opacity === 0) {
-      // Nothing to do here; transition starts immediately via pendingTransition effect
-    } else {
-      // Initial image load (single layer, already current) -> show children
-      if (state.layers.length === 1 && state.layers[0].key === layer.key) {
-        if (!state.contentVisible) {
-          setState((prev) => ({ ...prev, contentVisible: true }));
-        }
-      }
+  /**
+   * Once incoming is present, swap it to current
+   * after the crossfade finishes
+   */
+  const handleFadeComplete = () => {
+    if (incoming) {
+      setCurrent(incoming);
+      setIncoming(null);
+      setContentVisible(true);
     }
   };
 
-  //const isTransitioning = layers.length > 1;
-
   return (
-    <div className={className} style={style}>
-      {layers.map((layer) => (
-        <img
-          key={layer.key}
-          src={layer.src}
-          alt=""
+    <div className={className} style={{ position: "relative", ...style }}>
+      <AnimatePresence initial={false}>
+        {/* Current image */}
+        <motion.img
+          key={current.key}
+          src={current.src}
           draggable={false}
-          onLoad={(e) => {
-            const img = e.currentTarget;
-            // If image was already cached, it loads synchronously
-            // Check if it's complete to handle cached images
-            if (img.complete && img.naturalWidth > 0) {
-              onImageLoad(e, layer);
-            } else {
-              onImageLoad(e, layer);
-            }
-          }}
           className={imgClassName}
           style={{
             ...imgStyle,
-            position: "absolute",
-            inset: 0,
-            opacity: layer.opacity,
-            transition: layer.transition,
             pointerEvents: "none",
           }}
+          initial={{ opacity: 1 }}
+          animate={{ opacity: incoming ? 0 : 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: durationMs / 1000, ease: "easeInOut" }}
         />
-      ))}
+
+        {/* Incoming image (only mounted AFTER load) */}
+        {incoming && (
+          <motion.img
+            key={incoming.key}
+            src={incoming.src}
+            draggable={false}
+            className={imgClassName}
+            style={{
+              ...imgStyle,
+              pointerEvents: "none",
+            }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: durationMs / 1000, ease: "easeInOut" }}
+            onAnimationComplete={handleFadeComplete}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Overlay content */}
       <div
         className="absolute inset-0"
         style={{
           opacity: contentVisible ? 1 : 0,
-          pointerEvents:
-            //(disableInteractionUntilReady && isTransitioning) || showController ? "none" : "auto",
-            "none"
+          pointerEvents: "none",
+          transition: `opacity ${durationMs}ms ease-in-out`,
         }}
       >
         {children}

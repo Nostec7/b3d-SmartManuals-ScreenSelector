@@ -38,15 +38,15 @@ export default function App() {
 // }
 
 
-const PLUG_IN_VARIABLES = {
-  pdfID: "25-J400-EN",
-  featureID: "temperature-control",
-}
-
 // const PLUG_IN_VARIABLES = {
-//   pdfID: "26-SDS-780-EN",
+//   pdfID: "25-J400-EN",
 //   featureID: "temperature-control",
 // }
+
+const PLUG_IN_VARIABLES = {
+  pdfID: "26-SDS-780-EN",
+  featureID: "temperature-control",
+}
 
 const productData = getProductData(PLUG_IN_VARIABLES.pdfID);
 const screenSetup = getScreenSetup(PLUG_IN_VARIABLES.pdfID);

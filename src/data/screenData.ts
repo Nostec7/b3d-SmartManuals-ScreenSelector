@@ -14,7 +14,7 @@ export const hardcodedScreenData = [
           image: {
             url: "https://firebasestorage.googleapis.com/v0/b/extended-experiences.firebasestorage.app/o/assets%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-A.png?alt=media",
             targets: ["top left button"],
-          },
+          }, 
           anchors: [
             {
               key: "top-left-button-1",

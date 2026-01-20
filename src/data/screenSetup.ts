@@ -11,7 +11,7 @@ export const hardcodedScreenSetups = [
       { x: 0.693, y: 0.62 }, // BR 
       { x: 0.32, y: 0.62 }, // BL 
     ],
-  },
+  }, 
   {
     pdfID: "26-SDS-780-EN",
     baseUrl: "/controllerScreens/SDS_780-880_BaseLayer.webp",

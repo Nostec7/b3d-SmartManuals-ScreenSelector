@@ -144,16 +144,36 @@ export default function ScreenController({
   const current = flatScreens[currentIndex];
 
   /* ----------------------------- preload ---------------------------------- */
+  
+  function preloadImage(url: string) {
+    if (imageCache.has(url)) return imageCache.get(url)!;
+
+    const img = new Image();
+    img.src = url;
+
+    img.decode?.().catch(() => {});
+    imageCache.set(url, img);
+
+    return img;
+  }
+  const imageCache = new Map<string, HTMLImageElement>();
+
 
   useEffect(() => {
-    new Image().src = screenSetup.baseUrl;
-    new Image().src = screenSetup.beautyLayerUrl;
-
-    screenData.screenOptions.forEach((s) => (new Image().src = s.image.url))
-    flatScreens.forEach((s) => (new Image().src = s.image.url));
-  }, [screenSetup, flatScreens, screenData]);
-
+    preloadImage(screenSetup.baseUrl);
+    preloadImage(screenSetup.beautyLayerUrl);
   
+    screenData.screenOptions.forEach(s =>
+      preloadImage(s.image.url)
+    );
+  
+    flatScreens.forEach(s =>
+      preloadImage(s.image.url)
+    );
+  }, [screenSetup, flatScreens, screenData]);
+  
+
+ 
   /* ---------------------------- mount ------------------------------------- */
 
   const productMount: ProductMount = useMemo(
@@ -293,13 +313,11 @@ export default function ScreenController({
                 >
                   <CrossfadeScreen
                     src={current.image.url}
-                    durationMs={100}
-                    incomingDelayMs={0}
-                    className="absolute inset-0"
-                    imgClassName="absolute inset-0 h-full w-full select-none z-1 pointer-events-none"
-                    imgStyle={{ objectFit: "fill" }}
-                    disableInteractionUntilReady
-                    onNaturalSize={onScreenNaturalSize}
+                    durationMs={0}
+                    className="absolute inset-0 z-20 w-full h-full"
+                    onNaturalSize={({ w, h }) => {
+                      console.log("Natural size:", w, h);
+                    }}
                   />
                 </div>
 
