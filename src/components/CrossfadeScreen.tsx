@@ -96,8 +96,8 @@ export function CrossfadeScreen({
             pointerEvents: "none",
           }}
           initial={{ opacity: 1 }}
-          animate={{ opacity: incoming ? 0 : 1 }}
-          exit={{ opacity: 0 }}
+          //animate={{ opacity: incoming ? 0 : 1 }}
+          //exit={{ opacity: 0 }}
           transition={{ duration: durationMs / 1000, ease: "easeInOut" }}
         />
 

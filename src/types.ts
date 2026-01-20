@@ -5,6 +5,11 @@ export type TargetScreen = {
   id: string;
 }
 
+export type TargetImage = {
+  direction: "forward" | "backwards";
+  urls: string[];
+}
+
 export type ActionMsg = {
   title: string;
   message: string;
@@ -13,11 +18,13 @@ export type ActionMsg = {
 export type Anchor = {
   key: string;
   anchor?: { x: number; y: number };
+  box?: [number, number, number, number];
   box_2d: number[]; // [left, top, right, bottom] in screen image px
   confidence?: number;
   label?: string;
   actionMsg?: ActionMsg;
   targetScreen?: TargetScreen;
+  targetImage?: TargetImage;
 };
 
 export type ScreenDoc = {

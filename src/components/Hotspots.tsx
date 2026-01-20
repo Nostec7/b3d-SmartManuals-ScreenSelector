@@ -1,4 +1,4 @@
-import { useMemo, useRef } from "react";
+import { useMemo, useRef, useState } from "react";
 import type { Anchor } from "../types";
 
 type Box2D = [number, number, number, number]; // [yMin,xMin,yMax,xMax] 0..1000
@@ -25,17 +25,14 @@ function clamp(n: number, a: number, b: number) {
 function normalizeBox(box: Box2D, minSize = 6): Box2D {
   let [y0, x0, y1, x1] = box;
 
-  // Ensure ordering
   if (x1 < x0) [x0, x1] = [x1, x0];
   if (y1 < y0) [y0, y1] = [y1, y0];
 
-  // Clamp
   x0 = clamp(x0, 0, 1000);
   x1 = clamp(x1, 0, 1000);
   y0 = clamp(y0, 0, 1000);
   y1 = clamp(y1, 0, 1000);
 
-  // Enforce minimum size
   if (x1 - x0 < minSize) x1 = clamp(x0 + minSize, 0, 1000);
   if (y1 - y0 < minSize) y1 = clamp(y0 + minSize, 0, 1000);
 
@@ -51,7 +48,6 @@ export function Hotspots({
   onBoxChange,
   onHotspotClick,
 }: Props) {
-  // Drag state stored in a ref to avoid rerenders on every pointermove
   const dragRef = useRef<{
     key: string;
     handle: Handle;
@@ -60,6 +56,9 @@ export function Hotspots({
     pointerId: number;
   } | null>(null);
 
+  const [hoveredKey, setHoveredKey] = useState<string | null>(null);
+  const [activeKey, setActiveKey] = useState<string | null>(null);
+
   const anchorMap = useMemo(() => {
     const m = new Map<string, Anchor>();
     anchors.forEach((a) => m.set(a.key, a));
@@ -67,13 +66,13 @@ export function Hotspots({
   }, [anchors]);
 
   function getBox(a: Anchor): Box2D {
-    // Your format: [yMin,xMin,yMax,xMax] in 0..1000
     const [yMin, xMin, yMax, xMax] = a.box_2d;
     return [yMin, xMin, yMax, xMax];
   }
 
   function startDrag(e: React.PointerEvent, a: Anchor, handle: Handle) {
     if (!editing) return;
+
     const pt = clientToScreen1000(e.clientX, e.clientY);
     if (!pt) return;
 
@@ -93,8 +92,10 @@ export function Hotspots({
 
   function onMove(e: React.PointerEvent) {
     const d = dragRef.current;
-    if (!d) return;
-    if (e.pointerId !== d.pointerId) return;
+    if (!d || e.pointerId !== d.pointerId) return;
+
+    const anchor = anchorMap.get(d.key);
+    if (!anchor) return;
 
     const pt = clientToScreen1000(e.clientX, e.clientY);
     if (!pt) return;
@@ -129,7 +130,6 @@ export function Hotspots({
         break;
     }
 
-    // If moving, keep size while clamping within bounds
     if (d.handle === "move") {
       const w = x1 - x0;
       const h = y1 - y0;
@@ -140,14 +140,12 @@ export function Hotspots({
       y1 = y0 + h;
     }
 
-    const next = normalizeBox([y0, x0, y1, x1], 8);
-    onBoxChange(d.key, next);
+    onBoxChange(d.key, normalizeBox([y0, x0, y1, x1], 8));
   }
 
   function endDrag(e: React.PointerEvent) {
     const d = dragRef.current;
-    if (!d) return;
-    if (e.pointerId !== d.pointerId) return;
+    if (!d || e.pointerId !== d.pointerId) return;
     dragRef.current = null;
   }
 
@@ -161,88 +159,108 @@ export function Hotspots({
         const h = (yMax - yMin) / 1000;
 
         const selected = selectedKey === a.key;
+        const isHovered = hoveredKey === a.key;
+        const isActive = activeKey === a.key;
+        const othersHovered = hoveredKey && !isHovered;
+
         const border = editing
           ? selected
             ? "border-2 border-sky-400"
             : "border-2 border-emerald-400/70"
           : "border-0";
 
+        const scaleClass = isActive
+          ? "scale-100 opacity-100 blur-[2px] animate-[ping_0.33s_ease-out_infinite]"
+          : hoveredKey
+          ? isHovered
+            ? "scale-110 opacity-60"
+            : "scale-100 opacity-50"
+          : "scale-100 opacity-50";
+
         return (
           <div
             key={a.key}
-            className={`absolute ${border} ${
-              editing ? "bg-transparent" : "bg-transparent"
-            } ${className}`}
+            className={`
+              absolute
+              ${border}
+              ${className}
+              transform-gpu
+              transition-all
+              duration-30
+              ease-in
+              ${scaleClass}
+            `}
             style={{
               left: `${x * 100}%`,
               top: `${y * 100}%`,
               width: `${w * 100}%`,
               height: `${h * 100}%`,
+              transformOrigin: "center",
               pointerEvents: "auto",
               touchAction: "none",
               userSelect: "none",
             }}
-            onPointerDown={(e) => {
-              if (editing) startDrag(e, a, "move");
-            }}
+            onPointerEnter={() => setHoveredKey(a.key)}
+            onPointerLeave={() => setHoveredKey(null)}
+            onPointerDown={(e) => editing && startDrag(e, a, "move")}
             onPointerMove={onMove}
             onPointerUp={endDrag}
             onPointerCancel={endDrag}
             onClick={(e) => {
-              // In edit mode, don’t treat click as navigation.
               if (editing) {
                 e.preventDefault();
                 e.stopPropagation();
                 return;
               }
+
+              setActiveKey(a.key);
+              setTimeout(() => setActiveKey(null), 300);
               onHotspotClick(a);
             }}
             title={a.label ?? a.key}
           >
-            {/* Indicator (always visible, centered, non-interactive) */}
+            {/* Indicator */}
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-              <div className="relative w-full aspect-square">
+              <div
+                className={`
+                  relative w-full aspect-square
+                  transition-transform duration-200 animate-pulse
+                  ${isHovered ? "scale-110" : "scale-100"}
+                `}
+              >
                 <span
                   aria-hidden
-                  className="absolute left-1/2 top-1/2 h-3/4 w-3/4 -translate-x-1/2 -translate-y-1/2 rounded-full bg-sky-400/40 animate-pulse shadow-[0_0_0_6px_rgba(56,189,248,0.12)]"
-                />
+                  className="absolute inset-1/8 rounded-full border-[3px] border-[#00bcff] bg-[#00bcff]/50"
+                >
+                  {/* <span
+                    aria-hidden
+                  className="absolute inset-[2px] rounded-full bg-white/20 blur-[2px]"
+                  /> */}
+                </span>
                 <span
                   aria-hidden
-                  className="absolute left-1/2 top-1/2 h-3/4 w-3/4  -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-sky-400/60 animate-[ping_1.8s_ease-in-out_infinite]"
+                  className={`absolute inset-1/8 rounded-full border-2 ${isHovered ? 'border-sky-400/60' : 'border-sky-400/70'} animate-[ping_1.8s_ease-in-out_infinite]`}
                 />
               </div>
             </div>
 
-            {/* Resize handles (only in editing mode) */}
             {editing && (
               <>
-                {[
+                {(
                   [
-                    "nw",
-                    "left-0 top-0 -translate-x-1/2 -translate-y-1/2",
-                  ] as const,
-                  [
-                    "ne",
-                    "right-0 top-0 translate-x-1/2 -translate-y-1/2",
-                  ] as const,
-                  [
-                    "se",
-                    "right-0 bottom-0 translate-x-1/2 translate-y-1/2",
-                  ] as const,
-                  [
-                    "sw",
-                    "left-0 bottom-0 -translate-x-1/2 translate-y-1/2",
-                  ] as const,
-                ].map(([handle, pos]) => (
+                    ["nw", "left-0 top-0 -translate-x-1/2 -translate-y-1/2"],
+                    ["ne", "right-0 top-0 translate-x-1/2 -translate-y-1/2"],
+                    ["se", "right-0 bottom-0 translate-x-1/2 translate-y-1/2"],
+                    ["sw", "left-0 bottom-0 -translate-x-1/2 translate-y-1/2"],
+                  ] as const
+                ).map(([handle, pos]) => (
                   <div
                     key={handle}
                     className={`absolute h-3 w-3 rounded-full bg-white shadow ring-2 ring-black/30 ${pos}`}
                     style={{ cursor: `${handle}-resize`, touchAction: "none" }}
                     onPointerDown={(e) => {
-                      // prevent starting "move" drag from the parent
                       e.stopPropagation();
-                      const anchor = anchorMap.get(a.key);
-                      if (anchor) startDrag(e, anchor, handle);
+                      startDrag(e, a, handle);
                     }}
                     onPointerMove={onMove}
                     onPointerUp={endDrag}

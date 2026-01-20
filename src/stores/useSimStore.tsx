@@ -42,7 +42,7 @@ export const useSimStore = create<SimState>((set, get) => ({
   overrides: {},
   selectedAnchorKey: null,
   actionMsg: null,
-  showController: false,
+  showController: true,
 
   setScreens: (screens) => set({ screens, currentIndex: 0 }),
   setCurrentIndex: (i) => {
