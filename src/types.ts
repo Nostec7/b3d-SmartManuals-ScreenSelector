@@ -6,7 +6,7 @@ export type TargetScreen = {
 }
 
 export type TargetImage = {
-  direction: "forward" | "backwards";
+  direction: "forward" | "backwards" | "forward-backwards";
   urls: string[];
 }
 

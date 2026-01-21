@@ -159,7 +159,7 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
 
   function getNextImageUrl(
     currentUrl: string,
-    targetImage: { direction: "forward" | "backwards"; urls: string[] }
+    targetImage: { direction: "forward" | "backwards" | "forward-backwards"; urls: string[] }
   ): string {
     const { urls, direction } = targetImage;
     if (urls.length === 0) return currentUrl;
@@ -172,8 +172,13 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
     }
   
     // 2 & 3. Move forward or backward (clamped)
-    if (direction === "forward") {
+    if (direction == "forward") {
       return urls[Math.min(currentIndex + 1, urls.length - 1)];
+    } else if(direction == "forward-backwards"){
+
+      const nextIndex = currentIndex === 0 ? 1 : 0;
+
+      return urls[nextIndex];
     }
   
     return urls[Math.max(currentIndex - 1, 0)];
@@ -264,7 +269,7 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
   if (!current) return <div className="p-6 text-sm">Loading…</div>;
 
   return (
-    <div className="mx-auto w-full max-w-245 p-3 relative">
+    <div className="mx-0 w-full max-w-245 p-3 relative">
       <AnimatePresence mode="wait">
         <div className={`relative mt-3 w-full overflow-hidden rounded-2xl transition-opacity duration-1000 ${showController ? 'opacity-100' : 'opacity-0'}`}>
           <motion.div
@@ -350,12 +355,12 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
                   className="cursor-pointer z-10"
                 />
 
-                <button
+                {/* <button
                   className="relative bg-white z-12 m-2 px-4 py-4 font-bold rounded-lg hover:opacity-50 cursor-pointer opacity-80"
                   onClick={() => setShowController(false)}
                 >
                   Back
-                </button>
+                </button> */}
               </div>
             )}
           </motion.div>

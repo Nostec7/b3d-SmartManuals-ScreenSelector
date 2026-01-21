@@ -1,95 +1,85 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ModelEmbed from "./components/ModelEmbed";
 import ScreenController from "./components/ScreenController";
-import { hardcodedProductsData } from "./data/productData";
-import { fullDataJSON, hardcodedScreenData } from "./data/screenData";
-import { hardcodedScreenSetups } from "./data/screenSetup";
+import { fullDataJSON } from "./data/screenData";
+import FeatureBuilder from "./components/FeatureBuilder";
 
 export default function App() {
+  const [PLUG_IN_VARIABLES, setPLUG_IN_VARIABLES] = useState<{
+    pdfID: string;
+    caption: string;
+  }>({
+    pdfID: "25-J400-EN",
+    caption: "",
+  });
 
-  const [PLUG_IN_VARIABLES, setPLUG_IN_VARIABLES] = useState(
-    {
-      pdfID: "25-J400-EN",
-      featureID: "temperature-control",
-    }
-  )
+  const [productDatas, setProductData] = useState<any>(null);
+  const [screenSetups, setScreenSetup] = useState<any>(null);
+  const [screenDatas, setScreenData] = useState<any>(null);
 
+  const [debug, setDebug] = useState(false);
 
+  /**
+   * Build feature list dynamically from JSON
+   * caption replaces featureID
+   */
+  const featureMap = useMemo(() => {
+    return fullDataJSON.map((entry) => ({
+      pdfID: entry.pdfID,
+      caption: entry.caption,
+    }));
+  }, []);
 
+  /**
+   * Process selected feature
+   */
   useEffect(() => {
-    console.log(fullDataJSON)
+    const entry = fullDataJSON.find(
+      (e) =>
+        e.pdfID === PLUG_IN_VARIABLES.pdfID &&
+        e.caption === PLUG_IN_VARIABLES.caption
+    );
 
-  }, [])
+    if (!entry || !entry.interactiveP3DModel) {
+      setProductData(null);
+      setScreenSetup(null);
+      setScreenData(null);
+      return;
+    }
 
+    // PRODUCT DATA
+    setProductData({
+      id: entry.productID,
+      title: entry.caption,
+      pdfID: entry.pdfID,
+      p3dID: entry.interactiveP3DModel.p3dID,
+    });
 
+    // SCREEN SETUP
+    setScreenSetup({
+      pdfID: entry.pdfID,
+      baseUrl: entry.interactiveP3DModel.productMount.baseUrl,
+      beautyLayerUrl: entry.interactiveP3DModel.productMount.beautyLayerUrl,
+      screenCorners: entry.interactiveP3DModel.productMount.screenCorners,
+    });
 
-
-
-
-
-
-
- // Methods to iterate through hardcoded options
-  const getProductData = (pdfID: string) => {
-    return fullDataJSON.find((s) => s.pdfID === pdfID) ?? null;
-  }
-
-  const getScreenSetup = (pdfID: string) => {
-    return hardcodedScreenSetups.find((s) => s.pdfID === pdfID) ?? null;
-  }
-
-  const getScreenData = (pdfID: string, featureID: string) => {
-    return hardcodedScreenData.find(
-      (s) => s.pdfID === pdfID && s.id === featureID
-    ) ?? null;
-  }
-
-
-
-
-// LISTING ALL POSSIBLE FEATURES HERE
-const featureMap = [
-  // J-400 data
-  {
-    pdfID: "25-J400-EN",
-    featureID: "temperature-control",
-  },
-  {
-    pdfID: "25-J400-EN",
-    featureID: "activating-jet-pumps",
-  },
-  {
-    pdfID: "25-J400-EN",
-    featureID: "lights-menu",
-  },
-  {
-    pdfID: "25-J400-EN",
-    featureID: "music-menu",
-  },
-
-  // SDS 780 data
-  {
-    pdfID: "26-SDS-780-EN",
-    featureID: "temperature-control",
-  },
-]
-
-const productData = getProductData(PLUG_IN_VARIABLES.pdfID);
-const screenSetup = getScreenSetup(PLUG_IN_VARIABLES.pdfID);
-const screenData = getScreenData(PLUG_IN_VARIABLES.pdfID, PLUG_IN_VARIABLES.featureID)
-
-
-const [debug, setDebug] = useState(false);
+    // SCREEN DATA
+    setScreenData({
+      pdfID: entry.pdfID,
+      id: entry.caption,
+      label: entry.caption,
+      screenOptions: entry.interactiveP3DModel.screenOptions,
+    });
+  }, [PLUG_IN_VARIABLES]);
 
   return (
     <div className="min-h-screen bg-white">
-      
       <div className="grid grid-rows-4 lg:grid-cols-[360px_1fr]">
-        {/* DEBUG - SUPPORTING ELEMENTS */}
+        {/* DEBUG / FEATURE LIST */}
         <div className="row-span-1 w-full font-semibold p-4 gap-2 flex flex-col">
           <div className="flex items-center gap-2 mb-2">
-          <label htmlFor="debug-toggle" className="font-bold">
-              DEBUG MDOE
+            <label htmlFor="debug-toggle" className="font-bold">
+              DEBUG MODE
             </label>
             <input
               type="checkbox"
@@ -97,44 +87,48 @@ const [debug, setDebug] = useState(false);
               onChange={(e) => setDebug(e.target.checked)}
               id="debug-toggle"
             />
-            
           </div>
-            <h1 className="font-bold">FEATURE MAP</h1>
-            {featureMap.map((f) => {
-              return(
-                <button 
-                key={`${f.pdfID}_${f.featureID}`}
-                className="bg-gray-300 p-2 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30"
-                onClick={() => {
-                setPLUG_IN_VARIABLES(
-                {
+
+          <h1 className="font-bold">FEATURES</h1>
+
+          {featureMap.map((f, i) => (
+            <button
+              key={`${f.pdfID}_${i}`}
+              className="bg-gray-300 p-2 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30"
+              onClick={() =>
+                setPLUG_IN_VARIABLES({
                   pdfID: f.pdfID,
-                  featureID: f.featureID,
+                  caption: f.caption,
                 })
-              }}>
-                  {f.pdfID}: {f.featureID} 
-              </button>
-              )
-              
-          })}
+              }
+            >
+              {f.pdfID}: {f.caption}
+            </button>
+          ))}
+
+        <div className=" bg-white relative w-fit">
+            <FeatureBuilder />
+        </div>
         </div>
 
-        {/* MAIN ELEMENTS */}
-        <main className="p-3 relative aspect-square row-span-3 w-full">
-          {/* {productData != null && (
+        {/* MAIN CONTENT */}
+        <main className="p-3 relative aspect-square row-span-3 w-fit">
+          {/* {productDatas != null && (
             <div className="absolute top-0 left-0 w-full pt-8 z-1">
-              <ModelEmbed p3dID={productData.p3dID}/> 
+              <ModelEmbed p3dID={productDatas.p3dID} />
             </div>
           )} */}
-          {productData != null && screenSetup != null && screenData != null && (
+
+          {productDatas && screenSetups && screenDatas && (
             <ScreenController
-            // i screen controlleri dabar ateis tiesiog vienas objektas
-              product={productData}
-              screenSetup={screenSetup}
-              screenData={screenData}
+              product={productDatas}
+              screenSetup={screenSetups}
+              screenData={screenDatas}
               debug={debug}
             />
+            
           )}
+          
         </main>
       </div>
     </div>
