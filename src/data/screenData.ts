@@ -1392,7 +1392,8 @@ export const fullDataJSON = [
         }
       ]
     }
-  }
+  },
+  
 ];
 
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { fullDataJSON } from "../data/screenData";
 
 /* =======================
    Types (JSON-aligned)
@@ -60,34 +61,62 @@ function createEmptyAnchor(): AnchorState {
   };
 }
 
+function isValidBox2D(v: unknown): v is [number, number, number, number] {
+  return (
+    Array.isArray(v) &&
+    v.length === 4 &&
+    v.every((n) => typeof n === "number" && Number.isFinite(n))
+  );
+}
+
+function normalizeBox([y0, x0, y1, x1]: [
+  number,
+  number,
+  number,
+  number
+]): [number, number, number, number] {
+  const ymin = Math.min(y0, y1);
+  const xmin = Math.min(x0, x1);
+  const ymax = Math.max(y0, y1);
+  const xmax = Math.max(x0, x1);
+  return [ymin, xmin, ymax, xmax];
+}
+
 /* =======================
-   Component
+   Initial Feature
 ======================= */
 
-export default function FeatureBuilder() {
-  const [feature, setFeature] = useState<FeatureState>({
-    pdfID: "",
-    productID: "",
-    caption: "",
-    section: "",
-    tags: [],
-    type: "interactiveP3DModel",
-    interactiveP3DModel: {
-      type: "screenController",
-      p3dID: "",
-      productMount: {
-        baseUrl: "",
-        beautyLayerUrl: "",
-        screenCorners: [
-          { x: 0, y: 0 },
-          { x: 1, y: 0 },
-          { x: 1, y: 1 },
-          { x: 0, y: 1 },
-        ],
-      },
-      screenOptions: [],
+const initialFeatureState: FeatureState = {
+  pdfID: "",
+  productID: "",
+  caption: "",
+  section: "",
+  tags: [],
+  type: "interactiveP3DModel",
+  interactiveP3DModel: {
+    type: "screenController",
+    p3dID: "",
+    productMount: {
+      baseUrl: "",
+      beautyLayerUrl: "",
+      screenCorners: [
+        { x: 0, y: 0 },
+        { x: 1, y: 0 },
+        { x: 1, y: 1 },
+        { x: 0, y: 1 },
+      ],
     },
-  });
+    screenOptions: [],
+  },
+};
+
+/* =======================
+   Component
+====================== */
+
+export default function FeatureBuilder() {
+  const [feature, setFeature] = useState<FeatureState>(initialFeatureState);
+  const [preloadKey, setPreloadKey] = useState<string>("");
 
   const screens = feature.interactiveP3DModel.screenOptions;
 
@@ -103,7 +132,7 @@ export default function FeatureBuilder() {
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "feature.json";
-    a.click();
+    //a.click();
   };
 
   /* =======================
@@ -111,13 +140,72 @@ export default function FeatureBuilder() {
   ======================= */
 
   return (
-    <div className="p-4 space-y-6 max-w-5xl mx-auto">
-      <h1 className="text-xl font-bold">Feature Builder</h1>
+    <div className="p-2 space-y-4 max-w-5xl mx-auto">
+      <h1 className="text-lg font-bold">Feature Builder</h1>
+
+      {/* =======================
+          PRELOAD EXISTING FEATURE
+      ======================= */}
+      <section className="border p-2 rounded space-y-1">
+        <label className="block text-xs font-semibold">
+          Preload from existing feature
+        </label>
+
+        <div className="flex gap-2 items-center">
+          <select
+            className="w-full rounded border px-2 py-1 text-sm"
+            value={preloadKey}
+            onChange={(e) => {
+              const selectedKey = e.target.value;
+
+              // RESET FIRST
+              setFeature(initialFeatureState);
+              setPreloadKey(selectedKey);
+
+              if (!selectedKey) return;
+
+              const selectedFeature = fullDataJSON.find((f: any) => {
+                const key = `${f.pdfID}||${f.caption}`;
+                return key === selectedKey;
+              });
+
+              if (selectedFeature) {
+                setFeature(selectedFeature);
+              }
+            }}
+          >
+            <option value="">Select feature…</option>
+            {fullDataJSON.map((f: any) => {
+              const key = `${f.pdfID}||${f.caption}`;
+              return (
+                <option key={key} value={key}>
+                  {f.caption || f.pdfID}
+                </option>
+              );
+            })}
+          </select>
+
+          <button
+            className="rounded px-2 py-1 border text-sm bg-gray-100 hover:bg-gray-200"
+            onClick={() => {
+              setPreloadKey("");
+              setFeature(initialFeatureState);
+            }}
+          >
+            Reset
+          </button>
+        </div>
+
+        <p className="text-[10px] text-gray-500 mt-1">
+          Loads the entire feature into the editor for modification.
+        </p>
+      </section>
 
       {/* FEATURE INFO */}
-      <section className="border p-4 rounded space-y-2">
+      <section className="border p-2 rounded space-y-1">
         <input
           placeholder="PDF ID"
+          className="w-full rounded border px-2 py-1 text-sm"
           value={feature.pdfID}
           onChange={(e) =>
             setFeature({ ...feature, pdfID: e.target.value })
@@ -126,6 +214,7 @@ export default function FeatureBuilder() {
 
         <input
           placeholder="Feature caption"
+          className="w-full rounded border px-2 py-1 text-sm"
           value={feature.caption}
           onChange={(e) =>
             setFeature({ ...feature, caption: e.target.value })
@@ -134,6 +223,7 @@ export default function FeatureBuilder() {
 
         <input
           placeholder="Tags (comma separated)"
+          className="w-full rounded border px-2 py-1 text-sm"
           value={feature.tags.join(",")}
           onChange={(e) =>
             setFeature({
@@ -145,10 +235,11 @@ export default function FeatureBuilder() {
       </section>
 
       {/* SCREENS */}
-      <section className="space-y-4">
+      <section className="space-y-3">
         <div className="flex justify-between items-center">
-          <h2 className="font-semibold">Screens</h2>
+          <h2 className="font-semibold text-sm">Screens</h2>
           <button
+            className="rounded px-2 py-1 border text-sm"
             onClick={() =>
               setFeature({
                 ...feature,
@@ -167,9 +258,10 @@ export default function FeatureBuilder() {
         </div>
 
         {screens.map((screen, sIdx) => (
-          <div key={sIdx} className="border p-3 rounded space-y-3">
+          <div key={sIdx} className="border p-2 rounded space-y-2">
             <input
               placeholder="Screen ID"
+              className="w-full rounded border px-2 py-1 text-sm"
               value={screen.id}
               onChange={(e) => {
                 const copy = [...screens];
@@ -186,6 +278,7 @@ export default function FeatureBuilder() {
 
             <input
               placeholder="Image URL"
+              className="w-full rounded border px-2 py-1 text-sm"
               value={screen.image.url}
               onChange={(e) => {
                 const copy = [...screens];
@@ -204,10 +297,11 @@ export default function FeatureBuilder() {
             />
 
             {/* ANCHORS */}
-            <div className="space-y-3">
+            <div className="space-y-2">
               <div className="flex justify-between items-center">
-                <strong>Anchors</strong>
+                <strong className="text-sm">Anchors</strong>
                 <button
+                  className="rounded px-2 py-1 border text-sm"
                   onClick={() => {
                     const copy = [...screens];
                     copy[sIdx] = {
@@ -228,9 +322,30 @@ export default function FeatureBuilder() {
               </div>
 
               {screen.anchors.map((anchor, aIdx) => (
-                <div key={anchor.key} className="border p-3 rounded space-y-2">
+                <div key={anchor.key} className="border p-2 rounded space-y-2">
+                  <input
+                    placeholder="Key"
+                    className="w-full rounded border px-2 py-1 text-sm"
+                    value={anchor.key}
+                    onChange={(e) => {
+                      const copy = [...screens];
+                      copy[sIdx].anchors[aIdx] = {
+                        ...anchor,
+                        key: e.target.value,
+                      };
+                      setFeature({
+                        ...feature,
+                        interactiveP3DModel: {
+                          ...feature.interactiveP3DModel,
+                          screenOptions: copy,
+                        },
+                      });
+                    }}
+                  />
+
                   <input
                     placeholder="Label"
+                    className="w-full rounded border px-2 py-1 text-sm"
                     value={anchor.label}
                     onChange={(e) => {
                       const copy = [...screens];
@@ -248,10 +363,44 @@ export default function FeatureBuilder() {
                     }}
                   />
 
+                  {/* box_2d */}
+                  <textarea
+                    rows={3}
+                    className="w-full rounded border px-2 py-1 text-xs font-mono"
+                    defaultValue={JSON.stringify(anchor.box_2d, null, 2)}
+                    onBlur={(e) => {
+                      try {
+                        const parsed = JSON.parse(e.target.value);
+                        if (!isValidBox2D(parsed)) {
+                          throw new Error("box_2d must be [yMin, xMin, yMax, xMax]");
+                        }
+                        const normalized = normalizeBox(parsed);
+
+                        const copy = [...screens];
+                        copy[sIdx].anchors[aIdx] = {
+                          ...anchor,
+                          box_2d: normalized,
+                        };
+                        setFeature({
+                          ...feature,
+                          interactiveP3DModel: {
+                            ...feature.interactiveP3DModel,
+                            screenOptions: copy,
+                          },
+                        });
+                      } catch (err) {
+                        console.warn("Invalid box_2d input:", err);
+                      }
+                    }}
+                  />
+                  <p className="text-[10px] text-gray-500 mt-1">
+                    Paste JSON array: [yMin, xMin, yMax, xMax]
+                  </p>
+
                   {/* ACTION TOGGLES */}
-                  <div className="flex gap-4 flex-wrap">
+                  <div className="flex gap-2 flex-wrap">
                     {/* TARGET SCREEN */}
-                    <label>
+                    <label className="flex items-center gap-1 text-sm">
                       <input
                         type="checkbox"
                         checked={!!anchor.targetScreen}
@@ -276,7 +425,7 @@ export default function FeatureBuilder() {
                     </label>
 
                     {/* ACTION MSG */}
-                    <label>
+                    <label className="flex items-center gap-1 text-sm">
                       <input
                         type="checkbox"
                         checked={!!anchor.actionMsg}
@@ -301,7 +450,7 @@ export default function FeatureBuilder() {
                     </label>
 
                     {/* TARGET IMAGE */}
-                    <label>
+                    <label className="flex items-center gap-1 text-sm">
                       <input
                         type="checkbox"
                         checked={!!anchor.targetImage}
@@ -330,6 +479,7 @@ export default function FeatureBuilder() {
                   {anchor.targetScreen && (
                     <select
                       value={anchor.targetScreen.id}
+                      className="w-full rounded border px-2 py-1 text-sm"
                       onChange={(e) => {
                         const copy = [...screens];
                         copy[sIdx].anchors[aIdx] = {
@@ -359,6 +509,7 @@ export default function FeatureBuilder() {
                     <>
                       <textarea
                         placeholder="Message"
+                        className="w-full rounded border px-2 py-1 text-sm"
                         value={anchor.actionMsg.message}
                         onChange={(e) => {
                           const copy = [...screens];
@@ -379,7 +530,7 @@ export default function FeatureBuilder() {
                         }}
                       />
 
-                      <label>
+                      <label className="flex items-center gap-1 text-sm">
                         <input
                           type="checkbox"
                           checked={!!anchor.actionMsg.notificationOnly}
@@ -414,6 +565,7 @@ export default function FeatureBuilder() {
                       {!anchor.actionMsg.notificationOnly && (
                         <input
                           placeholder="Title"
+                          className="w-full rounded border px-2 py-1 text-sm"
                           value={anchor.actionMsg.title ?? ""}
                           onChange={(e) => {
                             const copy = [...screens];
@@ -442,6 +594,7 @@ export default function FeatureBuilder() {
                     <>
                       <select
                         value={anchor.targetImage.direction}
+                        className="w-full rounded border px-2 py-1 text-sm"
                         onChange={(e) => {
                           const copy = [...screens];
                           copy[sIdx].anchors[aIdx] = {
@@ -466,6 +619,7 @@ export default function FeatureBuilder() {
 
                       <textarea
                         placeholder="One URL per line"
+                        className="w-full rounded border px-2 py-1 text-sm"
                         value={anchor.targetImage.urls.join("\n")}
                         onChange={(e) => {
                           const copy = [...screens];
@@ -497,7 +651,7 @@ export default function FeatureBuilder() {
       </section>
 
       <button
-        className="bg-black text-white px-4 py-2 rounded"
+        className="bg-black text-white px-3 py-1 rounded text-sm"
         onClick={exportJSON}
       >
         Export JSON

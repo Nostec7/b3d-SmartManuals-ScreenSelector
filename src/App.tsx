@@ -74,62 +74,83 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="grid grid-rows-4 lg:grid-cols-[360px_1fr]">
-        {/* DEBUG / FEATURE LIST */}
-        <div className="row-span-1 w-full font-semibold p-4 gap-2 flex flex-col">
-          <div className="flex items-center gap-2 mb-2">
-            <label htmlFor="debug-toggle" className="font-bold">
-              DEBUG MODE
-            </label>
-            <input
-              type="checkbox"
-              checked={debug}
-              onChange={(e) => setDebug(e.target.checked)}
-              id="debug-toggle"
-            />
+      <div className="grid grid-cols-5 relative">
+        <div className="w-full">
+          <div className="row-span-1 w-full font-semibold p-4 gap-2 flex flex-col">
+            <div className="flex items-center gap-2 mb-2">
+              <label htmlFor="debug-toggle" className="font-bold">
+                DEBUG MODE
+              </label>
+              <input
+                type="checkbox"
+                checked={debug}
+                onChange={(e) => setDebug(e.target.checked)}
+                id="debug-toggle"
+              />
+            </div>
+            <h1 className="font-bold">FEATURES</h1>
+            {featureMap.map((f, i) => (
+              <button
+                key={`${f.pdfID}_${i}`}
+                className="bg-gray-300 p-2 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30"
+                onClick={() =>
+                  setPLUG_IN_VARIABLES({
+                    pdfID: f.pdfID,
+                    caption: f.caption,
+                  })
+                }
+              >
+                {f.pdfID}: {f.caption}
+              </button>
+            ))}
+
+          
           </div>
+        </div>
 
-          <h1 className="font-bold">FEATURES</h1>
+        <div className="w-full relative aspect-square h-auto col-span-3 bg-white">
+          <main className="w-full h-auto">
+            {/* {productDatas != null && (
+              <div className="absolute top-0 left-0 w-full pt-8 z-1">
+                <ModelEmbed p3dID={productDatas.p3dID} />
+              </div>
+            )} */}
 
-          {featureMap.map((f, i) => (
-            <button
-              key={`${f.pdfID}_${i}`}
-              className="bg-gray-300 p-2 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30"
-              onClick={() =>
-                setPLUG_IN_VARIABLES({
-                  pdfID: f.pdfID,
-                  caption: f.caption,
-                })
-              }
-            >
-              {f.pdfID}: {f.caption}
-            </button>
-          ))}
+            {productDatas && screenSetups && screenDatas && (
+              <ScreenController
+                product={productDatas}
+                screenSetup={screenSetups}
+                screenData={screenDatas}
+                debug={debug}
+                className="max-w-full p-2"
+              />
+              
+            )}
+            
+          </main>
+        </div>
 
-        <div className=" bg-white relative w-fit">
+
+        <div className="w-full max-h-screen overflow-auto">
+          
             <FeatureBuilder />
+
+          
         </div>
-        </div>
+      </div>
+      <div className="grid grid-rows-5 lg:grid-cols-[360px_1fr]">
+        {/* DEBUG / FEATURE LIST */}
+        
 
         {/* MAIN CONTENT */}
-        <main className="p-3 relative aspect-square row-span-3 w-fit">
-          {/* {productDatas != null && (
-            <div className="absolute top-0 left-0 w-full pt-8 z-1">
-              <ModelEmbed p3dID={productDatas.p3dID} />
-            </div>
-          )} */}
+        
 
-          {productDatas && screenSetups && screenDatas && (
-            <ScreenController
-              product={productDatas}
-              screenSetup={screenSetups}
-              screenData={screenDatas}
-              debug={debug}
-            />
-            
-          )}
-          
-        </main>
+
+
+
+        <div>
+        
+        </div>
       </div>
     </div>
   );

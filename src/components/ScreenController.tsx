@@ -16,7 +16,7 @@ type ProductData = { id: string; title: string; pdfID: string; p3dID?: string; i
 type ScreenSetup = { pdfID: string; baseUrl: string; beautyLayerUrl: string; screenCorners: { x: number; y: number }[]; };
 type ScreenOptionData = { id: string; section: string; image: { url: string; targets?: string[] }; anchors: Anchor[]; };
 type ScreenDoc = { pdfID: string; docPath: string; id: string; label: string; screenOptions: ScreenOptionData[]; };
-type Props = { product: ProductData; screenSetup: ScreenSetup; screenData: ScreenDoc; initial?: { page?: string; section?: string; id?: string }; debug:boolean; };
+type Props = { product: ProductData; screenSetup: ScreenSetup; screenData: ScreenDoc; initial?: { page?: string; section?: string; id?: string }; debug:boolean; className?:string };
 
 function mulNorm(p: Vec2, w: number, h: number): Vec2 { return { x: p.x * w, y: p.y * h }; }
 
@@ -34,7 +34,7 @@ function box2dToBox(box2d: [number, number, number, number]): [number, number, n
   return [xMin, yMin, xMax - xMin, yMax - yMin];
 }
 
-export default function ScreenController({ screenSetup, screenData, initial, debug }: Props) {
+export default function ScreenController({ screenSetup, screenData, initial, debug, className }: Props) {
   const wrapRef = useRef<HTMLDivElement | null>(null);
   const wrapRect = useResizeObserver(wrapRef);
   const showController = useSimStore((s) => s.showController);
@@ -269,7 +269,7 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
   if (!current) return <div className="p-6 text-sm">Loading…</div>;
 
   return (
-    <div className="mx-0 w-full max-w-245 p-3 relative">
+    <div className={`mx-0 w-full max-w-245 p-3 relative ${className}`}>
       <AnimatePresence mode="wait">
         <div className={`relative mt-3 w-full overflow-hidden rounded-2xl transition-opacity duration-1000 ${showController ? 'opacity-100' : 'opacity-0'}`}>
           <motion.div
