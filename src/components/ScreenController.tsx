@@ -123,20 +123,26 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
 
   const clientToScreen1000 = useCallback(
     (clientX: number, clientY: number) => {
-      if (!wrapRef.current || !screenSize) return null;
-
+      if (!wrapRef.current) return null;
+  
       const r = wrapRef.current.getBoundingClientRect();
-
+  
+      // Use the *actual* rendered width/height (bounding rect) to map to 0..1000
       const xPx = clientX - r.left;
       const yPx = clientY - r.top;
-
+  
+      // Protect against division by zero
+      const w = r.width || 1;
+      const h = r.height || 1;
+  
       return {
-        x: (xPx / screenSize.w) * 500,
-        y: (yPx / screenSize.h) * 500,
+        x: (xPx / w) * 1000,
+        y: (yPx / h) * 1000,
       };
     },
-    [screenSize]
+    []
   );
+  
 
   const anchorsForHotspots = useMemo(() => {
     if (!current?.anchors) return current?.anchors;
@@ -242,6 +248,31 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
         };
 
         setEditedAnchors((prev) => ({ ...prev, [key]: updated }));
+
+        //console.log("Anchor moved", key, box_2d);
+        return;
+      }
+
+      //console.log("box changed", key, box_2d);
+    },
+    [debug, current, editedAnchors]
+  );
+
+  const onBoxChangeStopped = useCallback(
+    (key: string, box_2d: [number, number, number, number]) => {
+      if (debug && key) {
+        const original = current?.anchors?.find((a) => a.key === key);
+        const prevEdited = editedAnchors[key];
+        const computedBox = box2dToBox(box_2d);
+
+        const updated: Anchor = {
+          ...(prevEdited ?? original ?? ({} as Anchor)),
+          box_2d,
+          box: computedBox,
+        };
+
+        setEditedAnchors((prev) => ({ ...prev, [key]: updated }));
+
         console.log("Anchor moved", key, box_2d);
         return;
       }
@@ -351,6 +382,7 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
                   selectedKey={selectedKey}
                   clientToScreen1000={clientToScreen1000}
                   onBoxChange={onBoxChange}
+                  onBoxChangeStopped={onBoxChangeStopped}
                   onHotspotClick={onHotspotClick}
                   className="cursor-pointer z-10"
                 />

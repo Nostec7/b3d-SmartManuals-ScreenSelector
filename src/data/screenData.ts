@@ -4167,23 +4167,6 @@ export const fullDataJSON =
       ]
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "pdfID": "25-J400-EN",
     "pdf_id": "25-J400-EN",
@@ -4441,13 +4424,27 @@ export const fullDataJSON =
               "targetScreen": {
                 "id": "water-refresh-settings-screen"
               }
+            },
+            {
+              "uid": "8e0c4e93-7e3f-42ae-9479-95d2e4b06927",
+              "key": "down-btn",
+              "label": "Down button",
+              "box_2d": [
+                550.7634869058622,
+                504.75511358519464,
+                617.557414979425,
+                567.4352112695876
+              ],
+              "targetScreen": {
+                "id": "water-care-pro-clarity"
+              }
             }
           ]
         },
         {
           "id": "ozone-settings-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G.webp?alt=media&token=d0503992-73f7-440b-8f01-8732c3ff8703"
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-700.webp?alt=media&token=69e57012-dcad-43d9-bb7f-e0aff1f6efc7"
           },
           "anchors": [
             {
@@ -4473,7 +4470,23 @@ export const fullDataJSON =
                 613.1122160370139,
                 470.99220334118536,
                 680.4032823194344
-              ]
+              ],
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-670.webp?alt=media&token=9e2358d2-dcbd-4ce5-8be0-a1fd4f242b53",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-680.webp?alt=media&token=2cb315c8-7ccd-434c-88a5-bf085ca7c928",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-690.webp?alt=media&token=48f9c6d9-e149-47be-b334-267a19902a2f",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-700.webp?alt=media&token=69e57012-dcad-43d9-bb7f-e0aff1f6efc7",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-710.webp?alt=media&token=440b8bd3-e036-49bc-a0d2-e9fe1c76b5c4",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-720.webp?alt=media&token=b3cff756-676c-4edc-b165-e494ed41e48b",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-730.webp?alt=media&token=06e06bd1-58a9-4fc9-b320-2cec137ddcc3"
+                ]
+              },
+              "actionMsg": {
+                "message": "Increasing the number of days.<br>Maximum is 730.",
+                "notificationOnly": true
+              }
             },
             {
               "uid": "e0e03d77-3c63-4fda-91ea-cd44a1ea3f6e",
@@ -4484,7 +4497,23 @@ export const fullDataJSON =
                 614.2648482528821,
                 594.6563021827292,
                 681.5559145353026
-              ]
+              ],
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-670.webp?alt=media&token=9e2358d2-dcbd-4ce5-8be0-a1fd4f242b53",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-680.webp?alt=media&token=2cb315c8-7ccd-434c-88a5-bf085ca7c928",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-690.webp?alt=media&token=48f9c6d9-e149-47be-b334-267a19902a2f",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-700.webp?alt=media&token=69e57012-dcad-43d9-bb7f-e0aff1f6efc7",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-710.webp?alt=media&token=440b8bd3-e036-49bc-a0d2-e9fe1c76b5c4",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-720.webp?alt=media&token=b3cff756-676c-4edc-b165-e494ed41e48b",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-730.webp?alt=media&token=06e06bd1-58a9-4fc9-b320-2cec137ddcc3"
+                ]
+              },
+              "actionMsg": {
+                "message": "Decreasing the number of days.<br>Minimum is OFF although it is not recommended. <br>In order to\ncontinually maintain clean and working filters, it should be program as\ninstructed.",
+                "notificationOnly": true
+              }
             },
             {
               "uid": "349c3b09-5c6b-44a5-bcee-4cbd80265239",
@@ -4506,7 +4535,7 @@ export const fullDataJSON =
         {
           "id": "air-filter-settings-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C.webp?alt=media&token=8a9a442c-f2a3-4e5e-8679-74f903df898f"
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-160.webp?alt=media&token=c43ca81c-8838-4487-a4a2-b78323008877"
           },
           "anchors": [
             {
@@ -4532,7 +4561,21 @@ export const fullDataJSON =
                 613.1122160370139,
                 470.99220334118536,
                 680.4032823194344
-              ]
+              ],
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-140.webp?alt=media&token=17a91eb9-2587-455f-b7ed-94cc3a6873d5",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-150.webp?alt=media&token=deb80528-79a8-4e5d-b7e9-1eb4814d4beb",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-160.webp?alt=media&token=c43ca81c-8838-4487-a4a2-b78323008877",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-170.webp?alt=media&token=ea52fcd9-beac-452c-932e-16b7cf1cf3e9",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-180.webp?alt=media&token=a7c6020c-c0ea-4889-9490-3ec7f6acc2c7"
+                ]
+              },
+              "actionMsg": {
+                "message": "Increasing the number of days.<br>Maximum is 180",
+                "notificationOnly": true
+              }
             },
             {
               "uid": "ee9095e0-1ea5-47ae-a722-f7dc2d4e465b",
@@ -4543,7 +4586,25 @@ export const fullDataJSON =
                 614.2648482528821,
                 594.6563021827292,
                 681.5559145353026
-              ]
+              ],
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-140.webp?alt=media&token=17a91eb9-2587-455f-b7ed-94cc3a6873d5",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-150.webp?alt=media&token=deb80528-79a8-4e5d-b7e9-1eb4814d4beb",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-160.webp?alt=media&token=c43ca81c-8838-4487-a4a2-b78323008877",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-170.webp?alt=media&token=ea52fcd9-beac-452c-932e-16b7cf1cf3e9",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-180.webp?alt=media&token=a7c6020c-c0ea-4889-9490-3ec7f6acc2c7",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-190.webp?alt=media&token=734f47f8-1f38-4dcb-bd04-bcd082ac99e6",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-200.webp?alt=media&token=4591eaf6-2c92-4e64-801a-2ae58468192c",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-210.webp?alt=media&token=31742be4-21ec-49c1-b05c-e1364dd45a03",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-220.webp?alt=media&token=54b0030e-eb32-4d11-835b-88852d219ab1"
+                ]
+              },
+              "actionMsg": {
+                "message": "Decreasing the number of days.<br>Minimum is OFF although it is not recommended. <br>In order to\ncontinually maintain clean and working filters, it should be program as\ninstructed.",
+                "notificationOnly": true
+              }
             },
             {
               "uid": "45d8acaf-f70b-48d0-b68a-ee75afb32d44",
@@ -4565,7 +4626,7 @@ export const fullDataJSON =
         {
           "id": "water-refresh-settings-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D.webp?alt=media&token=700a2954-e7ef-4172-b9aa-57094fa2508d"
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-160.webp?alt=media&token=9e51a137-11a6-4e4d-af2f-8c43c5f98da4"
           },
           "anchors": [
             {
@@ -4591,7 +4652,21 @@ export const fullDataJSON =
                 613.1122160370139,
                 470.99220334118536,
                 680.4032823194344
-              ]
+              ],
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-140.webp?alt=media&token=63045dea-0676-417f-8b3d-4bbd09f2a509",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-150.webp?alt=media&token=7be59e7b-1d9f-4f13-8532-ae9c0d0d4af6",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-160.webp?alt=media&token=9e51a137-11a6-4e4d-af2f-8c43c5f98da4",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-170.webp?alt=media&token=d8f2061e-9205-452c-b384-820acc060324",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-180.webp?alt=media&token=16861de0-89c5-408d-9b60-61a6476488ad"
+                ]
+              },
+              "actionMsg": {
+                "message": "Increasing the number of days.<br>Maximum is 180",
+                "notificationOnly": true
+              }
             },
             {
               "uid": "30c47610-4413-452b-b9e7-b82933b30bce",
@@ -4602,7 +4677,21 @@ export const fullDataJSON =
                 614.2648482528821,
                 594.6563021827292,
                 681.5559145353026
-              ]
+              ],
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-140.webp?alt=media&token=63045dea-0676-417f-8b3d-4bbd09f2a509",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-150.webp?alt=media&token=7be59e7b-1d9f-4f13-8532-ae9c0d0d4af6",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-160.webp?alt=media&token=9e51a137-11a6-4e4d-af2f-8c43c5f98da4",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-170.webp?alt=media&token=d8f2061e-9205-452c-b384-820acc060324",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-180.webp?alt=media&token=16861de0-89c5-408d-9b60-61a6476488ad"
+                ]
+              },
+              "actionMsg": {
+                "message": "Decreasing the number of days.<br>Minimum is OFF although it is not recommended. <br>In order to\ncontinually maintain clean and working filters, it should be program as\ninstructed.",
+                "notificationOnly": true
+              }
             },
             {
               "uid": "fddb79fe-c239-4594-8538-19902e46cee2",
@@ -4620,11 +4709,576 @@ export const fullDataJSON =
               }
             }
           ]
+        },
+        {
+          "id": "water-care-pro-clarity",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-B-ProClarity.webp?alt=media&token=ae18aada-050a-43a5-afa4-af2b62fcd077"
+          },
+          "anchors": [
+            {
+              "uid": "0dc1f9e4-d313-470f-a016-84432f7627d5",
+              "key": "up-btn",
+              "label": "Up button",
+              "box_2d": [
+                396.5649204399749,
+                500.1440570402558,
+                463.3588485135376,
+                562.8241547246488
+              ],
+              "targetScreen": {
+                "id": "water-care-menu-water"
+              }
+            },
+            {
+              "uid": "6730fe63-7806-4d25-8186-620435aed94a",
+              "key": "back-btn",
+              "label": "Back button",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "5e7daad7-59d1-4783-b7c3-26732b31172e",
+              "key": "pro-clarity-btn",
+              "label": "Pro Clarity Button",
+              "box_2d": [
+                508.0152322317815,
+                427.5217193691461,
+                571.7555970636042,
+                491.3547131101403
+              ],
+              "targetScreen": {
+                "id": "pro-clarity-setup"
+              }
+            },
+            {
+              "uid": "5963b3db-e8bc-4415-aca3-7883f3686bcb",
+              "key": "down-btn",
+              "label": "Down button",
+              "box_2d": [
+                550.7634869058622,
+                504.75511358519464,
+                617.557414979425,
+                567.4352112695876
+              ],
+              "targetScreen": {
+                "id": "water-care-pro-clarity-depth"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pro-clarity-setup",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-160.webp?alt=media&token=d1a6a5de-a7d6-4b62-a56b-ebb543c89151"
+          },
+          "anchors": [
+            {
+              "uid": "e4916c58-90ad-443e-9bcf-c3835d359f4c",
+              "key": "back-btn",
+              "label": "Back button",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "water-care-pro-clarity"
+              }
+            },
+            {
+              "uid": "efcfc274-3daf-4a7a-b1eb-a93022770362",
+              "key": "up-btn",
+              "label": "Up button",
+              "box_2d": [
+                414.8854262956222,
+                613.1122160370139,
+                470.99220334118536,
+                680.4032823194344
+              ],
+              "actionMsg": {
+                "message": "Increasing the number of days.<br>Maximum is 180",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-140.webp?alt=media&token=08521640-da51-44c6-b75c-0571518bac4c",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-150.webp?alt=media&token=e8716a19-9bce-4c70-91c5-8c87ba893760",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-160.webp?alt=media&token=d1a6a5de-a7d6-4b62-a56b-ebb543c89151",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-170.webp?alt=media&token=3ada3764-235e-429f-be6b-870f76d3b222",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-180.webp?alt=media&token=f8efb0b7-afdb-4705-9de1-422c2ce4acf1"
+                ]
+              }
+            },
+            {
+              "uid": "c34d7001-335a-4254-aa72-8b85b708d31b",
+              "key": "down-btn",
+              "label": "Down button",
+              "box_2d": [
+                538.549525137166,
+                614.2648482528821,
+                594.6563021827292,
+                681.5559145353026
+              ],
+              "actionMsg": {
+                "message": "Decreasing the number of days.<br>Minimum is OFF although it is not recommended. <br>In order to\ncontinually maintain clean and working filters, it should be program as\ninstructed.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-140.webp?alt=media&token=08521640-da51-44c6-b75c-0571518bac4c",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-150.webp?alt=media&token=e8716a19-9bce-4c70-91c5-8c87ba893760",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-160.webp?alt=media&token=d1a6a5de-a7d6-4b62-a56b-ebb543c89151",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-170.webp?alt=media&token=3ada3764-235e-429f-be6b-870f76d3b222",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-180.webp?alt=media&token=f8efb0b7-afdb-4705-9de1-422c2ce4acf1"
+                ]
+              }
+            },
+            {
+              "uid": "dbf4f5c4-2337-41f7-9a21-b4b33f7d9966",
+              "key": "confirm-btn",
+              "label": "Confirm button",
+              "box_2d": [
+                477.4808228470895,
+                614.2648482528821,
+                533.5875998926526,
+                681.5559145353026
+              ],
+              "actionMsg": {
+                "message": "Press this button to confirm and save changes.",
+                "title": "Confirm Button"
+              }
+            }
+          ]
+        },
+        {
+          "id": "water-care-pro-clarity-depth",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-ProClarityDepth.webp?alt=media&token=1b411b7e-8bac-47da-b7ec-ced5a4931d85"
+          },
+          "anchors": [
+            {
+              "uid": "71aa8a54-5059-4ca6-a439-986ba804e21e",
+              "key": "up-btn",
+              "label": "Up button",
+              "box_2d": [
+                396.5649204399749,
+                500.1440570402558,
+                463.3588485135376,
+                562.8241547246488
+              ],
+              "targetScreen": {
+                "id": "water-care-pro-clarity"
+              }
+            },
+            {
+              "uid": "9d7d872d-bb92-4fb4-9f00-9d61d30a3aa5",
+              "key": "pro-clarity-depth-btn",
+              "label": "Pro Clarity Depth",
+              "box_2d": [
+                508.0152322317815,
+                427.5217193691461,
+                571.7555970636042,
+                491.3547131101403
+              ],
+              "targetScreen": {
+                "id": "pro-clarity-depth-screen"
+              }
+            },
+            {
+              "uid": "7b020041-31a1-4b88-b6d5-6ebf180f0065",
+              "key": "back-btn",
+              "label": "Back button",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pro-clarity-depth-screen",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-60.webp?alt=media&token=00e370ee-b148-4988-a66a-9cfff9c02693"
+          },
+          "anchors": [
+            {
+              "uid": "9b4bae5a-55f3-40a4-92a0-0e472a9b8d0d",
+              "key": "up-btn",
+              "label": "Up button",
+              "box_2d": [
+                414.8854262956222,
+                613.1122160370139,
+                470.99220334118536,
+                680.4032823194344
+              ],
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-30.webp?alt=media&token=d16c4ba2-519a-4a53-b7d0-9e78aeb168ae",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-40.webp?alt=media&token=a11387d9-7fad-4290-8cd7-f96d3c5f7444",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-50.webp?alt=media&token=8f109c5a-bb47-4d33-91e9-92054f3a6024",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-60.webp?alt=media&token=00e370ee-b148-4988-a66a-9cfff9c02693",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-70.webp?alt=media&token=fd04c802-25ab-4e00-b6d2-b1bc8eef8095",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-80.webp?alt=media&token=271c7f0f-e7a4-42bb-88c2-517e69527f15",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-90.webp?alt=media&token=f9876b1b-620f-47b9-a243-f6b9b29d478c"
+                ]
+              },
+              "actionMsg": {
+                "message": "Increasing the number of days.<br>Maximum is 90",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "5e0b6ced-3151-4a34-8834-ef4766771143",
+              "key": "down-btn",
+              "label": "Down button",
+              "box_2d": [
+                538.549525137166,
+                614.2648482528821,
+                594.6563021827292,
+                681.5559145353026
+              ],
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-30.webp?alt=media&token=d16c4ba2-519a-4a53-b7d0-9e78aeb168ae",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-40.webp?alt=media&token=a11387d9-7fad-4290-8cd7-f96d3c5f7444",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-50.webp?alt=media&token=8f109c5a-bb47-4d33-91e9-92054f3a6024",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-60.webp?alt=media&token=00e370ee-b148-4988-a66a-9cfff9c02693",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-70.webp?alt=media&token=fd04c802-25ab-4e00-b6d2-b1bc8eef8095",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-80.webp?alt=media&token=271c7f0f-e7a4-42bb-88c2-517e69527f15",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-90.webp?alt=media&token=f9876b1b-620f-47b9-a243-f6b9b29d478c"
+                ]
+              },
+              "actionMsg": {
+                "message": "Decreasing the number of days.<br>Minimum is OFF although it is not recommended. <br>In order to\ncontinually maintain clean and working filters, it should be program as\ninstructed.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "b066ac7e-67eb-4531-b4c9-28e75cf308d5",
+              "key": "back-btn",
+              "label": "Back button",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "water-care-pro-clarity-depth"
+              }
+            },
+            {
+              "uid": "7f955c64-05a4-4d20-8288-8c1b62ad838b",
+              "key": "confirm-btn",
+              "label": "Confirm Button",
+              "box_2d": [
+                477.4808228470895,
+                614.2648482528821,
+                533.5875998926526,
+                681.5559145353026
+              ],
+              "actionMsg": {
+                "message": "Press this button to confirm and save changes.",
+                "title": "Confirm Button"
+              }
+            }
+          ]
         }
       ]
     }
   },
-
+  {
+    "pdfID": "25-J400-EN",
+    "pdf_id": "25-J400-EN",
+    "productID": "jht-j-435",
+    "product_id": "jht-j-435",
+    "caption": "Interactive 3D model of controlling heating settings via the media screen.",
+    "section": "12.1",
+    "tags": [
+      "Heating Settings",
+      "Media Screen",
+      "Heating Programming"
+    ],
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "jqDH1",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/J-400_2025_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/J-400_2025_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.322,
+            "y": 0.35
+          },
+          {
+            "x": 0.69,
+            "y": 0.35
+          },
+          {
+            "x": 0.693,
+            "y": 0.62
+          },
+          {
+            "x": 0.32,
+            "y": 0.62
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+          },
+          "anchors": [
+            {
+              "uid": "88612201-f552-4150-b8f3-14aeabc75656",
+              "key": "settings-btn",
+              "label": "Settings",
+              "box_2d": [
+                510.470808123384,
+                586.1296354118201,
+                619.1138249776583,
+                688.7506607898936
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.0-Programming-and-Operation-Instructions-Figure-B.webp?alt=media&token=d3f3adda-d6e0-44df-b375-2431a64c1faf"
+          },
+          "anchors": [
+            {
+              "uid": "548e1af9-850e-45d3-935c-dadae9082198",
+              "key": "water-care-btn",
+              "label": "Water Care Button",
+              "box_2d": [
+                462.2137055142234,
+                484.0057109206141,
+                541.2213041582179,
+                567.4351233226764
+              ],
+              "targetScreen": {
+                "id": "heat-auto"
+              }
+            },
+            {
+              "uid": "778708fe-630a-4272-bd0e-477e746932d2",
+              "key": "back-btn",
+              "label": "Back",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "heat-auto",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.1-Programming-the-Heating-Mode-Heat-Figure-A.webp?alt=media&token=d702f31a-f08e-40ee-9157-261a85c29fcb"
+          },
+          "anchors": [
+            {
+              "uid": "4205ea4a-aaf1-48eb-9f9e-2d86eab85c5a",
+              "key": "econo-heat",
+              "label": "Econo heating",
+              "box_2d": [
+                461.5752691372957,
+                608.7581438257455,
+                518.3211488351703,
+                666.1172628560187
+              ],
+              "targetScreen": {
+                "id": "heat-econo"
+              },
+              "actionMsg": {
+                "message": "Switching to <b>Econo heating</b><br>This is an energy saving heating program that allows the spa to heat\nduring non-peak hours. When programmed to “Econo,” the spa will\nonly be allowed to heat the water between 5:00 PM to 7:00 AM every\nday of the week. The hours cannot be adjusted.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "c244f49f-85b2-4048-ac9b-acc80aeb9bd4",
+              "key": "back-btn",
+              "label": "Back",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "d97b74a3-0fcf-4540-bc08-b687b939fde4",
+              "key": "day-heat",
+              "label": "Day heating",
+              "box_2d": [
+                509.4097075284002,
+                608.1448221461828,
+                566.1555872262749,
+                665.503941176456
+              ],
+              "targetScreen": {
+                "id": "heat-day"
+              },
+              "actionMsg": {
+                "message": "Switching to <b>Day heating</b><br>When programmed to “Day,” the spa will only be allowed to heat the\nwater between 7:00 AM to 5:00 PM every day of the week. The hours\ncannot be adjusted.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heat-econo",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.1-Programming-the-Heating-Mode-Heat-Figure-A-econo.webp?alt=media&token=00cecac2-3aec-4a5c-ab07-e364c8e4424b"
+          },
+          "anchors": [
+            {
+              "uid": "3747642a-888b-4f2d-a4dd-8bc9932069f0",
+              "key": "auto-heat",
+              "label": "Auto heating",
+              "box_2d": [
+                413.12759141379297,
+                607.5315828137844,
+                469.87347111166764,
+                664.8907018440576
+              ],
+              "targetScreen": {
+                "id": "heat-auto"
+              },
+              "actionMsg": {
+                "message": "Switching to <b>Auto heating</b><br>When programmed to “Auto,” the spa will maintain the water\ntemperature to the set temperature. Heating will occur when\nnecessary.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "2ecd8cca-78b0-4fdf-b358-ce9e78740889",
+              "key": "back-btn",
+              "label": "Back",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "957900ac-3525-4a65-95a7-232b7685170c",
+              "key": "day-heat",
+              "label": "Day heating",
+              "box_2d": [
+                509.4097075284002,
+                608.1448221461828,
+                566.1555872262749,
+                665.503941176456
+              ],
+              "targetScreen": {
+                "id": "heat-day"
+              },
+              "actionMsg": {
+                "message": "Switching to <b>Day heating</b><br>When programmed to “Day,” the spa will only be allowed to heat the\nwater between 7:00 AM to 5:00 PM every day of the week. The hours\ncannot be adjusted.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heat-day",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.1-Programming-the-Heating-Mode-Heat-Figure-A-day.webp?alt=media&token=2a416a1b-85c3-44ec-a057-ffa4bebec543"
+          },
+          "anchors": [
+            {
+              "uid": "c221b29d-b7e8-4ec1-a46f-5886bbd48e1a",
+              "key": "econo-heat",
+              "label": "Econo heating",
+              "box_2d": [
+                461.5752691372957,
+                608.7581438257455,
+                518.3211488351703,
+                666.1172628560187
+              ],
+              "targetScreen": {
+                "id": "heat-econo"
+              },
+              "actionMsg": {
+                "message": "Switching to <b>Econo heating</b><br>This is an energy saving heating program that allows the spa to heat\nduring non-peak hours. When programmed to “Econo,” the spa will\nonly be allowed to heat the water between 5:00 PM to 7:00 AM every\nday of the week. The hours cannot be adjusted.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "6b3f4638-48f0-44d1-ace6-9a9748fbc54c",
+              "key": "back-btn",
+              "label": "Back",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "d49cdc24-2a81-4efa-ae6b-93534c3f2005",
+              "key": "auto-heat",
+              "label": "Auto heating",
+              "box_2d": [
+                413.7408307461913,
+                608.1449044933472,
+                470.48671044406586,
+                665.5040235236204
+              ],
+              "targetScreen": {
+                "id": "heat-auto"
+              },
+              "actionMsg": {
+                "message": "Switching to <b>Auto heating</b><br>When programmed to “Auto,” the spa will maintain the water\ntemperature to the set temperature. Heating will occur when\nnecessary.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
 
 
 

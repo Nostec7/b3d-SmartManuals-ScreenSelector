@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Anchor } from "../types";
 
 type Box2D = [number, number, number, number]; // [yMin,xMin,yMax,xMax] 0..1000
@@ -15,6 +15,7 @@ type Props = {
   clientToScreen1000: (clientX: number, clientY: number) => Pt | null;
 
   onBoxChange: (anchorKey: string, box: Box2D) => void;
+  onBoxChangeStopped: (anchorKey: string, box: Box2D) => void;
   onHotspotClick: (anchor: Anchor) => void;
 };
 
@@ -46,15 +47,21 @@ export function Hotspots({
   className,
   clientToScreen1000,
   onBoxChange,
+  onBoxChangeStopped,
   onHotspotClick,
 }: Props) {
+  // Active drag state
   const dragRef = useRef<{
     key: string;
     handle: Handle;
-    startPt: Pt;
-    startBox: Box2D;
     pointerId: number;
+    lastPt: Pt; // last pointer pos in screen 0..1000
+    lastBox: Box2D; // last computed box in 0..1000
+    capturedElement?: Element | null;
   } | null>(null);
+
+  const moveListenerRef = useRef<(ev: PointerEvent) => void>();
+  const upListenerRef = useRef<(ev: PointerEvent) => void>();
 
   const [hoveredKey, setHoveredKey] = useState<string | null>(null);
   const [activeKey, setActiveKey] = useState<string | null>(null);
@@ -70,40 +77,18 @@ export function Hotspots({
     return [yMin, xMin, yMax, xMax];
   }
 
-  function startDrag(e: React.PointerEvent, a: Anchor, handle: Handle) {
-    if (!editing) return;
-
-    const pt = clientToScreen1000(e.clientX, e.clientY);
-    if (!pt) return;
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    (e.currentTarget as Element).setPointerCapture(e.pointerId);
-
-    dragRef.current = {
-      key: a.key,
-      handle,
-      startPt: pt,
-      startBox: getBox(a),
-      pointerId: e.pointerId,
-    };
-  }
-
-  function onMove(e: React.PointerEvent) {
+  // Apply an incremental drag from a native PointerEvent (clientX/clientY)
+  function applyDragFromNative(ev: PointerEvent, commit = false) {
     const d = dragRef.current;
-    if (!d || e.pointerId !== d.pointerId) return;
+    if (!d || ev.pointerId !== d.pointerId) return;
 
-    const anchor = anchorMap.get(d.key);
-    if (!anchor) return;
-
-    const pt = clientToScreen1000(e.clientX, e.clientY);
+    const pt = clientToScreen1000(ev.clientX, ev.clientY);
     if (!pt) return;
 
-    const dx = pt.x - d.startPt.x;
-    const dy = pt.y - d.startPt.y;
+    const dx = pt.x - d.lastPt.x;
+    const dy = pt.y - d.lastPt.y;
 
-    let [y0, x0, y1, x1] = d.startBox;
+    let [y0, x0, y1, x1] = d.lastBox;
 
     switch (d.handle) {
       case "move":
@@ -133,21 +118,120 @@ export function Hotspots({
     if (d.handle === "move") {
       const w = x1 - x0;
       const h = y1 - y0;
-
       x0 = clamp(x0, 0, 1000 - w);
       y0 = clamp(y0, 0, 1000 - h);
       x1 = x0 + w;
       y1 = y0 + h;
     }
 
-    onBoxChange(d.key, normalizeBox([y0, x0, y1, x1], 8));
+    const nextBox = normalizeBox([y0, x0, y1, x1], 8);
+
+    // update last state
+    d.lastPt = pt;
+    d.lastBox = nextBox;
+
+    if (commit) {
+      onBoxChangeStopped(d.key, nextBox);
+      // cleanup handled in endDragFromNative
+    } else {
+      onBoxChange(d.key, nextBox);
+    }
   }
 
-  function endDrag(e: React.PointerEvent) {
+  // End drag and cleanup. If ev provided, commit that final event; otherwise commit lastBox.
+  function endDragFromNative(ev?: PointerEvent) {
     const d = dragRef.current;
-    if (!d || e.pointerId !== d.pointerId) return;
-    dragRef.current = null;
+    if (!d) return;
+
+    try {
+      if (ev && ev.pointerId === d.pointerId) {
+        applyDragFromNative(ev, true);
+      } else {
+        onBoxChangeStopped(d.key, d.lastBox);
+      }
+    } catch {
+      // ignore any errors but still cleanup
+    } finally {
+      try {
+        if (d.capturedElement && "releasePointerCapture" in d.capturedElement) {
+          (d.capturedElement as Element).releasePointerCapture(d.pointerId);
+        }
+      } catch {
+        // ignore
+      }
+
+      if (moveListenerRef.current) {
+        window.removeEventListener("pointermove", moveListenerRef.current);
+      }
+      if (upListenerRef.current) {
+        window.removeEventListener("pointerup", upListenerRef.current);
+        window.removeEventListener("pointercancel", upListenerRef.current);
+      }
+
+      dragRef.current = null;
+    }
   }
+
+  // Start a drag: initialize state and attach single global listeners
+  function startDrag(e: React.PointerEvent, a: Anchor, handle: Handle) {
+    if (!editing) return;
+
+    const pt = clientToScreen1000(e.clientX, e.clientY);
+    if (!pt) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    const el = e.currentTarget as Element;
+    try {
+      if (el.setPointerCapture) el.setPointerCapture(e.pointerId);
+    } catch {
+      // ignore
+    }
+
+    dragRef.current = {
+      key: a.key,
+      handle,
+      pointerId: e.pointerId,
+      lastPt: pt,
+      lastBox: getBox(a),
+      capturedElement: el,
+    };
+
+    const onMoveNative = (ev: PointerEvent) => {
+      if (!dragRef.current || ev.pointerId !== dragRef.current.pointerId) return;
+      try {
+        if (ev.cancelable) ev.preventDefault();
+      } catch {}
+      applyDragFromNative(ev, false);
+    };
+
+    const onUpNative = (ev: PointerEvent) => {
+      if (!dragRef.current || ev.pointerId !== dragRef.current.pointerId) return;
+      endDragFromNative(ev);
+    };
+
+    moveListenerRef.current = onMoveNative;
+    upListenerRef.current = onUpNative;
+
+    window.addEventListener("pointermove", onMoveNative, { passive: false });
+    window.addEventListener("pointerup", onUpNative);
+    window.addEventListener("pointercancel", onUpNative);
+  }
+
+  // cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (moveListenerRef.current) {
+        window.removeEventListener("pointermove", moveListenerRef.current);
+      }
+      if (upListenerRef.current) {
+        window.removeEventListener("pointerup", upListenerRef.current);
+        window.removeEventListener("pointercancel", upListenerRef.current);
+      }
+      dragRef.current = null;
+    };
+  }, []);
 
   return (
     <>
@@ -203,9 +287,7 @@ export function Hotspots({
             onPointerEnter={() => setHoveredKey(a.key)}
             onPointerLeave={() => setHoveredKey(null)}
             onPointerDown={(e) => editing && startDrag(e, a, "move")}
-            onPointerMove={onMove}
-            onPointerUp={endDrag}
-            onPointerCancel={endDrag}
+            // no per-element pointermove/up — global listeners handle it during drag
             onClick={(e) => {
               if (editing) {
                 e.preventDefault();
@@ -231,15 +313,12 @@ export function Hotspots({
                 <span
                   aria-hidden
                   className="absolute inset-1/8 rounded-full border-[3px] border-[#00bcff] bg-[#00bcff]/50"
-                >
-                  {/* <span
-                    aria-hidden
-                  className="absolute inset-[2px] rounded-full bg-white/20 blur-[2px]"
-                  /> */}
-                </span>
+                />
                 <span
                   aria-hidden
-                  className={`absolute inset-1/8 rounded-full border-2 ${isHovered ? 'border-sky-400/60' : 'border-sky-400/70'} animate-[ping_1.8s_ease-in-out_infinite]`}
+                  className={`absolute inset-1/8 rounded-full border-2 ${
+                    isHovered ? "border-sky-400/60" : "border-sky-400/70"
+                  } animate-[ping_1.8s_ease-in-out_infinite]`}
                 />
               </div>
             </div>
@@ -260,11 +339,8 @@ export function Hotspots({
                     style={{ cursor: `${handle}-resize`, touchAction: "none" }}
                     onPointerDown={(e) => {
                       e.stopPropagation();
-                      startDrag(e, a, handle);
+                      startDrag(e, a, handle as Handle);
                     }}
-                    onPointerMove={onMove}
-                    onPointerUp={endDrag}
-                    onPointerCancel={endDrag}
                   />
                 ))}
               </>

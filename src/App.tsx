@@ -177,7 +177,7 @@ export default function App() {
         <div className="w-full">
           <div className="row-span-1 w-full font-semibold p-4 gap-2 flex flex-col max-h-screen overflow-y-auto">
             <div className="flex items-center gap-2 mb-2">
-              <label htmlFor="debug-toggle" className="font-bold">
+              <label htmlFor="debug-toggle" className="font-black text-xl">
                 DEBUG MODE
               </label>
               <input
@@ -187,12 +187,12 @@ export default function App() {
                 id="debug-toggle"
               />
             </div>
-            <h1 className="font-bold">FEATURES</h1>
+            <h1 className="font-black text-xl -mt-4">FEATURES</h1>
 
             {featureMap.map((f, i) => (
               <button
                 key={`${f.pdfID}|${f.productID}|${f.caption}|${i}`}
-                className="bg-gray-300 p-1 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30 text-sm text-left"
+                className="bg-[#333] text-[#ddd] py-2 px-2 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30 text-sm text-left leading-[1.3]"
                 onClick={() =>
                   setPLUG_IN_VARIABLES({
                     pdfID: f.pdfID,
