@@ -184,7 +184,10 @@ export const fullDataJSON =
     "product_id": "jht-j-435",
     "caption": "Interactive 3D model of controlling jet settings via the media screen.",
     "section": "11.2",
-    "tags": ["Jet Control", "Media Screen"],
+    "tags": [
+      "Jet Control",
+      "Media Screen"
+    ],
     "suggestedLabel": "Jet Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
@@ -194,10 +197,22 @@ export const fullDataJSON =
         "baseUrl": "/images/controllerScreens/J-400_2025_BaseLayer.webp",
         "beautyLayerUrl": "/images/controllerScreens/J-400_2025_BeautyLayer.webp",
         "screenCorners": [
-          { "x": 0.322, "y": 0.35 },
-          { "x": 0.69, "y": 0.35 },
-          { "x": 0.693, "y": 0.62 },
-          { "x": 0.32, "y": 0.62 }
+          {
+            "x": 0.322,
+            "y": 0.35
+          },
+          {
+            "x": 0.69,
+            "y": 0.35
+          },
+          {
+            "x": 0.693,
+            "y": 0.62
+          },
+          {
+            "x": 0.32,
+            "y": 0.62
+          }
         ]
       },
       "screenOptions": [
@@ -205,7 +220,7 @@ export const fullDataJSON =
           "id": "jets-main-menu",
           "image": {
             "url": "https://firebasestorage.googleapis.com/v0/b/extended-experiences.firebasestorage.app/o/assets%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-A.png?alt=media"
-          }, 
+          },
           "anchors": [
             {
               "key": "top-left-button-1",
@@ -214,9 +229,9 @@ export const fullDataJSON =
                 344.0547954048405,
                 449.6480829392518,
                 423.62106573968646
-            ],
+              ],
               "label": "top left button",
-              "targetScreen":{
+              "targetScreen": {
                 "id": "jets-menu"
               }
             }
@@ -235,9 +250,9 @@ export const fullDataJSON =
                 324.57147216796875,
                 411.09288054567196,
                 397.0859059604677
-            ],
+              ],
               "label": "back button",
-              "targetScreen":{
+              "targetScreen": {
                 "id": "jets-main-menu"
               }
             },
@@ -248,11 +263,11 @@ export const fullDataJSON =
                 437.95247178011834,
                 519.7242775716443,
                 515.998457455177
-            ],
+              ],
               "label": "jet number one button",
               "actionMsg": {
                 "title": "Jet 1",
-                "message": "Jet pumps should now be turned on/off"
+                "message": "Turn on/off Jet 1"
               }
             },
             {
@@ -262,11 +277,11 @@ export const fullDataJSON =
                 560.8095884793371,
                 518.581394270863,
                 638.8555741543958
-            ],
+              ],
               "label": "jet number two button",
               "actionMsg": {
                 "title": "Jet 2",
-                "message": "Jet pumps 2 should now be turned on/off"
+                "message": "Turn on/off Jet 2"
               }
             }
           ]
