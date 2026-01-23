@@ -180,7 +180,7 @@ export default function App() {
                   })
                 }
               >
-                {f.pdfID} || <b>{f.productID}</b> || {f.caption}
+                {f.pdfID} || <b>{f.productID}</b> || {f.section} || {f.caption}
               </button>
             ))}
           </div>

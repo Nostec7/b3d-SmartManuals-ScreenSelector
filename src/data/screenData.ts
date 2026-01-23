@@ -9,9 +9,13 @@ export const fullDataJSON =
     "pdf_id": "25-J400-EN",
     "productID": "jht-j-435",
     "product_id": "jht-j-435",
-    "caption": "Interactive 3D model of controlling temperature settings via the media screen.",
-    "section": "8.7",
-    "tags": ["Temperature Control", "Media Screen"],
+    "caption": "Interactive 3D model of inverting the media screen.",
+    "section": "10.3",
+    "tags": [
+      "Screen Invert",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Screen Inverting in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -20,10 +24,87 @@ export const fullDataJSON =
         "baseUrl": "/images/controllerScreens/J-400_2025_BaseLayer.webp",
         "beautyLayerUrl": "/images/controllerScreens/J-400_2025_BeautyLayer.webp",
         "screenCorners": [
-          { "x": 0.322, "y": 0.35 },
-          { "x": 0.69, "y": 0.35 },
-          { "x": 0.693, "y": 0.62 },
-          { "x": 0.32, "y": 0.62 }
+          {
+            "x": 0.322,
+            "y": 0.35
+          },
+          {
+            "x": 0.69,
+            "y": 0.35
+          },
+          {
+            "x": 0.693,
+            "y": 0.62
+          },
+          {
+            "x": 0.32,
+            "y": 0.62
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+          },
+          "anchors": [
+            {
+              "key": "invert-btn",
+              "box_2d": [
+                445.78334935705846,
+                352.0425500287376,
+                520.6997832109747,
+                419.81953694094307
+              ],
+              "label": "Invert button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "actionMsg": {
+                "message": "Tap this button to invert the display image.<br>This button can also be accessed in many other menus.",
+                "title": "Invert button"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25-J400-EN",
+    "pdf_id": "25-J400-EN",
+    "productID": "jht-j-435",
+    "product_id": "jht-j-435",
+    "caption": "Interactive 3D model of controlling temperature settings via the media screen.",
+    "section": "8.7",
+    "tags": [
+      "Temperature Control",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Temperature Controls in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "jqDH1",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/J-400_2025_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/J-400_2025_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.322,
+            "y": 0.35
+          },
+          {
+            "x": 0.69,
+            "y": 0.35
+          },
+          {
+            "x": 0.693,
+            "y": 0.62
+          },
+          {
+            "x": 0.32,
+            "y": 0.62
+          }
         ]
       },
       "screenOptions": [
@@ -40,12 +121,11 @@ export const fullDataJSON =
                 462.34050097124674,
                 469.5052301560487,
                 545.9067713060927
-            ],
+              ],
               "label": "temperature up",
               "targetImage": {
                 "direction": "forward",
-                "urls": 
-                [
+                "urls": [
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-96.webp?alt=media&token=19b803c1-b3e9-4c14-9cb1-5b22cd35f30a",
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-97.webp?alt=media&token=d3e9bf97-cd55-4299-823d-c351bf292a96",
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-98.webp?alt=media&token=f5e54b90-e5bd-45ad-b3f9-0dc254559737",
@@ -56,6 +136,11 @@ export const fullDataJSON =
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-103.webp?alt=media&token=8ad24ce3-542b-49f7-857e-35ddec6af351",
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-104.webp?alt=media&token=d20e35ff-2518-4870-bb49-58b8f0e4f901"
                 ]
+              },
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "actionMsg": {
+                "message": "Temperature increased.<br>Maximum temperature is 104°F (40°C).<br><br><b>Extended Temperature feature</b> allows the spa to reach 106°F (41°C).<br>To access Extended Temperature tap and hold the up arrow for about 5 seconds.",
+                "notificationOnly": true
               }
             },
             {
@@ -65,12 +150,11 @@ export const fullDataJSON =
                 468.626206537653,
                 600.5052301560487,
                 548.1924768724989
-            ],
+              ],
               "label": "temperature down",
               "targetImage": {
                 "direction": "backwards",
-                "urls": 
-                [
+                "urls": [
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-96.webp?alt=media&token=19b803c1-b3e9-4c14-9cb1-5b22cd35f30a",
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-97.webp?alt=media&token=d3e9bf97-cd55-4299-823d-c351bf292a96",
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-98.webp?alt=media&token=f5e54b90-e5bd-45ad-b3f9-0dc254559737",
@@ -81,10 +165,15 @@ export const fullDataJSON =
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-103.webp?alt=media&token=8ad24ce3-542b-49f7-857e-35ddec6af351",
                   "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-104.webp?alt=media&token=d20e35ff-2518-4870-bb49-58b8f0e4f901"
                 ]
+              },
+              "uid": "88345fdc-cce2-42e2-bd67-fd8a54feb5ac",
+              "actionMsg": {
+                "message": "Temperature decreased.<br>Minimum temperature is 65°F (18.33°C).",
+                "notificationOnly": true
               }
             }
           ]
-        }
+        },
       ]
     }
   },
@@ -96,6 +185,7 @@ export const fullDataJSON =
     "caption": "Interactive 3D model of controlling jet settings via the media screen.",
     "section": "11.2",
     "tags": ["Jet Control", "Media Screen"],
+    "suggestedLabel": "Jet Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -192,6 +282,7 @@ export const fullDataJSON =
     "caption": "Interactive 3D model of controlling light settings via the media screen.",
     "section": "11.3",
     "tags": ["Light Controls", "Light Settings", "Lighting Controls", "Media Screen"],
+    "suggestedLabel": "Light Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -407,6 +498,7 @@ export const fullDataJSON =
     "caption": "Interactive 3D model of controlling music settings via the media screen.",
     "section": "11.4",
     "tags": ["Music Controls", "Music Settings", "Media Screen"],
+    "suggestedLabel": "Music Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -767,6 +859,7 @@ export const fullDataJSON =
       "Bluewave Audio System",
       "Media Screenaudio"
     ],
+    "suggestedLabel": "Bluewave 2.0 Setup in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -876,7 +969,7 @@ export const fullDataJSON =
     "pdf_id": "25-J400-EN",
     "productID": "jht-j-435",
     "product_id": "jht-j-435",
-    "caption": "Interactive 3D model of controlling water cleaning boost cycle via the media screen.",
+    "caption": "Interactive 3D model of controlling water care cleaning boost cycle via the media screen.",
     "section": "12.2",
     "tags": [
       "Water Cleaning Boost Cycle",
@@ -886,6 +979,7 @@ export const fullDataJSON =
       "Air Filter Timer",
       "Cycle Start Time"
     ],
+    "suggestedLabel": "Water Care in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -1175,6 +1269,7 @@ export const fullDataJSON =
       "Programming ProClarity Depth Filter Timer",
       "Media Screen"
     ],
+    "suggestedLabel": "Water Care Settings in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -2014,6 +2109,7 @@ export const fullDataJSON =
       "Media Screen",
       "Heating Programming"
     ],
+    "suggestedLabel": "Water Heating Settings in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -2289,6 +2385,7 @@ export const fullDataJSON =
       "Locking Services",
       "Media Screen"
     ],
+    "suggestedLabel": "Locking in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -2575,13 +2672,14 @@ export const fullDataJSON =
     "productID": "jht-j-435",
     "product_id": "jht-j-435",
     "caption": "Interactive 3D model of unlocking the spa, temperature, services via the media screen.",
-    "section": "12.5",
+    "section": "12.4.D",
     "tags": [
       "Unlocking Temperature",
       "Unlocking Spa",
       "Unlocking Services",
       "Media Screen"
     ],
+    "suggestedLabel": "Unlocking in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -2873,6 +2971,7 @@ export const fullDataJSON =
       "Language Setting",
       "Media Screen"
     ],
+    "suggestedLabel": "Language Settings in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -3276,6 +3375,7 @@ export const fullDataJSON =
       "Unit Display Setting",
       "Media Screen"
     ],
+    "suggestedLabel": "Temperature Unit Settings in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -3444,6 +3544,366 @@ export const fullDataJSON =
       ]
     }
   },
+  {
+    "pdfID": "25-J400-EN",
+    "pdf_id": "25-J400-EN",
+    "productID": "jht-j-435",
+    "product_id": "jht-j-435",
+    "caption": "Interactive 3D model of setting the time and date via the media screen.",
+    "section": "12.5",
+    "tags": [
+      "Unit Display Setting",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Time&Date Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "jqDH1",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/J-400_2025_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/J-400_2025_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.322,
+            "y": 0.35
+          },
+          {
+            "x": 0.69,
+            "y": 0.35
+          },
+          {
+            "x": 0.693,
+            "y": 0.62
+          },
+          {
+            "x": 0.32,
+            "y": 0.62
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+          },
+          "anchors": [
+            {
+              "uid": "88612201-f552-4150-b8f3-14aeabc75656",
+              "key": "settings-btn",
+              "label": "Settings",
+              "box_2d": [
+                510.470808123384,
+                586.1296354118201,
+                619.1138249776583,
+                688.7506607898936
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.5-Programming-the-Time-and-Date-Figure-A.webp?alt=media&token=26d93270-0730-444b-9223-cae21d3a8f2c"
+          },
+          "anchors": [
+            {
+              "uid": "548e1af9-850e-45d3-935c-dadae9082198",
+              "key": "time-and-date-btn",
+              "label": "Time and Data",
+              "box_2d": [
+                462.2137055142234,
+                484.0057109206141,
+                541.2213041582179,
+                567.4351233226764
+              ],
+              "targetScreen": {
+                "id": "time-and-date-screen"
+              }
+            },
+            {
+              "uid": "778708fe-630a-4272-bd0e-477e746932d2",
+              "key": "back-btn",
+              "label": "Back",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-and-date-screen",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.5-Programming-the-Time-and-Date-Figure-B-2.webp?alt=media&token=7ca67908-f965-4b94-b141-9b0dd793e248"
+          },
+          "anchors": [
+            {
+              "uid": "8b137755-11ec-413f-8d70-6bdb090f8c22",
+              "key": "12-24h-time",
+              "label": "12/24 Hour Time Format",
+              "box_2d": [
+                406.69675637747446,
+                504.9645151803401,
+                473.5599896380006,
+                575.2947628669846
+              ],
+              "actionMsg": {
+                "message": "Click this button to switch between 12-Hour and 24-Hour time configuration.",
+                "title": "12/24 Hour Time Configuration"
+              }
+            },
+            {
+              "uid": "8d466726-63b8-4f80-9834-64ade51cc194",
+              "key": "hour-block",
+              "label": "Hour Block",
+              "box_2d": [
+                463.94866477442133,
+                436.84822544240785,
+                530.8118980349475,
+                507.17847312905235
+              ],
+              "actionMsg": {
+                "message": "Tap the hour block here to program the hours. <br>Hours adjust in 1-hour increments.<br>Once tapped use the arrow keys to increase and decrease the number.",
+                "title": "Hour Block"
+              }
+            },
+            {
+              "uid": "4c049e1d-3da9-413a-9e73-b9c2851664ed",
+              "key": "minute-block",
+              "label": "Minute Block",
+              "box_2d": [
+                463.9485482951152,
+                497.10487563603147,
+                530.8117815556413,
+                567.435123322676
+              ],
+              "actionMsg": {
+                "message": "Tap the minute block here to program the minutes.<br>Once tapped use the arrow keys to increase and decrease the number.",
+                "title": "Minute Block"
+              }
+            },
+            {
+              "uid": "f76bd245-4e2d-42cf-9b8b-07864dfac72a",
+              "key": "date-btn",
+              "label": "Date button",
+              "box_2d": [
+                522.9354159522602,
+                427.6785287114999,
+                589.7986492127864,
+                498.0087763981444
+              ],
+              "targetScreen": {
+                "id": "date-settings"
+              },
+              "actionMsg": {
+                "message": "Tapping this button switches to Date settings.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "b2e95b83-4426-4bc8-a026-9a73872407dc",
+              "key": "back-btn",
+              "label": "Back",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "bce8e755-0760-47fb-b174-8cdf86513757",
+              "key": "up-arrow",
+              "label": "Up Arrow",
+              "box_2d": [
+                408.43159915836736,
+                612.37865085217,
+                475.2948324188935,
+                682.7088985388145
+              ],
+              "actionMsg": {
+                "message": "Increase the number of selected block within the time.",
+                "title": "Up Arrow"
+              }
+            },
+            {
+              "uid": "e9d2f30e-bff7-4490-be53-074d9a486fd4",
+              "key": "down-arrow",
+              "label": "Down Arrow",
+              "box_2d": [
+                533.3448220755315,
+                612.378826745992,
+                600.2080553360577,
+                682.7090744326365
+              ],
+              "actionMsg": {
+                "message": "Decrease the number of selected block within the time.",
+                "title": "Down Arrow"
+              }
+            },
+            {
+              "uid": "c1f22c1d-c82a-4b37-a1b2-f4fe56bf71c5",
+              "key": "confirm-btn",
+              "label": "Confirm button",
+              "box_2d": [
+                470.8883853359091,
+                612.3788267459922,
+                537.7516185964353,
+                682.7090744326367
+              ],
+              "actionMsg": {
+                "message": "Once the time is changed, tap this button to confirm and save.",
+                "title": "Confirm Button"
+              }
+            }
+          ]
+        },
+        {
+          "id": "date-settings",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.5-Programming-date.webp?alt=media&token=ea28fd14-109b-4e5f-b69d-15b0a95875bb"
+          },
+          "anchors": [
+            {
+              "uid": "886f74fb-01a7-4bad-b27e-d29aaad19874",
+              "key": "d84898e6-0222-4dae-8442-68760edae3cb",
+              "label": "Back",
+              "box_2d": [
+                343.1297476965051,
+                322.62242561802066,
+                416.0305110552838,
+                399.13542909649686
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "65d24209-f8b5-4f0f-93b2-8ec6d7ce5805",
+              "key": "time-btn",
+              "label": "Time button",
+              "box_2d": [
+                408.4317156376744,
+                421.1291222476134,
+                475.2949488982006,
+                491.4593699342579
+              ],
+              "targetScreen": {
+                "id": "time-and-date-screen"
+              },
+              "actionMsg": {
+                "message": "Tapping this button switches to Time settings.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "b3b39a1f-9801-4c18-8d46-b30136790e3a",
+              "key": "89c77657-b0f0-4889-9484-28be5519d5a3",
+              "label": "Month block",
+              "box_2d": [
+                462.2138219935307,
+                402.79008057344197,
+                529.0770552540569,
+                473.12032826008647
+              ],
+              "actionMsg": {
+                "message": "Click on this block and use arrows to change the month.",
+                "title": "Month block"
+              }
+            },
+            {
+              "uid": "b4068707-1711-4725-ab25-a160eb74e345",
+              "key": "5482d195-e161-41c1-9a8b-c9c34d1f5ff5",
+              "label": "Day block",
+              "box_2d": [
+                462.21393847283593,
+                447.3279793599153,
+                529.0771717333621,
+                517.6582270465598
+              ],
+              "actionMsg": {
+                "message": "Click on this block and use arrows to change the day.",
+                "title": "Day block"
+              }
+            },
+            {
+              "uid": "7062ba03-593d-4d6a-a02b-39596209ceb3",
+              "key": "d6768bae-813e-44ef-a877-ab338b5ac17a",
+              "label": "Year block",
+              "box_2d": [
+                462.21393847283593,
+                525.9238471215327,
+                529.0771717333621,
+                596.2540948081772
+              ],
+              "actionMsg": {
+                "message": "Click on this block and use arrows to change the year.",
+                "title": "Year block"
+              }
+            },
+            {
+              "uid": "567661eb-c25b-4bd6-ad57-e7003ed8c52b",
+              "key": "confirm-button",
+              "label": "Confirm button",
+              "box_2d": [
+                470.8883853359091,
+                612.3788267459922,
+                537.7516185964353,
+                682.7090744326367
+              ],
+              "actionMsg": {
+                "message": "Once the date is changed, tap this button to confirm and save.",
+                "title": "Confirm button"
+              }
+            },
+            {
+              "uid": "f0a0bbf7-1039-41fb-95b7-e7f341b15a09",
+              "key": "up-button",
+              "label": "Up button",
+              "box_2d": [
+                408.43159915836736,
+                612.37865085217,
+                475.2948324188935,
+                682.7088985388145
+              ],
+              "actionMsg": {
+                "message": "Increase the number of selected block within the date.",
+                "title": "Up Arrow"
+              }
+            },
+            {
+              "uid": "2500237a-7f26-455d-9208-6454f6333b3a",
+              "key": "down-button",
+              "label": "Down button",
+              "box_2d": [
+                533.3448220755315,
+                612.378826745992,
+                600.2080553360577,
+                682.7090744326365
+              ],
+              "actionMsg": {
+                "message": "Decrease the number of selected block within the date.",
+                "title": "Down arrow"
+              }
+            }
+          ]
+        }
+      ]
+    },
+  },
 
 
 
@@ -3461,6 +3921,7 @@ export const fullDataJSON =
     "caption": "Interactive 3D model of controlling temperature settings via the media screen.",
     "section": "9.3",
     "tags": ["Temperature Control", "Media Screen"],
+    "suggestedLabel": "Temperature Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -3545,6 +4006,7 @@ export const fullDataJSON =
     "caption": "Interactive 3D model of controlling jet pumps via the media screen.",
     "section": "10.1",
     "tags": ["Jet Pump Controls", "Jets", "Media Screen"],
+    "suggestedLabel": "Jet Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -3641,6 +4103,7 @@ export const fullDataJSON =
     "caption": "Interactive 3D model of controlling light settings via the media screen.",
     "section": "10.2",
     "tags": ["Light Controls", "Light settings", "Lighting controls", "Media Screen"],
+    "suggestedLabel": "Light Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",
@@ -3815,8 +4278,9 @@ export const fullDataJSON =
     "productID": "sds-780-montclair",
     "product_id": "sds-780-montclair",
     "caption": "Interactive 3D model of controlling music settings via the media screen.",
-    "section": "10.3",
+    "section": "11.4",
     "tags": ["Music Controls", "Music settings", "Audio settings", "Media Screen"],
+    "suggestedLabel": "Music Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
       "type": "screenController",

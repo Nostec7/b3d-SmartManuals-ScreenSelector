@@ -12,6 +12,7 @@ type Feature = {
   caption: string;
   section?: string;
   tags?: string[];
+  suggestedLabel: string;
   type: string;
   interactiveP3DModel?: {
     p3dID: string;
@@ -117,7 +118,7 @@ export const FeatureExporter: React.FC = () => {
       <div className="flex p-2 flex-col bg-[#222] text-[#eee] rounded-xl">
         <h3 className="font-bold">Features</h3>
         {features.map((feature, index) => {
-          const label = `${feature.pdfID} || ${feature.productID} || ${feature.caption}`;
+          const label = `${feature.pdfID} || ${feature.productID} || ${feature.section} || ${feature.caption}`;
           return (
             <label
               key={index}

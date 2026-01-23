@@ -38,6 +38,7 @@ type FeatureState = {
   caption: string;
   section: string;
   tags: string[];
+  suggestedLabel: string;
   type: "interactiveP3DModel";
   interactiveP3DModel: {
     type: "screenController";
@@ -125,6 +126,7 @@ const initialFeatureState: FeatureState = {
   caption: "",
   section: "",
   tags: [],
+  suggestedLabel: "",
   type: "interactiveP3DModel",
   interactiveP3DModel: {
     type: "screenController",
@@ -448,6 +450,7 @@ export default function FeatureBuilder({ onPreview }: {
                   f.caption ?? "",
                   f.section ?? "",
                   (f.tags || []).join(","),
+                  f.suggestedLabel ?? "",
                   f.type ?? "",
                 ].join("||");
 
@@ -480,12 +483,13 @@ export default function FeatureBuilder({ onPreview }: {
                 f.caption ?? "",
                 f.section ?? "",
                 (f.tags || []).join(","),
+                f.suggestedLabel ?? "",
                 f.type ?? "",
               ].join("||");
 
               return (
                 <option key={key} value={key}>
-                  {`${f.pdf_id}_${f.product_id}_${f.caption}`}
+                  {`${f.pdf_id}_${f.product_id}_${f.section}_${f.caption}`}
                 </option>
               );
             })}
@@ -569,6 +573,14 @@ export default function FeatureBuilder({ onPreview }: {
               })
             }
           />
+        </div>
+        <div>
+            <input
+                placeholder="Suggested label"
+                className="w-full rounded px-2 py-1 text-sm bg-[#666] drop-shadow-md"
+                value={feature.suggestedLabel}
+                onChange={(e) => setFeature({ ...feature, suggestedLabel: e.target.value })}
+            />
         </div>
 
         {/* p3dID and productMount */}
@@ -720,7 +732,7 @@ export default function FeatureBuilder({ onPreview }: {
                   <option value="">Preload feature</option>
                   {fullDataJSON.map((f: any) => (
                     <option key={featureSelectorKey(f)} value={featureSelectorKey(f)}>
-                      {`${f.pdf_id}_${f.product_id}_${f.caption}`}
+                      {`${f.pdf_id}_${f.product_id}_${f.section}_${f.caption}`}
                     </option>
                   ))}
                 </select>
