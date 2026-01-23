@@ -705,7 +705,7 @@ export default function FeatureBuilder({ onPreview }: {
               <strong className="text-lg flex  col-span-4">🎞️ Screen: {screen.id}</strong>
 
               {/* --- PRELOAD ADDED: feature + screen selectors for copying --- */}
-              <div className="grid grid-cols-2 gap-2 col-span-2 items-center -mr-15">
+              <div className="grid grid-cols-2 gap-2 col-span-2 items-center -mr-10">
                 <select
                   className="text-xs bg-[#555] drop-shadow-md rounded px-2 py-1 col-span-1"
                   value={screenPreloadSelection[sIdx]?.featureKey ?? ""}
@@ -1324,7 +1324,7 @@ export default function FeatureBuilder({ onPreview }: {
       </section>
 
       <button
-        className="bg-black text-white  rounded-lg text-sm font-bold py-4 w-full cursor-pointer hover:opacity-50 mb-10"
+        className="bg-[#2b7fff] text-white  rounded-lg text-lg font-bold py-2 w-full cursor-pointer hover:opacity-50 mb-10"
         onClick={exportJSON}
       >
         Export JSON

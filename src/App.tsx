@@ -3,6 +3,7 @@ import ModelEmbed from "./components/ModelEmbed";
 import ScreenController from "./components/ScreenController";
 import { fullDataJSON } from "./data/screenData";
 import FeatureBuilder from "./components/FeatureBuilder";
+import { FeatureExporter } from "./components/FeatureExporter";
 
 export default function App() {
   const firstEntry = fullDataJSON[0];
@@ -25,8 +26,9 @@ export default function App() {
   const [screenSetups, setScreenSetup] = useState<any>(null);
   const [screenDatas, setScreenData] = useState<any>(null);
   const [previewmode, setPreviewMode] = useState(false);
-
   const [debug, setDebug] = useState(false);
+
+  const [activeTab, setActiveTab] = useState<"builder" | "exporter">("builder");
 
   /**
    * Build feature list dynamically from JSON
@@ -42,17 +44,11 @@ export default function App() {
     }));
   }, []);
 
-  /**
-   * Process selected feature
-   */
-
-  
   useEffect(() => {
     if(previewmode){
 
       const entry = PLUG_IN_VARIABLES;
 
-      // PRODUCT DATA
       setProductData({
         id: entry.product_id,
         title: entry.caption,
@@ -60,7 +56,6 @@ export default function App() {
         p3dID: entry.interactiveP3DModel.p3dID,
       });
 
-      // SCREEN SETUP
       setScreenSetup({
         pdfID: entry.pdf_id,
         baseUrl: entry.interactiveP3DModel.productMount.baseUrl,
@@ -68,16 +63,12 @@ export default function App() {
         screenCorners: entry.interactiveP3DModel.productMount.screenCorners,
       });
 
-      // SCREEN DATA
       setScreenData({
         pdfID: entry.pdf_id,
         id: entry.interactiveP3DModel.screenOptions[0]?.id ?? "default",
         label: entry.caption,
         screenOptions: entry.interactiveP3DModel.screenOptions,
       });
-
-
-      
 
     } else {
       const entry = fullDataJSON.find(
@@ -96,7 +87,6 @@ export default function App() {
         return;
       }
 
-      // PRODUCT DATA
       setProductData({
         id: entry.product_id,
         title: entry.caption,
@@ -104,7 +94,6 @@ export default function App() {
         p3dID: entry.interactiveP3DModel.p3dID,
       });
 
-      // SCREEN SETUP
       setScreenSetup({
         pdfID: entry.pdf_id,
         baseUrl: entry.interactiveP3DModel.productMount.baseUrl,
@@ -112,7 +101,6 @@ export default function App() {
         screenCorners: entry.interactiveP3DModel.productMount.screenCorners,
       });
 
-      // SCREEN DATA
       setScreenData({
         pdfID: entry.pdf_id,
         id: entry.interactiveP3DModel.screenOptions[0]?.id ?? "default",
@@ -120,13 +108,7 @@ export default function App() {
         screenOptions: entry.interactiveP3DModel.screenOptions,
       });
     }
-    
-
-    
-
   }, [PLUG_IN_VARIABLES, previewmode]);
-
-
 
   useEffect(() => {
     function handleFeatureBuilderPreview(ev: Event) {
@@ -138,8 +120,8 @@ export default function App() {
   
       setPLUG_IN_VARIABLES({
         tags: feature.tags,
-        pdfID: feature.pdf_id,       // IMPORTANT: use pdf_id
-        productID: feature.product_id, // IMPORTANT: use product_id
+        pdfID: feature.pdf_id,
+        productID: feature.product_id,
         caption: feature.caption,
         section: feature.section,
       });
@@ -157,8 +139,6 @@ export default function App() {
       );
     };
   }, []);
-  
-
 
   useEffect(() => {
     function onPreview(ev: any) {
@@ -167,9 +147,6 @@ export default function App() {
     window.addEventListener("featureBuilderPreview", onPreview);
     return () => window.removeEventListener("featureBuilderPreview", onPreview);
   }, []);
-
-
-
 
   return (
     <div className="min-h-screen bg-white">
@@ -224,17 +201,33 @@ export default function App() {
         </div>
 
         <div className="w-full max-h-screen col-span-2 overflow-auto">
-        <FeatureBuilder
-            // onPreview={(feature) => {
-            //   setPLUG_IN_VARIABLES({
-            //     tags: feature.tags,
-            //     pdfID: feature.pdf_id,
-            //     productID: feature.product_id,
-            //     caption: feature.caption,
-            //     section: feature.section,
-            //   });
-            // }}
-          />
+          {/* Tabs */}
+          <div className="flex border-b border-gray-300 mb-2">
+            <button
+              onClick={() => setActiveTab("builder")}
+              className={`px-4 py-2 font-semibold border-b-2 ${
+                activeTab === "builder"
+                  ? "border-black text-black"
+                  : "border-transparent text-gray-400"
+              }`}
+            >
+              Feature Builder
+            </button>
+
+            <button
+              onClick={() => setActiveTab("exporter")}
+              className={`px-4 py-2 font-semibold border-b-2 ${
+                activeTab === "exporter"
+                  ? "border-black text-black"
+                  : "border-transparent text-gray-400"
+              }`}
+            >
+              Feature Exporter
+            </button>
+          </div>
+
+          {activeTab === "builder" && <FeatureBuilder />}
+          {activeTab === "exporter" && <FeatureExporter />}
         </div>
       </div>
     </div>
