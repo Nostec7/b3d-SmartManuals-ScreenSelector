@@ -20,11 +20,11 @@ export type Anchor = {
   anchor?: { x: number; y: number };
   box?: [number, number, number, number];
   box_2d: number[]; // [left, top, right, bottom] in screen image px
-  confidence?: number;
   label?: string;
   actionMsg?: ActionMsg;
   targetScreen?: TargetScreen;
   targetImage?: TargetImage;
+  interactionStyle?: 'click' | 'swipe-left' | "swipe-right" | 'swipe-down' | 'swipe-up'
 };
 
 export type ScreenDoc = {

@@ -22,7 +22,15 @@ type AnchorState = {
     direction: "forward" | "backwards" | "forward-backwards";
     urls: string[];
   };
+  interactionStyle: InteractionStyle;
 };
+
+type InteractionStyle =
+  | "click"
+  | "swipe-up"
+  | "swipe-down"
+  | "swipe-left"
+  | "swipe-right";
 
 type ScreenOptionState = {
   id: string;
@@ -927,6 +935,34 @@ export default function FeatureBuilder({ onPreview }: {
                     </div>
                   </div>
 
+                 <label className="px-1">Anchor Action: </label>
+                  <select
+                        value={anchor.interactionStyle}
+                        className="bg-white px-1 py-1 rounded-md drop-shadow-lg"
+                        onChange={(e) => {
+                            console.log("changed:", e.target.value);
+
+                            const copy = [...screens];
+                            copy[sIdx].anchors[aIdx] = {
+                                ...anchor,
+                                interactionStyle: e.target.value as InteractionStyle,
+                            };
+                            setFeature({
+                            ...feature,
+                            interactiveP3DModel: {
+                                ...feature.interactiveP3DModel,
+                                screenOptions: copy,
+                            },
+                            });
+                        }}
+                        >
+                        <option value="click">Click</option>
+                        <option value="swipe-up">Swipe up</option>
+                        <option value="swipe-down">Swipe down</option>
+                        <option value="swipe-left">Swipe left</option>
+                        <option value="swipe-right">Swipe right</option>
+                    </select>
+                  
                   <input
                     placeholder="Key"
                     className="w-full rounded px-2 py-1 text-sm bg-[#fefefe] drop-shadow-md font-bold"
@@ -946,6 +982,7 @@ export default function FeatureBuilder({ onPreview }: {
                       });
                     }}
                   />
+
 
                   <input
                     placeholder="Label"

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Anchor } from "../types";
-
+import { motion } from "framer-motion";
 type Box2D = [number, number, number, number]; // [yMin,xMin,yMax,xMax] 0..1000
 type Pt = { x: number; y: number };
 type Handle = "move" | "nw" | "ne" | "se" | "sw";
@@ -233,6 +233,12 @@ export function Hotspots({
     };
   }, []);
 
+
+  const startDragAction = (ev: PointerEvent<HTMLDivElement>) => {
+    ev.preventDefault();
+  }
+
+
   return (
     <>
       {anchors.map((a) => {
@@ -262,16 +268,12 @@ export function Hotspots({
           : "scale-100 opacity-50";
 
         return (
-          <div
+          <motion.div
             key={a.key}
             className={`
               absolute
               ${border}
               ${className}
-              transform-gpu
-              transition-all
-              duration-30
-              ease-in
               ${scaleClass}
             `}
             style={{
@@ -280,26 +282,35 @@ export function Hotspots({
               width: `${w * 100}%`,
               height: `${h * 100}%`,
               transformOrigin: "center",
-              pointerEvents: "auto",
-              touchAction: "none",
-              userSelect: "none",
             }}
-            onPointerEnter={() => setHoveredKey(a.key)}
-            onPointerLeave={() => setHoveredKey(null)}
-            onPointerDown={(e) => editing && startDrag(e, a, "move")}
-            // no per-element pointermove/up — global listeners handle it during drag
+            
+            initial={{ y: 0, opacity: 0 }}
+            animate={{
+              y: [0, 0, a.interactionStyle === "swipe-up" ? -100 : a.interactionStyle === "swipe-down" ? 100 : 0],
+              x: [0, 0, a.interactionStyle === "swipe-left" ? -100 : a.interactionStyle === "swipe-right" ? 100 : 0],
+              opacity: [0, 1, 1, 0],
+            }}
+            transition={{
+              duration: 1.5,
+              times: [0, 0.2, 0.8, 1],
+              ease: "easeIn",
+              repeat: Infinity,
+              repeatDelay: 0.5,
+            }}
+            onPointerEnter={() => setHoveredKey(a.key)} 
+            onPointerLeave={() => setHoveredKey(null)} 
+            onPointerDown={(e) => editing ? startDrag(e, a, "move") : startDragAction(e)} // no per-element pointermove/up — global listeners handle it during drag 
             onClick={(e) => {
-              if (editing) {
-                e.preventDefault();
-                e.stopPropagation();
-                return;
+               if (editing) {
+                e.preventDefault(); 
+                e.stopPropagation(); 
+                return; 
+               } 
+               setActiveKey(a.key); 
+               setTimeout(() => setActiveKey(null), 300); 
+               onHotspotClick(a); 
               }
-
-              setActiveKey(a.key);
-              setTimeout(() => setActiveKey(null), 300);
-              onHotspotClick(a);
-            }}
-            title={a.label ?? a.key}
+            }
           >
             {/* Indicator */}
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
@@ -335,7 +346,7 @@ export function Hotspots({
                 ).map(([handle, pos]) => (
                   <div
                     key={handle}
-                    className={`absolute h-3 w-3 rounded-full bg-white shadow ring-2 ring-black/30 ${pos}`}
+                    className={`absolute h-3 w-3 rounded-full bg-white shadow ring-2 ring-black/30 ${pos} translate-x-10`}
                     style={{ cursor: `${handle}-resize`, touchAction: "none" }}
                     onPointerDown={(e) => {
                       e.stopPropagation();
@@ -345,7 +356,7 @@ export function Hotspots({
                 ))}
               </>
             )}
-          </div>
+          </motion.div>
         );
       })}
     </>

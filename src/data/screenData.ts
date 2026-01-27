@@ -4626,4 +4626,382 @@ export const fullDataJSON =
       ]
     }
   },
+
+
+
+
+
+
+
+
+
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model controlling jet settings via the media screen.",
+    "section": "10.3",
+    "tags": [
+      "Jet Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Jet Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "jet-btn",
+              "box_2d": [
+                407.61541042576084,
+                599.6190849485863,
+                508.5555343068123,
+                683.1153509494086
+              ],
+              "label": "Jet button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "actionMsg": {
+                "message": "Accessing Jet Menu",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "jet-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-ir-active",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-E_home-IR.webp?alt=media&token=46e010ef-2bb4-4278-959f-63ae231b1a82"
+          },
+          "anchors": [
+            {
+              "key": "91ce03ea-999c-415a-8333-b02c5b6bc86f",
+              "box_2d": [
+                407.61541042576084,
+                599.6190849485863,
+                508.5555343068123,
+                683.1153509494086
+              ],
+              "label": "Jet button",
+              "uid": "f984cd99-69b9-4282-9e4b-a936d50564bb",
+              "actionMsg": {
+                "message": "Accessing Jet Menu",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "jet-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "jet-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-B_JetPumps-IR-passive.webp?alt=media&token=24ce6bfe-2b3d-40f9-8c78-42849ef8e9e5"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.0379488918867,
+                327.1537501030351,
+                432.21953996491095,
+                385.7613920719772
+              ],
+              "label": "Back button",
+              "uid": "f238d843-cfc5-47fb-bcbb-6854c12ec27d",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "015365f1-0873-4fd1-b274-b94a16c095b3",
+              "key": "jet-1",
+              "label": "Jet Pump 1",
+              "box_2d": [
+                456.1926390010227,
+                345.49279177720666,
+                569.2770117862375,
+                466.9771983129715
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 1"
+              }
+            },
+            {
+              "uid": "e497fe26-9007-48b3-8134-d98684235856",
+              "key": "jet-2",
+              "label": "Jet Pump 2",
+              "box_2d": [
+                456.1926390010227,
+                448.97728357070446,
+                569.2770117862375,
+                570.4616901064693
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 2"
+              }
+            },
+            {
+              "uid": "80524b54-4aa6-4507-968c-b0ad2c7a5b32",
+              "key": "ir-btn",
+              "label": "IR Therapy Light",
+              "box_2d": [
+                454.4576797408246,
+                557.7013005353122,
+                567.5420525260394,
+                679.185707071077
+              ],
+              "targetScreen": {
+                "id": "ir-menu"
+              },
+              "actionMsg": {
+                "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "jet-menu-ir-active",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-B_JetPumps-IR.webp?alt=media&token=ba1d048b-2b7d-48bb-a64f-81617caaaef7"
+          },
+          "anchors": [
+            {
+              "key": "9946596f-353f-46aa-8e63-ee1b78abcdf4",
+              "box_2d": [
+                359.0379488918867,
+                327.1537501030351,
+                432.21953996491095,
+                385.7613920719772
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu-ir-active"
+              }
+            },
+            {
+              "uid": "fa91aa64-a6bc-40ad-9a46-4c039a24b14c",
+              "key": "62524962-7da7-4878-a8ef-edb38bbed7d1",
+              "label": "Jet Pump 1",
+              "box_2d": [
+                456.1926390010227,
+                345.49279177720666,
+                569.2770117862375,
+                466.9771983129715
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 1"
+              }
+            },
+            {
+              "uid": "46abfc49-bbe5-446e-808e-07ea7d97161b",
+              "key": "6457b119-e50e-4366-a900-02a81528c35d",
+              "label": "Jet Pump 2",
+              "box_2d": [
+                456.1926390010227,
+                448.97728357070446,
+                569.2770117862375,
+                570.4616901064693
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 2"
+              }
+            },
+            {
+              "uid": "cf95a36b-db52-40a3-851c-bd8d56996d46",
+              "key": "5e5b0988-0d1e-4e5e-91c4-b47cb0eeadef",
+              "label": "IR Therapy Light",
+              "box_2d": [
+                454.4576797408246,
+                557.7013005353122,
+                567.5420525260394,
+                679.185707071077
+              ],
+              "targetScreen": {
+                "id": "ir-menu"
+              },
+              "actionMsg": {
+                "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "ir-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-C_IR-time.webp?alt=media&token=089b62fe-418f-4123-b2e2-256b5b3737ec"
+          },
+          "anchors": [
+            {
+              "uid": "516ec29c-913c-42db-a86a-44a1d8ffe84d",
+              "key": "ok-btn",
+              "label": "Ok button",
+              "box_2d": [
+                534.5246992038406,
+                391.4723684877073,
+                601.8737094092912,
+                461.1212914546562
+              ],
+              "actionMsg": {
+                "message": "IR therapy is now starting.<br>20 minute timer will be visible under the button and in the main menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "jet-menu-ir-active"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model controlling the temperature via the media screen.",
+    "section": "7",
+    "tags": [
+      "Temperature Controls",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Temperature controls in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "up-btn",
+              "box_2d": [
+                400.6758063435806,
+                463.38632957890013,
+                501.61593022463205,
+                546.8825955797224
+              ],
+              "label": "Up button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "actionMsg": {
+                "message": "Increasing the temperature.<br>The maximum water temperature setting for your spa is <b>104°F (40°C)</b>.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp96.webp?alt=media&token=27136c29-ed15-4af6-8063-48a98289eebf",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp97.webp?alt=media&token=ee59df46-1dd8-40a6-851b-31bab115b1f7",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp98.webp?alt=media&token=bf7340a0-cf1b-42b5-bc41-d77b0c3d7bb8",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp99.webp?alt=media&token=3336f328-a36b-4151-b0a4-327d56dec0fb",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp101.webp?alt=media&token=820b12c1-5848-4a5d-9d90-01be2c8538c2",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp102.webp?alt=media&token=0bf9e090-2f84-4ec0-8729-64d88db7bc91",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp103.webp?alt=media&token=9cee175c-7386-404c-9b3a-de9621173547",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp104.webp?alt=media&token=759faaff-215d-4d6f-9b5f-969164bd05b9"
+                ]
+              }
+            },
+            {
+              "key": "down-btn",
+              "box_2d": [
+                527.3239885209424,
+                463.38632957890013,
+                628.2641124019939,
+                546.8825955797224
+              ],
+              "label": "Down buttn",
+              "uid": "d9d805c3-3d32-4395-ab50-44b621e22369",
+              "actionMsg": {
+                "message": "Decreasing the temperature.<br>The minimum water temperature setting for your spa is <b>65°F (18°C)</b>.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp96.webp?alt=media&token=27136c29-ed15-4af6-8063-48a98289eebf",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp97.webp?alt=media&token=ee59df46-1dd8-40a6-851b-31bab115b1f7",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp98.webp?alt=media&token=bf7340a0-cf1b-42b5-bc41-d77b0c3d7bb8",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp99.webp?alt=media&token=3336f328-a36b-4151-b0a4-327d56dec0fb",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp101.webp?alt=media&token=820b12c1-5848-4a5d-9d90-01be2c8538c2",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp102.webp?alt=media&token=0bf9e090-2f84-4ec0-8729-64d88db7bc91",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp103.webp?alt=media&token=9cee175c-7386-404c-9b3a-de9621173547",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp104.webp?alt=media&token=759faaff-215d-4d6f-9b5f-969164bd05b9"
+                ]
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        }
+      ]
+    }
+  },
 ]
