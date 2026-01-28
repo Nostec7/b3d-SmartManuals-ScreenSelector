@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useMemo } from "react";
 import { motion, AnimatePresence, useAnimationControls } from "framer-motion";
 import parse from "html-react-parser";
 
@@ -8,18 +8,47 @@ type ActionNotificationProps = {
   isOpen: boolean;
   notificationOnly?: boolean;
   onClose: () => void;
-  durationMs?: number;
 };
+
+/* ⏱️ Timing constants */
+const MIN_DURATION_MS = 1500;
+const MAX_DURATION_MS = 8000;
+const CHARS_PER_SECOND = 14;
+
+/* Estimate how long the notification should stay visible */
+function estimateDurationMs(message: string) {
+  // Strip HTML tags
+  const plainText = message.replace(/<[^>]+>/g, "");
+
+  // Base reading-time estimate
+  const baseMs = (plainText.length / CHARS_PER_SECOND) * 1000;
+
+  // Bonus time for line breaks (multiline = more cognitive load)
+  const lineBreakBonusMs =
+    (message.match(/<br\s*\/?>/g)?.length ?? 0) * 400;
+
+  const estimatedMs = baseMs + lineBreakBonusMs;
+
+  return Math.min(
+    MAX_DURATION_MS,
+    Math.max(MIN_DURATION_MS, estimatedMs)
+  );
+}
 
 export default function ActionNotification({
   title,
   message,
   isOpen,
-  notificationOnly=false,
+  notificationOnly = false,
   onClose,
-  durationMs = notificationOnly ? 2000: 3000,
 }: ActionNotificationProps) {
   const barControls = useAnimationControls();
+
+  // Compute duration once per message
+  const durationMs = useMemo(
+    () => estimateDurationMs(message),
+    [message]
+  );
 
   useEffect(() => {
     if (!isOpen) return;
@@ -40,63 +69,69 @@ export default function ActionNotification({
 
     return () => {
       clearTimeout(timer);
-      barControls.stop(); // interrupt animation immediately
+      barControls.stop();
     };
   }, [isOpen, durationMs, onClose, barControls]);
+
+  
 
   const messageParts = message.split("<br>");
 
   return (
     <AnimatePresence>
       {isOpen && (
-        <>
+        <motion.div
+          className={`absolute inset-0 z-50 flex items-center justify-center ${
+            notificationOnly
+              ? "pointer-events-none"
+              : "bg-black/50"
+          }`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
           <motion.div
-            className={`absolute inset-0 z-50 flex items-center justify-center ${notificationOnly ? 'pointer-events-none' : 'bg-black/50'}`}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            className={`${
+              notificationOnly
+                ? "absolute top-[10%] px-10 pt-2 font-semibold"
+                : "relative py-6 px-8"
+            } w-fit max-w-[80%] overflow-hidden rounded-xl bg-white shadow-xl select-none`}
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0.9, opacity: 0 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
           >
+            <h1 className="text-center font-bold text-2xl pb-2">
+              {title}
+            </h1>
+
+            <p className="mb-4 text-center text-gray-800">
+              {messageParts.map((part, index) => (
+                <Fragment key={index}>
+                  {parse(part)}
+                  {index < messageParts.length - 1 && <br />}
+                </Fragment>
+              ))}
+            </p>
+
+            {!notificationOnly && (
+              <div className="flex justify-center">
+                <button
+                  onClick={onClose}
+                  className="rounded-lg bg-black/90 px-4 py-2 text-sm font-medium text-white transition hover:bg-black/60 active:scale-95 cursor-pointer"
+                >
+                  CLOSE
+                </button>
+              </div>
+            )}
+
+            {/* ⏱️ Timer bar */}
             <motion.div
-              className={`${notificationOnly? 'absolute top-[10%] px-10 pt-2 font-semibold' : 'relative py-6 px-8'} w-fit max-w-[80%] overflow-hidden rounded-xl bg-white  shadow-xl select-none`}
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
-            >
-              <h1 className="text-center font-bold text-2xl pb-2">
-                {title}
-              </h1>
-
-              <p className="mb-4 text-center text-gray-800">
-                {messageParts.map((part, index) => (
-                  <Fragment key={index}>
-                    {parse(part)}
-                    {index < messageParts.length - 1 && <br />}
-                  </Fragment>
-                ))}
-              </p>
-
-              {!notificationOnly && (
-                <div className="flex justify-center">
-                  <button
-                    onClick={onClose}
-                    className="rounded-lg bg-black/90 px-4 py-2 text-sm font-medium text-white transition hover:bg-black/60 active:scale-95 cursor-pointer"
-                  >
-                    CLOSE
-                  </button>
-                </div>
-              )}
-              
-
-              {/* ⏱️ Timer bar */}
-              <motion.div
-                className="absolute bottom-0 left-0 h-1 w-full origin-right bg-black/90"
-                animate={barControls}
-              />
-            </motion.div>
+              className="absolute bottom-0 left-0 h-1 w-full origin-right bg-black/90"
+              animate={barControls}
+            />
           </motion.div>
-        </>
-        
+        </motion.div>
       )}
     </AnimatePresence>
   );

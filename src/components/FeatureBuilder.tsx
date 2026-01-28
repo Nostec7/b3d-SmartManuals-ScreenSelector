@@ -95,6 +95,7 @@ function injectAnchorUIDs(feature: any): FeatureState {
         key: a.key ?? "",
         label: a.label ?? "",
         box_2d: a.box_2d ?? [0, 0, 0, 0],
+        interactionStyle: "click"
       })),
     })) || [];
 
@@ -321,7 +322,7 @@ export default function FeatureBuilder({ onPreview }: {
       const ctrlOrCmd = isMac ? e.metaKey : e.ctrlKey;
 
       // Shift + s - add screen
-      if (!ctrlOrCmd && e.shiftKey && e.key.toLowerCase() === "s") {
+      if (ctrlOrCmd && e.shiftKey && e.key.toLowerCase() === "s") {
         setFeature({
           ...feature,
           interactiveP3DModel: {
@@ -577,7 +578,7 @@ export default function FeatureBuilder({ onPreview }: {
             onChange={(e) =>
               setFeature({
                 ...feature,
-                tags: e.target.value.split(",").map((t) => t.trim()),
+                tags: e.target.value.split(","),
               })
             }
           />

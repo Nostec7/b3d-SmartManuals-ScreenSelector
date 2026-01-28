@@ -206,6 +206,9 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
       }
 
       if (anchor.actionMsg) setActionMsg(anchor.actionMsg);
+      else {
+        setActionMsg(null);
+      }
 
       if (anchor.targetScreen) {
         const idx = findTargetScreenIndex(screenData, anchor.targetScreen);

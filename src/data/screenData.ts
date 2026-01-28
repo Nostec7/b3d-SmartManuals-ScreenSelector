@@ -4901,7 +4901,7 @@ export const fullDataJSON =
     "productID": "jht-j-315",
     "product_id": "jht-j-315",
     "caption": "Interactive 3D model controlling the temperature via the media screen.",
-    "section": "7",
+    "section": "10.2.A",
     "tags": [
       "Temperature Controls",
       "Media Screen"
@@ -5004,4 +5004,1749 @@ export const fullDataJSON =
       ]
     }
   },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of inverting the media screen via the media screen.",
+    "section": "10.2",
+    "tags": [
+      "Screen Invert",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Screen Inverting in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "invert-btn",
+              "box_2d": [
+                350.3636185081201,
+                628.4373528587994,
+                439.15949348500874,
+                693.5945771854504
+              ],
+              "label": "Invert Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "actionMsg": {
+                "message": "Tap to invert the display image.",
+                "title": "Invert Button"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of controlling the light settings via the media screen.",
+    "section": "10.4",
+    "tags": [
+      "Light Controls",
+      "Light Settings",
+      "Lighting Controls",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Light controls in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "light-menu-btn",
+              "box_2d": [
+                400.6758063435801,
+                324.533987517481,
+                513.7602956081001,
+                410.6500161038582
+              ],
+              "label": "Ligth button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lighting-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lighting-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.0379488918867,
+                317.98422926594935,
+                432.21953996491095,
+                376.5918712348914
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "key": "intensity-btn",
+              "box_2d": [
+                411.0850959875444,
+                355.9721939070698,
+                525.9045445122625,
+                465.6673170201942
+              ],
+              "label": "Intensity button",
+              "uid": "1abf07e3-e25a-4f71-b19b-9f353e1908ac",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Interior/Intensity Light</b>: Press to activate the interior lights.<br>The lights will default to the last setting used at a 100% intensity<br>The lights can also be turned on b selecting a color or pressing the blend button.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityHigh.webp?alt=media&token=deb7974a-220f-4317-8cef-3915826cfe00",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityMid.webp?alt=media&token=43385020-3cd1-4505-a51f-44dcdcccbfde",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityLow.webp?alt=media&token=1975d5da-0907-42ad-9e1d-644a753de6d6",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityHigh.webp?alt=media&token=deb7974a-220f-4317-8cef-3915826cfe00",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityMid.webp?alt=media&token=43385020-3cd1-4505-a51f-44dcdcccbfde",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityLow.webp?alt=media&token=1975d5da-0907-42ad-9e1d-644a753de6d6 "
+                ]
+              }
+            },
+            {
+              "key": "speed-controls-btn",
+              "box_2d": [
+                411.0850959875444,
+                451.59687026243694,
+                525.9045445122625,
+                561.2919933755613
+              ],
+              "label": "Speed Control",
+              "uid": "7f61a0c5-128a-4b9a-a9ae-671714393df8",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Speed Control</b>: Controls the blending speed for the lights.<br>Tap to increase or freeze the blending speed, of the colors.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-low.webp?alt=media&token=56a3b840-3bfc-4513-b92d-bc3bafd09e11",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-med.webp?alt=media&token=25430f32-5cdb-45c1-8c66-3548017149f4",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-high.webp?alt=media&token=2256ae79-e720-4424-a33c-d8a65ece58fb",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-freeze.webp?alt=media&token=c7c76c28-2514-4dd5-ac4f-ff7928195534",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-low.webp?alt=media&token=56a3b840-3bfc-4513-b92d-bc3bafd09e11",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-med.webp?alt=media&token=25430f32-5cdb-45c1-8c66-3548017149f4",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-high.webp?alt=media&token=2256ae79-e720-4424-a33c-d8a65ece58fb",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-freeze.webp?alt=media&token=c7c76c28-2514-4dd5-ac4f-ff7928195534  "
+                ]
+              }
+            },
+            {
+              "key": "solid-color-btn",
+              "box_2d": [
+                412.8200552477425,
+                545.911489431205,
+                527.6395037724607,
+                655.6066125443294
+              ],
+              "label": "Solid Color Selector",
+              "uid": "4f5ad512-a99d-49dd-88a5-15883bac3330",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Solid Color Selector</b>: Continually tap to scroll through and select a single color.<br>The colors available are: red, orange, green, teal, blue, violet, white and yellow.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "key": "exterior-light-btn",
+              "box_2d": [
+                499.56533923360814,
+                451.59687026243694,
+                614.3847877583263,
+                561.2919933755613
+              ],
+              "label": "Exterior Light",
+              "uid": "656aa195-c867-4e0b-b483-df16ed09958f",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Exterior Light</b>: The exterior corner lighting has 2 settings.<br>The lights display a solid White color only.<br>By continually tapping the button you will scroll through the following:<br><br><b>Press once for high intensity.</b><br><b>Press a second time for Auto feature.</b><br><b>Press a third time to turn off.</b><br><br>Either preset has an 8-hour timeout.<br>Lights on from 7pm to 12am.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intens-high.webp?alt=media&token=0f28cf2e-0404-416d-8bd7-34b53344b20e",
+                  " "
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of activating the ClearRay Active Oxygen system via the media screen.",
+    "section": "10.9",
+    "tags": [
+      "Clear Ray",
+      "Active Oxygen",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Activate ClearRay system in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "clearray-btn",
+              "box_2d": [
+                520.3843844387617,
+                324.533987517481,
+                633.4688737032817,
+                410.6500161038582
+              ],
+              "label": "ClearRay Active Oxygen® system",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "The ClearRay Active Oxygen® system on demand<br> feature activates the water purification system.<br>Continuously tap this button to activate the system for:<br><b>1 tap</b>: 1 hour<br><b>2 taps</b>: 2 hours<br><b>3 taps</b>: 3 hours<br><br><b>NOTE</b>: When the ClearRay Active Oxygen® system is on,<br>due to a programmed or scheduled setting, the feature cannot be turned off.",
+                "title": "ClearRay Active Oxygen® system"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of controlling the heat settings via the media screen.",
+    "section": "11.0",
+    "tags": [
+      "Heat Settings",
+      "Heat Controls",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Control Heating Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+              "key": "heat-btn",
+              "label": "Heat button",
+              "box_2d": [
+                440.57847157646404,
+                365.1417147441555,
+                513.7600626494883,
+                423.74935671309754
+              ],
+              "targetScreen": {
+                "id": "heat-menu"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "heat-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-B.webp?alt=media&token=9b5b2816-60f9-49df-bf1f-42f016f8183f"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "label": "Back button",
+              "uid": "40ee4807-9158-423a-8c68-326eff16a06c",
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "014df3e7-8dc4-4b3c-a1e6-f538a9b602fc",
+              "key": "heat-btn",
+              "label": "Heat button",
+              "box_2d": [
+                440.5784715764645,
+                387.41057619048115,
+                513.7600626494888,
+                446.0182181594232
+              ],
+              "targetScreen": {
+                "id": "heat-mode-selector-menu"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "heat-mode-selector-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-C.webp?alt=media&token=21055344-5cd8-405f-940c-c7e5b1580ed4"
+          },
+          "anchors": [
+            {
+              "uid": "94da73b3-2283-41ab-a256-0b9b299840e9",
+              "key": "cancel-btn",
+              "label": "Cancel Button",
+              "box_2d": [
+                449.25303491884245,
+                349.4224356555387,
+                522.4346259918667,
+                408.0300776244808
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heat-menu"
+              }
+            },
+            {
+              "uid": "f2595224-c958-4296-a2ee-fb1dfe84d2d7",
+              "key": "confirm-btn",
+              "label": "Confirm Button",
+              "box_2d": [
+                449.25303491884245,
+                589.1395069249012,
+                522.4346259918667,
+                647.7471488938432
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Once the heat mode is selected, press this button to confirm your selection.",
+                "title": "Confirm"
+              }
+            },
+            {
+              "uid": "6b1e09f7-5989-407c-9388-7a42fd36d1ff",
+              "key": "day-btn",
+              "label": "Day Heating Button",
+              "box_2d": [
+                461.39728382300575,
+                469.9359119366085,
+                510.2902606083991,
+                516.7542704829106
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Day Heating</b>: When programmed to Day, the spa will only be allowed to heat the water<br>between <b>7:00 AM to 5:00 PM</b> every day. The hours cannot be adjusted.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-day.webp?alt=media&token=b96a85f4-417f-452d-84c8-c742edc08fc0"
+                ]
+              }
+            },
+            {
+              "uid": "049bb4fc-0045-498f-b3da-bd46f206069f",
+              "key": "auto-btn",
+              "label": "Auto Heating Button",
+              "box_2d": [
+                494.36046145301555,
+                469.9359119366085,
+                543.2534382384089,
+                516.7542704829106
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Auto Heating</b>: When programmed to Auto, the spa will maintain the water temperature<br>to the set temperature. Heating will occur when necessary.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-C.webp?alt=media&token=21055344-5cd8-405f-940c-c7e5b1580ed4"
+                ]
+              }
+            },
+            {
+              "uid": "f4cbd1aa-b370-474d-9f76-1f3678c5fd6c",
+              "key": "economy-btn",
+              "label": "Economy Heating Button",
+              "box_2d": [
+                523.8538370419348,
+                469.9359119366085,
+                572.7468138273281,
+                516.7542704829106
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Economy Heating</b>: This is an energy saving heating program that allows the spa to heat during non-peak hours.<br>When programmed to Economy, the spa will only be allowed to heat the water between 5:00 PM to 7:00 AM every day.<br>The hours cannot be adjusted.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-economy.webp?alt=media&token=822c1964-7bfc-4397-a5f6-76b1c220798c"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of programming the primary and secondary filtration via the media screen.",
+    "section": "11.2",
+    "tags": [
+      "Primary Filtration",
+      " Secondary Filtration",
+      " Filtration Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Control Filtration Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+              "key": "filtration-btn",
+              "label": "Filtration button",
+              "box_2d": [
+                474.929616614632,
+                362.25987036375216,
+                548.1112076876562,
+                420.8675123326942
+              ],
+              "targetScreen": {
+                "id": "filtration-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "During a primary filtration, the circulation pump and the ClearRay Active Oxygen®<br> system are activated. The factory default cycle starts at 12:00 AM and last for 8 hours.<br>",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filtration-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.2-FiltrationSettings_FigureB.webp?alt=media&token=e435b3db-565e-4aa8-94b0-1312a3361711"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "label": "Back button",
+              "uid": "40ee4807-9158-423a-8c68-326eff16a06c",
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "014df3e7-8dc4-4b3c-a1e6-f538a9b602fc",
+              "key": "primary-start-btn",
+              "label": "Primary Start Time",
+              "box_2d": [
+                444.39526546959416,
+                563.2030833950924,
+                498.4928870769696,
+                611.7242700326227
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "primary-start-time"
+              }
+            },
+            {
+              "uid": "fae1ca03-7010-41e3-b272-fa98131427e0",
+              "key": "0302a951-4f36-4878-b6b4-426e98c1e6e8",
+              "label": "Primary End Time",
+              "box_2d": [
+                480.65480745432717,
+                567.5258499656976,
+                534.7524290617026,
+                616.0470366032279
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "primary-end-time"
+              }
+            },
+            {
+              "uid": "0d82470d-4662-449d-8014-cc9569d4b1fe",
+              "key": "79433b0d-3a32-4e2b-8894-ee35c5bd702f",
+              "label": "Secondary Filter",
+              "box_2d": [
+                513.0975555459305,
+                599.2261381501356,
+                567.195177153306,
+                647.7473247876659
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "secondary-filter-time"
+              }
+            }
+          ]
+        },
+        {
+          "id": "primary-start-time",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.2-FiltrationSettings_FigureC.webp?alt=media&token=277b490a-7ea2-435d-8426-d8def3d1454c"
+          },
+          "anchors": [
+            {
+              "uid": "ded86add-957c-407b-91b6-57fa73a40b58",
+              "key": "9a116748-0376-4b2f-9f95-939c0a1d14f1",
+              "label": "Cancel button",
+              "box_2d": [
+                444.6564885496182,
+                376.8011527377521,
+                506.1068702290072,
+                439.7694524495678
+              ],
+              "targetScreen": {
+                "id": "filtration-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved time.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "62855b2d-79ad-4542-ac8d-1abf64c77d93",
+              "key": "d49f4221-c8ba-41eb-b439-f1a4146fe161",
+              "label": "Confirm button",
+              "box_2d": [
+                444.6564885496182,
+                567.0028818443805,
+                506.1068702290072,
+                629.9711815561961
+              ],
+              "targetScreen": {
+                "id": "filtration-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "041d4919-a8aa-451c-b6a2-65b864ac6e0d",
+              "key": "7c370ff9-c52c-471a-a74a-ec5a94960f6c",
+              "label": "Hour Block",
+              "box_2d": [
+                480.9160305343512,
+                443.08357348703146,
+                542.3664122137402,
+                506.05187319884715
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the hour block to change the hour.",
+                "title": "Hour Block"
+              }
+            },
+            {
+              "uid": "9fa96b85-5f9c-4df0-84d3-68f4c3b8ff4a",
+              "key": "9a266b40-de1b-4aca-a72b-d6295ebe139e",
+              "label": "Minute Block",
+              "box_2d": [
+                480.9160305343512,
+                499.2795389048987,
+                542.3664122137402,
+                562.2478386167144
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the minute block to change the minutes.",
+                "title": "Minute Block"
+              }
+            }
+          ]
+        },
+        {
+          "id": "primary-end-time",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.2-FiltrationSettings_FigureD.webp?alt=media&token=6176f720-2da7-4e2d-a31f-59cec274d9c5"
+          },
+          "anchors": [
+            {
+              "uid": "7f80d445-18af-4e0e-b151-9c768414c144",
+              "key": "af44ad1c-1e5d-4782-bb08-64c8eb9279c2",
+              "label": "Cancel button",
+              "box_2d": [
+                444.6564885496182,
+                376.8011527377521,
+                506.1068702290072,
+                439.7694524495678
+              ],
+              "targetScreen": {
+                "id": "filtration-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved time.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "83bfd97c-fc46-4296-b400-39cefcb0938c",
+              "key": "bb40b30e-9877-41f6-bcbf-ac8aadb37e26",
+              "label": "Confirm button",
+              "box_2d": [
+                444.6564885496182,
+                567.0028818443805,
+                506.1068702290072,
+                629.9711815561961
+              ],
+              "targetScreen": {
+                "id": "filtration-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "f3d4b3e0-96a1-41bf-9bb8-a9b2a0cddde8",
+              "key": "0ffc6e7b-7eb2-4cee-9fa3-d3741975ad57",
+              "label": "Hour Block",
+              "box_2d": [
+                480.9160305343512,
+                443.08357348703146,
+                542.3664122137402,
+                506.05187319884715
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the hour block to change the hour.",
+                "title": "Hour Block"
+              }
+            },
+            {
+              "uid": "e473549c-b4db-49f4-ae3a-31625a1edad8",
+              "key": "56556c30-5b2b-41ef-a048-ba71ffc276b2",
+              "label": "Minute Block",
+              "box_2d": [
+                480.9160305343512,
+                499.2795389048987,
+                542.3664122137402,
+                562.2478386167144
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the minute block to change the minutes.",
+                "title": "Minute Block"
+              }
+            }
+          ]
+        },
+        {
+          "id": "secondary-filter-time",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB.webp?alt=media&token=e9ca04d3-f4d4-463a-a4f8-87fcb2085510"
+          },
+          "anchors": [
+            {
+              "uid": "97775e70-9124-4325-8fef-afe79a1b6cb5",
+              "key": "b8e92fbf-c40c-4d66-bffb-02f4515108f6",
+              "label": "Cancel button",
+              "box_2d": [
+                454.1984732824426,
+                347.9827089337175,
+                515.6488549618316,
+                410.9510086455332
+              ],
+              "targetScreen": {
+                "id": "filtration-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved time.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "96f689e9-5789-4101-bb36-169db048104f",
+              "key": "955b66ee-dc0f-4e03-91ab-f1f4eeee0cf8",
+              "label": "Confirm button",
+              "box_2d": [
+                456.1068702290072,
+                595.8213256484157,
+                517.5572519083962,
+                658.7896253602314
+              ],
+              "targetScreen": {
+                "id": "filtration-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "ee860d1b-760c-4e99-abe7-2b0e7e8c976d",
+              "key": "2672d265-34f4-4275-a112-c827aa60383f",
+              "label": "Infrequent",
+              "box_2d": [
+                498.09160305343494,
+                474.7838616714697,
+                536.6412213740455,
+                519.0201729106631
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "This mode will activate two 10-minute cycles <b>every other day</b>;<br>one at <b>8:00 AM</b> and the other at <b>8:00 PM</b>.",
+                "title": "Infrequent Mode"
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB.webp?alt=media&token=e9ca04d3-f4d4-463a-a4f8-87fcb2085510"
+                ]
+              }
+            },
+            {
+              "uid": "8023421f-b73c-4b14-94d3-78bf86b48607",
+              "key": "229623fe-4232-4568-9db9-62d19142a026",
+              "label": "Away",
+              "box_2d": [
+                467.5572519083971,
+                474.7838616714697,
+                506.10687022900765,
+                519.0201729106631
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "This mode disables the Secondary Filtration.",
+                "title": "Away Mode"
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB-away.webp?alt=media&token=30d832d2-4a52-4e23-8afe-910426477c37"
+                ]
+              }
+            },
+            {
+              "uid": "329a492c-a696-4500-a501-069383247c26",
+              "key": "bc7aab6d-6a24-4c7a-87f6-96c59b4443cd",
+              "label": "Frequent",
+              "box_2d": [
+                530.5343511450387,
+                474.7838616714697,
+                569.0839694656493,
+                519.0201729106631
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "This mode will activate two 10-minute cycles <b>every day</b>;<br>one at <b>8:00 AM</b> and the other at <b>8:00 PM</b>.",
+                "title": "Frequent Mode"
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB-frequent.webp?alt=media&token=38b6e0e1-7f71-479e-b72b-d1a4339484fc"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of setting the time via the media screen.",
+    "section": "11.4",
+    "tags": [
+      "Setting Time",
+      "Time Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Control Time Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+              "key": "time-btn",
+              "label": "Time Button",
+              "box_2d": [
+                507.3723647062353,
+                362.25987036375216,
+                580.5539557792596,
+                420.8675123326942
+              ],
+              "targetScreen": {
+                "id": "time-menu"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "time-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.4-ProgrammingTime-FigureB.webp?alt=media&token=83dc727a-6995-42b5-aefd-1e36865352dd"
+          },
+          "anchors": [
+            {
+              "uid": "7f80d445-18af-4e0e-b151-9c768414c144",
+              "key": "af44ad1c-1e5d-4782-bb08-64c8eb9279c2",
+              "label": "Cancel button",
+              "box_2d": [
+                442.7480916030531,
+                372.4783861671468,
+                504.19847328244214,
+                435.4466858789625
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved time.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "83bfd97c-fc46-4296-b400-39cefcb0938c",
+              "key": "bb40b30e-9877-41f6-bcbf-ac8aadb37e26",
+              "label": "Confirm button",
+              "box_2d": [
+                442.7480916030536,
+                574.207492795389,
+                504.1984732824426,
+                637.1757925072047
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "f3d4b3e0-96a1-41bf-9bb8-a9b2a0cddde8",
+              "key": "0ffc6e7b-7eb2-4cee-9fa3-d3741975ad57",
+              "label": "Hour Block",
+              "box_2d": [
+                486.6412213740455,
+                437.3198847262246,
+                548.0916030534345,
+                500.2881844380403
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the hour block to change the hour.",
+                "title": "Hour Block"
+              }
+            },
+            {
+              "uid": "e473549c-b4db-49f4-ae3a-31625a1edad8",
+              "key": "56556c30-5b2b-41ef-a048-ba71ffc276b2",
+              "label": "Minute Block",
+              "box_2d": [
+                484.73282442748086,
+                497.83861671469697,
+                546.1832061068699,
+                560.8069164265127
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the minute block to change the minutes.",
+                "title": "Minute Block"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of setting the date via the media screen.",
+    "section": "11.5",
+    "tags": [
+      "Setting Date",
+      "Date Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Control Date Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+              "key": "time-btn",
+              "label": "Date Button",
+              "box_2d": [
+                541.7235097444033,
+                360.8189481735503,
+                614.9051008174275,
+                419.4265901424924
+              ],
+              "targetScreen": {
+                "id": "date-menu"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "date-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.5-ProgrammingDate_FigureB.webp?alt=media&token=03ce877a-268b-4578-97df-2bef008a1af5"
+          },
+          "anchors": [
+            {
+              "uid": "7f80d445-18af-4e0e-b151-9c768414c144",
+              "key": "af44ad1c-1e5d-4782-bb08-64c8eb9279c2",
+              "label": "Cancel button",
+              "box_2d": [
+                442.7480916030531,
+                372.4783861671468,
+                504.19847328244214,
+                435.4466858789625
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved time.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "83bfd97c-fc46-4296-b400-39cefcb0938c",
+              "key": "bb40b30e-9877-41f6-bcbf-ac8aadb37e26",
+              "label": "Confirm button",
+              "box_2d": [
+                442.7480916030536,
+                574.207492795389,
+                504.1984732824426,
+                637.1757925072047
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "f3d4b3e0-96a1-41bf-9bb8-a9b2a0cddde8",
+              "key": "0ffc6e7b-7eb2-4cee-9fa3-d3741975ad57",
+              "label": "Month Block",
+              "box_2d": [
+                484.7328244274804,
+                434.4380403458209,
+                538.5496183206101,
+                480.11527377521577
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the month block to change the month.",
+                "title": "Month Block"
+              }
+            },
+            {
+              "uid": "e473549c-b4db-49f4-ae3a-31625a1edad8",
+              "key": "56556c30-5b2b-41ef-a048-ba71ffc276b2",
+              "label": "Day Block",
+              "box_2d": [
+                484.7328244274804,
+                480.5475504322766,
+                538.5496183206101,
+                526.2247838616714
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the day block to change the day.",
+                "title": "Day Block"
+              }
+            },
+            {
+              "uid": "85f20774-220e-4089-a2c8-4dc6ee803466",
+              "key": "93d0317f-76fb-4d42-a6cb-2435280b90dc",
+              "label": "Year Block",
+              "box_2d": [
+                484.7328244274804,
+                526.657060518732,
+                538.5496183206101,
+                572.3342939481269
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the year block to change the year.",
+                "title": "Day Block"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of setting water care via the media screen.",
+    "section": "11.6",
+    "tags": [
+      "Water Care Settings",
+      "Clearray Settings",
+      "Water Refresh Settings",
+      "Filter Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Control Water Care Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Swipe up to show the next page of settings.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+          },
+          "anchors": [
+            {
+              "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+              "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+              "key": "807bea85-335f-40da-aaed-b46368215c57",
+              "label": "Water Care Button",
+              "box_2d": [
+                437.2821072217404,
+                384.65977270750204,
+                516.1888891344589,
+                447.59018124704926
+              ],
+              "targetScreen": {
+                "id": "water-care-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "water-care-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureB.webp?alt=media&token=ec55a9f4-13ea-4988-9234-20bc8312cd11"
+          },
+          "anchors": [
+            {
+              "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+              "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "8cde8f03-1e2e-4f51-b38e-184b4069b282",
+              "key": "687b0721-0c92-4d4e-8829-edd6910e2092",
+              "label": "ClearRay Button",
+              "box_2d": [
+                414.3813438629619,
+                384.65977270750193,
+                487.56293493598616,
+                443.267414676444
+              ],
+              "targetScreen": {
+                "id": "clearray-menu"
+              }
+            },
+            {
+              "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+              "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+              "label": "Water Refresh Button",
+              "box_2d": [
+                456.36607668738964,
+                406.2736055605279,
+                529.5476677604139,
+                464.88124752947
+              ],
+              "targetScreen": {
+                "id": "water-refresh-menu"
+              }
+            },
+            {
+              "uid": "8c52d028-8539-4a7a-8445-ade651c8e70b",
+              "key": "38cc894d-2ba7-4208-a1bb-dbaae5b6cd8d",
+              "label": "Filter Button",
+              "box_2d": [
+                494.5340156186877,
+                364.48686204467765,
+                567.715606691712,
+                423.0945040136197
+              ],
+              "targetScreen": {
+                "id": "filter-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "clearray-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureC.webp?alt=media&token=7df79424-65a7-4d98-8e3c-c422f032c10c"
+          },
+          "anchors": [
+            {
+              "uid": "ded86add-957c-407b-91b6-57fa73a40b58",
+              "key": "9a116748-0376-4b2f-9f95-939c0a1d14f1",
+              "label": "Cancel button",
+              "box_2d": [
+                454.1984732824426,
+                379.6829971181555,
+                515.6488549618316,
+                442.6512968299712
+              ],
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "62855b2d-79ad-4542-ac8d-1abf64c77d93",
+              "key": "d49f4221-c8ba-41eb-b439-f1a4146fe161",
+              "label": "Confirm button",
+              "box_2d": [
+                454.1984732824426,
+                567.0028818443805,
+                515.6488549618316,
+                629.9711815561961
+              ],
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "9fa96b85-5f9c-4df0-84d3-68f4c3b8ff4a",
+              "key": "9a266b40-de1b-4aca-a72b-d6295ebe139e",
+              "label": "Day Column",
+              "box_2d": [
+                492.36641221374066,
+                474.783861671469,
+                553.8167938931297,
+                537.7521613832847
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through the column to change days in 10-day increments.<br>The range is from <b>OFF (---) to 365 days</b>.",
+                "title": "Day Column"
+              }
+            }
+          ]
+        },
+        {
+          "id": "water-refresh-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureD.webp?alt=media&token=e7c6438f-9cf0-4270-a6ce-0fb07b0edec2"
+          },
+          "anchors": [
+            {
+              "uid": "5d5385b8-4fe2-41d6-af71-51d924458f91",
+              "key": "f0714fd8-290d-4cb6-a463-9c1037c5c5cd",
+              "label": "Cancel button",
+              "box_2d": [
+                454.1984732824426,
+                379.6829971181555,
+                515.6488549618316,
+                442.6512968299712
+              ],
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "a21b3b5a-80e7-41ee-8654-5fcc3dc450bc",
+              "key": "fdd8a379-9df0-4795-b8f0-a8b291f16b29",
+              "label": "Confirm button",
+              "box_2d": [
+                454.1984732824426,
+                567.0028818443805,
+                515.6488549618316,
+                629.9711815561961
+              ],
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "0ef9ef16-c3d8-4050-b806-51e40157d323",
+              "key": "c269aab7-9f7d-4092-915a-2189ba7ef6e4",
+              "label": "Day Column",
+              "box_2d": [
+                492.36641221374066,
+                474.783861671469,
+                553.8167938931297,
+                537.7521613832847
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through the column to change days in 30-day increments.<br>The range is from <b>OFF (---) to 180 days</b>.<br><br>To continually maintain the water healthy and clean,<br>in addition to chemical maintenance, it should be programmed as instructed.",
+                "title": "Day Column"
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureE.webp?alt=media&token=902c9dc2-5c1a-4945-937b-134d30490e9a"
+          },
+          "anchors": [
+            {
+              "uid": "d79e8526-0dee-4560-bbea-c77ce8af427b",
+              "key": "ac9eda59-8dd6-44c1-a1c5-6f2107560c44",
+              "label": "Cancel button",
+              "box_2d": [
+                454.1984732824426,
+                379.6829971181555,
+                515.6488549618316,
+                442.6512968299712
+              ],
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "bc6bc188-c93e-46ff-96a6-1a65b9debefc",
+              "key": "97764a22-2696-44cb-aabe-a8d3f409a527",
+              "label": "Confirm button",
+              "box_2d": [
+                454.1984732824426,
+                567.0028818443805,
+                515.6488549618316,
+                629.9711815561961
+              ],
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "09104d05-562a-4107-95f0-57f0974a76de",
+              "key": "fedbaa60-c97f-40a1-8619-9a7f4aba9aaa",
+              "label": "Day Column",
+              "box_2d": [
+                492.36641221374066,
+                474.783861671469,
+                553.8167938931297,
+                537.7521613832847
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through the column to change days in 10-day increments.<br>The range is from <b>OFF (---) to 180 days</b>.<br><br>It is not recommended that this feature be turned OFF.<br>To continually maintain clean and working filters, it should be programmed as instructed.",
+                "title": "Day Column"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
 ]
