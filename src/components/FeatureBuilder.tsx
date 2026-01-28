@@ -70,6 +70,7 @@ function createEmptyAnchor(): AnchorState {
     key: crypto.randomUUID(),
     label: "",
     box_2d: [250, 250, 300, 300],
+    interactionStyle: "click",
   };
 }
 
@@ -95,7 +96,7 @@ function injectAnchorUIDs(feature: any): FeatureState {
         key: a.key ?? "",
         label: a.label ?? "",
         box_2d: a.box_2d ?? [0, 0, 0, 0],
-        interactionStyle: "click"
+        interactionStyle: a.interactionStyle ?? "click",
       })),
     })) || [];
 

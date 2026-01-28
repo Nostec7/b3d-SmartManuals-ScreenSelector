@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Anchor } from "../types";
 import { motion } from "framer-motion";
+
 type Box2D = [number, number, number, number]; // [yMin,xMin,yMax,xMax] 0..1000
 type Pt = { x: number; y: number };
 type Handle = "move" | "nw" | "ne" | "se" | "sw";
@@ -50,7 +51,7 @@ export function Hotspots({
   onBoxChangeStopped,
   onHotspotClick,
 }: Props) {
-  // Active drag state
+  // Active drag state (editing/resizing)
   const dragRef = useRef<{
     key: string;
     handle: Handle;
@@ -233,12 +234,150 @@ export function Hotspots({
     };
   }, []);
 
+  // --- NEW: gesture (click-and-drag / swipe) handling for non-edit mode ---
+  // No change to rendering; this captures pointer events on the element only and
+  // will call onHotspotClick when a swipe direction matches or when a tap occurs.
+  const gestureRef = useRef<{
+    pointerId: number;
+    startX: number;
+    startY: number;
+    startTime: number;
+    moved: boolean;
+    anchorKey: string;
+    capturedElement?: Element | null;
+  } | null>(null);
 
-  const startDragAction = (ev: PointerEvent<HTMLDivElement>) => {
-    ev.preventDefault();
+  // If gesture triggers, suppress the subsequent click event (which fires after pointerup)
+  const suppressClickRef = useRef(false);
+
+  const SWIPE_DISTANCE_PX = 40; // how far to move to count as swipe
+  const SWIPE_MAX_TIME_MS = 700; // swipe should be relatively quick
+
+  function startGesture(e: React.PointerEvent, a: Anchor) {
+    if (editing) return;
+
+    // Prevent native touch behaviour (scroll/pinch) — required on mobile to get pointermove
+    try {
+      e.preventDefault();
+    } catch {}
+
+    try {
+      e.stopPropagation();
+    } catch {}
+
+    // Save initial touch/mouse state
+    gestureRef.current = {
+      pointerId: e.pointerId,
+      startX: e.clientX,
+      startY: e.clientY,
+      startTime: performance.now(),
+      moved: false,
+      anchorKey: a.key,
+      capturedElement: e.currentTarget as Element,
+    };
+
+    // try to capture pointer on the element so subsequent pointermove/up land on it
+    try {
+      const el = e.currentTarget as Element;
+      if (el.setPointerCapture) el.setPointerCapture(e.pointerId);
+      gestureRef.current.capturedElement = el;
+    } catch {
+      gestureRef.current.capturedElement = null;
+    }
   }
 
+  function moveGesture(e: React.PointerEvent) {
+    const g = gestureRef.current;
+    if (!g || e.pointerId !== g.pointerId) return;
 
+    const dx = e.clientX - g.startX;
+    const dy = e.clientY - g.startY;
+
+    // small movement doesn't count as "moved" to avoid jitter
+    if (!g.moved && (Math.abs(dx) > 6 || Math.abs(dy) > 6)) {
+      g.moved = true;
+    }
+
+    // while moving, prevent default to stop scrolling (mobile)
+    try {
+      if (e.cancelable) e.preventDefault();
+    } catch {}
+  }
+
+  function endGesture(e: React.PointerEvent, a: Anchor) {
+    const g = gestureRef.current;
+    if (!g || e.pointerId !== g.pointerId || g.anchorKey !== a.key) {
+      // nothing to do
+      // release pointer capture if we unexpectedly have it
+      try {
+        const el = e.currentTarget as Element;
+        if (el && (el as any).releasePointerCapture) {
+          (el as any).releasePointerCapture(e.pointerId);
+        }
+      } catch {}
+      return;
+    }
+
+    // release pointer capture
+    try {
+      if (g.capturedElement && "releasePointerCapture" in g.capturedElement) {
+        (g.capturedElement as Element).releasePointerCapture(g.pointerId);
+      }
+    } catch {}
+
+    const dx = e.clientX - g.startX;
+    const dy = e.clientY - g.startY;
+    const dt = performance.now() - g.startTime;
+
+    gestureRef.current = null;
+
+    // If not moved much, count as a regular click/tap (allow normal onClick)
+    if (!g.moved) {
+      // do nothing special — the onClick handler will run
+      return;
+    }
+
+    // If moved but too slow, treat like a drag/cancel -> treat as click
+    if (dt > SWIPE_MAX_TIME_MS && Math.abs(dx) < SWIPE_DISTANCE_PX && Math.abs(dy) < SWIPE_DISTANCE_PX) {
+      // allow click
+      return;
+    }
+
+    // If movement is large enough, determine swipe direction
+    if (Math.abs(dx) < SWIPE_DISTANCE_PX && Math.abs(dy) < SWIPE_DISTANCE_PX) {
+      // movement not large enough -> allow click
+      return;
+    }
+
+    const horizontal = Math.abs(dx) > Math.abs(dy);
+    const dir =
+      horizontal ? (dx > 0 ? "swipe-right" : "swipe-left") : dy > 0 ? "swipe-down" : "swipe-up";
+
+    const matched = a.interactionStyle === dir;
+
+    // suppress the following click event since we handled gesture
+    suppressClickRef.current = true;
+    // keep suppression short — just enough for the click event to be ignored
+    setTimeout(() => {
+      suppressClickRef.current = false;
+    }, 0);
+
+    if (matched) {
+      // call hotspot action when swipe direction matches expected interactionStyle
+      onHotspotClick(a);
+    } else {
+      // If desired, you could call onHotspotClick for any swipe; keeping behavior
+      // to only trigger when it matches to match your earlier description.
+    }
+  }
+
+  const startDragAction = (ev: React.PointerEvent<HTMLDivElement>) => {
+    // keep this the same behavior you had: just prevent default in non-edit mode down
+    // (we now use pointer handlers to detect gestures)
+    ev.preventDefault();
+  };
+
+  // ---- render ----
   return (
     <>
       {anchors.map((a) => {
@@ -282,8 +421,12 @@ export function Hotspots({
               width: `${w * 100}%`,
               height: `${h * 100}%`,
               transformOrigin: "center",
+              // Important: allow pointer events to receive move/up on mobile.
+              // 'none' prevents native scroll/pinch from hijacking pointer events.
+              // If you prefer the element to allow scrolling outside it, you can
+              // use 'pan-x pan-y' — but 'none' gives most reliable gesture capture.
+              touchAction: "none",
             }}
-            
             initial={{ y: 0, opacity: 0 }}
             animate={{
               y: [0, 0, a.interactionStyle === "swipe-up" ? -100 : a.interactionStyle === "swipe-down" ? 100 : 0],
@@ -297,23 +440,47 @@ export function Hotspots({
               repeat: Infinity,
               repeatDelay: 0.5,
             }}
-            onPointerEnter={() => setHoveredKey(a.key)} 
-            onPointerLeave={() => setHoveredKey(null)} 
-            onPointerDown={(e) => editing ? startDrag(e, a, "move") : startDragAction(e)} // no per-element pointermove/up — global listeners handle it during drag 
-            onClick={(e) => {
-               if (editing) {
-                e.preventDefault(); 
-                e.stopPropagation(); 
-                return; 
-               } 
-               setActiveKey(a.key); 
-               setTimeout(() => setActiveKey(null), 300); 
-               onHotspotClick(a); 
+            onPointerEnter={() => setHoveredKey(a.key)}
+            onPointerLeave={() => setHoveredKey(null)}
+            onPointerDown={(e) =>
+              editing ? startDrag(e, a, "move") : startGesture(e, a)
+            } // no per-element pointermove/up — global listeners handle it during edit drag
+            onPointerMove={(e) => {
+              // route move events to both edit-drag logic (if editing) and gesture logic (if not)
+              if (editing) {
+                // do nothing here — editing drag uses global pointermove listeners added in startDrag
+              } else {
+                moveGesture(e);
               }
-            }
+            }}
+            onPointerUp={(e) => {
+              // if editing, edit logic will handle it via global pointerup
+              if (!editing) {
+                endGesture(e, a);
+              }
+            }}
+            onClick={(e) => {
+              // suppress click if we handled a gesture
+              if (suppressClickRef.current) {
+                suppressClickRef.current = false;
+                e.preventDefault();
+                e.stopPropagation();
+                return;
+              }
+
+              if (editing) {
+                e.preventDefault();
+                e.stopPropagation();
+                return;
+              }
+              setActiveKey(a.key);
+              setTimeout(() => setActiveKey(null), 300);
+              onHotspotClick(a);
+            }}
           >
             {/* Indicator */}
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+              
               <div
                 className={`
                   relative w-full aspect-square
@@ -331,6 +498,20 @@ export function Hotspots({
                     isHovered ? "border-sky-400/60" : "border-sky-400/70"
                   } animate-[ping_1.8s_ease-in-out_infinite]`}
                 />
+                {/* <span
+                className="
+                  absolute -right-[5%] -top-[5%]
+                  w-[40%] aspect-square
+                  flex items-center justify-center
+                  bg-[#00000033] text-white font-bold
+                  border-2 rounded-full
+                "
+              >
+                <span className="text-[60%] leading-none">
+                  2
+                </span>
+              </span> */}
+
               </div>
             </div>
 
