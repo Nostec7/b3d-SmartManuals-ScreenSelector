@@ -429,8 +429,8 @@ export function Hotspots({
             }}
             initial={{ y: 0, opacity: 0 }}
             animate={{
-              y: [0, 0, a.interactionStyle === "swipe-up" ? -100 : a.interactionStyle === "swipe-down" ? 100 : 0],
-              x: [0, 0, a.interactionStyle === "swipe-left" ? -100 : a.interactionStyle === "swipe-right" ? 100 : 0],
+              y: [0, 0, a.interactionStyle === "swipe-up" ? -window.innerWidth/25 : a.interactionStyle === "swipe-down" ? window.innerWidth/25 : 0],
+              x: [0, 0, a.interactionStyle === "swipe-left" ? -window.innerWidth/25 : a.interactionStyle === "swipe-right" ? window.innerWidth/25 : 0],
               opacity: [0, 1, 1, 0],
             }}
             transition={{

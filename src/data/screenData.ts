@@ -6452,10 +6452,6 @@ export const fullDataJSON =
               "interactionStyle": "click",
               "targetScreen": {
                 "id": "settings-menu"
-              },
-              "actionMsg": {
-                "message": "Swipe up to show the next page of settings.",
-                "notificationOnly": true
               }
             }
           ]
@@ -6478,7 +6474,8 @@ export const fullDataJSON =
               ],
               "targetScreen": {
                 "id": "main-menu"
-              }
+              },
+              "interactionStyle": "click"
             },
             {
               "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
@@ -6492,7 +6489,8 @@ export const fullDataJSON =
               ],
               "targetScreen": {
                 "id": "water-care-menu"
-              }
+              },
+              "interactionStyle": "click"
             }
           ]
         },
@@ -6514,7 +6512,8 @@ export const fullDataJSON =
               ],
               "targetScreen": {
                 "id": "settings-menu"
-              }
+              },
+              "interactionStyle": "click"
             },
             {
               "uid": "8cde8f03-1e2e-4f51-b38e-184b4069b282",
@@ -6528,7 +6527,8 @@ export const fullDataJSON =
               ],
               "targetScreen": {
                 "id": "clearray-menu"
-              }
+              },
+              "interactionStyle": "click"
             },
             {
               "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
@@ -6542,7 +6542,8 @@ export const fullDataJSON =
               ],
               "targetScreen": {
                 "id": "water-refresh-menu"
-              }
+              },
+              "interactionStyle": "click"
             },
             {
               "uid": "8c52d028-8539-4a7a-8445-ade651c8e70b",
@@ -6556,7 +6557,8 @@ export const fullDataJSON =
               ],
               "targetScreen": {
                 "id": "filter-menu"
-              }
+              },
+              "interactionStyle": "click"
             }
           ]
         },
@@ -6742,6 +6744,756 @@ export const fullDataJSON =
               "actionMsg": {
                 "message": "Scroll through the column to change days in 10-day increments.<br>The range is from <b>OFF (---) to 180 days</b>.<br><br>It is not recommended that this feature be turned OFF.<br>To continually maintain clean and working filters, it should be programmed as instructed.",
                 "title": "Day Column"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of locking the spa via the media screen.",
+    "section": "11.7",
+    "tags": [
+      "Settings Lock",
+      "Access Lock",
+      "Maintenance Lock",
+      "Lock Spa",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Lock the Spa in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+          },
+          "anchors": [
+            {
+              "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+              "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+              "key": "807bea85-335f-40da-aaed-b46368215c57",
+              "label": "Lock Button",
+              "box_2d": [
+                469.7248553133437,
+                360.1640954740726,
+                548.6316372260623,
+                423.0945040136198
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "lock-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureB.webp?alt=media&token=0a8007ef-5fe7-4506-9ec0-b7fc11ba94b9"
+          },
+          "anchors": [
+            {
+              "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+              "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "8cde8f03-1e2e-4f51-b38e-184b4069b282",
+              "key": "687b0721-0c92-4d4e-8829-edd6910e2092",
+              "label": "Settings Lock Button",
+              "box_2d": [
+                431.55691638204564,
+                378.89608394669494,
+                504.7385074550699,
+                437.503725915637
+              ],
+              "targetScreen": {
+                "id": "settings-lock-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+              "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+              "label": "Access Lock Button",
+              "box_2d": [
+                477.3584430996035,
+                373.1323951858881,
+                550.5400341726278,
+                431.74003715483013
+              ],
+              "targetScreen": {
+                "id": "access-lock-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "8c52d028-8539-4a7a-8445-ade651c8e70b",
+              "key": "38cc894d-2ba7-4208-a1bb-dbaae5b6cd8d",
+              "label": "Maintenance Lock Button",
+              "box_2d": [
+                526.976763710291,
+                390.4234614683088,
+                600.1583547833153,
+                449.03110343725086
+              ],
+              "targetScreen": {
+                "id": "maintenance-lock-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Note</b>: This mode has a timeout of 2 hours.<br>The spa should not be left in this lock mode for an extended period.<br>Especially in colder climate or when freezing conditions exist.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-lock-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureC.webp?alt=media&token=9b2234d4-93db-4b30-88e9-ac052b0ccac9"
+          },
+          "anchors": [
+            {
+              "uid": "ded86add-957c-407b-91b6-57fa73a40b58",
+              "key": "9a116748-0376-4b2f-9f95-939c0a1d14f1",
+              "label": "Cancel button",
+              "box_2d": [
+                442.7480916030531,
+                378.2420749279539,
+                494.65648854961773,
+                429.68299711815587
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "62855b2d-79ad-4542-ac8d-1abf64c77d93",
+              "key": "d49f4221-c8ba-41eb-b439-f1a4146fe161",
+              "label": "Confirm button",
+              "box_2d": [
+                442.7480916030531,
+                579.9711815561959,
+                494.65648854961773,
+                631.4121037463979
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.<br><br>The Settings Menu and all its functions are disabled,<br>but the spa will still perform all scheduled tasks.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "9fa96b85-5f9c-4df0-84d3-68f4c3b8ff4a",
+              "key": "9a266b40-de1b-4aca-a72b-d6295ebe139e",
+              "label": "Number 1",
+              "box_2d": [
+                477.0992366412215,
+                424.35158501440867,
+                529.0076335877857,
+                474.3515850144089
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+                "title": "Number Column"
+              }
+            }
+          ]
+        },
+        {
+          "id": "access-lock-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureD.webp?alt=media&token=0da80949-7ccc-4edd-9802-9303373b22d2"
+          },
+          "anchors": [
+            {
+              "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+              "key": "2e900f47-89e9-406a-a5d4-106463832302",
+              "label": "Cancel button",
+              "box_2d": [
+                442.7480916030531,
+                378.2420749279539,
+                494.65648854961773,
+                429.68299711815587
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+              "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+              "label": "Confirm button",
+              "box_2d": [
+                442.7480916030531,
+                579.9711815561959,
+                494.65648854961773,
+                631.4121037463979
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.<br><br>All activation and adjustment features are disabled<br>but the spa will still perform all scheduled tasks.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+              "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+              "label": "Number Column",
+              "box_2d": [
+                477.0992366412215,
+                424.35158501440867,
+                529.0076335877857,
+                474.3515850144089
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+                "title": "Number Column"
+              }
+            }
+          ]
+        },
+        {
+          "id": "maintenance-lock-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureE.webp?alt=media&token=0c6c3e85-d8fb-4d57-afea-8114d421f306"
+          },
+          "anchors": [
+            {
+              "uid": "3ca72970-d5e1-48a9-91c4-fdeb808db296",
+              "key": "5da3fd8b-2a54-4a45-9027-4ffe9190a049",
+              "label": "Cancel button",
+              "box_2d": [
+                442.7480916030531,
+                378.2420749279539,
+                494.65648854961773,
+                429.68299711815587
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "71875fc0-c58c-434e-81ec-bb89f4c5d4fc",
+              "key": "7a31f918-a559-4431-b7b1-c0fa922a379c",
+              "label": "Confirm button",
+              "box_2d": [
+                442.7480916030531,
+                579.9711815561959,
+                494.65648854961773,
+                631.4121037463979
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.<br><br>All spa functions are locked to allow for a temporary<br>service mode such as filter cleaning.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "cf2b1612-93e3-4dca-933a-4dd581e98766",
+              "key": "4172824e-1530-4f2f-9e38-3984364b8396",
+              "label": "Number Column",
+              "box_2d": [
+                477.0992366412215,
+                424.35158501440867,
+                529.0076335877857,
+                474.3515850144089
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+                "title": "Number Column"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of unlocking the spa via the media screen.",
+    "section": "11.7.D",
+    "tags": [
+      "Settings Unlock",
+      "Access Unlock",
+      "Maintenance Unlock",
+      "Unlock Spa",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Unlock the Spa in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+          },
+          "anchors": [
+            {
+              "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+              "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+              "key": "807bea85-335f-40da-aaed-b46368215c57",
+              "label": "Lock Button",
+              "box_2d": [
+                469.7248553133437,
+                360.1640954740726,
+                548.6316372260623,
+                423.0945040136198
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Select one of the locked features",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureF.webp?alt=media&token=f855cba3-289a-482a-b00c-34e31e1a359b"
+          },
+          "anchors": [
+            {
+              "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+              "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+              "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+              "label": "Access Lock Button",
+              "box_2d": [
+                477.3584430996035,
+                373.1323951858881,
+                550.5400341726278,
+                431.74003715483013
+              ],
+              "targetScreen": {
+                "id": "access-lock-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Note</b>: A default passcode can be used in case the original passcode is lost or forgotten.<br>The code <b>\"0772\"</b> will unlock the locked setting.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "access-lock-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureD.webp?alt=media&token=0da80949-7ccc-4edd-9802-9303373b22d2"
+          },
+          "anchors": [
+            {
+              "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+              "key": "2e900f47-89e9-406a-a5d4-106463832302",
+              "label": "Cancel button",
+              "box_2d": [
+                442.7480916030531,
+                378.2420749279539,
+                494.65648854961773,
+                429.68299711815587
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+              "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+              "label": "Confirm button",
+              "box_2d": [
+                442.7480916030531,
+                579.9711815561959,
+                494.65648854961773,
+                631.4121037463979
+              ],
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving all changes.<br><br>This feature is now unlocked.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+              "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+              "label": "Number Column",
+              "box_2d": [
+                477.0992366412215,
+                424.35158501440867,
+                529.0076335877857,
+                474.3515850144089
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+                "title": "Number Column"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of setting the units via the media screen.",
+    "section": "11.8",
+    "tags": [
+      "Unit Settings",
+      "Temperature Units",
+      "Time Units",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Units in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
+        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+          },
+          "anchors": [
+            {
+              "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+              "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+              "key": "807bea85-335f-40da-aaed-b46368215c57",
+              "label": "Units Button",
+              "box_2d": [
+                504.0760003515112,
+                361.6050176642743,
+                582.9827822642297,
+                424.53542620382154
+              ],
+              "targetScreen": {
+                "id": "units-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Click on Temperature Display or Time Display buttons to toggle the units.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "units-menu",
+          "image": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB.webp?alt=media&token=89ee0ead-7cee-4b64-9a25-20a5cdbc1ca0"
+          },
+          "anchors": [
+            {
+              "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+              "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "8cde8f03-1e2e-4f51-b38e-184b4069b282",
+              "key": "687b0721-0c92-4d4e-8829-edd6910e2092",
+              "label": "Temperature Display Format",
+              "box_2d": [
+                429.6485194354806,
+                606.5617899985688,
+                502.83011050850484,
+                665.1694319675108
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB-C.webp?alt=media&token=b7ddb181-feaa-4f2a-9f13-aabe6733417a",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB.webp?alt=media&token=89ee0ead-7cee-4b64-9a25-20a5cdbc1ca0",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+              "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+              "label": "Time Display Format",
+              "box_2d": [
+                492.62561867212264,
+                571.9796574337266,
+                565.8072097451469,
+                630.5872994026687
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB-24hr.webp?alt=media&token=ac3acea2-ee64-4a45-a9b8-c92cf866683d",
+                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB.webp?alt=media&token=89ee0ead-7cee-4b64-9a25-20a5cdbc1ca0",
+                  " "
+                ]
               }
             }
           ]

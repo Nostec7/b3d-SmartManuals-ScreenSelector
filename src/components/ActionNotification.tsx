@@ -81,7 +81,7 @@ export default function ActionNotification({
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className={`absolute inset-0 z-50 flex items-center justify-center ${
+          className={`absolute inset-0 z-50 flex items-center justify-center text-[8px] leading-3 md:text-sm sm:leading-5 ${
             notificationOnly
               ? "pointer-events-none"
               : "bg-black/50"
@@ -93,19 +93,19 @@ export default function ActionNotification({
           <motion.div
             className={`${
               notificationOnly
-                ? "absolute top-[10%] px-10 pt-2 font-semibold"
-                : "relative py-6 px-8"
-            } w-fit max-w-[80%] overflow-hidden rounded-xl bg-white shadow-xl select-none`}
+                ? "absolute top-[10%] px-2 md:px-10 md:pt-1 font-semibold"
+                : "relative py-4 md:py-6 px-2 md:px-8"
+            } w-fit max-w-[80%] overflow-hidden rounded-sm md:rounded-xl bg-white shadow-xl select-none`}
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
           >
-            <h1 className="text-center font-bold text-2xl pb-2">
+            <h1 className="text-center font-bold text-sm leading-3 md:text-2xl md:leading-6 pb-2">
               {title}
             </h1>
 
-            <p className="mb-4 text-center text-gray-800">
+            <p className="mb-2 md:mb-4 text-center text-gray-800">
               {messageParts.map((part, index) => (
                 <Fragment key={index}>
                   {parse(part)}
@@ -118,7 +118,7 @@ export default function ActionNotification({
               <div className="flex justify-center">
                 <button
                   onClick={onClose}
-                  className="rounded-lg bg-black/90 px-4 py-2 text-sm font-medium text-white transition hover:bg-black/60 active:scale-95 cursor-pointer"
+                  className="rounded-sm md:rounded-lg bg-black/90 px-2 py-1 md:px-4 md:py-2 text-[8px] md:text-sm font-medium text-white transition hover:bg-black/60 active:scale-95 cursor-pointer"
                 >
                   CLOSE
                 </button>
