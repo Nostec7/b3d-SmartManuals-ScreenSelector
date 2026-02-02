@@ -46,10 +46,11 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
   const [selectedKey, setSelectedKey] = useState<string | null>(null);
 
   const [editedAnchors, setEditedAnchors] = useState<Record<string, Anchor>>({});
+  const [currentImageUrl, setCurrentImageUrl] = useState<string | null>(null);
 
   const flatScreens = useMemo(() => screenData.screenOptions, [screenData]);
 
-  const [currentIndex, setCurrentIndex] = useState(() => {
+  const getStartingIndex = () => {
     if (!initial) return 0;
     if (initial.page && initial.section) {
       const i = flatScreens.findIndex((s) => s.id === initial.page && s.section === initial.section);
@@ -60,10 +61,24 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
       if (i !== -1) return i;
     }
     return 0;
-  });
+  }
+  const [currentIndex, setCurrentIndex] = useState(() => getStartingIndex());
+  
+  // Get current screen with safety check
+  const current = useMemo(() => {
+    // Clamp currentIndex to valid range
+    const clampedIndex = Math.max(0, Math.min(currentIndex, flatScreens.length - 1));
+    
+    // Only adjust currentIndex if it's out of bounds
+    if (currentIndex !== clampedIndex && flatScreens.length > 0) {
+      // Use setTimeout to avoid state update during render
+      setTimeout(() => setCurrentIndex(clampedIndex), 0);
+    }
+    
+    return flatScreens[clampedIndex] ?? null;
+  }, [currentIndex, flatScreens]);
 
-  const current = flatScreens[currentIndex];
-
+  const imageCache = useMemo(() => new Map<string, HTMLImageElement>(), []);
   function preloadImage(url: string) {
     if (imageCache.has(url)) return imageCache.get(url)!;
     const img = new Image();
@@ -73,23 +88,18 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
     return img;
   }
 
-  const imageCache = new Map<string, HTMLImageElement>();
-
   useEffect(() => {
     preloadImage(screenSetup.baseUrl);
     preloadImage(screenSetup.beautyLayerUrl);
     screenData.screenOptions.forEach((s) => {
-      preloadImage(s.image.url)
+      preloadImage(s.image.url);
       s.anchors.forEach((a) => {
-        if(a.targetImage){
-          a.targetImage.urls.forEach((u) => {
-            preloadImage(u);
-          })
+        if (a.targetImage) {
+          a.targetImage.urls.forEach((u) => preloadImage(u));
         }
-      })
+      });
     });
-    flatScreens.forEach((s) => preloadImage(s.image.url));
-  }, [screenSetup, flatScreens, screenData]);
+  }, [screenSetup, screenData]);
 
   const productMount: ProductMount = useMemo(
     () => ({
@@ -102,38 +112,59 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
 
   const aspect = baseSize ? baseSize.w / baseSize.h : 16 / 9;
 
+  // HOMOGRAPHY: compute using a real source size (prefer screenSize, then baseSize).
+  // Do not use a soft fallback transform — if no real size is known yet, don't render the mapped area.
   const hom = useMemo(() => {
-    if (!wrapRect || !screenSize) return null;
-    const dst = productMount.screenCorners.map((p) => mulNorm(p, wrapRect.width, wrapRect.height)) as [Vec2, Vec2, Vec2, Vec2];
-    const src: [Vec2, Vec2, Vec2, Vec2] = [
-      { x: 0, y: 0 },
-      { x: screenSize.w, y: 0 },
-      { x: screenSize.w, y: screenSize.h },
-      { x: 0, y: screenSize.h },
-    ];
-    const Hm = computeHomography(src, dst);
-    const invHm = invert3x3(Hm);
-    const m = homographyToCssMatrix3d(Hm);
-    return { css: `matrix3d(${m.join(",")})`, invHm, screenW: screenSize.w, screenH: screenSize.h } as const;
-  }, [wrapRect, screenSize, productMount]);
+    if (!wrapRect || wrapRect.width <= 1 || wrapRect.height <= 1) return null;
+    if (!productMount?.screenCorners || productMount.screenCorners.length !== 4) return null;
+
+    // prefer the actual image natural size (screenSize), fall back to baseSize if necessary
+    const srcW = screenSize?.w ?? baseSize?.w;
+    const srcH = screenSize?.h ?? baseSize?.h;
+
+    if (!srcW || !srcH) {
+      // can't compute reliably yet
+      return null;
+    }
+
+    try {
+      const dst = productMount.screenCorners.map((p) => mulNorm(p, wrapRect.width, wrapRect.height)) as [
+        Vec2,
+        Vec2,
+        Vec2,
+        Vec2
+      ];
+
+      const src: [Vec2, Vec2, Vec2, Vec2] = [
+        { x: 0, y: 0 },
+        { x: srcW, y: 0 },
+        { x: srcW, y: srcH },
+        { x: 0, y: srcH },
+      ];
+
+      const Hm = computeHomography(src, dst);
+      const invHm = invert3x3(Hm);
+      const m = homographyToCssMatrix3d(Hm);
+
+      return { css: `matrix3d(${m.join(",")})`, invHm, screenW: srcW, screenH: srcH } as const;
+    } catch (err) {
+      // If homography fails, log once and return null — we'll recompute when sizes change.
+      console.warn("Homography computation failed", err);
+      return null;
+    }
+  }, [wrapRect?.width, wrapRect?.height, productMount, screenSize?.w, screenSize?.h, baseSize?.w, baseSize?.h]);
 
   const onScreenNaturalSize = useCallback((size: { w: number; h: number }) => {
-    setScreenSize((p) => (p?.w === size.w && p?.h === size.h ? p : size));
+    if (size.w > 1 && size.h > 1) setScreenSize((p) => (p?.w === size.w && p?.h === size.h ? p : size));
   }, []);
 
   const clientToScreen1000 = useCallback(
     (clientX: number, clientY: number) => {
       if (!wrapRef.current || !screenSize) return null;
-
       const r = wrapRef.current.getBoundingClientRect();
-
       const xPx = clientX - r.left;
       const yPx = clientY - r.top;
-
-      return {
-        x: (xPx / screenSize.w) * 500,
-        y: (yPx / screenSize.h) * 500,
-      };
+      return { x: (xPx / screenSize.w) * 500, y: (yPx / screenSize.h) * 500 };
     },
     [screenSize]
   );
@@ -141,135 +172,105 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
   const anchorsForHotspots = useMemo(() => {
     if (!current?.anchors) return current?.anchors;
     if (!debug) return current.anchors;
-
-    return current.anchors.map((a) => {
-      if (!a.key) return a;
-      if (editedAnchors[a.key]) return editedAnchors[a.key];
-      return a;
-    });
+    return current.anchors.map((a) => editedAnchors[a.key ?? ""] ?? a);
   }, [current, debug, editedAnchors]);
 
-  // NEW: state for current screen image (supports targetImage)
-  const [currentImageUrl, setCurrentImageUrl] = useState<string>(current.image.url);
-
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setCurrentImageUrl(current.image.url);
-  }, [current.image.url]);
-
-  function getNextImageUrl(
-    currentUrl: string,
-    targetImage: { direction: "forward" | "backwards" | "forward-backwards"; urls: string[] }
-  ): string {
+  function getNextImageUrl(currentUrl: string, targetImage: { direction: "forward" | "backwards" | "forward-backwards"; urls: string[] }) {
     const { urls, direction } = targetImage;
     if (urls.length === 0) return currentUrl;
-  
-    const currentIndex = urls.indexOf(currentUrl);
-  
-    // 1. Current image not in urls → use first
-    if (currentIndex === -1) {
-      return urls[0];
-    }
-  
-    // 2 & 3. Move forward or backward (clamped)
-    if (direction == "forward") {
-      return urls[Math.min(currentIndex + 1, urls.length - 1)];
-    } else if(direction == "forward-backwards"){
-
-      const nextIndex = currentIndex === 0 ? 1 : 0;
-
-      return urls[nextIndex];
-    }
-  
-    return urls[Math.max(currentIndex - 1, 0)];
+    const idx = urls.indexOf(currentUrl);
+    if (idx === -1) return urls[0];
+    if (direction === "forward") return urls[Math.min(idx + 1, urls.length - 1)];
+    if (direction === "forward-backwards") return urls[idx === 0 ? 1 : 0];
+    return urls[Math.max(idx - 1, 0)];
   }
 
-  
-  const onHotspotClick = useCallback(
-    (anchor: Anchor) => {
-      if (debug) {
-        const key = anchor.key ?? null;
-        setSelectedKey(key);
+  // When feature (screenData) changes: clamp index, set image and clear editors.
+  useEffect(() => {
+    const maxIndex = Math.max(0, screenData.screenOptions.length - 1);
+    const currentIndexClamped = Math.min(Math.max(0, getStartingIndex()), maxIndex);
+    
+    setCurrentIndex(currentIndexClamped);
+    const nextScreen = screenData.screenOptions[currentIndexClamped];
+    setCurrentImageUrl(nextScreen?.image?.url ?? null);
+    
+    // Reset homography-related state
+    setScreenSize(null);
+    setEditedAnchors({});
+    setSelectedKey(null);
+    setActionMsg(null);
+  }, [screenData]);
 
-        if (key && !editedAnchors[key]) {
-          const copy: Anchor = { ...anchor };
-          if ((!copy.box || copy.box.length !== 4) && copy.box_2d && copy.box_2d.length === 4) {
-            copy.box = box2dToBox(copy.box_2d as [number, number, number, number]);
-          } else if ((!copy.box_2d || copy.box_2d.length !== 4) && copy.box && copy.box.length === 4) {
-            const [x, y, w, h] = copy.box as [number, number, number, number];
-            copy.box_2d = [y, x, y + h, x + w];
-          }
-          setEditedAnchors((prev) => ({ ...prev, [key]: copy }));
+  // when current changes: reload image and force measurement
+  useEffect(() => {
+    if (!current) return;
+    setCurrentImageUrl(null);
+    setScreenSize(null);
+    const t = window.setTimeout(() => setCurrentImageUrl(current.image.url), 0);
+    return () => window.clearTimeout(t);
+  }, [current]);
+
+  const onHotspotClick = useCallback((anchor: Anchor) => {
+    if (debug) {
+      const key = anchor.key ?? null;
+      setSelectedKey(key);
+      if (key && !editedAnchors[key]) {
+        const copy: Anchor = { ...anchor };
+        if ((!copy.box || copy.box.length !== 4) && copy.box_2d?.length === 4) copy.box = box2dToBox(copy.box_2d as [number, number, number, number]);
+        else if ((!copy.box_2d || copy.box_2d.length !== 4) && copy.box?.length === 4) {
+          const [x, y, w, h] = copy.box as [number, number, number, number];
+          copy.box_2d = [y, x, y + h, x + w];
         }
-        console.log("Selected anchor (debug):", anchor);
-        return;
+        setEditedAnchors((prev) => ({ ...prev, [key]: copy }));
       }
+      return;
+    }
 
-      if (anchor.actionMsg) setActionMsg(anchor.actionMsg);
-      else {
-        setActionMsg(null);
+    if (anchor.actionMsg) setActionMsg(anchor.actionMsg);
+    else setActionMsg(null);
+
+    if (anchor.targetScreen) {
+      const idx = findTargetScreenIndex(screenData, anchor.targetScreen);
+      if (idx !== -1) { 
+        setCurrentIndex(idx); 
+        return; 
       }
+    }
 
-      if (anchor.targetScreen) {
-        const idx = findTargetScreenIndex(screenData, anchor.targetScreen);
-        if (idx !== -1) {
-          setCurrentIndex(idx);
-          return;
-        }
+    if (anchor.targetImage) {
+      const nextUrl = getNextImageUrl(currentImageUrl, anchor.targetImage);
+      if (nextUrl !== currentImageUrl) { 
+        preloadImage(nextUrl); 
+        setCurrentImageUrl(nextUrl); 
       }
+    }
+  }, [debug, screenData, editedAnchors, currentImageUrl]);
 
-
-      if (anchor.targetImage) {
-        const nextUrl = getNextImageUrl(currentImageUrl, anchor.targetImage);
-        if (nextUrl !== currentImageUrl) {
-          preloadImage(nextUrl);
-          setCurrentImageUrl(nextUrl);
-        }
-        return;
-      }
-    },
-    [debug, screenData, editedAnchors, currentImageUrl]
-  );
-
-  const onBoxChange = useCallback(
-    (key: string, box_2d: [number, number, number, number]) => {
-      if (debug && key) {
-        const original = current?.anchors?.find((a) => a.key === key);
-        const prevEdited = editedAnchors[key];
-        const computedBox = box2dToBox(box_2d);
-
-        const updated: Anchor = {
-          ...(prevEdited ?? original ?? ({} as Anchor)),
-          box_2d,
-          box: computedBox,
-        };
-
-        setEditedAnchors((prev) => ({ ...prev, [key]: updated }));
-        console.log("Anchor moved", key, box_2d);
-        return;
-      }
-
+  const onBoxChange = useCallback((key: string, box_2d: [number, number, number, number]) => {
+    if (debug && key) {
+      const original = current?.anchors?.find((a) => a.key === key);
+      const prevEdited = editedAnchors[key];
+      const updated: Anchor = { ...(prevEdited ?? original ?? {} as Anchor), box_2d, box: box2dToBox(box_2d) };
+      setEditedAnchors((prev) => ({ ...prev, [key]: updated }));
+    } else {
       console.log("box changed", key, box_2d);
-    },
-    [debug, current, editedAnchors]
-  );
+    }
+  }, [debug, current, editedAnchors]);
 
   const prevIndexRef = useRef<number | null>(null);
-
   useEffect(() => {
     if (prevIndexRef.current !== currentIndex) {
       prevIndexRef.current = currentIndex;
-
-      const t = window.setTimeout(() => {
-        setEditedAnchors({});
-        setSelectedKey(null);
-      }, 0);
-
+      const t = window.setTimeout(() => { setEditedAnchors({}); setSelectedKey(null); }, 0);
       return () => window.clearTimeout(t);
     }
   }, [currentIndex]);
 
   if (!current) return <div className="p-6 text-sm">Loading…</div>;
+
+  // source size used for rendering container when hom exists
+  const srcW = (screenSize?.w ?? baseSize?.w) ?? 0;
+  const srcH = (screenSize?.h ?? baseSize?.h) ?? 0;
 
   return (
     <div className={`mx-0 w-full max-w-245 p-3 relative ${className}`}>
@@ -289,44 +290,38 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
               alt="Base render"
               draggable={false}
               className="absolute inset-0 h-full w-full select-none object-cover z-0"
-              onLoad={(e) => {
-                const img = e.currentTarget;
-                setBaseSize({ w: img.naturalWidth, h: img.naturalHeight });
-              }}
+              onLoad={(e) => { const img = e.currentTarget; setBaseSize({ w: img.naturalWidth, h: img.naturalHeight }); }}
             />
 
-            {!screenSize && (
+            {/* measure screen natural size */}
+            {!screenSize && currentImageUrl && (
               <img
                 src={currentImageUrl}
-                alt=""
-                draggable={false}
                 className="pointer-events-none absolute h-px w-px opacity-0"
-                onLoad={(e) => {
-                  const img = e.currentTarget;
-                  onScreenNaturalSize({ w: img.naturalWidth, h: img.naturalHeight });
-                }}
+                onLoad={(e) => onScreenNaturalSize({ w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight })}
               />
             )}
 
-            {hom && screenSize && (
+            {/* Render mapped screen only when homography is available (no soft fallback) */}
+            {hom && srcW > 0 && srcH > 0 && (
               <div>
                 <div
                   className="absolute left-0 top-0 will-change-transform"
                   style={{
-                    width: screenSize.w,
-                    height: screenSize.h,
+                    width: srcW,
+                    height: srcH,
                     transformOrigin: "0 0",
                     transform: hom.css,
                   }}
                 >
-                  <CrossfadeScreen
-                    src={currentImageUrl}
-                    durationMs={150}
-                    className="absolute inset-0 z-20 w-full h-full"
-                    onNaturalSize={({ w, h }) => {
-                      console.log("Natural size:", w, h);
-                    }}
-                  />
+                  {currentImageUrl && (
+                    <CrossfadeScreen
+                      src={currentImageUrl}
+                      durationMs={150}
+                      className="absolute inset-0 z-20 w-full h-full"
+                      onNaturalSize={onScreenNaturalSize}
+                    />
+                  )}
                 </div>
 
                 <img
@@ -334,16 +329,13 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
                   alt="Base beauty"
                   draggable={false}
                   className="absolute inset-0 h-full w-full select-none object-cover pointer-events-none z-2"
-                  onLoad={(e) => {
-                    const img = e.currentTarget;
-                    setBaseSize({ w: img.naturalWidth, h: img.naturalHeight });
-                  }}
+                  onLoad={(e) => setBaseSize({ w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight })}
                 />
 
                 <ActionNotification
                   isOpen={actionMsg !== null}
-                  title={actionMsg != null ? actionMsg.title : ""}
-                  message={actionMsg != null ? actionMsg.message : ""}
+                  title={actionMsg?.title ?? ""}
+                  message={actionMsg?.message ?? ""}
                   notificationOnly={actionMsg?.notificationOnly}
                   onClose={() => setActionMsg(null)}
                 />
@@ -357,15 +349,9 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
                   onHotspotClick={onHotspotClick}
                   className="cursor-pointer z-10"
                 />
-
-                {/* <button
-                  className="relative bg-white z-12 m-2 px-4 py-4 font-bold rounded-lg hover:opacity-50 cursor-pointer opacity-80"
-                  onClick={() => setShowController(false)}
-                >
-                  Back
-                </button> */}
               </div>
             )}
+
           </motion.div>
         </div>
       </AnimatePresence>

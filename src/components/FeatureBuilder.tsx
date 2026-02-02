@@ -30,7 +30,8 @@ type InteractionStyle =
   | "swipe-up"
   | "swipe-down"
   | "swipe-left"
-  | "swipe-right";
+  | "swipe-right"
+  | "onRender";
 
 type ScreenOptionState = {
   id: string;
@@ -963,6 +964,7 @@ export default function FeatureBuilder({ onPreview }: {
                         <option value="swipe-down">Swipe down</option>
                         <option value="swipe-left">Swipe left</option>
                         <option value="swipe-right">Swipe right</option>
+                        <option value="onRender">onRender</option>
                     </select>
                   
                   <input

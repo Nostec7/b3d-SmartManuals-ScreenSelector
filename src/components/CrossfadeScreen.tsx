@@ -46,29 +46,71 @@ export function CrossfadeScreen({
    */
   useEffect(() => {
     if (src === current.src) return;
+  
     const img = new Image();
     preloadRef.current = img;
 
-    img.src = src;
-
-    img.onload = () => {
-      // Natural size callback
+  
+    const requested = src; // stable for this run
+    let cancelled = false;
+  
+    const handleLoad = () => {
+      if (cancelled) return;
+      // natural size (decode ensures dimensions are available even for cached images)
+      try {
+        // use decode if available — safer for cached images
+        const maybeDecode = img.decode?.();
+        if (maybeDecode) {
+          maybeDecode
+            .then(() => {
+              if (cancelled) return;
+              onNaturalSize({ w: img.naturalWidth, h: img.naturalHeight });
+              if (requested === src) {
+                setIncoming({ key: requested, src: requested });
+              }
+            })
+            .catch(() => {
+              if (cancelled) return;
+              onNaturalSize({ w: img.naturalWidth, h: img.naturalHeight });
+              if (requested === src) {
+                setIncoming({ key: requested, src: requested });
+              }
+            });
+          return;
+        }
+      } catch (e) {
+        /* fall through to immediate handler below */
+      }
+  
+      // fallback if decode not available
       onNaturalSize({ w: img.naturalWidth, h: img.naturalHeight });
-
-      // Only commit if this is still the requested src
-      if (img.src === src) {
-        setIncoming({
-          key: src,
-          src,
-        });
+      if (requested === src) {
+        setIncoming({ key: requested, src: requested });
       }
     };
-    
-
+  
+    const handleError = (ev?: Event | string) => {
+      if (cancelled) return;
+      // optional: you can surface the error or silently ignore
+      console.warn("CrossfadeScreen image preload failed", requested, ev);
+    };
+  
+    img.addEventListener("load", handleLoad);
+    img.addEventListener("error", handleError);
+  
+    // Attach handlers first, then set src (prevents missed load for cached images)
+    img.src = requested;
+  
     return () => {
+      cancelled = true;
       preloadRef.current = null;
+      img.removeEventListener("load", handleLoad);
+      img.removeEventListener("error", handleError);
+      // try to help GC
+      try { (img as any).src = ""; } catch {}
     };
   }, [src, current.src, onNaturalSize]);
+  
 
   /**
    * Once incoming is present, swap it to current

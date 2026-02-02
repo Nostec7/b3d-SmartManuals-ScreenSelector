@@ -46,7 +46,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -111,7 +111,7 @@ export const fullDataJSON =
         {
           "id": "temperature-100",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -126,15 +126,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-96.webp?alt=media&token=19b803c1-b3e9-4c14-9cb1-5b22cd35f30a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-97.webp?alt=media&token=d3e9bf97-cd55-4299-823d-c351bf292a96",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-98.webp?alt=media&token=f5e54b90-e5bd-45ad-b3f9-0dc254559737",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-99.webp?alt=media&token=259716a4-6e06-47e4-82e8-277bb4fbcfd9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-101.webp?alt=media&token=79b6e817-d4ad-4bb9-b339-7b34c827ff46",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-102.webp?alt=media&token=3bccadc1-2394-4ad8-b958-b46f35363f2f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-103.webp?alt=media&token=8ad24ce3-542b-49f7-857e-35ddec6af351",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-104.webp?alt=media&token=d20e35ff-2518-4870-bb49-58b8f0e4f901"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-96.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-97.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-98.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-99.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-101.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-102.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-103.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-104.webp"
                 ]
               },
               "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
@@ -155,15 +155,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-96.webp?alt=media&token=19b803c1-b3e9-4c14-9cb1-5b22cd35f30a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-97.webp?alt=media&token=d3e9bf97-cd55-4299-823d-c351bf292a96",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-98.webp?alt=media&token=f5e54b90-e5bd-45ad-b3f9-0dc254559737",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-99.webp?alt=media&token=259716a4-6e06-47e4-82e8-277bb4fbcfd9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-101.webp?alt=media&token=79b6e817-d4ad-4bb9-b339-7b34c827ff46",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-102.webp?alt=media&token=3bccadc1-2394-4ad8-b958-b46f35363f2f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-103.webp?alt=media&token=8ad24ce3-542b-49f7-857e-35ddec6af351",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-104.webp?alt=media&token=d20e35ff-2518-4870-bb49-58b8f0e4f901"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-96.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-97.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-98.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-99.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-101.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-102.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-103.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-104.webp"
                 ]
               },
               "uid": "88345fdc-cce2-42e2-bd67-fd8a54feb5ac",
@@ -219,7 +219,7 @@ export const fullDataJSON =
         {
           "id": "jets-main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/extended-experiences.firebasestorage.app/o/assets%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-A.png?alt=media"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-A.webp"
           },
           "anchors": [
             {
@@ -240,7 +240,7 @@ export const fullDataJSON =
         {
           "id": "jets-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/extended-experiences.firebasestorage.app/o/assets%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-B.png?alt=media"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-B.webp"
           },
           "anchors": [
             {
@@ -317,7 +317,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-A.webp?alt=media&token=1fe59e67-9601-4855-a69f-4ab72a839e0f"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-A.webp"
           },
           "anchors": [
             {
@@ -338,7 +338,7 @@ export const fullDataJSON =
         {
           "id": "lights-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B.webp?alt=media&token=a8072cd4-d056-4eed-a996-e2e49fb24b71"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B.webp"
           },
           "anchors": [
             {
@@ -413,11 +413,11 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B.webp?alt=media&token=a8072cd4-d056-4eed-a996-e2e49fb24b71",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed2.webp?alt=media&token=a1e9f844-1ffe-457f-b63e-31f41516cac4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed3.webp?alt=media&token=72b00bc0-1350-4e7c-9d9a-ebeeebc130ff",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed4.webp?alt=media&token=c1d2b169-cc32-4248-98ca-3433e2d5a3c8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed5.webp?alt=media&token=928777b7-17e9-4fb4-9792-2a20b1c55294"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed5.webp"
                 ]
               }
             },
@@ -438,11 +438,11 @@ export const fullDataJSON =
                 "direction": "backwards",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B.webp?alt=media&token=a8072cd4-d056-4eed-a996-e2e49fb24b71",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed2.webp?alt=media&token=a1e9f844-1ffe-457f-b63e-31f41516cac4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed3.webp?alt=media&token=72b00bc0-1350-4e7c-9d9a-ebeeebc130ff",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed4.webp?alt=media&token=c1d2b169-cc32-4248-98ca-3433e2d5a3c8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-speed5.webp?alt=media&token=928777b7-17e9-4fb4-9792-2a20b1c55294"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-speed5.webp"
                 ]
               }
             },
@@ -463,12 +463,12 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B.webp?alt=media&token=a8072cd4-d056-4eed-a996-e2e49fb24b71",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-1.webp?alt=media&token=5dfc299b-c138-4575-ab65-fb35c915c887",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-2.webp?alt=media&token=3a0085cc-db10-478a-a4ed-1ba08755a595",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-3.webp?alt=media&token=f382f1c0-a09d-4cc6-af7a-a6078b4ed6fa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-4.webp?alt=media&token=9202d0d7-9e50-407d-a0cf-03bd98284c0c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-5.webp?alt=media&token=cc65f845-9cc7-4aad-b98b-bfd36a0cee0c"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-5.webp"
                 ]
               }
             },
@@ -484,19 +484,18 @@ export const fullDataJSON =
               "label": "Decrease brightness",
               "actionMsg": {
                 "notificationOnly": true,
-                "title": "",
                 "message": "Brightness decreased by 20%. Minimum level 0."
               },
               "targetImage": {
                 "direction": "backwards",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B.webp?alt=media&token=a8072cd4-d056-4eed-a996-e2e49fb24b71",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-1.webp?alt=media&token=5dfc299b-c138-4575-ab65-fb35c915c887",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-2.webp?alt=media&token=3a0085cc-db10-478a-a4ed-1ba08755a595",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-3.webp?alt=media&token=f382f1c0-a09d-4cc6-af7a-a6078b4ed6fa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-4.webp?alt=media&token=9202d0d7-9e50-407d-a0cf-03bd98284c0c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.3-Lights-Menu-Figure-B-intensity-5.webp?alt=media&token=cc65f845-9cc7-4aad-b98b-bfd36a0cee0c"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.3-Lights-Menu-Figure-B-intensity-5.webp"
                 ]
               }
             }
@@ -533,7 +532,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-A.webp?alt=media&token=e46aa8f9-e8d1-4a88-b471-d6ab38d62fd0"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-A.webp"
           },
           "anchors": [
             {
@@ -554,7 +553,7 @@ export const fullDataJSON =
         {
           "id": "music-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-28.webp?alt=media&token=d5ccd2ef-0661-4f1b-9f13-4a606a772ed9"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-28.webp"
           },
           "anchors": [
             {
@@ -656,11 +655,11 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-26.webp?alt=media&token=78b2743d-86db-4ea0-a5b7-c473b36a4ba7",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-27.webp?alt=media&token=cdfd6f4b-a1d9-4b52-b9c3-295189f65c88",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-28.webp?alt=media&token=d5ccd2ef-0661-4f1b-9f13-4a606a772ed9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-29.webp?alt=media&token=8940755f-bc5e-451b-914a-ac2686fcbf3e",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B.webp?alt=media&token=4df84797-20a8-4615-b68e-1a245ff56d57"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-26.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-27.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-28.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-29.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B.webp"
                 ]
               }
             },
@@ -681,11 +680,11 @@ export const fullDataJSON =
                 "direction": "backwards",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-26.webp?alt=media&token=78b2743d-86db-4ea0-a5b7-c473b36a4ba7",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-27.webp?alt=media&token=cdfd6f4b-a1d9-4b52-b9c3-295189f65c88",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-28.webp?alt=media&token=d5ccd2ef-0661-4f1b-9f13-4a606a772ed9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-29.webp?alt=media&token=8940755f-bc5e-451b-914a-ac2686fcbf3e",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B.webp?alt=media&token=4df84797-20a8-4615-b68e-1a245ff56d57"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-26.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-27.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-28.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-29.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B.webp"
                 ]
               }
             },
@@ -722,7 +721,7 @@ export const fullDataJSON =
         {
           "id": "audio-settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.6-Audio-Settings-Menu-Figure-B.webp?alt=media&token=0e785041-1c76-4c39-a289-cfe54324fa20"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.6-Audio-Settings-Menu-Figure-B.webp"
           
           },
           "anchors": [
@@ -812,7 +811,7 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.6-Audio-Settings-Menu-Figure-B.webp?alt=media&token=0e785041-1c76-4c39-a289-cfe54324fa20"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.6-Audio-Settings-Menu-Figure-B.webp"
                 ]
               }
             },
@@ -833,7 +832,7 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.6-Audio-Settings-Menu-Figure-B-pop.webp?alt=media&token=eda3c920-3fd2-4295-b2fb-a4c8281fbfa6"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.6-Audio-Settings-Menu-Figure-B-pop.webp"
                 ]
               }
             },
@@ -854,7 +853,7 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.6-Audio-Settings-Menu-Figure-B-classical.webp?alt=media&token=c21a5c88-5d74-4a1f-9b27-82b78b076589"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.6-Audio-Settings-Menu-Figure-B-classical.webp"
                 ]
               }
             }
@@ -905,7 +904,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -927,7 +926,7 @@ export const fullDataJSON =
         {
           "id": "music-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.4-Music-Menu-Figure-B-vol-28.webp?alt=media&token=d5ccd2ef-0661-4f1b-9f13-4a606a772ed9"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.4-Music-Menu-Figure-B-vol-28.webp"
           },
           "anchors": [
             {
@@ -1025,7 +1024,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -1047,7 +1046,7 @@ export const fullDataJSON =
         {
           "id": "water-care-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F11.7-Programming-the-True-Water-Care.webp?alt=media&token=0904d455-b656-4e81-a519-bad9a94182c1"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.7-Programming-the-True-Water-Care.webp"
           },
           "anchors": [
             {
@@ -1173,7 +1172,7 @@ export const fullDataJSON =
         {
           "id": "cycle-start-time-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1.webp?alt=media&token=c378bacb-7236-412e-822b-25ce6c80a4f6"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1.webp"
           },
           "anchors": [
             {
@@ -1189,15 +1188,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-8pm.webp?alt=media&token=728399cf-fe83-44bb-9b04-6b4e3ad13d78",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-9pm.webp?alt=media&token=340c69be-ce94-49db-8dd8-4d3508723a43",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-10pm.webp?alt=media&token=4c6e2195-7971-4021-beee-718cbe8fb9af",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-11pm.webp?alt=media&token=99c56ff4-bf03-48f5-b2dc-d7f13dd865ad",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1.webp?alt=media&token=c378bacb-7236-412e-822b-25ce6c80a4f6",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-1.webp?alt=media&token=fa249159-7f6c-4746-85e3-1c806c824a18",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-2.webp?alt=media&token=3b771860-380a-4af5-80b6-9fdc8a2e5399",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-3.webp?alt=media&token=1b9deea4-9888-4cb3-87aa-e2d5f7c219a3",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-4.webp?alt=media&token=89a73057-c601-45d1-8b82-6d4cecc62b96"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-8pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-9pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-10pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-11pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-4.webp"
                 ]
               },
               "actionMsg": {
@@ -1218,15 +1217,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-8pm.webp?alt=media&token=728399cf-fe83-44bb-9b04-6b4e3ad13d78",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-9pm.webp?alt=media&token=340c69be-ce94-49db-8dd8-4d3508723a43",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-10pm.webp?alt=media&token=4c6e2195-7971-4021-beee-718cbe8fb9af",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-11pm.webp?alt=media&token=99c56ff4-bf03-48f5-b2dc-d7f13dd865ad",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1.webp?alt=media&token=c378bacb-7236-412e-822b-25ce6c80a4f6",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-1.webp?alt=media&token=fa249159-7f6c-4746-85e3-1c806c824a18",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-2.webp?alt=media&token=3b771860-380a-4af5-80b6-9fdc8a2e5399",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-3.webp?alt=media&token=1b9deea4-9888-4cb3-87aa-e2d5f7c219a3",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.2-Programming-the-True-Water-Care-Screen-1-4.webp?alt=media&token=89a73057-c601-45d1-8b82-6d4cecc62b96"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-8pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-9pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-10pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-11pm.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.2-Programming-the-True-Water-Care-Screen-1-4.webp"
                 ]
               },
               "actionMsg": {
@@ -1315,7 +1314,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -1337,7 +1336,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-A.webp?alt=media&token=93e938d1-1b0c-437c-b02d-e4e458165d64"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-A.webp"
           },
           "anchors": [
             {
@@ -1373,7 +1372,7 @@ export const fullDataJSON =
         {
           "id": "water-care-menu-air",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-B.webp?alt=media&token=5ddedeed-1a05-4c46-b3da-10f53a7b3191"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-B.webp"
           },
           "anchors": [
             {
@@ -1437,7 +1436,7 @@ export const fullDataJSON =
         {
           "id": "water-care-menu-ozone",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-B-ozone.webp?alt=media&token=972bd2d1-7604-4e1b-8662-da8fc7995f74"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-B-ozone.webp"
           },
           "anchors": [
             {
@@ -1487,7 +1486,7 @@ export const fullDataJSON =
         {
           "id": "water-care-menu-water",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-B-water.webp?alt=media&token=046f3b33-20b9-43bd-a883-1bb0f912c3eb"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-B-water.webp"
           },
           "anchors": [
             {
@@ -1551,7 +1550,7 @@ export const fullDataJSON =
         {
           "id": "ozone-settings-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-700.webp?alt=media&token=69e57012-dcad-43d9-bb7f-e0aff1f6efc7"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-700.webp"
           },
           "anchors": [
             {
@@ -1581,13 +1580,13 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-670.webp?alt=media&token=9e2358d2-dcbd-4ce5-8be0-a1fd4f242b53",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-680.webp?alt=media&token=2cb315c8-7ccd-434c-88a5-bf085ca7c928",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-690.webp?alt=media&token=48f9c6d9-e149-47be-b334-267a19902a2f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-700.webp?alt=media&token=69e57012-dcad-43d9-bb7f-e0aff1f6efc7",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-710.webp?alt=media&token=440b8bd3-e036-49bc-a0d2-e9fe1c76b5c4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-720.webp?alt=media&token=b3cff756-676c-4edc-b165-e494ed41e48b",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-730.webp?alt=media&token=06e06bd1-58a9-4fc9-b320-2cec137ddcc3"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-670.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-680.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-690.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-700.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-710.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-720.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-730.webp"
                 ]
               },
               "actionMsg": {
@@ -1608,13 +1607,13 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-670.webp?alt=media&token=9e2358d2-dcbd-4ce5-8be0-a1fd4f242b53",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-680.webp?alt=media&token=2cb315c8-7ccd-434c-88a5-bf085ca7c928",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-690.webp?alt=media&token=48f9c6d9-e149-47be-b334-267a19902a2f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-700.webp?alt=media&token=69e57012-dcad-43d9-bb7f-e0aff1f6efc7",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-710.webp?alt=media&token=440b8bd3-e036-49bc-a0d2-e9fe1c76b5c4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-720.webp?alt=media&token=b3cff756-676c-4edc-b165-e494ed41e48b",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-G-ozone-730.webp?alt=media&token=06e06bd1-58a9-4fc9-b320-2cec137ddcc3"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-670.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-680.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-690.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-700.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-710.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-720.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-G-ozone-730.webp"
                 ]
               },
               "actionMsg": {
@@ -1642,7 +1641,7 @@ export const fullDataJSON =
         {
           "id": "air-filter-settings-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-160.webp?alt=media&token=c43ca81c-8838-4487-a4a2-b78323008877"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-160.webp"
           },
           "anchors": [
             {
@@ -1672,11 +1671,11 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-140.webp?alt=media&token=17a91eb9-2587-455f-b7ed-94cc3a6873d5",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-150.webp?alt=media&token=deb80528-79a8-4e5d-b7e9-1eb4814d4beb",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-160.webp?alt=media&token=c43ca81c-8838-4487-a4a2-b78323008877",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-170.webp?alt=media&token=ea52fcd9-beac-452c-932e-16b7cf1cf3e9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-180.webp?alt=media&token=a7c6020c-c0ea-4889-9490-3ec7f6acc2c7"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-140.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-150.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-160.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-170.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-180.webp"
                 ]
               },
               "actionMsg": {
@@ -1697,15 +1696,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-140.webp?alt=media&token=17a91eb9-2587-455f-b7ed-94cc3a6873d5",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-150.webp?alt=media&token=deb80528-79a8-4e5d-b7e9-1eb4814d4beb",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-160.webp?alt=media&token=c43ca81c-8838-4487-a4a2-b78323008877",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-170.webp?alt=media&token=ea52fcd9-beac-452c-932e-16b7cf1cf3e9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-180.webp?alt=media&token=a7c6020c-c0ea-4889-9490-3ec7f6acc2c7",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-190.webp?alt=media&token=734f47f8-1f38-4dcb-bd04-bcd082ac99e6",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-200.webp?alt=media&token=4591eaf6-2c92-4e64-801a-2ae58468192c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-210.webp?alt=media&token=31742be4-21ec-49c1-b05c-e1364dd45a03",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-C-220.webp?alt=media&token=54b0030e-eb32-4d11-835b-88852d219ab1"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-140.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-150.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-160.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-170.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-180.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-190.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-200.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-210.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-C-220.webp"
                 ]
               },
               "actionMsg": {
@@ -1733,7 +1732,7 @@ export const fullDataJSON =
         {
           "id": "water-refresh-settings-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-160.webp?alt=media&token=9e51a137-11a6-4e4d-af2f-8c43c5f98da4"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-160.webp"
           },
           "anchors": [
             {
@@ -1763,11 +1762,11 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-140.webp?alt=media&token=63045dea-0676-417f-8b3d-4bbd09f2a509",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-150.webp?alt=media&token=7be59e7b-1d9f-4f13-8532-ae9c0d0d4af6",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-160.webp?alt=media&token=9e51a137-11a6-4e4d-af2f-8c43c5f98da4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-170.webp?alt=media&token=d8f2061e-9205-452c-b384-820acc060324",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-180.webp?alt=media&token=16861de0-89c5-408d-9b60-61a6476488ad"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-140.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-150.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-160.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-170.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-180.webp"
                 ]
               },
               "actionMsg": {
@@ -1788,11 +1787,11 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-140.webp?alt=media&token=63045dea-0676-417f-8b3d-4bbd09f2a509",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-150.webp?alt=media&token=7be59e7b-1d9f-4f13-8532-ae9c0d0d4af6",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-160.webp?alt=media&token=9e51a137-11a6-4e4d-af2f-8c43c5f98da4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-170.webp?alt=media&token=d8f2061e-9205-452c-b384-820acc060324",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-180.webp?alt=media&token=16861de0-89c5-408d-9b60-61a6476488ad"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-140.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-150.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-160.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-170.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-180.webp"
                 ]
               },
               "actionMsg": {
@@ -1820,7 +1819,7 @@ export const fullDataJSON =
         {
           "id": "water-care-pro-clarity",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-B-ProClarity.webp?alt=media&token=ae18aada-050a-43a5-afa4-af2b62fcd077"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-B-ProClarity.webp"
           },
           "anchors": [
             {
@@ -1884,7 +1883,7 @@ export const fullDataJSON =
         {
           "id": "pro-clarity-setup",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-160.webp?alt=media&token=d1a6a5de-a7d6-4b62-a56b-ebb543c89151"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-160.webp"
           },
           "anchors": [
             {
@@ -1918,11 +1917,11 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-140.webp?alt=media&token=08521640-da51-44c6-b75c-0571518bac4c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-150.webp?alt=media&token=e8716a19-9bce-4c70-91c5-8c87ba893760",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-160.webp?alt=media&token=d1a6a5de-a7d6-4b62-a56b-ebb543c89151",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-170.webp?alt=media&token=3ada3764-235e-429f-be6b-870f76d3b222",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-180.webp?alt=media&token=f8efb0b7-afdb-4705-9de1-422c2ce4acf1"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-140.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-150.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-160.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-170.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-180.webp"
                 ]
               }
             },
@@ -1943,11 +1942,11 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-140.webp?alt=media&token=08521640-da51-44c6-b75c-0571518bac4c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-150.webp?alt=media&token=e8716a19-9bce-4c70-91c5-8c87ba893760",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-160.webp?alt=media&token=d1a6a5de-a7d6-4b62-a56b-ebb543c89151",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-170.webp?alt=media&token=3ada3764-235e-429f-be6b-870f76d3b222",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-E-180.webp?alt=media&token=f8efb0b7-afdb-4705-9de1-422c2ce4acf1"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-140.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-150.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-160.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-170.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-E-180.webp"
                 ]
               }
             },
@@ -1971,7 +1970,7 @@ export const fullDataJSON =
         {
           "id": "water-care-pro-clarity-depth",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-D-ProClarityDepth.webp?alt=media&token=1b411b7e-8bac-47da-b7ec-ced5a4931d85"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-D-ProClarityDepth.webp"
           },
           "anchors": [
             {
@@ -2021,7 +2020,7 @@ export const fullDataJSON =
         {
           "id": "pro-clarity-depth-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-60.webp?alt=media&token=00e370ee-b148-4988-a66a-9cfff9c02693"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-60.webp"
           },
           "anchors": [
             {
@@ -2037,13 +2036,13 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-30.webp?alt=media&token=d16c4ba2-519a-4a53-b7d0-9e78aeb168ae",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-40.webp?alt=media&token=a11387d9-7fad-4290-8cd7-f96d3c5f7444",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-50.webp?alt=media&token=8f109c5a-bb47-4d33-91e9-92054f3a6024",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-60.webp?alt=media&token=00e370ee-b148-4988-a66a-9cfff9c02693",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-70.webp?alt=media&token=fd04c802-25ab-4e00-b6d2-b1bc8eef8095",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-80.webp?alt=media&token=271c7f0f-e7a4-42bb-88c2-517e69527f15",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-90.webp?alt=media&token=f9876b1b-620f-47b9-a243-f6b9b29d478c"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-30.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-40.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-50.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-60.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-70.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-80.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-90.webp"
                 ]
               },
               "actionMsg": {
@@ -2064,13 +2063,13 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-30.webp?alt=media&token=d16c4ba2-519a-4a53-b7d0-9e78aeb168ae",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-40.webp?alt=media&token=a11387d9-7fad-4290-8cd7-f96d3c5f7444",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-50.webp?alt=media&token=8f109c5a-bb47-4d33-91e9-92054f3a6024",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-60.webp?alt=media&token=00e370ee-b148-4988-a66a-9cfff9c02693",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-70.webp?alt=media&token=fd04c802-25ab-4e00-b6d2-b1bc8eef8095",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-80.webp?alt=media&token=271c7f0f-e7a4-42bb-88c2-517e69527f15",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.3-Water-Care-Programming-Figure-F-90.webp?alt=media&token=f9876b1b-620f-47b9-a243-f6b9b29d478c"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-30.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-40.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-50.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-60.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-70.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-80.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.3-Water-Care-Programming-Figure-F-90.webp"
                 ]
               },
               "actionMsg": {
@@ -2155,7 +2154,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -2177,7 +2176,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.0-Programming-and-Operation-Instructions-Figure-B.webp?alt=media&token=d3f3adda-d6e0-44df-b375-2431a64c1faf"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.0-Programming-and-Operation-Instructions-Figure-B.webp"
           },
           "anchors": [
             {
@@ -2213,7 +2212,7 @@ export const fullDataJSON =
         {
           "id": "heat-auto",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.1-Programming-the-Heating-Mode-Heat-Figure-A.webp?alt=media&token=d702f31a-f08e-40ee-9157-261a85c29fcb"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.1-Programming-the-Heating-Mode-Heat-Figure-A.webp"
           },
           "anchors": [
             {
@@ -2271,7 +2270,7 @@ export const fullDataJSON =
         {
           "id": "heat-econo",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.1-Programming-the-Heating-Mode-Heat-Figure-A-econo.webp?alt=media&token=00cecac2-3aec-4a5c-ab07-e364c8e4424b"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.1-Programming-the-Heating-Mode-Heat-Figure-A-econo.webp"
           },
           "anchors": [
             {
@@ -2329,7 +2328,7 @@ export const fullDataJSON =
         {
           "id": "heat-day",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.1-Programming-the-Heating-Mode-Heat-Figure-A-day.webp?alt=media&token=2a416a1b-85c3-44ec-a057-ffa4bebec543"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.1-Programming-the-Heating-Mode-Heat-Figure-A-day.webp"
           },
           "anchors": [
             {
@@ -2431,7 +2430,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -2453,7 +2452,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-A.webp?alt=media&token=527e4ec0-784e-4549-beb3-6eba7549a2b7"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-A.webp"
           },
           "anchors": [
             {
@@ -2489,7 +2488,7 @@ export const fullDataJSON =
         {
           "id": "lock-settings",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B.webp?alt=media&token=63e35c44-b96e-4e12-a26d-c75169c24dae"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B.webp"
           },
           "anchors": [
             {
@@ -2565,7 +2564,7 @@ export const fullDataJSON =
         {
           "id": "lock-settings-numbers",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B.webp?alt=media&token=63e35c44-b96e-4e12-a26d-c75169c24dae"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B.webp"
           },
           "anchors": [
             {
@@ -2614,17 +2613,17 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B.webp?alt=media&token=63e35c44-b96e-4e12-a26d-c75169c24dae",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-0.webp?alt=media&token=5f97ae78-ac93-47a5-ba16-06e10b79c335",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-1.webp?alt=media&token=8b14305c-cede-49f4-9f40-fad6601e76aa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-2.webp?alt=media&token=0d6d2284-6961-4337-877a-a91b17565b89",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-3.webp?alt=media&token=a29a051f-df78-4fc6-86b6-67f79b23a51f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-4.webp?alt=media&token=3e42f14c-f553-449e-a6bb-b319d01e7e3e",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-5.webp?alt=media&token=298e30d3-c812-4778-b9f2-9a2c5db7b7ec",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-6.webp?alt=media&token=e086c34a-4deb-48f5-af06-9d3574a7600f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock7.webp?alt=media&token=2b2880e7-f865-4d9e-8de8-06ae333a90ff",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock8.webp?alt=media&token=36790097-46da-47d6-8fd3-c5d6f5a99951",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock9.webp?alt=media&token=97ec4e67-5b83-464e-b7e9-707c53f79e55",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-0.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-5.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-6.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock7.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock8.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock9.webp",
                   " "
                 ]
               }
@@ -2646,17 +2645,17 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B.webp?alt=media&token=63e35c44-b96e-4e12-a26d-c75169c24dae",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-0.webp?alt=media&token=5f97ae78-ac93-47a5-ba16-06e10b79c335",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-1.webp?alt=media&token=8b14305c-cede-49f4-9f40-fad6601e76aa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-2.webp?alt=media&token=0d6d2284-6961-4337-877a-a91b17565b89",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-3.webp?alt=media&token=a29a051f-df78-4fc6-86b6-67f79b23a51f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-4.webp?alt=media&token=3e42f14c-f553-449e-a6bb-b319d01e7e3e",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-5.webp?alt=media&token=298e30d3-c812-4778-b9f2-9a2c5db7b7ec",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock-6.webp?alt=media&token=e086c34a-4deb-48f5-af06-9d3574a7600f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock7.webp?alt=media&token=2b2880e7-f865-4d9e-8de8-06ae333a90ff",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock8.webp?alt=media&token=36790097-46da-47d6-8fd3-c5d6f5a99951",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-lock9.webp?alt=media&token=97ec4e67-5b83-464e-b7e9-707c53f79e55",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-0.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-5.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock-6.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock7.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock8.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-lock9.webp",
                   " "
                 ]
               }
@@ -2725,7 +2724,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -2747,7 +2746,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-A.webp?alt=media&token=527e4ec0-784e-4549-beb3-6eba7549a2b7"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-A.webp"
           },
           "anchors": [
             {
@@ -2783,7 +2782,7 @@ export const fullDataJSON =
         {
           "id": "lock-settings",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-unlock.webp?alt=media&token=1a727583-903b-41e7-834d-fbde891630ad"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-unlock.webp"
           },
           "anchors": [
             {
@@ -2859,7 +2858,7 @@ export const fullDataJSON =
         {
           "id": "lock-settings-numbers",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-unlock.webp?alt=media&token=1a727583-903b-41e7-834d-fbde891630ad"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-unlock.webp"
           },
           "anchors": [
             {
@@ -2908,17 +2907,17 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-unlock.webp?alt=media&token=1a727583-903b-41e7-834d-fbde891630ad",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-0.webp?alt=media&token=e62c324f-b82d-4b96-b208-6b7e06bbf60a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-1.webp?alt=media&token=de432a74-26ae-4ff4-b487-0ba9bf9eed96",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-2.webp?alt=media&token=ede06088-7c5b-429d-970e-4f824ff9dcaf",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-3.webp?alt=media&token=a4e85640-c0d7-4c93-8c79-772ecd6dd826",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-4.webp?alt=media&token=052aacd8-e73c-41be-a44a-c4e363f6bed8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-5.webp?alt=media&token=f581c7a2-849f-449c-9d7b-e82c43fd067d",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-6.webp?alt=media&token=37c28bfe-f406-4e01-942c-cf2ec5c9c3b5",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-7.webp?alt=media&token=2aff93fb-b3d1-4801-829d-71cb4b69d06f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-8.webp?alt=media&token=67e49389-e3d0-491a-aaaa-148420cc3cfa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-9.webp?alt=media&token=951386cd-b2d0-4591-b865-108c009ae11e",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-unlock.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-0.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-5.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-6.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-7.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-8.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-9.webp",
                   " "
                 ]
               }
@@ -2940,17 +2939,17 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-unlock.webp?alt=media&token=1a727583-903b-41e7-834d-fbde891630ad",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-0.webp?alt=media&token=e62c324f-b82d-4b96-b208-6b7e06bbf60a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-1.webp?alt=media&token=de432a74-26ae-4ff4-b487-0ba9bf9eed96",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-2.webp?alt=media&token=ede06088-7c5b-429d-970e-4f824ff9dcaf",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-3.webp?alt=media&token=a4e85640-c0d7-4c93-8c79-772ecd6dd826",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-4.webp?alt=media&token=052aacd8-e73c-41be-a44a-c4e363f6bed8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-5.webp?alt=media&token=f581c7a2-849f-449c-9d7b-e82c43fd067d",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-6.webp?alt=media&token=37c28bfe-f406-4e01-942c-cf2ec5c9c3b5",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-7.webp?alt=media&token=2aff93fb-b3d1-4801-829d-71cb4b69d06f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-8.webp?alt=media&token=67e49389-e3d0-491a-aaaa-148420cc3cfa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.4-Locking-the-Spa-Figure-B-9.webp?alt=media&token=951386cd-b2d0-4591-b865-108c009ae11e",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-unlock.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-0.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-5.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-6.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-7.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-8.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.4-Locking-the-Spa-Figure-B-9.webp",
                   " "
                 ]
               }
@@ -3017,7 +3016,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -3039,7 +3038,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.6-Programming-the-Language-Figure-A.webp?alt=media&token=b4550f1f-cb31-49f6-9cd1-5baf5961b23a"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.6-Programming-the-Language-Figure-A.webp"
           },
           "anchors": [
             {
@@ -3075,7 +3074,7 @@ export const fullDataJSON =
         {
           "id": "language-settings-en",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.6-Programming-the-Language-Figure-B.webp?alt=media&token=2ef8a222-c0ca-4e62-92e6-c3f512df14bd"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.6-Programming-the-Language-Figure-B.webp"
           },
           "anchors": [
             {
@@ -3151,7 +3150,7 @@ export const fullDataJSON =
         {
           "id": "language-settings-fr",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.6-Programming-the-Language-Figure-B-fr.webp?alt=media&token=661572cb-3c95-496a-b9de-5a965af7c523"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.6-Programming-the-Language-Figure-B-fr.webp"
           },
           "anchors": [
             {
@@ -3227,7 +3226,7 @@ export const fullDataJSON =
         {
           "id": "language-settings-de",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.6-Programming-the-Language-Figure-B-de.webp?alt=media&token=21550f2e-e02a-451a-99d0-fc99344dfde1"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.6-Programming-the-Language-Figure-B-de.webp"
           },
           "anchors": [
             {
@@ -3303,7 +3302,7 @@ export const fullDataJSON =
         {
           "id": "language-settings-es",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.6-Programming-the-Language-Figure-B-es.webp?alt=media&token=2df94fe4-893c-4ba5-bfa2-4b31b7232a7d"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.6-Programming-the-Language-Figure-B-es.webp"
           },
           "anchors": [
             {
@@ -3421,7 +3420,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -3443,7 +3442,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.7-Units-Display-Figure-A.webp?alt=media&token=ede7f126-5649-4175-86bd-f9a89fceac2d"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.7-Units-Display-Figure-A.webp"
           },
           "anchors": [
             {
@@ -3479,7 +3478,7 @@ export const fullDataJSON =
         {
           "id": "units-f",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.7-Units-Display-Figure-B.webp?alt=media&token=a962d9d5-381a-42fa-bf1d-a2ca38ea5c77"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.7-Units-Display-Figure-B.webp"
           },
           "anchors": [
             {
@@ -3519,7 +3518,7 @@ export const fullDataJSON =
         {
           "id": "units-c",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.7-Units-Display-Figure-B-C.webp?alt=media&token=3ffe0665-1c8c-4013-9cee-a31b874b3852"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.7-Units-Display-Figure-B-C.webp"
           },
           "anchors": [
             {
@@ -3601,7 +3600,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=ce64f577-43ef-409d-978f-94d03d223ce2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -3623,7 +3622,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.5-Programming-the-Time-and-Date-Figure-A.webp?alt=media&token=26d93270-0730-444b-9223-cae21d3a8f2c"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.5-Programming-the-Time-and-Date-Figure-A.webp"
           },
           "anchors": [
             {
@@ -3659,7 +3658,7 @@ export const fullDataJSON =
         {
           "id": "time-and-date-screen",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.5-Programming-the-Time-and-Date-Figure-B-2.webp?alt=media&token=7ca67908-f965-4b94-b141-9b0dd793e248"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.5-Programming-the-Time-and-Date-Figure-B-2.webp"
           },
           "anchors": [
             {
@@ -3789,7 +3788,7 @@ export const fullDataJSON =
         {
           "id": "date-settings",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-475%2Fscreens%2F12.5-Programming-date.webp?alt=media&token=ea28fd14-109b-4e5f-b69d-15b0a95875bb"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/12.5-Programming-date.webp"
           },
           "anchors": [
             {
@@ -3955,7 +3954,7 @@ export const fullDataJSON =
         {
           "id": "temperature",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=623acfcc-53e9-4050-bd84-de8d068fe3e1"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -3971,15 +3970,15 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-96.webp?alt=media&token=a4171c40-2bd3-4584-a53b-448bf0768b5b",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-97.webp?alt=media&token=03820778-9057-4a23-9ba5-bc394c6f072c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-98.webp?alt=media&token=77107ad0-3026-4e2c-9e0d-04a2047b4348",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-99.webp?alt=media&token=ecc3d7eb-4277-4441-8de6-29e8cb3f9bf2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=623acfcc-53e9-4050-bd84-de8d068fe3e1",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-101.webp?alt=media&token=7eebbfa0-53ce-4e8b-aacb-c0307c1c74b9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-102.webp?alt=media&token=ae1d7458-58b4-4e82-8a6f-27fd37bfa9dc",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-103.webp?alt=media&token=d79ad714-b37d-45db-97d2-f605f004d065",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-104.webp?alt=media&token=8120ce84-49d3-4c55-856d-81d6eb6c158e"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-96.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-97.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-98.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-99.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-101.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-102.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-103.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-104.webp"
                 ]
               }
             },
@@ -3996,15 +3995,15 @@ export const fullDataJSON =
                 "direction": "backwards",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-96.webp?alt=media&token=a4171c40-2bd3-4584-a53b-448bf0768b5b",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-97.webp?alt=media&token=03820778-9057-4a23-9ba5-bc394c6f072c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-98.webp?alt=media&token=77107ad0-3026-4e2c-9e0d-04a2047b4348",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-99.webp?alt=media&token=ecc3d7eb-4277-4441-8de6-29e8cb3f9bf2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=623acfcc-53e9-4050-bd84-de8d068fe3e1",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-101.webp?alt=media&token=7eebbfa0-53ce-4e8b-aacb-c0307c1c74b9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-102.webp?alt=media&token=ae1d7458-58b4-4e82-8a6f-27fd37bfa9dc",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-103.webp?alt=media&token=d79ad714-b37d-45db-97d2-f605f004d065",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-104.webp?alt=media&token=8120ce84-49d3-4c55-856d-81d6eb6c158e"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-96.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-97.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-98.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-99.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-101.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-102.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-103.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-104.webp"
                 ]
               }
             }
@@ -4040,7 +4039,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=623acfcc-53e9-4050-bd84-de8d068fe3e1"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -4061,7 +4060,7 @@ export const fullDataJSON =
         {
           "id":"jets-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.1-Activating-the-Jets-Pumps-Figure-B.webp?alt=media&token=6e5d38da-28b0-4dc1-b5b2-97b76e0434f8"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.1-Activating-the-Jets-Pumps-Figure-B.webp"
           },
           "anchors": [
             {
@@ -4137,7 +4136,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=623acfcc-53e9-4050-bd84-de8d068fe3e1"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -4158,7 +4157,7 @@ export const fullDataJSON =
         {
           "id":"lights-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B.webp?alt=media&token=91b53bff-088a-4e26-81ab-23bf1de1527a"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B.webp"
           },
           "anchors": [
             {
@@ -4219,12 +4218,12 @@ export const fullDataJSON =
                 "direction": "backwrads",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv0.webp?alt=media&token=e73e7a17-46b1-4947-a3f5-1aa5e3488b6b",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv1.webp?alt=media&token=e1ff31f0-62ee-4b6b-96e8-3f405a6fd387",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv2.webp?alt=media&token=533a78a0-f2f0-4a3f-9921-665c73941021",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv3.webp?alt=media&token=b87c1a57-6b2f-4691-b98a-ff85f4de4f30",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B.webp?alt=media&token=91b53bff-088a-4e26-81ab-23bf1de1527a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv5.webp?alt=media&token=1f54a9c3-c7fb-4025-a0c3-b40112adf9a9"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv0.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv5.webp"
                 ]
               }
             },
@@ -4245,12 +4244,12 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv0.webp?alt=media&token=e73e7a17-46b1-4947-a3f5-1aa5e3488b6b",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv1.webp?alt=media&token=e1ff31f0-62ee-4b6b-96e8-3f405a6fd387",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv2.webp?alt=media&token=533a78a0-f2f0-4a3f-9921-665c73941021",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv3.webp?alt=media&token=b87c1a57-6b2f-4691-b98a-ff85f4de4f30",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B.webp?alt=media&token=91b53bff-088a-4e26-81ab-23bf1de1527a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.2-Lights-Menu-Figure-B-lv5.webp?alt=media&token=1f54a9c3-c7fb-4025-a0c3-b40112adf9a9"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv0.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv1.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv3.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.2-Lights-Menu-Figure-B-lv5.webp"
                 ]
               }
             },
@@ -4314,7 +4313,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F8.7-Set-spa-to-heat-100.webp?alt=media&token=623acfcc-53e9-4050-bd84-de8d068fe3e1"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
           },
           "anchors": [
             {
@@ -4335,7 +4334,7 @@ export const fullDataJSON =
         {
           "id": "music-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.3-Music-Menu-Figure-B-bt.webp?alt=media&token=272bfc0a-ea80-41a9-afc7-cded3e7df35c"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.3-Music-Menu-Figure-B-bt.webp"
           },
           "anchors": [
             {
@@ -4424,8 +4423,8 @@ export const fullDataJSON =
                 "direction": "forward-backwards",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.3-Music-Menu-Figure-B-bt.webp?alt=media&token=272bfc0a-ea80-41a9-afc7-cded3e7df35c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.3-Music-Menu-Figure-B-aux.webp?alt=media&token=7f4bce1f-47b5-4eac-87f8-15bc6fe4f6af"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.3-Music-Menu-Figure-B-bt.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.3-Music-Menu-Figure-B-aux.webp"
                 ]
               }
             },
@@ -4446,17 +4445,17 @@ export const fullDataJSON =
                 "direction": "backwards",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-10.webp?alt=media&token=bf1f4cd8-d0f2-48c3-95b8-b9c61609b770",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-12.webp?alt=media&token=790c9625-04ee-468b-b3d8-8d3a57ada6f8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-14.webp?alt=media&token=98b42bf4-db34-4091-9779-1cf5ec570bfa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-16.webp?alt=media&token=5d2ed756-d5f0-4ea7-af60-a6bfcf5f924a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-18.webp?alt=media&token=bd732f14-863d-451a-a2ec-bdee14d399a9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.3-Music-Menu-Figure-B-bt.webp?alt=media&token=272bfc0a-ea80-41a9-afc7-cded3e7df35c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-22.webp?alt=media&token=41f176ff-e5b5-4909-87f3-4088f7c2679f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-24.webp?alt=media&token=9bb68c45-78f0-4582-bfd7-677f0dc92a21",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-26.webp?alt=media&token=e2d6ee9e-57ad-4e88-b81d-d5f29599fd2f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-28.webp?alt=media&token=7e51e59f-b79c-4ec5-a75c-e1457bc49252",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-30.webp?alt=media&token=b41be0dd-9ae7-4d42-bb3d-b820e9c8cda9"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-10.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-12.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-14.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-16.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-18.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.3-Music-Menu-Figure-B-bt.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-22.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-24.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-26.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-28.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-30.webp"
                 ]
               }
             },
@@ -4477,17 +4476,17 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-10.webp?alt=media&token=bf1f4cd8-d0f2-48c3-95b8-b9c61609b770",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-12.webp?alt=media&token=790c9625-04ee-468b-b3d8-8d3a57ada6f8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-14.webp?alt=media&token=98b42bf4-db34-4091-9779-1cf5ec570bfa",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-16.webp?alt=media&token=5d2ed756-d5f0-4ea7-af60-a6bfcf5f924a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-18.webp?alt=media&token=bd732f14-863d-451a-a2ec-bdee14d399a9",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.3-Music-Menu-Figure-B-bt.webp?alt=media&token=272bfc0a-ea80-41a9-afc7-cded3e7df35c",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-22.webp?alt=media&token=41f176ff-e5b5-4909-87f3-4088f7c2679f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-24.webp?alt=media&token=9bb68c45-78f0-4582-bfd7-677f0dc92a21",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-26.webp?alt=media&token=e2d6ee9e-57ad-4e88-b81d-d5f29599fd2f",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-28.webp?alt=media&token=7e51e59f-b79c-4ec5-a75c-e1457bc49252",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-A-vol-30.webp?alt=media&token=b41be0dd-9ae7-4d42-bb3d-b820e9c8cda9"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-10.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-12.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-14.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-16.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-18.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.3-Music-Menu-Figure-B-bt.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-22.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-24.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-26.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-28.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-30.webp"
                 ]
               }
             },
@@ -4509,7 +4508,7 @@ export const fullDataJSON =
         {
           "id": "audio-settings",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B.webp?alt=media&token=209c8154-0a81-414f-955c-2f639efbe8e2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B.webp"
           },
           "anchors": [
             {
@@ -4598,26 +4597,26 @@ export const fullDataJSON =
                 "direction": "forward",
                 "urls": 
                 [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B.webp?alt=media&token=209c8154-0a81-414f-955c-2f639efbe8e2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-rock.webp?alt=media&token=192fa1bb-ffc5-4662-965b-1572fbf94573",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-pop.webp?alt=media&token=67a15930-3f81-404a-8261-9e2796a73b52",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-classical.webp?alt=media&token=ca32f7f4-b99d-4242-8edc-ca01c8aa394d",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B.webp?alt=media&token=209c8154-0a81-414f-955c-2f639efbe8e2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-rock.webp?alt=media&token=192fa1bb-ffc5-4662-965b-1572fbf94573",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-pop.webp?alt=media&token=67a15930-3f81-404a-8261-9e2796a73b52",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-classical.webp?alt=media&token=ca32f7f4-b99d-4242-8edc-ca01c8aa394d",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B.webp?alt=media&token=209c8154-0a81-414f-955c-2f639efbe8e2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-rock.webp?alt=media&token=192fa1bb-ffc5-4662-965b-1572fbf94573",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-pop.webp?alt=media&token=67a15930-3f81-404a-8261-9e2796a73b52",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-classical.webp?alt=media&token=ca32f7f4-b99d-4242-8edc-ca01c8aa394d",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B.webp?alt=media&token=209c8154-0a81-414f-955c-2f639efbe8e2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-rock.webp?alt=media&token=192fa1bb-ffc5-4662-965b-1572fbf94573",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-pop.webp?alt=media&token=67a15930-3f81-404a-8261-9e2796a73b52",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-classical.webp?alt=media&token=ca32f7f4-b99d-4242-8edc-ca01c8aa394d",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B.webp?alt=media&token=209c8154-0a81-414f-955c-2f639efbe8e2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-rock.webp?alt=media&token=192fa1bb-ffc5-4662-965b-1572fbf94573",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-pop.webp?alt=media&token=67a15930-3f81-404a-8261-9e2796a73b52",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fsds-780-montclair%2Fscreens%2F10.5-Audio-Settings-Menu-Figure-B-classical.webp?alt=media&token=ca32f7f4-b99d-4242-8edc-ca01c8aa394d"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-rock.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-pop.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-classical.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-rock.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-pop.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-classical.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-rock.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-pop.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-classical.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-rock.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-pop.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-classical.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-rock.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-pop.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-classical.webp"
                 ]
               }
             }
@@ -4652,8 +4651,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -4677,7 +4676,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -4703,7 +4702,7 @@ export const fullDataJSON =
         {
           "id": "main-menu-ir-active",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-E_home-IR.webp?alt=media&token=46e010ef-2bb4-4278-959f-63ae231b1a82"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-E_home-IR.webp"
           },
           "anchors": [
             {
@@ -4729,7 +4728,7 @@ export const fullDataJSON =
         {
           "id": "jet-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-B_JetPumps-IR-passive.webp?alt=media&token=24ce6bfe-2b3d-40f9-8c78-42849ef8e9e5"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR-passive.webp"
           },
           "anchors": [
             {
@@ -4799,7 +4798,7 @@ export const fullDataJSON =
         {
           "id": "jet-menu-ir-active",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-B_JetPumps-IR.webp?alt=media&token=ba1d048b-2b7d-48bb-a64f-81617caaaef7"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR.webp"
           },
           "anchors": [
             {
@@ -4869,7 +4868,7 @@ export const fullDataJSON =
         {
           "id": "ir-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.3-Figure-C_IR-time.webp?alt=media&token=089b62fe-418f-4123-b2e2-256b5b3737ec"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-C_IR-time.webp"
           },
           "anchors": [
             {
@@ -4912,8 +4911,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -4937,7 +4936,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -4957,15 +4956,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp96.webp?alt=media&token=27136c29-ed15-4af6-8063-48a98289eebf",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp97.webp?alt=media&token=ee59df46-1dd8-40a6-851b-31bab115b1f7",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp98.webp?alt=media&token=bf7340a0-cf1b-42b5-bc41-d77b0c3d7bb8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp99.webp?alt=media&token=3336f328-a36b-4151-b0a4-327d56dec0fb",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp101.webp?alt=media&token=820b12c1-5848-4a5d-9d90-01be2c8538c2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp102.webp?alt=media&token=0bf9e090-2f84-4ec0-8729-64d88db7bc91",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp103.webp?alt=media&token=9cee175c-7386-404c-9b3a-de9621173547",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp104.webp?alt=media&token=759faaff-215d-4d6f-9b5f-969164bd05b9"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp96.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp97.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp98.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp99.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp101.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp102.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp103.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp104.webp"
                 ]
               }
             },
@@ -4986,15 +4985,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp96.webp?alt=media&token=27136c29-ed15-4af6-8063-48a98289eebf",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp97.webp?alt=media&token=ee59df46-1dd8-40a6-851b-31bab115b1f7",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp98.webp?alt=media&token=bf7340a0-cf1b-42b5-bc41-d77b0c3d7bb8",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp99.webp?alt=media&token=3336f328-a36b-4151-b0a4-327d56dec0fb",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp101.webp?alt=media&token=820b12c1-5848-4a5d-9d90-01be2c8538c2",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp102.webp?alt=media&token=0bf9e090-2f84-4ec0-8729-64d88db7bc91",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp103.webp?alt=media&token=9cee175c-7386-404c-9b3a-de9621173547",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F7-SetSpaToHeat_temp104.webp?alt=media&token=759faaff-215d-4d6f-9b5f-969164bd05b9"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp96.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp97.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp98.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp99.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp101.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp102.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp103.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp104.webp"
                 ]
               },
               "interactionStyle": "click"
@@ -5021,8 +5020,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -5046,7 +5045,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -5089,8 +5088,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -5114,7 +5113,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -5137,7 +5136,7 @@ export const fullDataJSON =
         {
           "id": "lighting-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp"
           },
           "anchors": [
             {
@@ -5173,13 +5172,13 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityHigh.webp?alt=media&token=deb7974a-220f-4317-8cef-3915826cfe00",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityMid.webp?alt=media&token=43385020-3cd1-4505-a51f-44dcdcccbfde",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityLow.webp?alt=media&token=1975d5da-0907-42ad-9e1d-644a753de6d6",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityHigh.webp?alt=media&token=deb7974a-220f-4317-8cef-3915826cfe00",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityMid.webp?alt=media&token=43385020-3cd1-4505-a51f-44dcdcccbfde",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intensityLow.webp?alt=media&token=1975d5da-0907-42ad-9e1d-644a753de6d6 "
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityHigh.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityMid.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityLow.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityHigh.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityMid.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityLow.webp "
                 ]
               }
             },
@@ -5201,15 +5200,15 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-low.webp?alt=media&token=56a3b840-3bfc-4513-b92d-bc3bafd09e11",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-med.webp?alt=media&token=25430f32-5cdb-45c1-8c66-3548017149f4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-high.webp?alt=media&token=2256ae79-e720-4424-a33c-d8a65ece58fb",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-freeze.webp?alt=media&token=c7c76c28-2514-4dd5-ac4f-ff7928195534",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-low.webp?alt=media&token=56a3b840-3bfc-4513-b92d-bc3bafd09e11",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-med.webp?alt=media&token=25430f32-5cdb-45c1-8c66-3548017149f4",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-high.webp?alt=media&token=2256ae79-e720-4424-a33c-d8a65ece58fb",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-blend-freeze.webp?alt=media&token=c7c76c28-2514-4dd5-ac4f-ff7928195534  "
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-low.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-med.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-high.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-freeze.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-low.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-med.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-high.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-freeze.webp  "
                 ]
               }
             },
@@ -5247,8 +5246,8 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu.webp?alt=media&token=bed70983-d3b2-43f9-93e6-72b4c55320b0",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F10.4-Figure-B_LightingMenu-intens-high.webp?alt=media&token=0f28cf2e-0404-416d-8bd7-34b53344b20e",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intens-high.webp",
                   " "
                 ]
               }
@@ -5276,8 +5275,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -5301,7 +5300,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -5343,8 +5342,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -5368,7 +5367,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -5391,7 +5390,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.0-Settings_Figure-B.webp"
           },
           "anchors": [
             {
@@ -5429,7 +5428,7 @@ export const fullDataJSON =
         {
           "id": "heat-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-B.webp?alt=media&token=9b5b2816-60f9-49df-bf1f-42f016f8183f"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-B.webp"
           },
           "anchors": [
             {
@@ -5467,7 +5466,7 @@ export const fullDataJSON =
         {
           "id": "heat-mode-selector-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-C.webp?alt=media&token=21055344-5cd8-405f-940c-c7e5b1580ed4"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-C.webp"
           },
           "anchors": [
             {
@@ -5519,7 +5518,7 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-day.webp?alt=media&token=b96a85f4-417f-452d-84c8-c742edc08fc0"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-day.webp"
                 ]
               }
             },
@@ -5541,7 +5540,7 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-C.webp?alt=media&token=21055344-5cd8-405f-940c-c7e5b1580ed4"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-C.webp"
                 ]
               }
             },
@@ -5563,7 +5562,7 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.1-HeatSettings_Figure-economy.webp?alt=media&token=822c1964-7bfc-4397-a5f6-76b1c220798c"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-economy.webp"
                 ]
               }
             }
@@ -5591,8 +5590,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -5616,7 +5615,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -5639,7 +5638,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.0-Settings_Figure-B.webp"
           },
           "anchors": [
             {
@@ -5681,7 +5680,7 @@ export const fullDataJSON =
         {
           "id": "filtration-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.2-FiltrationSettings_FigureB.webp?alt=media&token=e435b3db-565e-4aa8-94b0-1312a3361711"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-FiltrationSettings_FigureB.webp"
           },
           "anchors": [
             {
@@ -5749,7 +5748,7 @@ export const fullDataJSON =
         {
           "id": "primary-start-time",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.2-FiltrationSettings_FigureC.webp?alt=media&token=277b490a-7ea2-435d-8426-d8def3d1454c"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-FiltrationSettings_FigureC.webp"
           },
           "anchors": [
             {
@@ -5825,7 +5824,7 @@ export const fullDataJSON =
         {
           "id": "primary-end-time",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.2-FiltrationSettings_FigureD.webp?alt=media&token=6176f720-2da7-4e2d-a31f-59cec274d9c5"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-FiltrationSettings_FigureD.webp"
           },
           "anchors": [
             {
@@ -5901,7 +5900,7 @@ export const fullDataJSON =
         {
           "id": "secondary-filter-time",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB.webp?alt=media&token=e9ca04d3-f4d4-463a-a4f8-87fcb2085510"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.3-SecondaryFiltration_FigureB.webp"
           },
           "anchors": [
             {
@@ -5958,7 +5957,7 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB.webp?alt=media&token=e9ca04d3-f4d4-463a-a4f8-87fcb2085510"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.3-SecondaryFiltration_FigureB.webp"
                 ]
               }
             },
@@ -5980,7 +5979,7 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB-away.webp?alt=media&token=30d832d2-4a52-4e23-8afe-910426477c37"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.3-SecondaryFiltration_FigureB-away.webp"
                 ]
               }
             },
@@ -6002,7 +6001,7 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.3-SecondaryFiltration_FigureB-frequent.webp?alt=media&token=38b6e0e1-7f71-479e-b72b-d1a4339484fc"
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.3-SecondaryFiltration_FigureB-frequent.webp"
                 ]
               }
             }
@@ -6029,8 +6028,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -6054,7 +6053,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -6077,7 +6076,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.0-Settings_Figure-B.webp"
           },
           "anchors": [
             {
@@ -6115,7 +6114,7 @@ export const fullDataJSON =
         {
           "id": "time-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.4-ProgrammingTime-FigureB.webp?alt=media&token=83dc727a-6995-42b5-aefd-1e36865352dd"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.4-ProgrammingTime-FigureB.webp"
           },
           "anchors": [
             {
@@ -6211,8 +6210,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -6236,7 +6235,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -6259,7 +6258,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.0-Settings_Figure-B.webp?alt=media&token=7f8b2641-7b08-411e-a541-9c94d88721ab"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.0-Settings_Figure-B.webp"
           },
           "anchors": [
             {
@@ -6297,7 +6296,7 @@ export const fullDataJSON =
         {
           "id": "date-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.5-ProgrammingDate_FigureB.webp?alt=media&token=03ce877a-268b-4578-97df-2bef008a1af5"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.5-ProgrammingDate_FigureB.webp"
           },
           "anchors": [
             {
@@ -6411,8 +6410,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -6436,7 +6435,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -6459,7 +6458,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
           },
           "anchors": [
             {
@@ -6497,7 +6496,7 @@ export const fullDataJSON =
         {
           "id": "water-care-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureB.webp?alt=media&token=ec55a9f4-13ea-4988-9234-20bc8312cd11"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureB.webp"
           },
           "anchors": [
             {
@@ -6565,7 +6564,7 @@ export const fullDataJSON =
         {
           "id": "clearray-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureC.webp?alt=media&token=7df79424-65a7-4d98-8e3c-c422f032c10c"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureC.webp"
           },
           "anchors": [
             {
@@ -6627,7 +6626,7 @@ export const fullDataJSON =
         {
           "id": "water-refresh-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureD.webp?alt=media&token=e7c6438f-9cf0-4270-a6ce-0fb07b0edec2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureD.webp"
           },
           "anchors": [
             {
@@ -6689,7 +6688,7 @@ export const fullDataJSON =
         {
           "id": "filter-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureE.webp?alt=media&token=902c9dc2-5c1a-4945-937b-134d30490e9a"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureE.webp"
           },
           "anchors": [
             {
@@ -6771,8 +6770,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -6796,7 +6795,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -6819,7 +6818,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
           },
           "anchors": [
             {
@@ -6857,7 +6856,7 @@ export const fullDataJSON =
         {
           "id": "lock-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureB.webp?alt=media&token=0a8007ef-5fe7-4506-9ec0-b7fc11ba94b9"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureB.webp"
           },
           "anchors": [
             {
@@ -6929,7 +6928,7 @@ export const fullDataJSON =
         {
           "id": "settings-lock-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureC.webp?alt=media&token=9b2234d4-93db-4b30-88e9-ac052b0ccac9"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureC.webp"
           },
           "anchors": [
             {
@@ -6991,7 +6990,7 @@ export const fullDataJSON =
         {
           "id": "access-lock-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureD.webp?alt=media&token=0da80949-7ccc-4edd-9802-9303373b22d2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureD.webp"
           },
           "anchors": [
             {
@@ -7053,7 +7052,7 @@ export const fullDataJSON =
         {
           "id": "maintenance-lock-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureE.webp?alt=media&token=0c6c3e85-d8fb-4d57-afea-8114d421f306"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureE.webp"
           },
           "anchors": [
             {
@@ -7135,8 +7134,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -7160,7 +7159,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -7183,7 +7182,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
           },
           "anchors": [
             {
@@ -7225,7 +7224,7 @@ export const fullDataJSON =
         {
           "id": "lock-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureF.webp?alt=media&token=f855cba3-289a-482a-b00c-34e31e1a359b"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureF.webp"
           },
           "anchors": [
             {
@@ -7267,7 +7266,7 @@ export const fullDataJSON =
         {
           "id": "access-lock-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.7-LockingTheSpa_FigureD.webp?alt=media&token=0da80949-7ccc-4edd-9802-9303373b22d2"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureD.webp"
           },
           "anchors": [
             {
@@ -7348,8 +7347,8 @@ export const fullDataJSON =
       "type": "screenController",
       "p3dID": "F6AMg",
       "productMount": {
-        "baseUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BaseLayer_v2.webp?alt=media&token=74fde7dd-dcaa-4ad6-843c-487f2d75b111",
-        "beautyLayerUrl": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F_J-300_BeautyLayer_v2.webp?alt=media&token=b12eae3d-1bdb-4c6c-8cf3-b3a32ebaa613",
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
         "screenCorners": [
           {
             "x": 0.329,
@@ -7373,7 +7372,7 @@ export const fullDataJSON =
         {
           "id": "main-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2Fhome-screen.webp?alt=media&token=386eb539-4be3-4274-aef3-dec51f9806ca"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
           },
           "anchors": [
             {
@@ -7396,7 +7395,7 @@ export const fullDataJSON =
         {
           "id": "settings-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.6-WaterCareProgramming_FigureA.webp?alt=media&token=364f96ee-de4d-4f06-9ac7-c8773d820b31"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
           },
           "anchors": [
             {
@@ -7438,7 +7437,7 @@ export const fullDataJSON =
         {
           "id": "units-menu",
           "image": {
-            "url": "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB.webp?alt=media&token=89ee0ead-7cee-4b64-9a25-20a5cdbc1ca0"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB.webp"
           },
           "anchors": [
             {
@@ -7470,8 +7469,8 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB-C.webp?alt=media&token=b7ddb181-feaa-4f2a-9f13-aabe6733417a",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB.webp?alt=media&token=89ee0ead-7cee-4b64-9a25-20a5cdbc1ca0",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB-C.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB.webp",
                   " "
                 ]
               }
@@ -7490,11 +7489,10747 @@ export const fullDataJSON =
               "targetImage": {
                 "direction": "forward-backwards",
                 "urls": [
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB-24hr.webp?alt=media&token=ac3acea2-ee64-4a45-a9b8-c92cf866683d",
-                  "https://firebasestorage.googleapis.com/v0/b/smartmanuals-477417-t9.firebasestorage.app/o/productImages%2Fjht-j-300%2F11.8-UnitDisplay_FigureB.webp?alt=media&token=89ee0ead-7cee-4b64-9a25-20a5cdbc1ca0",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB-24hr.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB.webp",
                   " "
                 ]
               }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of setting language via the media screen.",
+    "section": "11.9",
+    "tags": [
+      "Language Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Language in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
+          },
+          "anchors": [
+            {
+              "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+              "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+              "key": "807bea85-335f-40da-aaed-b46368215c57",
+              "label": "Language Button",
+              "box_2d": [
+                536.5187484431143,
+                377.45516175649345,
+                615.4255303558328,
+                440.38557029604067
+              ],
+              "targetScreen": {
+                "id": "language-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "There are 10 languages to select from:<br><b>English, French, Spanish, German, Italian, Czech, Swedish, Norwegian, Finnish, and Polish.</b>",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "language-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.9-ProgrammingTheLanguage-FigureB.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+              "key": "2e900f47-89e9-406a-a5d4-106463832302",
+              "label": "Cancel button",
+              "box_2d": [
+                452.29007633587753,
+                379.68299711815564,
+                504.19847328244214,
+                431.1239193083576
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Change canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+              "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+              "label": "Confirm button",
+              "box_2d": [
+                456.10687022900674,
+                579.9711815561957,
+                508.01526717557135,
+                631.4121037463976
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving the language change.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+              "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+              "label": "Language Column",
+              "box_2d": [
+                490.4580152671747,
+                473.34293948126765,
+                553.8167938931288,
+                534.8703170028816
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through each column to select a language.<br>",
+                "title": "Language Column"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of setting display sleep timeout via the media screen.",
+    "section": "11.10",
+    "tags": [
+      "Screen Timeout",
+      "Display Sleep",
+      "Panel Timeout",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Display Sleep Timeout in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureA.webp"
+          },
+          "anchors": [
+            {
+              "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+              "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+              "key": "807bea85-335f-40da-aaed-b46368215c57",
+              "label": "Panel Button",
+              "box_2d": [
+                505.98439729807603,
+                363.04593985447605,
+                584.8911792107946,
+                425.97634839402326
+              ],
+              "targetScreen": {
+                "id": "panel-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Program how long the display stays active before going to sleep.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "panel-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureB.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+              "key": "2e900f47-89e9-406a-a5d4-106463832302",
+              "label": "Cancel button",
+              "box_2d": [
+                444.65648854961773,
+                381.12391930835736,
+                496.56488549618234,
+                432.5648414985593
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Changes canceled. This reverts to the last saved setting.",
+                "title": "Cancel Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+              "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+              "label": "Confirm button",
+              "box_2d": [
+                444.6564885496182,
+                581.4121037463976,
+                496.5648854961828,
+                632.8530259365996
+              ],
+              "targetScreen": {
+                "id": "settings-menu"
+              },
+              "actionMsg": {
+                "message": "Accepting and saving the changes.",
+                "title": "Confirm Button"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+              "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+              "label": "Timeout Column",
+              "box_2d": [
+                479.00763358778613,
+                480.54755043227647,
+                530.9160305343507,
+                531.9884726224784
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through the column to select a number in minutes.<br>The range is from <b>1 minute to 5 minutes</b>.",
+                "title": "Timeout Column"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model waking up the media screen.",
+    "section": "11.10.B",
+    "tags": [
+      "Waking Up",
+      "Wake Up",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Wake Up the Display in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "screen-start",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureC.webp"
+          },
+          "anchors": [
+            {
+              "key": "slider-btn",
+              "box_2d": [
+                514.4857559127005,
+                340.2529148184533,
+                627.5702451772205,
+                426.3689434048305
+              ],
+              "label": "Slider button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "swipe-right",
+              "actionMsg": {
+                "message": "Slide this button to the right side to unlock",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureD.webp"
+                ]
+              }
+            },
+            {
+              "key": "ada40b7b-62d8-4fec-9db8-c5579249a761",
+              "box_2d": [
+                516.3941528592653,
+                578.0050762017387,
+                629.4786421237853,
+                664.1211047881159
+              ],
+              "label": "Retry Button",
+              "uid": "14bb964f-754a-4a1e-ac6a-7a395759875f",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Try again..",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureC.webp"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of accessing diagnostics menu via the media screen.",
+    "section": "11.11",
+    "tags": [
+      "Diagnostics Menu",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Access Diagnostics Menu in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureA.webp"
+          },
+          "anchors": [
+            {
+              "uid": "df18ea19-c3d2-484e-9dcf-4f1b72f5f74b",
+              "key": "6f078861-1cd5-4d53-abeb-9d573095f6c7",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "6533add5-f6bb-4c7a-9e18-bd632b85b363",
+              "key": "fc9f14c3-778a-4148-be06-f643edee35ee",
+              "label": "Diagnostics Button",
+              "box_2d": [
+                538.4271453896789,
+                388.9825392781072,
+                617.3339273023975,
+                451.9129478176544
+              ],
+              "targetScreen": {
+                "id": "diagnostics-menu"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Note</b>: Most of the information provided in this menu is to assist<br>a qualified technician troubleshoot the system.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "diagnostics-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.11-DiagnosticMenu_FigureB.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+              "key": "2e900f47-89e9-406a-a5d4-106463832302",
+              "label": "System information Button",
+              "box_2d": [
+                452.2900763358771,
+                420.0288184438041,
+                504.1984732824417,
+                471.46974063400603
+              ],
+              "actionMsg": {
+                "message": "Displays various system information about the hot tub.<br>This information is helpful when servicing the hot tub.",
+                "title": "System information"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+              "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+              "label": "Fault Log",
+              "box_2d": [
+                486.6412213740459,
+                378.2420749279538,
+                538.5496183206105,
+                429.68299711815575
+              ],
+              "actionMsg": {
+                "message": "Displays any faults detected by the hot tub.<br>It will store up to 50 fault settings.",
+                "title": "Fault Log"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+              "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+              "label": "GFCI Test",
+              "box_2d": [
+                522.900763358778,
+                394.09221902017293,
+                574.8091603053426,
+                445.5331412103749
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "gfci-test-menu"
+              }
+            },
+            {
+              "uid": "53961f4e-39d2-4938-813b-5952ef8788b0",
+              "key": "efbe2cea-31b8-44ef-8c23-af1aa1191197",
+              "label": "Back button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gfci-test-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.11-DiagnosticMenu_FigureD.webp"
+          },
+          "anchors": [
+            {
+              "uid": "af655d49-e413-4dcc-93f2-857466723f73",
+              "key": "e90172c0-13b7-4944-b68c-5245315bc3b5",
+              "label": "Back Button",
+              "box_2d": [
+                357.1294354660155,
+                325.58196290923115,
+                430.31102653903974,
+                384.1896048781732
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "diagnostics-menu"
+              }
+            },
+            {
+              "uid": "043d6370-a61e-49dc-ba64-4c88e8d92abb",
+              "key": "83f3e212-13fd-4db9-b14e-dcaef08e96e0",
+              "label": "GFCI Test Button",
+              "box_2d": [
+                412.4729469163973,
+                377.45516175649345,
+                485.65453798942156,
+                436.0628037254355
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Once clicked, the test will begin.<br>The result will return either a pass or fail message.",
+                "title": "GFCI Test"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "25_J300_EN",
+    "pdf_id": "25_J300_EN",
+    "productID": "jht-j-315",
+    "product_id": "jht-j-315",
+    "caption": "Interactive 3D model of setting the true water care filtration via the media screen.",
+    "section": "11.12",
+    "tags": [
+      "True Water Care Filtration",
+      "Setting True Water Care",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Control True Water Care Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "F6AMg",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+          },
+          "anchors": [
+            {
+              "key": "settings-btn",
+              "box_2d": [
+                522.1193436989598,
+                599.6189090547648,
+                635.2038329634798,
+                685.734937641142
+              ],
+              "label": "Settings Button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureA.webp"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+              "key": "time-btn",
+              "label": "True Button",
+              "box_2d": [
+                474.92961661463244,
+                362.25987036375204,
+                548.1112076876567,
+                420.8675123326941
+              ],
+              "targetScreen": {
+                "id": "true-water-care-menu-light"
+              },
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "During the filtration, The True™ Water Care cycle activates the circulation pump, ozone, and air pump.<br>The factory default cycle starts at 12:00 AM and last for 8 hours.<br>",
+                "title": "True™ Water Care"
+              }
+            }
+          ]
+        },
+        {
+          "id": "true-water-care-menu-light",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureB.webp"
+          },
+          "anchors": [
+            {
+              "uid": "2d405beb-d17e-49e2-9009-84af1c2693e3",
+              "key": "f14cb3de-4c64-49dd-8892-a0b26cd729fb",
+              "label": "Back Button",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "4f411053-70ea-479f-96ac-6856ef3f7f37",
+              "key": "866727d1-31e2-4ca8-b572-0afdad11007f",
+              "label": "Mode",
+              "box_2d": [
+                429.6485194354815,
+                605.1208678083667,
+                502.83011050850575,
+                663.7285097773088
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "The factory default cycle starts at 12 AM and provides 8 hours of filtration.<br> Time and duration cannot be altered for the cycles, but you can change the start time.<br><br>The factory default cycle starts at 12:00 AM.<br>• 8 hour of primary filtration per day (2 hours at 12 AM, 6 AM, 12 PM, 6 PM).<br>• The circulation pump and True™ Water Care System are active.",
+                "title": "Light Mode (default cycle)"
+              },
+              "targetScreen": {
+                "id": "true-water-care-menu-medium"
+              }
+            }
+          ]
+        },
+        {
+          "id": "true-water-care-menu-24hr",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureB-24hr.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c0d3dd83-34b9-4845-a357-9bc0ad34fa6d",
+              "key": "f0e18107-ddb5-4e12-97c2-3e1a0720adf7",
+              "label": "Back Button",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "87861499-3e3c-4ec1-852d-6022aa745e8c",
+              "key": "a722d839-a4b2-44f0-acbe-d4d6c9b4e1f2",
+              "label": "Mode",
+              "box_2d": [
+                429.6485194354815,
+                605.1208678083667,
+                502.83011050850575,
+                663.7285097773088
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "The circulation pump and True™ Water Care System are always active.<br>Time and duration cannot be altered for the cycle.<br><br>• System runs 24-hours.",
+                "title": "24-hour Mode"
+              },
+              "targetScreen": {
+                "id": "true-water-care-menu-light"
+              }
+            }
+          ]
+        },
+        {
+          "id": "true-water-care-menu-medium",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureB-Medium.webp"
+          },
+          "anchors": [
+            {
+              "uid": "37b1cd78-33eb-4673-a95a-4159132b39cc",
+              "key": "11edd474-ee64-43d1-960a-95448b2fdf19",
+              "label": "Back Button",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "ace5477b-f837-44aa-8280-f4acb8bc5d01",
+              "key": "8381bac3-461e-41fd-b2ad-96423863792d",
+              "label": "Mode",
+              "box_2d": [
+                429.6485194354815,
+                605.1208678083667,
+                502.83011050850575,
+                663.7285097773088
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "The factory default cycle starts at 12 AM and provides 12 hours of filtration.<br>Time and duration cannot be altered.<br><br>• The factory default cycle starts at 12 AM.<br>• 12 hours of primary filtration per day (2 hours at 12 AM, 4 AM, 8 AM, 12 PM, 4 PM, 8 PM).<br>The circulation pump and True™ Water Care System are active.<br>• 6 purge cycles (10-minute purge runs at the end of each cycle).<br>The circulation and air pump are active.",
+                "title": "Medium Mode"
+              },
+              "targetScreen": {
+                "id": "true-water-care-menu-heavy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "true-water-care-menu-heavy",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureB-Heavy.webp"
+          },
+          "anchors": [
+            {
+              "uid": "77fea785-e65d-4533-9ad1-c30ba2bd2071",
+              "key": "d3711598-d0dc-494a-8729-0ddb17217b92",
+              "label": "Back Button",
+              "box_2d": [
+                359.03783241258054,
+                328.4638072896346,
+                432.2194234856048,
+                387.07144925857665
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-menu"
+              }
+            },
+            {
+              "uid": "0d4f2be9-0d45-494b-ade2-82c9cef8d90f",
+              "key": "2bef4d08-186e-401d-837f-38788976f1ec",
+              "label": "Mode",
+              "box_2d": [
+                429.6485194354815,
+                605.1208678083667,
+                502.83011050850575,
+                663.7285097773088
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "The factory default cycle starts at 12 AM and provides 16 hours of filtration.<br>Time and duration cannot be altered.<br><br>• Factory default cycle starts at 12 AM.<br>• 16 hours of primary filtration per day (2 hours at 12 AM, 3 AM, 6 AM, 9 AM, 12 PM, 3 PM, 6 PM, 9 PM).<br>The circulation pump and True™ Water Care System are active.<br>• 4 purge cycles (7.5-minute purge runs at the end of each cycle).<br>The circulation and air pump are active.",
+                "title": "Heavy Mode"
+              },
+              "targetScreen": {
+                "id": "true-water-care-menu-24hr"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of controlling the temperature via the media screen.",
+    "section": "11.1",
+    "tags": [
+      "Temperature Control",
+      "Adjust Temperature",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Control Temperature in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu-high",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click <b>+</b> or <b>-</b> to adjust the temperature.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-low",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c7e39a21-aca8-4086-a7c8-07f738d31d4f",
+              "key": "1660116e-22ac-4849-a260-f798f0a6eb5c",
+              "label": "Reset button",
+              "box_2d": [
+                690.0581585173644,
+                145.99067682989045,
+                763.0661954247154,
+                223.85411907350783
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu-high"
+              }
+            },
+            {
+              "uid": "42f161c0-44ea-4a7e-8ab9-109003a33ea4",
+              "key": "fe6299be-88d5-4cb1-917c-50f70e82a813",
+              "label": "Up Button",
+              "box_2d": [
+                415.2489982120202,
+                271.3509073774406,
+                509.2494015315848,
+                353.53711619166324
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp"
+                ]
+              },
+              "targetScreen": {
+                "id": "main-menu-low-confirm"
+              }
+            },
+            {
+              "uid": "a733208a-d3c4-4a08-92a3-f2895a66c9df",
+              "key": "35707114-5303-41a8-b79a-7255997bac14",
+              "label": "Down Button",
+              "box_2d": [
+                487.76808218148574,
+                269.909985187239,
+                581.7684855010503,
+                352.09619400146164
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp"
+                ]
+              },
+              "targetScreen": {
+                "id": "main-menu-low-confirm"
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-low-confirm",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "82b1e2cb-7625-4f5a-b669-21213ba6d4c8",
+              "key": "639c2da8-7bd6-4603-8217-b13d6b6c631f",
+              "label": "Reset button",
+              "box_2d": [
+                690.0581585173644,
+                145.99067682989045,
+                763.0661954247154,
+                223.85411907350783
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu-high"
+              }
+            },
+            {
+              "uid": "52c5e1d6-71c6-498d-af3d-53ab1d0027ae",
+              "key": "b7a71299-6fee-425f-b0bb-745a1f0261d7",
+              "label": "Up Button",
+              "box_2d": [
+                415.2489982120202,
+                271.3509073774406,
+                509.2494015315848,
+                353.53711619166324
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "f345c942-2af9-4fc5-abba-6b52dbe04ece",
+              "key": "a7ba8fc0-0ed8-4ff6-969f-95efd4555f5d",
+              "label": "Down Button",
+              "box_2d": [
+                487.76808218148574,
+                269.909985187239,
+                581.7684855010503,
+                352.09619400146164
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp"
+                ]
+              }
+            },
+            {
+              "uid": "e881cd40-b1c8-4a19-b06b-ff6b220ca21b",
+              "key": "0ffb9b10-6d29-4a57-8afa-8cc296332df7",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Once the temperature is set press this button to confirm the changes.",
+                "title": "Confirm temperature change"
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-high-range",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "key": "6e8a8fd7-0e12-48db-8383-2e997912495f",
+              "box_2d": [
+                415.2489982120202,
+                271.3509073774406,
+                509.2494015315848,
+                353.53711619166324
+              ],
+              "label": "Up Button",
+              "uid": "7d55b4bb-9893-4ae8-b555-5e6bd4249fe8",
+              "actionMsg": {
+                "message": "<b>Increasing the temperature</b><br><b>(High Range Temperature - default setting)<br><br>Click the Menu button to confirm the temperature change.</b><br><br>The default temperature setting is 100°F (38°C)<br>Maximum temperature is 104°F (40°C).<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-101F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-102F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-103F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-104F.webp"
+                ]
+              },
+              "targetScreen": {
+                "id": "main-menu-high-range-confirm"
+              }
+            },
+            {
+              "key": "b08d343c-1581-4dd9-9998-df5f7371dac8",
+              "box_2d": [
+                487.76808218148574,
+                269.909985187239,
+                581.7684855010503,
+                352.09619400146164
+              ],
+              "label": "Down Button",
+              "uid": "2444c0cb-9017-4cfb-838b-2ae04b54ef66",
+              "actionMsg": {
+                "message": "<b>Decreasing the temperature</b><br><b>(High Range Temperature - default setting)</b><br><br>Click the Menu button to confirm the temperature change.<br><br>The default temperature setting is 100°F (38°C)<br>Minimum temperature is 80°F (26.5°C).<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-101F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-102F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-103F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-104F.webp"
+                ]
+              },
+              "targetScreen": {
+                "id": "main-menu-high-range-confirm"
+              }
+            },
+            {
+              "uid": "2497b755-70ab-439d-9cd6-ba6f08313e1f",
+              "key": "7c9ddd2f-0a78-4a4e-ab39-c09716744697",
+              "label": "Reset button",
+              "box_2d": [
+                690.0581585173644,
+                145.99067682989045,
+                763.0661954247154,
+                223.85411907350783
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu-high"
+              },
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f8b8e451-e1f6-4802-9100-dcaa018176fc",
+              "key": "d0f8093e-b425-4b6b-8b91-3674e1b0be0c",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu-low"
+              },
+              "actionMsg": {
+                "message": "You're now in Low Range Temperature setup mode (<b>65°F or 18.5°C</b> to <b>99°F or 37°C</b>).<br>\nPress + or - buttons to adjust your temperature.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-high-range-confirm",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "key": "d5d467ad-e256-4072-9dda-2c61b9f73adb",
+              "box_2d": [
+                415.2489982120202,
+                271.3509073774406,
+                509.2494015315848,
+                353.53711619166324
+              ],
+              "label": "Up Button",
+              "uid": "a5e5c1e1-e211-4153-8f34-8d2709268d47",
+              "actionMsg": {
+                "message": "<b>Increasing the temperature</b><br><b>(High Range Temperature - default setting)<br><br>Click the Menu button to confirm the temperature change.</b><br><br>The default temperature setting is 100°F (38°C)<br>Maximum temperature is 104°F (40°C).<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-101F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-102F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-103F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-104F.webp"
+                ]
+              }
+            },
+            {
+              "key": "f726968e-b9f3-47a2-a489-9a42b952868a",
+              "box_2d": [
+                487.76808218148574,
+                269.909985187239,
+                581.7684855010503,
+                352.09619400146164
+              ],
+              "label": "Down Button",
+              "uid": "8e028fda-e29b-438f-9aad-b01d0cfcd58d",
+              "actionMsg": {
+                "message": "<b>Decreasing the temperature</b><br><b>(High Range Temperature - default setting)</b><br><br>Click the Menu button to confirm the temperature change.<br><br>The default temperature setting is 100°F (38°C)<br>Minimum temperature is 80°F (26.5°C).<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-96F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-97F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-98F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-99F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-101F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-102F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-103F.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-104F.webp"
+                ]
+              }
+            },
+            {
+              "uid": "0d983ac9-3e01-442b-b3f4-95efb21d0e03",
+              "key": "084cdbac-b688-4cb8-a019-c3de88fa3063",
+              "label": "Reset button",
+              "box_2d": [
+                690.0581585173644,
+                145.99067682989045,
+                763.0661954247154,
+                223.85411907350783
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu-high"
+              },
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "ed6affe4-61a0-4415-bc1c-ad361f256f57",
+              "key": "4750be91-4fe3-4bf2-a92d-7dfc767d1e76",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Once the temperature is set press this button to confirm the changes.",
+                "title": "Confirm temperature change"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Up button",
+              "box_2d": [
+                415.2489982120202,
+                271.3509073774406,
+                509.2494015315848,
+                353.53711619166324
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu-high-range"
+              },
+              "actionMsg": {
+                "message": "You're now in High Range Temperature setup mode (<b>80°F or 26.5°C</b> to <b>104°F or 40°C</b>).<br>\nPress Menu button again to switch to Low Range Temperature Mode (<b>65°F or 18.5°C</b> to <b>99°F or 37°C</b>)<br>or press + or - buttons to adjust your temperature.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "cf804f8b-f679-4645-8872-c92688f79bd9",
+              "key": "ece36cdf-aa15-45aa-a625-859dd0309e81",
+              "label": "Down Button",
+              "box_2d": [
+                487.76808218148574,
+                269.909985187239,
+                581.7684855010503,
+                352.09619400146164
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "You're now in High Range Temperature setup mode (<b>80°F or 26.5°C</b> to <b>104°F or 40°C</b>).<br>\nPress Menu button again to switch to Low Range Temperature Mode (<b>65°F or 18.5°C</b> to <b>99°F or 37°C</b>)<br>or press + or - buttons to adjust your temperature.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu-high-range"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the heating mode via the media screen.",
+    "section": "11.2",
+    "tags": [
+      "Heating Mode",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Heating Mode in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Heating Mode.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "da846079-95a6-4f5d-b4e6-b52513a526da",
+              "key": "36fd52e4-26ad-4c1b-ad4f-96cb33b30068",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Switching to Ready Mode</b><br>This mode allows the heater to heat, at all times, in order to maintain the preset temperature.<br>Indicated by the Ready Mode <b>\"R\"</b> icon on the Main Menu Display.<br>Pump 1 low speed activates periodically to circulate the water and determine the spa temperature.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "mode-ready"
+              }
+            },
+            {
+              "uid": "a0140bac-92b1-4892-b641-c8547df3f376",
+              "key": "c50a308b-d2a3-4773-be8f-2cea7fe7909b",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b> Switching to Rest Mode</b><br>This mode allows the heater to heat only during a programmed filter cycle.<br>Indicated by the Rest Mode <b>\"R\"<b/>(sideways) icon on the Main Menu display.<br>If the primary pump has not turned on within an hour, the message <b>\"RUN PUMP FOR TEMP\"</b> will appear on the display.<br>Pressing the Jets Pump 2 button will activate the pump and heater so the temperature can be sensed and displayed.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "mode-rest"
+              }
+            },
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Reset button",
+              "box_2d": [
+                669.2777844417443,
+                104.52406007016435,
+                748.4352298205878,
+                172.3010469823697
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mode-ready",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode-ready.webp"
+          },
+          "anchors": [
+            {
+              "uid": "69e6660b-00bb-46c2-beab-0d5ca5da5576",
+              "key": "897348f0-a777-4016-b072-7c9803f29c97",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Switching to Rest Mode</b><br>This mode allows the heater to heat only during a programmed filter cycle.<br>Indicated by the Rest Mode <b>\"R\"<b/>(sideways) icon on the Main Menu display.<br>If the primary pump has not turned on within an hour, the message <b>\"RUN PUMP FOR TEMP\"</b> will appear on the display.<br>Pressing the Jets Pump 2 button will activate the pump and heater so the temperature can be sensed and displayed.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "mode-rest"
+              }
+            },
+            {
+              "uid": "69b6d392-32fb-4c6c-a3f8-3059dfe3e7cf",
+              "key": "7b21651d-e9f5-407d-8d93-e122f4e3c5af",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "title": "Ready Heating Mode Activated"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "1e6dd4c8-96ea-48b7-975a-d34bba067793",
+              "key": "c5634311-08d8-4a0e-94c1-7667bfd44e38",
+              "label": "Reset button",
+              "box_2d": [
+                669.2777844417443,
+                104.52406007016435,
+                748.4352298205878,
+                172.3010469823697
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mode-rest",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode-rest.webp"
+          },
+          "anchors": [
+            {
+              "uid": "2c07702a-cc7e-41c7-9235-a305078d55f6",
+              "key": "494ffd59-fd64-4822-83a6-77c4fe9e1e1f",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Switching to Ready Mode</b><br>This mode allows the heater to heat, at all times, in order to maintain the preset temperature.<br>Indicated by the Ready Mode <b>\"R\"</b> icon on the Main Menu Display.<br>Pump 1 low speed activates periodically to circulate the water and determine the spa temperature.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "mode-ready"
+              }
+            },
+            {
+              "uid": "c25eaa82-2ebe-4722-b053-fc7253febf20",
+              "key": "05966bab-e1d3-48a5-aa75-257342a5f8b5",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "title": "Rest Heating Mode Activated"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a580fcc3-830f-4d5a-b6ef-59e3554c47bf",
+              "key": "cc5d0f20-4b8c-4acf-86ff-753b8ca62385",
+              "label": "Reset button",
+              "box_2d": [
+                669.2777844417443,
+                104.52406007016435,
+                748.4352298205878,
+                172.3010469823697
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the time via the media screen.",
+    "section": "11.3",
+    "tags": [
+      "Time Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Time in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Press on + or - to start adjusting the time.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "39e26030-d8e7-4468-9a4f-9f4db42ee19e",
+              "key": "141675e2-64ff-471b-9fd1-df6b1ffeadb6",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "time-h"
+              }
+            },
+            {
+              "uid": "90a6f8e5-746e-4b02-b84e-f00b15b874d6",
+              "key": "64951a29-5a81-40b8-b160-4191686da761",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "time-h"
+              }
+            },
+            {
+              "uid": "2bf55d20-4957-4431-8bda-76779a34cb18",
+              "key": "6eada59d-8e6c-46c6-9de7-75270a65e9ee",
+              "label": "Reset button",
+              "box_2d": [
+                669.2777844417443,
+                104.52406007016435,
+                748.4352298205878,
+                172.3010469823697
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-h",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h.webp"
+          },
+          "anchors": [
+            {
+              "uid": "69e6660b-00bb-46c2-beab-0d5ca5da5576",
+              "key": "897348f0-a777-4016-b072-7c9803f29c97",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the hour number.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-5.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-6.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-7.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-9.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-10.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-11.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "34f9eb08-7250-4573-ab8b-28d5610b6048",
+              "key": "6fe665a7-afa2-4720-83b2-cbd04a1d6366",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the hour number.<br>In the upper right-hand corner, <b>A</b> or <b>P</b> indicates either AM or PM.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-4.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-5.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-6.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-7.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-9.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-10.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-h-11.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "69b6d392-32fb-4c6c-a3f8-3059dfe3e7cf",
+              "key": "7b21651d-e9f5-407d-8d93-e122f4e3c5af",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Transitioning to minute setup.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-min"
+              }
+            },
+            {
+              "uid": "1e6dd4c8-96ea-48b7-975a-d34bba067793",
+              "key": "c5634311-08d8-4a0e-94c1-7667bfd44e38",
+              "label": "Reset button",
+              "box_2d": [
+                669.2777844417443,
+                104.52406007016435,
+                748.4352298205878,
+                172.3010469823697
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-min",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min.webp"
+          },
+          "anchors": [
+            {
+              "uid": "93bc99a5-bf77-49dc-81c3-fe42e78ba499",
+              "key": "85ca7ab0-3d0c-4aef-8a32-1524281d4116",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the minute number.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-54.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-55.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-56.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-58.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-59.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "c8779b44-baf7-4dbe-8a54-9fec7ea73db8",
+              "key": "931e513c-8a37-4a94-b162-92fd9e7cec73",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the minute number.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-54.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-55.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-56.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-58.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time-min-59.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "b415576c-03ea-4808-a9b2-ecf0fba1651e",
+              "key": "ad96b78c-78e6-4c73-80d4-150f66a16b3b",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "title": "Time has been successfully updated."
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0493bd9e-39f7-41c3-a8e7-960cafb013fe",
+              "key": "c8cd7e71-67ba-4437-8a3e-a20b6736b27e",
+              "label": "Reset button",
+              "box_2d": [
+                669.2777844417443,
+                104.52406007016435,
+                748.4352298205878,
+                172.3010469823697
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of inverting the display via the media screen.",
+    "section": "11.4",
+    "tags": [
+      "Flip Display",
+      "Invert Screen",
+      "Flip Screen",
+      "Invert Display,Media Screen"
+    ],
+    "suggestedLabel": "Invert Display in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Press on + or - to flip the screen.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip-2.webp"
+                ]
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip-2.webp"
+                ]
+              }
+            },
+            {
+              "uid": "f086b3ff-b78d-4dbd-be88-cb96c7069c21",
+              "key": "215e6742-546a-4bda-8d53-272ef4c17401",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Resetting the preview...",
+                "title": "Display Flip settings saved"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of locking the temperature via the media screen.",
+    "section": "11.5.A",
+    "tags": [
+      "Lock Temperature",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Lock Temperature in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Press on + or - to select wheter to lock the temperature.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-temp-screen"
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-temp-screen"
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-temp-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ac1fe4dc-cfdf-4416-8be9-c725554fb2a9",
+              "key": "b6acf233-c3be-44de-a186-60c50628ff2f",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-temp-screen-confirm"
+              }
+            },
+            {
+              "uid": "4add3af8-e2fc-43ae-a707-f4ce7da0ba0f",
+              "key": "12e07171-5b99-4890-8648-e924371e0638",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-temp-screen-confirm"
+              }
+            },
+            {
+              "uid": "94c4cbc7-5616-44ae-8354-8b55463f1c58",
+              "key": "cddec81d-cd74-4dd5-b084-f593b68c393a",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-temp-screen-confirm",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp"
+          },
+          "anchors": [
+            {
+              "uid": "092e6e09-7a66-4400-a7c3-956103cb1a02",
+              "key": "1e7de846-a486-4240-8233-2644e9b90d41",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "779100d0-5494-4ce2-9e70-c4b925eab128",
+              "key": "e25251ce-c09d-49f0-bade-a37a0fcb7d5d",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "84642b46-43c9-402e-aea8-1553003ef4c7",
+              "key": "241d1caa-49a9-48b9-9018-9315d1fb78a2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "2e80ec22-5342-411c-bdcd-aa72125bd98f",
+              "key": "557001dd-946e-4e7d-97f1-2363821dcf33",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "title": "Temperature Lock State Updated"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of locking the panel via the media screen.",
+    "section": "11.5.B",
+    "tags": [
+      "Lock Panel",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Lock Panel in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Panel Menu</b><br>Press on + or - to select lockable feature.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-temp-screen"
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-temp-screen"
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-temp-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "94c4cbc7-5616-44ae-8354-8b55463f1c58",
+              "key": "cddec81d-cd74-4dd5-b084-f593b68c393a",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "c475e4c8-69ac-4ab2-b7fd-1498d1989159",
+              "key": "7a977f03-1626-46da-a223-730e0f219e59",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-panel-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Panel Menu</b><br>Press on + or - to select whether to lock the panel.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-panel-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/panl.webp"
+          },
+          "anchors": [
+            {
+              "uid": "092e6e09-7a66-4400-a7c3-956103cb1a02",
+              "key": "1e7de846-a486-4240-8233-2644e9b90d41",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-panel-screen-state-changed"
+              }
+            },
+            {
+              "uid": "779100d0-5494-4ce2-9e70-c4b925eab128",
+              "key": "e25251ce-c09d-49f0-bade-a37a0fcb7d5d",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-panel-screen-state-changed"
+              }
+            },
+            {
+              "uid": "84642b46-43c9-402e-aea8-1553003ef4c7",
+              "key": "241d1caa-49a9-48b9-9018-9315d1fb78a2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-panel-screen-state-changed",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp"
+          },
+          "anchors": [
+            {
+              "uid": "194156a1-8d63-447e-bc8b-18f4c69d4006",
+              "key": "e86b0cbd-ff6b-445b-8a41-3a244ad496e4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "b01b4abd-f0e4-4fd0-b5f6-89af8dea69ed",
+              "key": "04b19908-0fc5-4554-bfe9-fe261ab092b4",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "51f05136-7960-4ecb-973a-ebf829243e76",
+              "key": "25ec3519-4d0b-4d19-b34d-7ab2e9548c92",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "e79cedfb-7463-4475-87e2-4e86eff1401b",
+              "key": "f1b533a3-8719-4d9d-9fdd-ac216e33b2e9",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "title": "Panel Lock State Updated"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of unlocking the temperature/panel via the media screen.",
+    "section": "11.5.C",
+    "tags": [
+      "Unlock Panel",
+      "Unlock Temperature",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Unlock Temperature/Panel in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Up button",
+              "box_2d": [
+                414.8248970595274,
+                271.03060472749473,
+                508.825300379092,
+                353.21681354171733
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "From the Main Menu press and hold \"<b>+</b>\" button.<br>Then press the <b>Menu</b> button 2 times.",
+                "title": "+ Button"
+              },
+              "targetScreen": {
+                "id": "main-menu-step2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-step2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "98de0fa8-1b61-401b-b3fa-3bfb5d20b9f7",
+              "key": "ce6a15c3-f094-4b24-8ef3-90e6d1267905",
+              "label": "Menu Button",
+              "box_2d": [
+                419.06567562584416,
+                648.8725212102936,
+                513.0660789454088,
+                731.0587300245162
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Click Menu button 1 more time.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu-step3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-step3",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e57803f7-6443-4561-9fd2-58e6eac75676",
+              "key": "de06ee41-431d-4581-a6d1-7808c3b979b2",
+              "label": "Menu Button",
+              "box_2d": [
+                419.06567562584416,
+                648.8725212102936,
+                513.0660789454088,
+                731.0587300245162
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Opening the Unlocking Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "main-menu-step4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "main-menu-step4",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/unlock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "bd40dfc0-d4d7-4d2b-b71a-028418916b3f",
+              "key": "19634b31-f981-490c-8d00-4dba52b296ce",
+              "label": "Continue",
+              "box_2d": [
+                561.1352519766311,
+                466.35559318885976,
+                655.1356552961958,
+                548.5418020030824
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "After a few seconds the Main Menu will be displayed.<br>If you have both Temperature and Panel locked, you will need to repeat this procedure once more.",
+                "title": "Feature Unlocked"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of entering the hold/standby mode via the media screen.",
+    "section": "11.6",
+    "tags": [
+      "Hold Mode",
+      "Standby Mode",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Hold Mode in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Press on + or - enter the hold menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-timer"
+              },
+              "actionMsg": {
+                "message": "This feature is used when performing a service or replacing the filters.<br>The setting lasts an hour unless you manually exit.<br><br><b>To exit the setting before the hour is up</b>, press either the <b>Menu</b>, or <b>+</b>/<b>-</b> button.<br>You will return to the Main Menu.",
+                "title": "Hold (Standby) Activated"
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-timer"
+              },
+              "actionMsg": {
+                "message": "This feature is used when performing a service or replacing the filters.<br>The setting lasts an hour unless you manually exit.<br><br><b>To exit the setting before the hour is up</b>, press either the <b>Menu</b>, or <b>+</b>/<b>-</b> button.<br>You will return to the Main Menu.",
+                "title": "Hold (Standby) Activated"
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-timer",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/1h.webp"
+          },
+          "anchors": [
+            {
+              "uid": "62e10a40-36b5-43a5-a758-ca2bb725537d",
+              "key": "9e9ccd3d-5acd-47ee-81c2-d0a66a6b9945",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "57ac4cb8-8121-48e6-8022-6a92408732e8",
+              "key": "a24ca668-bf7c-41e3-806d-62a824b26bff",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Exiting the hold menu.<br>Going back to Main Menu screen.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "909e229f-3da1-4c5d-8fea-06d93b80af3a",
+              "key": "9b1aad47-600c-47e8-88a7-e543ec1cf7a6",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Exiting the hold menu.<br>Going back to Main Menu screen.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "2bea2286-caa2-48d4-9ad9-cdbb0a30b61a",
+              "key": "3d0855e8-1d12-478e-b171-75b6028e3005",
+              "label": "Menu Button.",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Exiting the hold menu.<br>Going back to Main Menu screen.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the filtration cycle 1 via the media screen.",
+    "section": "11.7",
+    "tags": [
+      "Filtration Cycle 1",
+      "Setting Filtration Cycle 1",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Filtration Cycle 1 in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-begin-menu-name"
+              },
+              "actionMsg": {
+                "message": "Press + or - again to start programming the cycle.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-begin-menu-name"
+              },
+              "actionMsg": {
+                "message": "Press + or - again to start programming the cycle.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-begin-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/begn.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e16273c6-c04a-4d50-a95b-055fefbd9472",
+              "key": "756a34ad-254c-479e-bc1a-d11fa89b7c96",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-hour-setup"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Start - Hours</b><br>Press + or - to start programming the cycle.<br>In the upper right-hand corner, an <bA</b> or <b>P</b> will display. This indicates either AM or PM.<br>You must round the clock to change from am to pm.<br><br>Once finished adjusting the hours press the menu button to continue.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "30eae215-3cab-4242-bad5-6c61527aa3ce",
+              "key": "628fac91-8cdb-4a96-8c72-4d19fcc535b0",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-hour-setup"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Start - Hours</b><br>Press + or - to start programming the cycle.<br>In the upper right-hand corner, an <bA</b> or <b>P</b> will display. This indicates either AM or PM.<br>You must round the clock to change from am to pm.<br><br>Once finished adjusting the hours press the menu button to continue.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "41de8daa-43f0-4162-8614-8ef3254a67cb",
+              "key": "e078bb41-be55-49cf-930a-afffda5b97e1",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-hour-setup",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-00.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d924146c-3b44-49ad-b3c6-1504bbafe476",
+              "key": "60bb504a-cc95-452d-a821-bdb37d8fca70",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_5-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_6-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_7-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_9-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_10-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_11-00.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "5cb5ed92-fbeb-448c-885f-0b3e96ebedcc",
+              "key": "651104c0-cb51-41c5-b429-e120e82d3b10",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_5-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_6-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_7-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_9-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_10-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_11-00.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "17d98ccd-82a4-40bf-a49a-eed199c4c7af",
+              "key": "560ca2b6-2f0d-4b9c-8578-5efc4d3c9ca7",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "eed42322-1cb4-4288-a19f-7442251fab65",
+              "key": "f66edbf8-2a47-4a25-a7f9-1e19867a817a",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-minute-setup"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Start - Minutes</b><br>Press + or - to adjust the minutes.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-minute-setup",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-00-min.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b40a9761-0382-4cae-bdc3-94f04613ae04",
+              "key": "cb2f6127-9d29-4c3c-ba7e-6d56f51ec531",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the minutes.<br>Once done press the menu button to continue and program the cycle length.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-56.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-57.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-58.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-59.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-00-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-01.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-03.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-04.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-05.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "4ef0eb7b-cf81-4139-8bbb-06d3dc704100",
+              "key": "54abbdab-ff3a-4a85-a2fd-d54d3b506a35",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the minutes.<br>Once done press the menu button to continue and program the cycle length.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-56.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-57.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-58.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-59.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-00-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-01.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-03.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-04.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter1_8-05.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "7afea41e-5774-4e93-86be-120eb2b3a832",
+              "key": "2b6206d9-4e16-454b-9b93-1039a1d37140",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "7350eb11-7712-46c1-bfce-978c413f574f",
+              "key": "6ceefc1c-cf55-423d-a755-66ea10031e35",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-run-name"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length Menu</b><br>Press + or - to enter cycle length programming menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-run-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/run.webp"
+          },
+          "anchors": [
+            {
+              "uid": "241cbe17-d2d9-4c99-acfe-ae5ac02b206e",
+              "key": "c26c533e-54a7-4654-83db-1565ac1426ed",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Hours</b><br>Press + or - to adjust the hour(s) duration of the cycle. ",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-1-run-length-hrs"
+              }
+            },
+            {
+              "uid": "959312d9-13a4-46c0-9b0d-58d573371b55",
+              "key": "b40b39fc-4d16-4986-b261-67cd6cf8776e",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Hours</b><br>Press + or - to adjust the hour(s) duration of the cycle. ",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-1-run-length-hrs"
+              }
+            },
+            {
+              "uid": "92821c7c-7d12-474b-88a0-a1167067ea4f",
+              "key": "3e925669-2dc7-44c1-b7cb-57d658a0209c",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-run-length-hrs",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-300_v2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d3aff748-34c4-43c5-83bb-a32c5ff20d28",
+              "key": "917140d9-738d-4881-a8f8-2375b81609c0",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-000.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-200.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-300_v2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-400.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-500.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-600.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "c841cbce-a4e2-4ece-80bd-08c96b78399f",
+              "key": "abfaa892-6788-440f-b4c2-5466863e6808",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-000.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-200.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-300_v2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-400.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-500.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-600.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "d2653a0a-a165-482d-88f6-1e1a7df2c6f7",
+              "key": "0745676c-263e-4e01-8511-185fba72b4a9",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "08691d3c-4e0e-4194-998e-562aaf9470fc",
+              "key": "0d74d4fd-4151-45e7-9070-d5e9bea19934",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-run-length-minutes"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Minutes</b><br>Press + or - to adjust the minutes duration of the cycle. ",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-run-length-minutes",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-300-min-v02.webp"
+          },
+          "anchors": [
+            {
+              "uid": "514eb6da-e0d2-4c2c-bbae-f395c0a07913",
+              "key": "e0fc81ed-242a-407c-b9ca-32814d2219c7",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the minutes.<br>Once done press the menu button to finish setting the time.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-356-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-357-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-358-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-359-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-300-min-v02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-301-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-302-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-303-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-304-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-305-min.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "b8cb11bc-bf64-4901-9c5a-64c83a1db4b6",
+              "key": "45386c13-8153-4ff0-8a95-32834e2c7297",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the minutes.<br>Once done press the menu button to finish setting the time.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-356-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-357-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-358-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-359-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-300-min-v02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-301-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-302-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-303-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-304-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs-305-min.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "ef4a5e25-fdbe-430e-8d34-7f574a55806e",
+              "key": "ef7ca75d-36a1-446f-b212-63a4943298b1",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "2b11c7b8-2e24-4cc4-b448-4607ef765764",
+              "key": "b3810e0e-f5ed-4094-93a2-d4fc0e8f4c12",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-run-length-finish"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Finished</b><br>The system calculates the end time base of the hours programmed.<br><br>Press + or - button to accept the changes and return to the Main Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-run-length-finish",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f1end.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b5339311-164d-437d-8af4-ada450e5e5c4",
+              "key": "e4908ee7-45c7-4b3f-a7e7-b802f80cb049",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Filter Cycle 1 Setup Finished"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "6cfe3f74-7925-459b-ba9f-bf133b276a21",
+              "key": "ac19d9f7-b696-4909-9c0f-eec6a843906f",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Filter Cycle 1 Setup Finished"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the filtration cycle 2 via the media screen.",
+    "section": "11.7.B",
+    "tags": [
+      "Filtration Cycle 2",
+      "Setting Filtration Cycle 2",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Filtration Cycle 2 in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>If you select <b>OFF</b>, you will exit the menu.<br>If you select <b>ON</b>, the display will show <b>BEGN</b> and you will proceed with the programming instructions.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>If you select <b>OFF</b>, you will exit the menu.<br>If you select <b>ON</b>, the display will show <b>BEGN</b> and you will proceed with the programming instructions.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-off",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6e7ee3df-19f0-497f-a370-db96ec258a8a",
+              "key": "1e545f62-20d6-4704-a7ae-f33a45aeab2a",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>If you select <b>OFF</b>, you will exit the menu.<br>If you select <b>ON</b>, the display will show <b>BEGN</b> and you will proceed with the programming instructions.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-on"
+              }
+            },
+            {
+              "uid": "933fccb2-56c8-42ee-ac39-4e9c8b314801",
+              "key": "3855d920-2757-47ed-8c9d-43fa91bbd501",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>If you select <b>OFF</b>, you will exit the menu.<br>If you select <b>ON</b>, the display will show <b>BEGN</b> and you will proceed with the programming instructions.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-on"
+              }
+            },
+            {
+              "uid": "aa526be0-45f8-404d-a00f-83d13f20a5ba",
+              "key": "6d819004-b279-4894-9f36-f4575a13e541",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Going back tot he main menu.",
+                "title": "Filtration 2 is now turned OFF"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "d4a830fd-a764-443b-950f-96e9c0168adb",
+              "key": "afde3cb1-5e91-4d5c-aeb7-f9c1de5a5c4c",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-on",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6e10f686-ce66-4504-b13c-effdc667ab24",
+              "key": "c716fa89-1973-44eb-8ab2-76e0ce558287",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>If you select <b>OFF</b>, you will exit the menu.<br>If you select <b>ON</b>, the display will show <b>BEGN</b> and you will proceed with the programming instructions.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              }
+            },
+            {
+              "uid": "cf761eb3-d9c9-4eba-99ca-6ac373c1bfef",
+              "key": "275f8110-f796-4bb0-9bfe-4cbf4e424a20",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>If you select <b>OFF</b>, you will exit the menu.<br>If you select <b>ON</b>, the display will show <b>BEGN</b> and you will proceed with the programming instructions.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              }
+            },
+            {
+              "uid": "ac93745d-ed7e-4b87-89dc-f014eb2940fd",
+              "key": "0016000f-a764-418c-93ce-faac9be16c02",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Entering the Filtration Cycle 2 Programming</b><br>Press + or - to start programming the time.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-begin-menu-name"
+              }
+            },
+            {
+              "uid": "7116ae25-98c2-4992-a28b-49d405c6be21",
+              "key": "337ce8c7-7d28-4324-892b-72ec6b9f040a",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-begin-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/begn.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e16273c6-c04a-4d50-a95b-055fefbd9472",
+              "key": "756a34ad-254c-479e-bc1a-d11fa89b7c96",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-hour-setup"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Start - Hours</b><br>Press + or - to start programming the cycle.<br>In the upper right-hand corner, an <bA</b> or <b>P</b> will display. This indicates either AM or PM.<br>You must round the clock to change from am to pm.<br><br>Once finished adjusting the hours press the menu button to continue.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "30eae215-3cab-4242-bad5-6c61527aa3ce",
+              "key": "628fac91-8cdb-4a96-8c72-4d19fcc535b0",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-hour-setup"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Start - Hours</b><br>Press + or - to start programming the cycle.<br>In the upper right-hand corner, an <bA</b> or <b>P</b> will display. This indicates either AM or PM.<br>You must round the clock to change from am to pm.<br><br>Once finished adjusting the hours press the menu button to continue.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "41de8daa-43f0-4162-8614-8ef3254a67cb",
+              "key": "e078bb41-be55-49cf-930a-afffda5b97e1",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-hour-setup",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-00.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d924146c-3b44-49ad-b3c6-1504bbafe476",
+              "key": "60bb504a-cc95-452d-a821-bdb37d8fca70",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_5-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_6-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_7-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_9-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_10-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_11-00.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "5cb5ed92-fbeb-448c-885f-0b3e96ebedcc",
+              "key": "651104c0-cb51-41c5-b429-e120e82d3b10",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_5-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_6-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_7-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_9-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_10-00.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_11-00.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "17d98ccd-82a4-40bf-a49a-eed199c4c7af",
+              "key": "560ca2b6-2f0d-4b9c-8578-5efc4d3c9ca7",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "eed42322-1cb4-4288-a19f-7442251fab65",
+              "key": "f66edbf8-2a47-4a25-a7f9-1e19867a817a",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-minute-setup"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Start - Minutes</b><br>Press + or - to adjust the minutes.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-minute-setup",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-00-min.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b40a9761-0382-4cae-bdc3-94f04613ae04",
+              "key": "cb2f6127-9d29-4c3c-ba7e-6d56f51ec531",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the minutes.<br>Once done press the menu button to continue and program the cycle length.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-56.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-57.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-58.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-59.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-00-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-01.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-03.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-04.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-05.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "4ef0eb7b-cf81-4139-8bbb-06d3dc704100",
+              "key": "54abbdab-ff3a-4a85-a2fd-d54d3b506a35",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the minutes.<br>Once done press the menu button to continue and program the cycle length.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-56.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-57.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-58.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-59.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-00-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-01.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-03.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-04.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/filter2_8-05.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "7afea41e-5774-4e93-86be-120eb2b3a832",
+              "key": "2b6206d9-4e16-454b-9b93-1039a1d37140",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "7350eb11-7712-46c1-bfce-978c413f574f",
+              "key": "6ceefc1c-cf55-423d-a755-66ea10031e35",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-run-name"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length Menu</b><br>Press + or - to enter cycle length programming menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-run-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/run_f2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "241cbe17-d2d9-4c99-acfe-ae5ac02b206e",
+              "key": "c26c533e-54a7-4654-83db-1565ac1426ed",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Hours</b><br>Press + or - to adjust the hour(s) duration of the cycle. ",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-run-length-hrs"
+              }
+            },
+            {
+              "uid": "959312d9-13a4-46c0-9b0d-58d573371b55",
+              "key": "b40b39fc-4d16-4986-b261-67cd6cf8776e",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Hours</b><br>Press + or - to adjust the hour(s) duration of the cycle. ",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-run-length-hrs"
+              }
+            },
+            {
+              "uid": "92821c7c-7d12-474b-88a0-a1167067ea4f",
+              "key": "3e925669-2dc7-44c1-b7cb-57d658a0209c",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-run-length-hrs",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-300_v2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d3aff748-34c4-43c5-83bb-a32c5ff20d28",
+              "key": "917140d9-738d-4881-a8f8-2375b81609c0",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-000.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-200.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-300_v2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-400.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-500.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-600.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "c841cbce-a4e2-4ece-80bd-08c96b78399f",
+              "key": "abfaa892-6788-440f-b4c2-5466863e6808",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the hours.<br>Once done press the menu button to continue and program the minutes.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-000.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-100.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-200.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-300_v2.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-400.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-500.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-600.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "d2653a0a-a165-482d-88f6-1e1a7df2c6f7",
+              "key": "0745676c-263e-4e01-8511-185fba72b4a9",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "08691d3c-4e0e-4194-998e-562aaf9470fc",
+              "key": "0d74d4fd-4151-45e7-9070-d5e9bea19934",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-run-length-minutes"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Minutes</b><br>Press + or - to adjust the minutes duration of the cycle. ",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-run-length-minutes",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-300-min-v02.webp"
+          },
+          "anchors": [
+            {
+              "uid": "514eb6da-e0d2-4c2c-bbae-f395c0a07913",
+              "key": "e0fc81ed-242a-407c-b9ca-32814d2219c7",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Increasing the minutes.<br>Once done press the menu button to finish setting the time.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-356-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-357-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-358-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-359-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-300-min-v02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-301-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-302-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-303-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-304-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-305-min.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "b8cb11bc-bf64-4901-9c5a-64c83a1db4b6",
+              "key": "45386c13-8153-4ff0-8a95-32834e2c7297",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Decreasing the minutes.<br>Once done press the menu button to finish setting the time.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-356-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-357-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-358-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-359-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-300-min-v02.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-301-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-302-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-303-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-304-min.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hrs2-305-min.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "ef4a5e25-fdbe-430e-8d34-7f574a55806e",
+              "key": "ef7ca75d-36a1-446f-b212-63a4943298b1",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "2b11c7b8-2e24-4cc4-b448-4607ef765764",
+              "key": "b3810e0e-f5ed-4094-93a2-d4fc0e8f4c12",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-run-length-finish"
+              },
+              "actionMsg": {
+                "message": "<b>Cycle Programming Length - Finished</b><br>The system calculates the end time base of the hours programmed.<br><br>Press + or - button to accept the changes and return to the Main Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-run-length-finish",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f2end.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b5339311-164d-437d-8af4-ada450e5e5c4",
+              "key": "e4908ee7-45c7-4b3f-a7e7-b802f80cb049",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Filter Cycle 2 Setup Finished"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "6cfe3f74-7925-459b-ba9f-bf133b276a21",
+              "key": "ac19d9f7-b696-4909-9c0f-eec6a843906f",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Filter Cycle 2 Setup Finished"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of turning off the filtration cycle 2 via the media screen.",
+    "section": "11.7.C",
+    "tags": [
+      "Turn Off Filtration Cycle 2",
+      "Setting Filtration Cycle 2 Off",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Turn Off Filtration Cycle 2 in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>Make sure the screen shows <b>OFF</b> before pressing the Menu button to confirm.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>Make sure the screen shows <b>OFF</b> before pressing the Menu button to confirm.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-off",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6e7ee3df-19f0-497f-a370-db96ec258a8a",
+              "key": "1e545f62-20d6-4704-a7ae-f33a45aeab2a",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>Make sure the screen shows <b>OFF</b> before pressing the Menu button to confirm.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-on"
+              }
+            },
+            {
+              "uid": "933fccb2-56c8-42ee-ac39-4e9c8b314801",
+              "key": "3855d920-2757-47ed-8c9d-43fa91bbd501",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>Make sure the screen shows <b>OFF</b> before pressing the Menu button to confirm.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-on"
+              }
+            },
+            {
+              "uid": "aa526be0-45f8-404d-a00f-83d13f20a5ba",
+              "key": "6d819004-b279-4894-9f36-f4575a13e541",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Going back to the Main Menu.",
+                "title": "Filtration 2 is now turned OFF"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "d4a830fd-a764-443b-950f-96e9c0168adb",
+              "key": "afde3cb1-5e91-4d5c-aeb7-f9c1de5a5c4c",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-on",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6e10f686-ce66-4504-b13c-effdc667ab24",
+              "key": "c716fa89-1973-44eb-8ab2-76e0ce558287",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>Make sure the screen shows <b>OFF</b> before pressing the Menu button to confirm.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              }
+            },
+            {
+              "uid": "cf761eb3-d9c9-4eba-99ca-6ac373c1bfef",
+              "key": "275f8110-f796-4bb0-9bfe-4cbf4e424a20",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>OFF</b> and <b>ON</b>.<br>Make sure the screen shows <b>OFF</b> before pressing the Menu button to confirm.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "filter-2-menu-off"
+              }
+            },
+            {
+              "uid": "7116ae25-98c2-4992-a28b-49d405c6be21",
+              "key": "337ce8c7-7d28-4324-892b-72ec6b9f040a",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the temperature display units via the media screen.",
+    "section": "11.8.A",
+    "tags": [
+      "Temperature Units",
+      "Temperature Display Units",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Temperature Units in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Click again to go to Preferences Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba6f0cd7-c316-4342-af95-1e0072718065",
+              "key": "b828cddc-2620-4a5b-9fa5-19c2936571c7",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "preferences-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Perefences Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "preferences-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pref.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "Press + or - to access the <b>F/C</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "Press + or - to access the <b>F/C</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fc-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-c.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ad1ff095-1ada-48a2-8063-312595696148",
+              "key": "11876a3b-a7cd-4b6d-a27b-638c05e4a3eb",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "f-menu"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>°F</b> and <b>°C</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "79010839-fece-4097-87a5-370cf2e55372",
+              "key": "7bb167cb-3fe9-4727-98f6-c24fdabe68c1",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "f-menu"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>°F</b> and <b>°C</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "8a773c62-a41c-406d-b328-9363d2c72f03",
+              "key": "80025c2e-89c1-455a-b98f-61bd98650b98",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "f-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-Active.webp"
+          },
+          "anchors": [
+            {
+              "uid": "a913de8a-49ed-4d72-a59e-056e85fa99e6",
+              "key": "634000d5-5af6-46a4-ac59-0ec72308c54e",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>°F</b> and <b>°C</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-Active.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/c-Active.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "187e004b-740a-4529-9a9a-665f698541fc",
+              "key": "bae7d840-48c5-401b-ad18-ae016226a8b2",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>°F</b> and <b>°C</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-Active.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/c-Active.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "3476abcb-ce45-40dd-8a85-f2fb6d33f62f",
+              "key": "5cfc98f1-c2b6-4135-9428-d2262fee2026",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "d1027960-59f2-48be-a326-69d63fe78fa3",
+              "key": "9f76eb0c-0323-4282-9650-8b786e740431",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Temperature Display Setting Updated"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the time display format via the media screen.",
+    "section": "11.8.B",
+    "tags": [
+      "Time Format",
+      "Time Display Units",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Time Format in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Click again to go to Preferences Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba6f0cd7-c316-4342-af95-1e0072718065",
+              "key": "b828cddc-2620-4a5b-9fa5-19c2936571c7",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "preferences-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Perefences Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "preferences-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pref.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "Press + or - to access the <b>F/C</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "Press Menu button to access <b>\"24-12\"</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fc-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-c.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e7821520-1c99-4e67-8db1-fe3d08bdddfb",
+              "key": "c9de4277-df32-44d5-9140-48fa174e41c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "24-12-menu"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>24HR</b> and <b>12HR</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "8a773c62-a41c-406d-b328-9363d2c72f03",
+              "key": "80025c2e-89c1-455a-b98f-61bd98650b98",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "24-12-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/24-12menu.webp"
+          },
+          "anchors": [
+            {
+              "uid": "a913de8a-49ed-4d72-a59e-056e85fa99e6",
+              "key": "634000d5-5af6-46a4-ac59-0ec72308c54e",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>24HR</b> and <b>12HR</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "24-12-menu-confirm"
+              }
+            },
+            {
+              "uid": "187e004b-740a-4529-9a9a-665f698541fc",
+              "key": "bae7d840-48c5-401b-ad18-ae016226a8b2",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>24HR</b> and <b>12HR</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "24-12-menu-confirm"
+              }
+            },
+            {
+              "uid": "3476abcb-ce45-40dd-8a85-f2fb6d33f62f",
+              "key": "5cfc98f1-c2b6-4135-9428-d2262fee2026",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "24-12-menu-confirm",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/12hr.webp"
+          },
+          "anchors": [
+            {
+              "uid": "3da208f3-546d-4d2f-a809-07f8f6589ca2",
+              "key": "fc9b9365-bfca-4e99-8e06-1b874f0d6401",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>24HR</b> and <b>12HR</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/12hr.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/24hr.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "337830de-e54e-4403-b997-f254ddc6c8f8",
+              "key": "5f2e0bfd-e6ab-4c6c-b386-e1244662259b",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>24HR</b> and <b>12HR</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/12hr.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/24hr.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "8ed91801-8274-497b-8315-e98ef7857552",
+              "key": "883553b2-af14-44a8-9e1e-30ca3d8cb4c0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "c6ead425-4433-4ce1-a892-253c9f4adb84",
+              "key": "79517b98-134f-4259-afe8-fb537eefe185",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Time Display Setting Updated"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the reminder via the media screen.",
+    "section": "11.8.C",
+    "tags": [
+      "Reminder",
+      "Reminder Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Reminder in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            },
+            {
+              "uid": "8ba3f28b-fc95-4aa4-9f27-84d6b1a443a1",
+              "key": "d284e9c6-f1a1-431e-ad91-35a407bdb9a4",
+              "label": "Appear Message",
+              "box_2d": [
+                98.8790897554369,
+                104.06652445064833,
+                192.8794930750015,
+                186.25273326487093
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>REMINDERS MENU</b><br>Your Spa is equipped with 3 reminders:<br>• Change Water occurs every 125 days.<br>• Change Filter occurs every 180 days.<br>• Change UV Bulb occurs every 365 days.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Click again to go to Preferences Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba6f0cd7-c316-4342-af95-1e0072718065",
+              "key": "b828cddc-2620-4a5b-9fa5-19c2936571c7",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "preferences-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Perefences Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "preferences-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pref.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "<b>F/C Menu</b><br>Click again to go to 24-12 Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "Press Menu button to access <b>\"24-12\"</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fc-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-c.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e7821520-1c99-4e67-8db1-fe3d08bdddfb",
+              "key": "c9de4277-df32-44d5-9140-48fa174e41c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "24-12-menu"
+              },
+              "actionMsg": {
+                "message": "<b>24-12 Menu</b><br>Click again to go to Reminders Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "8a773c62-a41c-406d-b328-9363d2c72f03",
+              "key": "80025c2e-89c1-455a-b98f-61bd98650b98",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "24-12-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/24-12menu.webp"
+          },
+          "anchors": [
+            {
+              "uid": "73d516aa-4cae-4c80-a8a4-d0ad109cbaa9",
+              "key": "5a73d462-9b4b-4284-9121-e9122f2b4723",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "reminders-menu"
+              },
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>YES</b> and <b>NO</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "332a12a4-1eec-467f-b1a8-608fa495ffa1",
+              "key": "44dbf7ce-c202-4e6b-be72-2a2edfd47bd0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "reminders-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/remind.webp"
+          },
+          "anchors": [
+            {
+              "uid": "a913de8a-49ed-4d72-a59e-056e85fa99e6",
+              "key": "634000d5-5af6-46a4-ac59-0ec72308c54e",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>YES</b> and <b>NO</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "reminders-menu-confirm-no"
+              }
+            },
+            {
+              "uid": "187e004b-740a-4529-9a9a-665f698541fc",
+              "key": "bae7d840-48c5-401b-ad18-ae016226a8b2",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>YES</b> and <b>NO</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "reminders-menu-confirm-no"
+              }
+            },
+            {
+              "uid": "3476abcb-ce45-40dd-8a85-f2fb6d33f62f",
+              "key": "5cfc98f1-c2b6-4135-9428-d2262fee2026",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "reminders-menu-confirm-no",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/No.webp"
+          },
+          "anchors": [
+            {
+              "uid": "3da208f3-546d-4d2f-a809-07f8f6589ca2",
+              "key": "fc9b9365-bfca-4e99-8e06-1b874f0d6401",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>YES</b> and <b>NO</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "reminders-menu-confirm-yes"
+              }
+            },
+            {
+              "uid": "337830de-e54e-4403-b997-f254ddc6c8f8",
+              "key": "5f2e0bfd-e6ab-4c6c-b386-e1244662259b",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>YES</b> and <b>NO</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "reminders-menu-confirm-yes"
+              }
+            },
+            {
+              "uid": "8ed91801-8274-497b-8315-e98ef7857552",
+              "key": "883553b2-af14-44a8-9e1e-30ca3d8cb4c0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "c6ead425-4433-4ce1-a892-253c9f4adb84",
+              "key": "79517b98-134f-4259-afe8-fb537eefe185",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "The reminder is turned off.<br><br>Going back to the Main Menu...",
+                "title": "Reminder Setting Updated"
+              }
+            }
+          ]
+        },
+        {
+          "id": "reminders-menu-confirm-yes",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/yes.webp"
+          },
+          "anchors": [
+            {
+              "uid": "3490bc5b-5d63-4ac1-96ba-b15ea6c1e511",
+              "key": "d4d8abe2-07de-4b99-a180-9e03a7391c35",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>YES</b> and <b>NO</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "reminders-menu-confirm-no"
+              }
+            },
+            {
+              "uid": "e9ebc521-60cc-4ade-871d-854486368257",
+              "key": "9b8ec9cb-7d82-43a1-8488-a946f821de96",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Press + or - to toggle between <b>YES</b> and <b>NO</b>.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "reminders-menu-confirm-no"
+              }
+            },
+            {
+              "uid": "baa782fc-8a31-476a-8939-bdd6aa22ad89",
+              "key": "2b3f03b3-51d9-49e1-9217-87c912675ef1",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "fa28eb92-a129-4238-b649-6bd57b1163a2",
+              "key": "eedcbe43-8de1-426a-b727-a443bd3091b1",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Once the timer expires and the reminder appears on the display, press + or - to reset the timer.<br><br>Going back to the Main Menu...",
+                "title": "Reminder Setting Updated"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting the cleanup cycle duration via the media screen.",
+    "section": "11.8.D",
+    "tags": [
+      "Cleanup Cycle Duration Settings",
+      "Cleanup Cycle Duration",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Cleanup Cycle Duration in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            },
+            {
+              "uid": "8ba3f28b-fc95-4aa4-9f27-84d6b1a443a1",
+              "key": "d284e9c6-f1a1-431e-ad91-35a407bdb9a4",
+              "label": "Appear Message",
+              "box_2d": [
+                98.8790897554369,
+                104.06652445064833,
+                192.8794930750015,
+                186.25273326487093
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>REMINDERS MENU</b><br>Your Spa is equipped with 3 reminders:<br>• Change Water occurs every 125 days.<br>• Change Filter occurs every 180 days.<br>• Change UV Bulb occurs every 365 days.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Click again to go to Preferences Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba6f0cd7-c316-4342-af95-1e0072718065",
+              "key": "b828cddc-2620-4a5b-9fa5-19c2936571c7",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "preferences-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Perefences Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "preferences-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pref.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "<b>F/C Menu</b><br>Click again to go to 24-12 Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "<b>F/C Menu</b><br>Click again to go to 24-12 Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fc-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-c.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e7821520-1c99-4e67-8db1-fe3d08bdddfb",
+              "key": "c9de4277-df32-44d5-9140-48fa174e41c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "24-12-menu"
+              },
+              "actionMsg": {
+                "message": "<b>24-12 Menu</b><br>Click again to go to Reminders Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "8a773c62-a41c-406d-b328-9363d2c72f03",
+              "key": "80025c2e-89c1-455a-b98f-61bd98650b98",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "24-12-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/24-12menu.webp"
+          },
+          "anchors": [
+            {
+              "uid": "73d516aa-4cae-4c80-a8a4-d0ad109cbaa9",
+              "key": "5a73d462-9b4b-4284-9121-e9122f2b4723",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "reminders-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Reminders Menu</b><br>Click again to go to Clean Up Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "332a12a4-1eec-467f-b1a8-608fa495ffa1",
+              "key": "44dbf7ce-c202-4e6b-be72-2a2edfd47bd0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "reminders-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/remind.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c689a245-cdc9-401c-8bbb-3774d6a90e9a",
+              "key": "cf064b4e-a9fb-48f8-be4e-14ca039ff9e8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "clean-up-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Clean Cycle Mode</b><br>Press + or - to move through the duration's settings of 0.5H up to 4.0H, in increment of 30 minutes.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "3b0e3909-fe7d-44a2-9243-26aaf7cd778b",
+              "key": "aa48453d-aa29-4f4b-926d-af08b5fe11fa",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "clean-up-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/clean-up.webp"
+          },
+          "anchors": [
+            {
+              "uid": "a913de8a-49ed-4d72-a59e-056e85fa99e6",
+              "key": "634000d5-5af6-46a4-ac59-0ec72308c54e",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Clean Cycle Mode</b><br>Press + or - to move through the duration's settings of 0.5H up to 4.0H, in increment of 30 minutes.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "clean-up-menu-time"
+              }
+            },
+            {
+              "uid": "187e004b-740a-4529-9a9a-665f698541fc",
+              "key": "bae7d840-48c5-401b-ad18-ae016226a8b2",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Clean Cycle Mode</b><br>Press + or - to move through the duration's settings of 0.5H up to 4.0H, in increment of 30 minutes.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "clean-up-menu-time"
+              }
+            },
+            {
+              "uid": "3476abcb-ce45-40dd-8a85-f2fb6d33f62f",
+              "key": "5cfc98f1-c2b6-4135-9428-d2262fee2026",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "clean-up-menu-time",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/2-0h.webp"
+          },
+          "anchors": [
+            {
+              "uid": "3da208f3-546d-4d2f-a809-07f8f6589ca2",
+              "key": "fc9b9365-bfca-4e99-8e06-1b874f0d6401",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Clean Cycle Mode</b><br>Press + or - to move through the duration's settings of 0.5H up to 4.0H, in increment of 30 minutes.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/0-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/1-0h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/1-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/2-0h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/2-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/3-0h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/3-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/4-0h.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "337830de-e54e-4403-b997-f254ddc6c8f8",
+              "key": "5f2e0bfd-e6ab-4c6c-b386-e1244662259b",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Clean Cycle Mode</b><br>Press + or - to move through the duration's settings of 0.5H up to 4.0H, in increment of 30 minutes.<br>Once you make your selection, press the Menu button to accept the change.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/0-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/1-0h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/1-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/2-0h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/2-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/3-0h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/3-5h.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/4-0h.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "8ed91801-8274-497b-8315-e98ef7857552",
+              "key": "883553b2-af14-44a8-9e1e-30ca3d8cb4c0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "c6ead425-4433-4ce1-a892-253c9f4adb84",
+              "key": "79517b98-134f-4259-afe8-fb537eefe185",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Cleanup Cycle Duration Updated"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting poll cycles duration via the media screen.",
+    "section": "11.8.E",
+    "tags": [
+      "Poll Cycle Duration Settings",
+      "Poll Cycle Duration",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set Poll Cycle Duration in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            },
+            {
+              "uid": "8ba3f28b-fc95-4aa4-9f27-84d6b1a443a1",
+              "key": "d284e9c6-f1a1-431e-ad91-35a407bdb9a4",
+              "label": "Appear Message",
+              "box_2d": [
+                98.8790897554369,
+                104.06652445064833,
+                192.8794930750015,
+                186.25273326487093
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>POLL CYCLES DURATION</b><br>In order to maintain a constant water temperature,<br>heat as needed, and refresh the temperature display<br>the pumps actives to circulate the water.<br>This is known as <b>\"polling\"</b><br>Default setting is <b>ON</b>.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Click again to go to Preferences Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba6f0cd7-c316-4342-af95-1e0072718065",
+              "key": "b828cddc-2620-4a5b-9fa5-19c2936571c7",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "preferences-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Perefences Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "preferences-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pref.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "<b>F/C Menu</b><br>Click again to go to 24-12 Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "fc-menu"
+              },
+              "actionMsg": {
+                "message": "<b>F/C Menu</b><br>Click again to go to 24-12 Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "fc-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/f-c.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e7821520-1c99-4e67-8db1-fe3d08bdddfb",
+              "key": "c9de4277-df32-44d5-9140-48fa174e41c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "24-12-menu"
+              },
+              "actionMsg": {
+                "message": "<b>24-12 Menu</b><br>Click again to go to Reminders Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "8a773c62-a41c-406d-b328-9363d2c72f03",
+              "key": "80025c2e-89c1-455a-b98f-61bd98650b98",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "24-12-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/24-12menu.webp"
+          },
+          "anchors": [
+            {
+              "uid": "73d516aa-4cae-4c80-a8a4-d0ad109cbaa9",
+              "key": "5a73d462-9b4b-4284-9121-e9122f2b4723",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "reminders-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Reminders Menu</b><br>Click again to go to Clean Up Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "332a12a4-1eec-467f-b1a8-608fa495ffa1",
+              "key": "44dbf7ce-c202-4e6b-be72-2a2edfd47bd0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "reminders-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/remind.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c689a245-cdc9-401c-8bbb-3774d6a90e9a",
+              "key": "cf064b4e-a9fb-48f8-be4e-14ca039ff9e8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "clean-up-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Clean Cycle Mode</b><br>Click again to go to Poll Cycles Duration Menu Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "3b0e3909-fe7d-44a2-9243-26aaf7cd778b",
+              "key": "aa48453d-aa29-4f4b-926d-af08b5fe11fa",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "clean-up-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/clean-up.webp"
+          },
+          "anchors": [
+            {
+              "uid": "87029ecf-ede3-4e51-ab2b-588a20e0b961",
+              "key": "ed97c68f-c93b-4d4a-b4f8-8c0de29370c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "poll-cycles-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Poll Cycles Duration Mode - READ ONLY</b><br>Press + or - to select and toggle between <b>ON</b> and <b>OFF</b>.<br><br>• When <b>ON</b>, the poll cycles can vary between 30, 60, 90 or 120.<br>• When <b>OFF</b>, the poll cycles are 30 minutes apart.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "774630bb-bf59-40fd-96d8-921aa2017457",
+              "key": "4ea194da-d7f4-4e02-bf88-65bde6dd7dae",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "poll-cycles-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/m8.webp"
+          },
+          "anchors": [
+            {
+              "uid": "a913de8a-49ed-4d72-a59e-056e85fa99e6",
+              "key": "634000d5-5af6-46a4-ac59-0ec72308c54e",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Poll Cycles Duration Mode - READ ONLY</b><br>Press + or - to select and toggle between <b>ON</b> and <b>OFF</b>.<br><br>• When <b>ON</b>, the poll cycles can vary between 30, 60, 90 or 120.<br>• When <b>OFF</b>, the poll cycles are 30 minutes apart.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "poll-cycles-menu-on-off"
+              }
+            },
+            {
+              "uid": "187e004b-740a-4529-9a9a-665f698541fc",
+              "key": "bae7d840-48c5-401b-ad18-ae016226a8b2",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Poll Cycles Duration Mode - READ ONLY</b><br>Press + or - to select and toggle between <b>ON</b> and <b>OFF</b>.<br><br>• When <b>ON</b>, the poll cycles can vary between 30, 60, 90 or 120.<br>• When <b>OFF</b>, the poll cycles are 30 minutes apart.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "poll-cycles-menu-on-off"
+              }
+            },
+            {
+              "uid": "3476abcb-ce45-40dd-8a85-f2fb6d33f62f",
+              "key": "5cfc98f1-c2b6-4135-9428-d2262fee2026",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "poll-cycles-menu-on-off",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off-generic.webp"
+          },
+          "anchors": [
+            {
+              "uid": "3f35f700-12b8-472c-8fb3-e3a80476ebdb",
+              "key": "7fd364dc-b44f-4064-8e6b-f16e2368c32c",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Poll Cycles Duration Mode - READ ONLY</b><br>Press + or - to select and toggle between <b>ON</b> and <b>OFF</b>.<br><br>• When <b>ON</b>, the poll cycles can vary between 30, 60, 90 or 120.<br>• When <b>OFF</b>, the poll cycles are 30 minutes apart.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off-generic.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on-generic.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "fbc3ae4b-513f-4142-821c-731164887a00",
+              "key": "058e3087-855e-4d5c-b6e2-9515b9e3433c",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Poll Cycles Duration Mode - READ ONLY</b><br>Press + or - to select and toggle between <b>ON</b> and <b>OFF</b>.<br><br>• When <b>ON</b>, the poll cycles can vary between 30, 60, 90 or 120.<br>• When <b>OFF</b>, the poll cycles are 30 minutes apart.",
+                "notificationOnly": true
+              },
+              "targetImage": {
+                "direction": "forward-backwards",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/off-generic.webp",
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/on-generic.webp",
+                  " "
+                ]
+              }
+            },
+            {
+              "uid": "42018dce-0145-435f-b0b3-490601ba4ff0",
+              "key": "9414aaac-7901-4fbc-a587-74666b8dd4cf",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "Poll Cycles Duration Updated"
+              },
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "2654cc99-c895-4fc6-aa32-65bcf3fa495e",
+              "key": "ac16d412-715f-46ef-82f6-59cb7b83248a",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of setting GFCI Test Trip via the media screen.",
+    "section": "11.9.A",
+    "tags": [
+      "GFCI Test Trip",
+      "GFCI Test Trip Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Set GFCI Test Trip in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            },
+            {
+              "uid": "a0e059fe-b304-4479-b54c-f21c525972c1",
+              "key": "47f06756-14e6-47aa-87ad-cf7a5323505d",
+              "label": "Info Button",
+              "box_2d": [
+                108.14253246511225,
+                102.46571477620682,
+                202.14293578467687,
+                184.65192359042942
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "This menu allows you to perform a GFCI Trip Test.<br>A GFCI is an important safety device and is required equipment on a spa installation.<br>Your spa is equipped with a GFCI protection feature (UL rated systems only).<br>The procedure that follows should be done at the time of installation<br>to verify that the GFCI is connected correctly.",
+                "title": "GFCI Test Trip"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Click again to go to Preferences Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba6f0cd7-c316-4342-af95-1e0072718065",
+              "key": "b828cddc-2620-4a5b-9fa5-19c2936571c7",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "preferences-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Perefences Menu</b><br>Click again to go to Utilities Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "preferences-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pref.webp"
+          },
+          "anchors": [
+            {
+              "uid": "3fb71fc1-863e-4e7f-baea-faaa503ab1e4",
+              "key": "920fcaef-0202-4f08-9d2d-ae8eb9dc3a25",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "utilities-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Utilities Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "utilities-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/util.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "info-menu"
+              },
+              "actionMsg": {
+                "message": "<b>INFO Menu</b><br>Click the Menu button to got o GFCI Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "info-menu"
+              },
+              "actionMsg": {
+                "message": "<b>INFO Menu</b><br>Click the Menu button to got o GFCI Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "info-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/info.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e7821520-1c99-4e67-8db1-fe3d08bdddfb",
+              "key": "c9de4277-df32-44d5-9140-48fa174e41c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "gfci-menu"
+              },
+              "actionMsg": {
+                "message": "<b>GFCI Menu</b><br>Press + or -. It should show either <b>PASS</b> or <b>ARMD</b>.<br>Click the Menu button to go to <b>TRIP</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "8a773c62-a41c-406d-b328-9363d2c72f03",
+              "key": "80025c2e-89c1-455a-b98f-61bd98650b98",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "gfci-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/gfci.webp"
+          },
+          "anchors": [
+            {
+              "uid": "73d516aa-4cae-4c80-a8a4-d0ad109cbaa9",
+              "key": "5a73d462-9b4b-4284-9121-e9122f2b4723",
+              "label": "Up button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "gfci-pass-armd"
+              },
+              "actionMsg": {
+                "message": "<b>GFCI Menu</b><br>Click the Menu button to go to <b>TRIP</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "1d1e94e7-bebc-428c-8189-77ea5febadbd",
+              "key": "fd47f27f-8e92-40be-a6cc-90842f6faccf",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "gfci-pass-armd"
+              },
+              "actionMsg": {
+                "message": "<b>GFCI Menu (PASS / ARMD)</b><br>Click the Menu button to go to <b>TRIP</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "332a12a4-1eec-467f-b1a8-608fa495ffa1",
+              "key": "44dbf7ce-c202-4e6b-be72-2a2edfd47bd0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "gfci-pass-armd",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pass.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c689a245-cdc9-401c-8bbb-3774d6a90e9a",
+              "key": "cf064b4e-a9fb-48f8-be4e-14ca039ff9e8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "trip-menu"
+              },
+              "actionMsg": {
+                "message": "<b>TRIP Mode</b><br>This will activate the trip feature.<br>If the GFCI does not trip, the display will show the GFCI Failure message.<br><br>Click the Menu button again to accept the change.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "3b0e3909-fe7d-44a2-9243-26aaf7cd778b",
+              "key": "aa48453d-aa29-4f4b-926d-af08b5fe11fa",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "trip-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/trip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "87029ecf-ede3-4e51-ab2b-588a20e0b961",
+              "key": "ed97c68f-c93b-4d4a-b4f8-8c0de29370c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "TRIP Changes Accepted"
+              }
+            },
+            {
+              "uid": "774630bb-bf59-40fd-96d8-921aa2017457",
+              "key": "4ea194da-d7f4-4e02-bf88-65bde6dd7dae",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-J200-EN",
+    "pdf_id": "26-J200-EN",
+    "productID": "jht-j-215",
+    "product_id": "jht-j-215",
+    "caption": "Interactive 3D model of resetting GFCI Test Trip via the media screen.",
+    "section": "11.9.B",
+    "tags": [
+      "Reset GFCI Test Trip",
+      "Reset GFCI Trip Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Reset GFCI Trip in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "zTugS",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BaseLayer.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/_J200_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.412,
+            "y": 0.463
+          },
+          {
+            "x": 0.607,
+            "y": 0.464
+          },
+          {
+            "x": 0.608,
+            "y": 0.54
+          },
+          {
+            "x": 0.4105,
+            "y": 0.539
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp-100F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6053dadd-67d0-44b9-bb3e-c617a3ec018d",
+              "key": "df833d3e-4426-4c25-8045-5e5f3574d633",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Temperature Menu</b><br>Click again to go to Heating Mode Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "temperature-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temperature-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/temp.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8e613fdd-1487-48ba-bfa7-22b453c48baf",
+              "key": "ddbba4a2-80c1-447a-bad9-9f56cc3d01e7",
+              "label": "Continue",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Heating Mode Menu</b><br>Click again to go to Time Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/mode.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e0cd66e3-a5f2-4401-a0f9-1e6ed6ecf496",
+              "key": "73f46e8d-9599-4026-8b84-0d7930facf90",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Time Menu</b><br>Click again to go to Flip Menu.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "time-menu-name"
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c016b60f-7108-4b9d-84db-7b335bf98760",
+              "key": "88a1f9b7-aabb-4c31-a320-a9a0fc0b93f4",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "flip-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Flip Menu</b><br>Click again to go to Lock Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "flip-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/flip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "b19a7cb6-a4b7-45c3-88e5-49836a7ddebe",
+              "key": "7a4f4fbd-8215-418e-980d-e217ca60d3bc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>Click again to go to Hold Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/lock.webp"
+          },
+          "anchors": [
+            {
+              "uid": "9b395a73-804f-496c-95f4-daf67367acd3",
+              "key": "dd2ac7ff-5fa8-4845-b4c4-6eba34874cb6",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "hold-new"
+              },
+              "actionMsg": {
+                "message": "<b>Hold Menu</b><br>Click again to go to Filter 1 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "hold-new",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/hold.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c317bcf4-9957-4559-9340-aad8b657163f",
+              "key": "8a8a7f74-ff5a-463b-bb31-b2da942985c9",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-1-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 1 Menu</b><br>Click again to go to Filter 2 Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-1-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-1.webp"
+          },
+          "anchors": [
+            {
+              "uid": "8313eef7-d38d-4516-8cfa-076fb1c4548c",
+              "key": "deee845a-0191-4f3f-b51f-7c144698b3fc",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filter-2-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Filter 2 Menu</b><br>Click again to go to Preferences Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filter-2-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/fltr-2.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba6f0cd7-c316-4342-af95-1e0072718065",
+              "key": "b828cddc-2620-4a5b-9fa5-19c2936571c7",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "preferences-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Perefences Menu</b><br>Click again to go to Utilities Menu.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "preferences-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pref.webp"
+          },
+          "anchors": [
+            {
+              "uid": "3fb71fc1-863e-4e7f-baea-faaa503ab1e4",
+              "key": "920fcaef-0202-4f08-9d2d-ae8eb9dc3a25",
+              "label": "Menu button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "utilities-menu-name"
+              },
+              "actionMsg": {
+                "message": "<b>Utilities Menu</b><br>Press on + or - enter the menu.<br><br><b>Note</b>: If no button is pressed within 5 seconds of each selection the screen<br>will revert back to the Main Menu and the current settings will remain active.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "utilities-menu-name",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/util.webp"
+          },
+          "anchors": [
+            {
+              "uid": "376bda41-ef97-4a0c-a651-3db75c98b977",
+              "key": "729de1ac-6d46-447c-97fd-65af028950b4",
+              "label": "Up Button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "info-menu"
+              },
+              "actionMsg": {
+                "message": "<b>INFO Menu</b><br>Click the Menu button to got o GFCI Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "f5ca2f19-c6ce-4435-8716-9b000f97c275",
+              "key": "0bbf5a1e-b00a-4cda-87b2-6e9a32d60324",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "info-menu"
+              },
+              "actionMsg": {
+                "message": "<b>INFO Menu</b><br>Click the Menu button to got o GFCI Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "da97719a-954f-40c5-b830-d0ce960ac53b",
+              "key": "bc93ffde-952b-4d7c-bcdb-7e342ae23cf2",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "info-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/info.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e7821520-1c99-4e67-8db1-fe3d08bdddfb",
+              "key": "c9de4277-df32-44d5-9140-48fa174e41c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "gfci-menu"
+              },
+              "actionMsg": {
+                "message": "<b>GFCI Menu</b><br>Press + or -. It should show either <b>PASS</b> or <b>ARMD</b>.<br>Click the Menu button to go to <b>TRIP</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "8a773c62-a41c-406d-b328-9363d2c72f03",
+              "key": "80025c2e-89c1-455a-b98f-61bd98650b98",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "gfci-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/gfci.webp"
+          },
+          "anchors": [
+            {
+              "uid": "73d516aa-4cae-4c80-a8a4-d0ad109cbaa9",
+              "key": "5a73d462-9b4b-4284-9121-e9122f2b4723",
+              "label": "Up button",
+              "box_2d": [
+                416.9452863426865,
+                272.63159029575866,
+                510.9456896622511,
+                354.81779910998125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "gfci-pass-armd"
+              },
+              "actionMsg": {
+                "message": "<b>GFCI Menu</b><br>Click the Menu button to go to <b>TRIP</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "1d1e94e7-bebc-428c-8189-77ea5febadbd",
+              "key": "fd47f27f-8e92-40be-a6cc-90842f6faccf",
+              "label": "Down Button",
+              "box_2d": [
+                489.04026915965926,
+                269.4296191592314,
+                583.0406724792239,
+                351.615827973454
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "gfci-pass-armd"
+              },
+              "actionMsg": {
+                "message": "<b>GFCI Menu (PASS / ARMD)</b><br>Click the Menu button to go to <b>TRIP</b> Menu.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "332a12a4-1eec-467f-b1a8-608fa495ffa1",
+              "key": "44dbf7ce-c202-4e6b-be72-2a2edfd47bd0",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "gfci-pass-armd",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/pass.webp"
+          },
+          "anchors": [
+            {
+              "uid": "c689a245-cdc9-401c-8bbb-3774d6a90e9a",
+              "key": "cf064b4e-a9fb-48f8-be4e-14ca039ff9e8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "trip-menu"
+              },
+              "actionMsg": {
+                "message": "<b>TRIP Mode</b><br>Click the Menu button again to go to <b>Trip Reset Menu</b>.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "3b0e3909-fe7d-44a2-9243-26aaf7cd778b",
+              "key": "aa48453d-aa29-4f4b-926d-af08b5fe11fa",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "trip-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/trip.webp"
+          },
+          "anchors": [
+            {
+              "uid": "87029ecf-ede3-4e51-ab2b-588a20e0b961",
+              "key": "ed97c68f-c93b-4d4a-b4f8-8c0de29370c8",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "reset-menu"
+              },
+              "actionMsg": {
+                "message": "<b>TRIP RESET Mode</b><br>Click the Menu button again to accept the change and return.<br><br><b>NOTE</b>: The <b>RSET</b> menu will only appear if a GFCI test has been passed.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "774630bb-bf59-40fd-96d8-921aa2017457",
+              "key": "4ea194da-d7f4-4e02-bf88-65bde6dd7dae",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "reset-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-200/rset.webp"
+          },
+          "anchors": [
+            {
+              "uid": "110093c3-9124-434b-b3c2-943d8d8c2789",
+              "key": "7ca09de8-700e-4e53-a903-a22f189a6a1b",
+              "label": "Menu Button",
+              "box_2d": [
+                419.0657921051503,
+                648.8725212102937,
+                513.0661954247149,
+                731.0587300245163
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Going back to the Main Menu...",
+                "title": "TRIP RESET Changes Accepted"
+              }
+            },
+            {
+              "uid": "9b480126-ce84-469f-8933-9891713e248e",
+              "key": "5900f2d9-e5f4-43d4-9a00-57c2ec0fbbe3",
+              "label": "Reset Button",
+              "box_2d": [
+                677.759458053683,
+                114.13032526739067,
+                752.6760083869045,
+                181.9073121795961
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Resetting preview...",
+                "notificationOnly": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+
+
+
+  
+  {
+    "pdfID": "26_J4_EN",
+    "pdf_id": "26_J4_EN",
+    "productID": "jht-j-408",
+    "product_id": "jht-j-408",
+    "caption": "Interactive 3D model controlling jet settings via the media screen.",
+    "section": "10.3.B",
+    "tags": [
+      "Jet Settings",
+      "IR Therapy",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Jet Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "WdK3K",
+      "productMount": {
+        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
+        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
+        "screenCorners": [
+          {
+            "x": 0.329,
+            "y": 0.3775
+          },
+          {
+            "x": 0.685,
+            "y": 0.3775
+          },
+          {
+            "x": 0.687,
+            "y": 0.632
+          },
+          {
+            "x": 0.326,
+            "y": 0.629
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+          },
+          "anchors": [
+            {
+              "key": "jet-btn",
+              "box_2d": [
+                407.61541042576084,
+                599.6190849485863,
+                508.5555343068123,
+                683.1153509494086
+              ],
+              "label": "Jet button",
+              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+              "actionMsg": {
+                "message": "Accessing Jet Menu",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "jet-menu"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "main-menu-ir-active",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-E_home-IR.webp"
+          },
+          "anchors": [
+            {
+              "key": "91ce03ea-999c-415a-8333-b02c5b6bc86f",
+              "box_2d": [
+                407.61541042576084,
+                599.6190849485863,
+                508.5555343068123,
+                683.1153509494086
+              ],
+              "label": "Jet button",
+              "uid": "f984cd99-69b9-4282-9e4b-a936d50564bb",
+              "actionMsg": {
+                "message": "Accessing Jet Menu",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "jet-menu"
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "jet-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR-passive.webp"
+          },
+          "anchors": [
+            {
+              "key": "back-btn",
+              "box_2d": [
+                359.0379488918867,
+                327.1537501030351,
+                432.21953996491095,
+                385.7613920719772
+              ],
+              "label": "Back button",
+              "uid": "f238d843-cfc5-47fb-bcbb-6854c12ec27d",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "015365f1-0873-4fd1-b274-b94a16c095b3",
+              "key": "jet-1",
+              "label": "Jet Pump 1",
+              "box_2d": [
+                456.1926390010227,
+                345.49279177720666,
+                569.2770117862375,
+                466.9771983129715
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 1"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "e497fe26-9007-48b3-8134-d98684235856",
+              "key": "jet-2",
+              "label": "Jet Pump 2",
+              "box_2d": [
+                456.1926390010227,
+                448.97728357070446,
+                569.2770117862375,
+                570.4616901064693
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 2"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "80524b54-4aa6-4507-968c-b0ad2c7a5b32",
+              "key": "ir-btn",
+              "label": "IR Therapy Light",
+              "box_2d": [
+                454.4576797408246,
+                557.7013005353122,
+                567.5420525260394,
+                679.185707071077
+              ],
+              "targetScreen": {
+                "id": "ir-menu"
+              },
+              "actionMsg": {
+                "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "jet-menu-ir-active",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR.webp"
+          },
+          "anchors": [
+            {
+              "key": "9946596f-353f-46aa-8e63-ee1b78abcdf4",
+              "box_2d": [
+                359.0379488918867,
+                327.1537501030351,
+                432.21953996491095,
+                385.7613920719772
+              ],
+              "label": "Back button",
+              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+              "targetScreen": {
+                "id": "main-menu-ir-active"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "fa91aa64-a6bc-40ad-9a46-4c039a24b14c",
+              "key": "62524962-7da7-4878-a8ef-edb38bbed7d1",
+              "label": "Jet Pump 1",
+              "box_2d": [
+                456.1926390010227,
+                345.49279177720666,
+                569.2770117862375,
+                466.9771983129715
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 1"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "46abfc49-bbe5-446e-808e-07ea7d97161b",
+              "key": "6457b119-e50e-4366-a900-02a81528c35d",
+              "label": "Jet Pump 2",
+              "box_2d": [
+                456.1926390010227,
+                448.97728357070446,
+                569.2770117862375,
+                570.4616901064693
+              ],
+              "actionMsg": {
+                "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+                "title": "Jet Pump 2"
+              },
+              "interactionStyle": "click"
+            },
+            {
+              "uid": "cf95a36b-db52-40a3-851c-bd8d56996d46",
+              "key": "5e5b0988-0d1e-4e5e-91c4-b47cb0eeadef",
+              "label": "IR Therapy Light",
+              "box_2d": [
+                454.4576797408246,
+                557.7013005353122,
+                567.5420525260394,
+                679.185707071077
+              ],
+              "targetScreen": {
+                "id": "ir-menu"
+              },
+              "actionMsg": {
+                "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
+                "notificationOnly": true
+              },
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "ir-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-C_IR-time.webp"
+          },
+          "anchors": [
+            {
+              "uid": "516ec29c-913c-42db-a86a-44a1d8ffe84d",
+              "key": "ok-btn",
+              "label": "Ok button",
+              "box_2d": [
+                534.5246992038406,
+                391.4723684877073,
+                601.8737094092912,
+                461.1212914546562
+              ],
+              "actionMsg": {
+                "message": "20 minute timer will be visible under the button and in the main menu.",
+                "title": "IR therapy is now starting"
+              },
+              "targetScreen": {
+                "id": "jet-menu-ir-active"
+              },
+              "interactionStyle": "click"
             }
           ]
         }

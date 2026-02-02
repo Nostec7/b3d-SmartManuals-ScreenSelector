@@ -24,7 +24,7 @@ export type Anchor = {
   actionMsg?: ActionMsg;
   targetScreen?: TargetScreen;
   targetImage?: TargetImage;
-  interactionStyle?: 'click' | 'swipe-left' | "swipe-right" | 'swipe-down' | 'swipe-up'
+  interactionStyle?: 'click' | 'swipe-left' | "swipe-right" | 'swipe-down' | 'swipe-up' | "onRender"
 };
 
 export type ScreenDoc = {

@@ -73,6 +73,9 @@ export function Hotspots({
     return m;
   }, [anchors]);
 
+  // track which anchors we've already reported as rendered (prevents double-calls in StrictMode)
+  const renderedKeysRef = useRef(new Set<string>());
+
   function getBox(a: Anchor): Box2D {
     const [yMin, xMin, yMax, xMax] = a.box_2d;
     return [yMin, xMin, yMax, xMax];
@@ -409,6 +412,22 @@ export function Hotspots({
         return (
           <motion.div
             key={a.key}
+            ref={(node) => {
+              if (!node) return;
+              if (!renderedKeysRef.current.has(a.key)) {
+                renderedKeysRef.current.add(a.key);
+                // console log the anchor's key as requested
+                console.log("hotspot rendered:", a.key);
+                try {
+                  if(a.interactionStyle === "onRender"){
+                    console.log('render')
+                      onHotspotClick(a)
+                  }
+                } catch {
+                  // swallow errors from consumer-provided onRender
+                }
+              }
+            }}
             className={`
               absolute
               ${border}
@@ -498,20 +517,6 @@ export function Hotspots({
                     isHovered ? "border-sky-400/60" : "border-sky-400/70"
                   } animate-[ping_1.8s_ease-in-out_infinite]`}
                 />
-                {/* <span
-                className="
-                  absolute -right-[5%] -top-[5%]
-                  w-[40%] aspect-square
-                  flex items-center justify-center
-                  bg-[#00000033] text-white font-bold
-                  border-2 rounded-full
-                "
-              >
-                <span className="text-[60%] leading-none">
-                  2
-                </span>
-              </span> */}
-
               </div>
             </div>
 
@@ -522,7 +527,7 @@ export function Hotspots({
                     ["nw", "left-0 top-0 -translate-x-1/2 -translate-y-1/2"],
                     ["ne", "right-0 top-0 translate-x-1/2 -translate-y-1/2"],
                     ["se", "right-0 bottom-0 translate-x-1/2 translate-y-1/2"],
-                    ["sw", "left-0 bottom-0 -translate-x-1/2 translate-y-1/2"],
+                    ["sw", "left-0 bottom-0 -translate-x-1/2 -translate-y-1/2"],
                   ] as const
                 ).map(([handle, pos]) => (
                   <div
