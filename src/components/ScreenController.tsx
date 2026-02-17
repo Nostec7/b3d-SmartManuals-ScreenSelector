@@ -252,6 +252,8 @@ export default function ScreenController({ screenSetup, screenData, initial, deb
       const prevEdited = editedAnchors[key];
       const updated: Anchor = { ...(prevEdited ?? original ?? {} as Anchor), box_2d, box: box2dToBox(box_2d) };
       setEditedAnchors((prev) => ({ ...prev, [key]: updated }));
+      
+      console.log(current.id, ': ', updated.label, updated.box_2d)
     } else {
       console.log("box changed", key, box_2d);
     }

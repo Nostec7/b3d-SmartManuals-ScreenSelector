@@ -219,7 +219,7 @@ export const fullDataJSON =
         {
           "id": "jets-main-menu",
           "image": {
-            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-A.webp"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.2-Activating-the-Jets-Pumps-Figure-A.webp"
           },
           "anchors": [
             {
@@ -240,7 +240,7 @@ export const fullDataJSON =
         {
           "id": "jets-menu",
           "image": {
-            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475%2Fscreens%2F11.2-Activating-the-Jets-Pumps-Figure-B.webp"
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-475/screens/11.2-Activating-the-Jets-Pumps-Figure-B.webp"
           },
           "anchors": [
             {
@@ -4292,8 +4292,13 @@ export const fullDataJSON =
     "productID": "sds-780-montclair",
     "product_id": "sds-780-montclair",
     "caption": "Interactive 3D model of controlling music settings via the media screen.",
-    "section": "11.4",
-    "tags": ["Music Controls", "Music settings", "Audio settings", "Media Screen"],
+    "section": "10.3",
+    "tags": [
+      "Music Controls",
+      "Music settings",
+      "Audio settings",
+      "Media Screen"
+    ],
     "suggestedLabel": "Music Controls in 3D",
     "type": "interactiveP3DModel",
     "interactiveP3DModel": {
@@ -4303,10 +4308,22 @@ export const fullDataJSON =
         "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
         "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
         "screenCorners": [
-          { "x": 0.31, "y": 0.363 },
-          { "x": 0.725, "y": 0.363 },
-          { "x": 0.73, "y": 0.632 },
-          { "x": 0.304, "y": 0.632 }
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
         ]
       },
       "screenOptions": [
@@ -4325,9 +4342,11 @@ export const fullDataJSON =
                 582.6815141141461
               ],
               "label": "Music Menu",
-              "targetScreen":{
+              "targetScreen": {
                 "id": "music-menu"
-              }
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
             }
           ]
         },
@@ -4346,9 +4365,11 @@ export const fullDataJSON =
                 362.6812089383649
               ],
               "label": "Lights Menu",
-              "targetScreen":{
+              "targetScreen": {
                 "id": "main-menu"
-              }
+              },
+              "uid": "a0bba924-49b3-494e-88d3-5ebac2a64664",
+              "interactionStyle": "click"
             },
             {
               "key": "power-btn",
@@ -4362,7 +4383,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Power Button",
                 "message": "Tap to power the stereo on or off. <br>Settings only appear once power is on."
-              }
+              },
+              "uid": "070c94fb-6b2a-4718-bd6d-96a0200cfc7e",
+              "interactionStyle": "click"
             },
             {
               "key": "rewind-btn",
@@ -4376,7 +4399,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Rewind",
                 "message": "Tap to move back through tracks."
-              }
+              },
+              "uid": "cd2e7c89-8888-448a-a82d-32a6ce76823c",
+              "interactionStyle": "click"
             },
             {
               "key": "forward-btn",
@@ -4390,7 +4415,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Forward",
                 "message": "Tap to advance forward through tracks."
-              }
+              },
+              "uid": "014cdad9-bc75-4322-b60a-aa02f69d4436",
+              "interactionStyle": "click"
             },
             {
               "key": "play-btn",
@@ -4404,7 +4431,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Pause/Play",
                 "message": "Tap to pause and play tracks."
-              }
+              },
+              "uid": "390483a3-fd99-4665-a22a-361c4df4e778",
+              "interactionStyle": "click"
             },
             {
               "key": "bt-btn",
@@ -4421,12 +4450,13 @@ export const fullDataJSON =
               },
               "targetImage": {
                 "direction": "forward-backwards",
-                "urls": 
-                [
+                "urls": [
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.3-Music-Menu-Figure-B-bt.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.3-Music-Menu-Figure-B-aux.webp"
                 ]
-              }
+              },
+              "uid": "e239c4d8-f7c6-4976-9e70-623d00e9653f",
+              "interactionStyle": "click"
             },
             {
               "key": "volume-down",
@@ -4443,8 +4473,7 @@ export const fullDataJSON =
               },
               "targetImage": {
                 "direction": "backwards",
-                "urls": 
-                [
+                "urls": [
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-10.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-12.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-14.webp",
@@ -4457,7 +4486,9 @@ export const fullDataJSON =
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-28.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-30.webp"
                 ]
-              }
+              },
+              "uid": "f58e40cd-8e44-4f61-8aa8-4cba678364c3",
+              "interactionStyle": "click"
             },
             {
               "key": "volume-up",
@@ -4474,8 +4505,7 @@ export const fullDataJSON =
               },
               "targetImage": {
                 "direction": "forward",
-                "urls": 
-                [
+                "urls": [
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-10.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-12.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-14.webp",
@@ -4488,7 +4518,9 @@ export const fullDataJSON =
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-28.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-A-vol-30.webp"
                 ]
-              }
+              },
+              "uid": "ceb0a979-b6fa-41b7-992d-a9845f440735",
+              "interactionStyle": "click"
             },
             {
               "key": "settings-btn",
@@ -4501,7 +4533,9 @@ export const fullDataJSON =
               "label": "Audio Settings",
               "targetScreen": {
                 "id": "audio-settings"
-              }
+              },
+              "uid": "6c030d43-da8e-4602-bfe4-5461942f3234",
+              "interactionStyle": "click"
             }
           ]
         },
@@ -4520,9 +4554,11 @@ export const fullDataJSON =
                 362.6812089383649
               ],
               "label": "Back",
-              "targetScreen":{
+              "targetScreen": {
                 "id": "music-menu"
-              }
+              },
+              "uid": "e37d7abe-d892-4736-ae84-7795176d88a8",
+              "interactionStyle": "click"
             },
             {
               "key": "bass-down",
@@ -4536,7 +4572,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Decrease Bass",
                 "message": "Tap the bass decrease button to decrease the bass."
-              }
+              },
+              "uid": "fca8a30d-89e1-4325-b1f2-c4c558144e44",
+              "interactionStyle": "click"
             },
             {
               "key": "bass-up",
@@ -4550,7 +4588,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Increase Bass",
                 "message": "Tap the bass increase button to increase the bass."
-              }
+              },
+              "uid": "fb612fe3-9645-477c-a535-fe986bfd7e7f",
+              "interactionStyle": "click"
             },
             {
               "key": "treble-down",
@@ -4564,7 +4604,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Decrease Treble",
                 "message": "Tap the treble decrease button to decrease the treble."
-              }
+              },
+              "uid": "d9e0fa28-3373-424c-bca4-7d0fdb1c8e04",
+              "interactionStyle": "click"
             },
             {
               "key": "treble-up",
@@ -4578,7 +4620,9 @@ export const fullDataJSON =
               "actionMsg": {
                 "title": "Increase Treble",
                 "message": "Tap the treble increase button to increase the treble."
-              }
+              },
+              "uid": "29b6d87d-ea3b-48c2-af3b-d42797c070f9",
+              "interactionStyle": "click"
             },
             {
               "key": "eq-mode",
@@ -4595,8 +4639,7 @@ export const fullDataJSON =
               },
               "targetImage": {
                 "direction": "forward",
-                "urls": 
-                [
+                "urls": [
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-rock.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-pop.webp",
@@ -4618,6 +4661,372 @@ export const fullDataJSON =
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-pop.webp",
                   "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/10.5-Audio-Settings-Menu-Figure-B-classical.webp"
                 ]
+              },
+              "uid": "2ba04bfb-b6aa-4ad8-9288-f9fab4516085",
+              "interactionStyle": "click"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of setting the heating mode via the media screen.",
+    "section": "11.1",
+    "tags": [
+      "Heat Settings",
+      "Heat Mode",
+      "Heating Mode",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Heating Mode Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Heating Mode Button",
+              "box_2d": [
+                418.6274709265216,
+                406.00006103515625,
+                480.3921967550041,
+                468.0000610351563
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "heating-mode-screen"
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.1-Programming-the-Heat-Settings-Figure-B-auto.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d841593-afed-4d98-8410-c6f53129f79c",
+              "key": "eb956e8e-373b-4ce9-a33c-3aff40711451",
+              "label": "Cancel Button",
+              "box_2d": [
+                554.1979202435833,
+                358.80010986328125,
+                615.9626460720658,
+                420.8001098632813
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancelling changes"
+              }
+            },
+            {
+              "uid": "982c1d72-d30d-4ea7-b147-c0d535cbebc4",
+              "key": "ad789d41-fd31-4ad3-8082-c0c933e6f6a5",
+              "label": "Confirm Button",
+              "box_2d": [
+                555.5402840491619,
+                620.400146484375,
+                617.3050098776444,
+                682.400146484375
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Your selection is saved.",
+                "title": "Confirming selection"
+              },
+              "targetScreen": {
+                "id": "settings-screen"
+              }
+            },
+            {
+              "uid": "ea72f957-8035-4889-9cf1-b6d396050095",
+              "key": "0dcdc51a-0eba-4981-b8b0-e1ddbe355951",
+              "label": "Scroll Up",
+              "box_2d": [
+                507.84091352919665,
+                487.60003662109375,
+                569.6056393576791,
+                549.6000366210938
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "<b>Switching to Economy Mode</b><br>This is an energy saving heating program that <br>allows the spa to heat during non-peak hours.<br><br>When programmed to Economy, the spa will only be allowed to heat the water <br><b>between 5:00 PM to 7:00 AM every day</b>. The hours cannot be adjusted.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "heating-mode-screen-economy"
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-screen-economy",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.1-Programming-the-Heat-Settings-Figure-B-economy.webp"
+          },
+          "anchors": [
+            {
+              "uid": "629ccf01-1249-4ac9-b3a1-9776ad16d83e",
+              "key": "ce72d868-040c-4404-ae8d-fca23e175fcc",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "8f79abae-e07a-4f1a-aaa1-1249746d451c",
+              "key": "3b23bbc2-d265-49b1-a104-fe6ec8eda24f",
+              "label": "Cancel Button",
+              "box_2d": [
+                554.1979202435833,
+                358.80010986328125,
+                615.9626460720658,
+                420.8001098632813
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancelling changes"
+              }
+            },
+            {
+              "uid": "d3cf5407-0b2e-4d96-a6c1-62043df4ebd6",
+              "key": "860b73c2-d49b-4936-800d-b6534a59742c",
+              "label": "Confirm Button",
+              "box_2d": [
+                555.5402840491619,
+                620.400146484375,
+                617.3050098776444,
+                682.400146484375
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Your selection is saved.",
+                "title": "Confirming selection"
+              },
+              "targetScreen": {
+                "id": "settings-screen"
+              }
+            },
+            {
+              "uid": "c57cd669-24d5-40b5-a3ce-86887d9e7461",
+              "key": "c8eb86c9-e9d0-4fe8-9025-60ba5b6915fe",
+              "label": "Auto Mode",
+              "box_2d": [
+                448.1577337135915,
+                492.400146484375,
+                509.92245954207397,
+                554.400146484375
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Switching to Auto Mode</b><br>When programmed to Auto, the spa will maintain the water temperature<br>to the set temperature. <br>Heating will occur when necessary.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "heating-mode-screen"
+              }
+            },
+            {
+              "uid": "54eac89c-fb1e-403d-be74-70fbc5014a11",
+              "key": "a03e4705-8d11-4535-8e14-50bacbfb0c99",
+              "label": "Day Mode",
+              "box_2d": [
+                521.9831346613158,
+                491.60009765625,
+                573.0096669010295,
+                555.2000732421875
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Switching to Day Mode</b><br>When programmed to Day, the spa will only be allowed to heat <br>the water <b>between 7:00 AM to 5:00 PM every day</b>. <br>The hours cannot be adjusted.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "heating-mode-screen-day"
+              }
+            }
+          ]
+        },
+        {
+          "id": "heating-mode-screen-day",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.1-Programming-the-Heat-Settings-Figure-B-day.webp"
+          },
+          "anchors": [
+            {
+              "uid": "4c2984f2-b6f4-4df4-b41b-e5faef466e7b",
+              "key": "a888f012-9278-4b33-a0e4-6c95efcaef78",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "b918204d-0e21-408e-85d6-06384df7a483",
+              "key": "8538a3a4-1506-4fa9-b7fb-377f2ebb3f24",
+              "label": "Cancel Button",
+              "box_2d": [
+                554.1979202435833,
+                358.80010986328125,
+                615.9626460720658,
+                420.8001098632813
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancelling changes"
+              }
+            },
+            {
+              "uid": "28ccc5fd-da8b-4dec-9f03-14ce6d98fff7",
+              "key": "35204db9-fe36-4be6-b650-1a0f33b6c3b3",
+              "label": "Confirm Button",
+              "box_2d": [
+                555.5402840491619,
+                620.400146484375,
+                617.3050098776444,
+                682.400146484375
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Your selection is saved.",
+                "title": "Confirming selection"
+              },
+              "targetScreen": {
+                "id": "settings-screen"
+              }
+            },
+            {
+              "uid": "478a1cb8-ac22-4b39-95c3-f5ea0e9063ba",
+              "key": "62cd45ea-0ccd-4301-9327-d346a6ed2c5e",
+              "label": "Scroll Down",
+              "box_2d": [
+                451.4651155662141,
+                490.00006103515625,
+                513.2298413946966,
+                552.000061035156
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "<b>Switching to Economy Mode</b><br>This is an energy saving heating program that <br>allows the spa to heat during non-peak hours.<br><br>When programmed to Economy, the spa will only be allowed to heat the water <br><b>between 5:00 PM to 7:00 AM every day</b>. The hours cannot be adjusted.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "heating-mode-screen-economy"
               }
             }
           ]
@@ -4625,7 +5034,3371 @@ export const fullDataJSON =
       ]
     }
   },
-
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of setting primary and secondary filtration via the media screen.",
+    "section": "11.2",
+    "tags": [
+      "Primary Filtration",
+      "Secondary Filtration",
+      "Filtration Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Filtration Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Filtration Button",
+              "box_2d": [
+                461.76466599009404,
+                393.2000732421875,
+                523.5293918185765,
+                455.20007324218756
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Primary Filtration</b><br>During a primary filtration, the circulation pump and the ClearRay Active Oxygen® <br>system are activated. The factory default cycle <b>starts at 12:00 AM and last for 8 hours</b>.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "filtration-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.2-Programming-the-Primary-Filtration-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              }
+            },
+            {
+              "uid": "0d841593-afed-4d98-8410-c6f53129f79c",
+              "key": "eb956e8e-373b-4ce9-a33c-3aff40711451",
+              "label": "Primary Start",
+              "box_2d": [
+                401.8006245912246,
+                552.4000854492188,
+                463.5653504197071,
+                614.4000854492188
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "primary-start-screen"
+              }
+            },
+            {
+              "uid": "982c1d72-d30d-4ea7-b147-c0d535cbebc4",
+              "key": "ad789d41-fd31-4ad3-8082-c0c933e6f6a5",
+              "label": "Primary End",
+              "box_2d": [
+                470.25697994855466,
+                556.4000854492188,
+                532.0217057770371,
+                618.4000854492188
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "primary-end-screen"
+              }
+            },
+            {
+              "uid": "ea72f957-8035-4889-9cf1-b6d396050095",
+              "key": "0dcdc51a-0eba-4981-b8b0-e1ddbe355951",
+              "label": "Secondary",
+              "box_2d": [
+                536.7483172588412,
+                590.8001708984375,
+                598.5130430873237,
+                652.8001708984375
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "secondary-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Secondary Filtration Menu</b><br>By default secondary filtration is set to Away Mode.<br>This disables the Secondary Filtration.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "primary-start-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.2-Programming-the-Primary-Filtration-Figure-C.webp"
+          },
+          "anchors": [
+            {
+              "uid": "01a2186a-0763-4de3-9134-edcb6f9465d0",
+              "key": "e343d335-a6cf-48cc-8293-6047024b3cb0",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              }
+            },
+            {
+              "uid": "5a3beee9-2831-443d-89bb-77d585989898",
+              "key": "61bae73a-011c-403a-9851-815d72c9511d",
+              "label": "Cancel Button",
+              "box_2d": [
+                538.0669875095655,
+                360.40002441406256,
+                599.831713338048,
+                422.4000244140626
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Cancelling changes</b><br>Reverting to the last saved setting.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "b762116d-b0bd-40fd-8f7b-f3f964fe7167",
+              "key": "32a348f4-99b5-4549-9019-35d9503f6ec0",
+              "label": "Confirm Button",
+              "box_2d": [
+                538.0669875095655,
+                614.000061035156,
+                599.831713338048,
+                676.000061035156
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Confirming changes</b><br>Your changes are now saved.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "c33257b7-470c-4572-b198-367111b5d4eb",
+              "key": "7e483c70-abe0-4893-94e1-0910459e719b",
+              "label": "Hour Block",
+              "box_2d": [
+                479.20409084228913,
+                428.40008544921875,
+                540.9688166707716,
+                490.40008544921875
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through the hour block to change the hour in 1-hour increments.<br>You cannot adjust the minutes column.",
+                "title": "Hour Block"
+              }
+            },
+            {
+              "uid": "ec11113a-5562-4329-94dd-844ad6a57112",
+              "key": "8d96f7b1-c9b9-4cf0-8c13-7871ef1615c9",
+              "label": "AM/PM Button",
+              "box_2d": [
+                479.20409084228913,
+                543.6000366210938,
+                540.9688166707716,
+                605.6000366210938
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "To select AM or PM, you will need to round a 12-hour period.<br>This will automatically adjust based on your selected hour.",
+                "title": "AM/PM Indicator"
+              }
+            }
+          ]
+        },
+        {
+          "id": "primary-end-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.2-Programming-the-Primary-Filtration-Figure-D.webp"
+          },
+          "anchors": [
+            {
+              "uid": "abb59b00-408a-4380-bf24-aebea61996d7",
+              "key": "61dd539b-717a-4a83-a1a4-35a1201a1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              }
+            },
+            {
+              "uid": "76faeb18-6022-49e0-ae15-327515e9970f",
+              "key": "91a9da8e-37c6-452c-943a-dde7b13f22b2",
+              "label": "Cancel Button",
+              "box_2d": [
+                538.0669875095655,
+                360.40002441406256,
+                599.831713338048,
+                422.4000244140626
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Cancelling changes</b><br>Reverting to the last saved setting.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "89d68a84-a325-44b9-9613-8d8bacadd2de",
+              "key": "82d0a34a-936c-4ea0-8e5d-873505dc33f9",
+              "label": "Confirm Button",
+              "box_2d": [
+                538.0669875095655,
+                614.000061035156,
+                599.831713338048,
+                676.000061035156
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Confirming changes</b><br>Your changes are now saved.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "6d1f7d51-e3cc-4073-8726-254578cc54b6",
+              "key": "7bed5a29-0f99-440c-95b1-09b28dd2eed8",
+              "label": "Hour Block",
+              "box_2d": [
+                479.20409084228913,
+                428.40008544921875,
+                540.9688166707716,
+                490.40008544921875
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through the hour block to change the hour in 1-hour increments.<br>You cannot adjust the minutes column.",
+                "title": "Hour Block"
+              }
+            },
+            {
+              "uid": "8d299398-da2c-442f-b788-e99dc0dee757",
+              "key": "867b8617-0f67-4563-bccc-17eb16d46476",
+              "label": "AM/PM Button",
+              "box_2d": [
+                479.20409084228913,
+                543.6000366210938,
+                540.9688166707716,
+                605.6000366210938
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "To select AM or PM, you will need to round a 12-hour period.<br>This will automatically adjust based on your selected hour.",
+                "title": "AM/PM Indicator"
+              }
+            }
+          ]
+        },
+        {
+          "id": "secondary-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.3-Programming-the-Secondary-Filtration-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "f091302f-c403-4fc6-bdeb-e52038663d63",
+              "key": "4af2da5f-12ff-4e22-8f76-652ad63223e4",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              }
+            },
+            {
+              "uid": "790bf20a-7c52-4255-b223-ee0ba2d3a760",
+              "key": "45e22ed4-e31e-46fd-a19d-a911bffaf3a8",
+              "label": "Cancel Button",
+              "box_2d": [
+                538.0669875095655,
+                360.40002441406256,
+                599.831713338048,
+                422.4000244140626
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Cancelling changes</b><br>Reverting to the last saved setting.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "4eb31247-aa45-46c5-ab79-71c8345b5fe5",
+              "key": "08428bc7-775e-4934-8b23-460fa406f1cc",
+              "label": "Confirm Button",
+              "box_2d": [
+                538.0669875095655,
+                614.000061035156,
+                599.831713338048,
+                676.000061035156
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "filtration-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Confirming changes</b><br>Your changes are now saved.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "093a1d34-d59f-46e5-b54f-2997ece96664",
+              "key": "94fe10d9-832a-4b10-b0ab-d84aac7ed412",
+              "label": "Frequent Button",
+              "box_2d": [
+                447.0971490833008,
+                487.59991455078125,
+                498.15949294846814,
+                545.599914550781
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "This mode will activate two 10-minute cycles <b>every day</b><br>one at 8:00 AM and the other at 8:00 PM",
+                "title": "Frequent Mode"
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.3-Programming-the-Secondary-Filtration-Figure-B-frequent.webp"
+                ]
+              }
+            },
+            {
+              "uid": "53c2109b-8da3-4e03-95b9-edd010a5bbeb",
+              "key": "cdeb0bb4-1f9b-4a55-8f0a-e7431e29b9ac",
+              "label": "Infrequent Button",
+              "box_2d": [
+                519.3378701065028,
+                487.60003662109375,
+                570.4002139716703,
+                544.800109863281
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "This mode will activate two 10-minute cycles <b>every other day</b><br>One at 8:00 AM and the other at 8:00 PM.",
+                "title": "Infrequent Mode"
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.3-Programming-the-Secondary-Filtration-Figure-B-infrequent.webp"
+                ]
+              }
+            },
+            {
+              "uid": "e310966f-4010-45b2-a9b6-299ac69e37a8",
+              "key": "3624bd6a-0a57-4225-ba12-749b8c9fbcda",
+              "label": "Away Button",
+              "box_2d": [
+                487.2309283475147,
+                486.00006103515625,
+                531.6043090019797,
+                548.000061035156
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "This mode disables the Secondary Filtration.",
+                "title": "Away Mode"
+              },
+              "targetImage": {
+                "direction": "forward",
+                "urls": [
+                  "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.3-Programming-the-Secondary-Filtration-Figure-B.webp"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of setting the time via the media screen.",
+    "section": "11.4",
+    "tags": [
+      "Time Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Time Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Time Button",
+              "box_2d": [
+                502.28762159160556,
+                375.60003662109375,
+                564.052347420088,
+                437.6000366210938
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "time-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Time Settings</b><br>Scroll through the hour and minute blocks to set the time.<br>Once done hit the confirm button to save the changes.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "time-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.4-Programming-the-Time-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              }
+            },
+            {
+              "uid": "0d841593-afed-4d98-8410-c6f53129f79c",
+              "key": "eb956e8e-373b-4ce9-a33c-3aff40711451",
+              "label": "Hour Block",
+              "box_2d": [
+                484.7438296432209,
+                430.00006103515625,
+                546.5085554717034,
+                492.00006103515625
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Swipe the hour block up or down to adjust the hours in 1-hour increment.",
+                "title": "Hour Block"
+              }
+            },
+            {
+              "uid": "982c1d72-d30d-4ea7-b147-c0d535cbebc4",
+              "key": "ad789d41-fd31-4ad3-8082-c0c933e6f6a5",
+              "label": "Minute Block",
+              "box_2d": [
+                483.63490636995937,
+                488.40008544921875,
+                545.3996321984419,
+                550.4000854492188
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Swipe the minute block up or down to adjust the minutes.",
+                "title": "Minute Block"
+              }
+            },
+            {
+              "uid": "a74aff86-b9b3-414f-926f-e2a19c1495f4",
+              "key": "d308837d-9d27-4025-b8de-da08170e9096",
+              "label": "AM/PM Indicator",
+              "box_2d": [
+                483.63490636995937,
+                546.7999877929688,
+                545.3996321984419,
+                608.7999877929688
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "To select AM or PM, you will need to round a 12-hour period.",
+                "title": "AM/PM Indicator"
+              }
+            },
+            {
+              "uid": "ea72f957-8035-4889-9cf1-b6d396050095",
+              "key": "0dcdc51a-0eba-4981-b8b0-e1ddbe355951",
+              "label": "Confirm Button",
+              "box_2d": [
+                542.0995082404987,
+                616.4002685546875,
+                603.8642340689812,
+                678.4002685546875
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "actionMsg": {
+                "message": "Confirming the changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "fe661af9-4108-4070-91c5-1648beb01f3e",
+              "key": "88df4318-45d0-4c22-b83e-5de4184b138e",
+              "label": "Cancel Button",
+              "box_2d": [
+                542.0995082404987,
+                358.0003662109375,
+                603.8642340689812,
+                420.0003662109375
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancel Button"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of setting the date via the media screen.",
+    "section": "11.5",
+    "tags": [
+      "Date Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Date Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Date Button",
+              "box_2d": [
+                541.5033078661152,
+                375.60003662109375,
+                603.2680336945976,
+                437.6000366210938
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "date-screen"
+              },
+              "actionMsg": {
+                "message": "<b>Date Settings</b><br>Scroll through the month, day and year blocks to set the date.<br>Once done hit the confirm button to save the changes.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "date-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.5-Programming-the-Date-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              }
+            },
+            {
+              "uid": "0d841593-afed-4d98-8410-c6f53129f79c",
+              "key": "eb956e8e-373b-4ce9-a33c-3aff40711451",
+              "label": "Month Block",
+              "box_2d": [
+                480.9503835747622,
+                422.80010986328125,
+                542.7151094032447,
+                484.80010986328125
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Swipe the month block up or down to adjust the month.",
+                "title": "Month Block"
+              }
+            },
+            {
+              "uid": "982c1d72-d30d-4ea7-b147-c0d535cbebc4",
+              "key": "ad789d41-fd31-4ad3-8082-c0c933e6f6a5",
+              "label": "Day Block",
+              "box_2d": [
+                480.9503835747622,
+                480.40008544921875,
+                542.7151094032447,
+                542.4000854492188
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Swipe the day block up or down to adjust the day.",
+                "title": "Day Block"
+              }
+            },
+            {
+              "uid": "a74aff86-b9b3-414f-926f-e2a19c1495f4",
+              "key": "d308837d-9d27-4025-b8de-da08170e9096",
+              "label": "Year Block",
+              "box_2d": [
+                480.9503835747622,
+                538.7999877929688,
+                542.7151094032447,
+                600.7999877929688
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Swipe the year block up or down to adjust the year.",
+                "title": "Year Block"
+              }
+            },
+            {
+              "uid": "ea72f957-8035-4889-9cf1-b6d396050095",
+              "key": "0dcdc51a-0eba-4981-b8b0-e1ddbe355951",
+              "label": "Confirm Button",
+              "box_2d": [
+                546.1263948412746,
+                610.80029296875,
+                607.8911206697571,
+                672.80029296875
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "actionMsg": {
+                "message": "Confirming the changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "fe661af9-4108-4070-91c5-1648beb01f3e",
+              "key": "88df4318-45d0-4c22-b83e-5de4184b138e",
+              "label": "Cancel Button",
+              "box_2d": [
+                547.468553830893,
+                353.2003784179688,
+                609.2332796593755,
+                415.2003784179688
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancel Button"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of programming the water care via the media screen.",
+    "section": "11.6",
+    "tags": [
+      "Water Care Programming",
+      "Water Care Settings",
+      "ClearRay UV Bulb Timer",
+      "ClearRay Settings",
+      "Water Refresh Timer",
+      "Setting Water Refresh",
+      "MicroClean",
+      "MicroClean Outer",
+      "MicroClean Inner",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Water Care in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d83b9620-772c-47a4-b3ae-27e71893fc5e",
+              "key": "9ff11e5b-daf5-4af0-9d44-45fa993b1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d0f71eb-d2ed-4463-a65c-bb2a45cca3db",
+              "key": "dad47ecf-b3e5-4bee-b09e-877a2824014d",
+              "label": "Water Care Button",
+              "box_2d": [
+                422.50981425619875,
+                396.39996337890625,
+                484.27454008468123,
+                458.39996337890625
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "water-care-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "0d841593-afed-4d98-8410-c6f53129f79c",
+              "key": "eb956e8e-373b-4ce9-a33c-3aff40711451",
+              "label": "ClearRay Button",
+              "box_2d": [
+                420.1395727639516,
+                387.60009765625,
+                481.9042985924341,
+                449.60009765625
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>ClearRay UV Bulb Timer</b><br>The CearRay UV Bulb Timer has a life expectancy of 1 year.<br>A timer activates when power is applied and begins a countdown starting at 365 days. <br><br>Once the timer expires, a reminder message will appear on the display, <br>the UV bulb must be replaced and the timer needs to be reset.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "clear-ray-menu"
+              }
+            },
+            {
+              "uid": "957a22be-2af1-41b6-bcf9-4596013e27f8",
+              "key": "03d245cb-f214-4031-a719-7c70af9a6662",
+              "label": "Water Refresh",
+              "box_2d": [
+                467.436870061249,
+                406.00006103515625,
+                521.0934053016825,
+                466.40008544921875
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Water Refresh Menu</b><br>A programmable Water Refresh reminder <br>can be set to remind you when\nto drain and refill the spa.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "water-refresh-menu"
+              }
+            },
+            {
+              "uid": "4bbfc56f-54d7-4c30-bcf5-80b8fd035a51",
+              "key": "2487ae4c-7a57-407b-b28f-4a21280459f0",
+              "label": "MicroClean Outer",
+              "box_2d": [
+                509.3287413331557,
+                420.4000244140625,
+                562.9852765735892,
+                480.800048828125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>MicroClean Outer Menu</b><br>A programmable filter timer can be set to remind <br>you when to clean or\nreplace the filters.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "microclean-outer-menu"
+              }
+            },
+            {
+              "uid": "93a2559d-691c-428a-b899-d88379332bd0",
+              "key": "07c90cac-b1b5-4ba5-8ae8-8ae6e599bafe",
+              "label": "MicroClean Inner",
+              "box_2d": [
+                548.51795114233,
+                422.800048828125,
+                602.1744863827636,
+                483.2000732421875
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>MicroClean Inner Menu</b><br>A programmable filter timer can be set to remind <br>you when to replace the\nMicroClean Inner Filter.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "microclean-inner-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "clear-ray-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-C.webp"
+          },
+          "anchors": [
+            {
+              "uid": "637615d2-6d38-484b-9207-4a3e7ad17ee3",
+              "key": "7be7e91b-9a57-4b86-880d-d8f656e200ed",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              }
+            },
+            {
+              "uid": "df1a2b48-2198-40cb-8a4e-a60388948c71",
+              "key": "08d84a4f-0015-4383-a846-b90cf5cd4651",
+              "label": "Cancel Button",
+              "box_2d": [
+                533.4248062831905,
+                362.800048828125,
+                595.189532111673,
+                424.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancel Changes"
+              }
+            },
+            {
+              "uid": "6652153f-df5f-4973-866b-58739ff8c3ee",
+              "key": "057484ab-0b4d-4080-94bc-de0b329cb837",
+              "label": "Confirm Button",
+              "box_2d": [
+                534.758119271472,
+                605.2001342773438,
+                596.5228450999545,
+                667.2001342773438
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Confirming the changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "3087d9ee-0554-457f-b1a4-251ebb825ced",
+              "key": "fdc8c589-48f3-434b-91c6-de1de005dbb9",
+              "label": "Day block",
+              "box_2d": [
+                470.75807858136795,
+                483.60015869140625,
+                532.5228044098504,
+                545.600158691406
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the column to change the days in 10-day increments.<br>The range is from <b>OFF (---) to 365 days</b>.<br><br>In order to continually have the ClearRay system effectively perform <br>its function, it should be program as instructed.",
+                "title": "Day Block"
+              }
+            }
+          ]
+        },
+        {
+          "id": "water-refresh-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-D.webp"
+          },
+          "anchors": [
+            {
+              "uid": "15d79c2a-4c46-470b-8c7a-abf13ad322f3",
+              "key": "4e6aba67-3c7f-42f0-a4d8-d1a824fb0b22",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              }
+            },
+            {
+              "uid": "f9968055-5146-468f-9a9d-3329f7283da8",
+              "key": "67af5950-edeb-4975-8e2c-8594be2fa52f",
+              "label": "Cancel Button",
+              "box_2d": [
+                533.4248062831905,
+                362.800048828125,
+                595.189532111673,
+                424.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancel Changes"
+              }
+            },
+            {
+              "uid": "10b4e43f-e481-470b-98cb-6fb6435d20a0",
+              "key": "3af069f1-fea5-461e-a66d-abafffcbcff2",
+              "label": "Confirm Button",
+              "box_2d": [
+                534.758119271472,
+                605.2001342773438,
+                596.5228450999545,
+                667.2001342773438
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Confirming the changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "68b8526d-3ada-45b2-a5be-d65fb6b4f4a0",
+              "key": "99f1f7e2-4522-4e05-9918-e8a4408c1657",
+              "label": "Day block",
+              "box_2d": [
+                470.75807858136795,
+                483.60015869140625,
+                532.5228044098504,
+                545.600158691406
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the column to change the days in 30-day increments.<br>The range is from <b>OFF\n(- - -) to 180 days</b>. <br><br><b>It is not recommended that this feature be turned OFF</b>. <br>In order to continually maintain the water healthy and clean, <br>in addition to chemical maintenance, it should be program as instructed.",
+                "title": "Day Block"
+              }
+            }
+          ]
+        },
+        {
+          "id": "microclean-outer-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-E.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6b577feb-8a13-426c-824b-737fbac08de6",
+              "key": "021341ed-f731-44d1-b03c-62222b742b9a",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              }
+            },
+            {
+              "uid": "b260e040-5a8a-4956-9c75-de22c896a22c",
+              "key": "35b50fa5-1516-499a-8f92-e86f9374f24e",
+              "label": "Cancel Button",
+              "box_2d": [
+                533.4248062831905,
+                362.800048828125,
+                595.189532111673,
+                424.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancel Changes"
+              }
+            },
+            {
+              "uid": "222c2e86-a353-4691-bd92-6db741dd4a6e",
+              "key": "d1e6aab7-33a8-492b-afa4-da5f1d53c527",
+              "label": "Confirm Button",
+              "box_2d": [
+                534.758119271472,
+                605.2001342773438,
+                596.5228450999545,
+                667.2001342773438
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Confirming the changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "9d5699f3-03b2-403e-af64-f661bb2fe070",
+              "key": "1cca37dd-71ad-439b-a686-4cb4c187effa",
+              "label": "Day block",
+              "box_2d": [
+                470.75807858136795,
+                483.60015869140625,
+                532.5228044098504,
+                545.600158691406
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the column to change the days in 10-day increments.<br>The range is from <b>OFF\n(- - -) to 180 days</b>. <br><br><b>It is not recommended that this feature be turned OFF</b>. <br>In order to continually maintain the water healthy and clean, <br>in addition to chemical maintenance, it should be program as instructed.",
+                "title": "Day Block"
+              }
+            }
+          ]
+        },
+        {
+          "id": "microclean-inner-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-F.webp"
+          },
+          "anchors": [
+            {
+              "uid": "e29fe0f1-7d17-4cd3-9c43-6e316773958f",
+              "key": "f392e329-fcfd-4fd7-a4cf-d0226f1f6b12",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              }
+            },
+            {
+              "uid": "52e2295e-382e-4170-b698-10b5c29d8f06",
+              "key": "8197594b-b79b-4c4e-9310-b08a5fd5bcaa",
+              "label": "Cancel Button",
+              "box_2d": [
+                533.4248062831905,
+                362.800048828125,
+                595.189532111673,
+                424.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved settings.",
+                "title": "Cancel Changes"
+              }
+            },
+            {
+              "uid": "287da7b6-0708-4d19-ae4c-b8f51fae30f5",
+              "key": "ba479f2d-bc8b-43b4-8a11-0e2df8184783",
+              "label": "Confirm Button",
+              "box_2d": [
+                534.758119271472,
+                605.2001342773438,
+                596.5228450999545,
+                667.2001342773438
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "water-care-menu"
+              },
+              "actionMsg": {
+                "message": "Confirming the changes.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "3a79c3d6-ecea-4cdd-bf17-e47af025016b",
+              "key": "165922c8-d36a-4bea-b2ab-6b5256e0731d",
+              "label": "Day block",
+              "box_2d": [
+                470.75807858136795,
+                483.60015869140625,
+                532.5228044098504,
+                545.600158691406
+              ],
+              "interactionStyle": "swipe-up",
+              "actionMsg": {
+                "message": "Scroll through the column to change the days in 10-day increments.<br>The range is from <b>OFF\n(- - -) to 90 days</b>. <br><br><b>It is not recommended that this feature be turned OFF</b>. <br>In order to continually maintain the water healthy and clean, <br>in addition to chemical maintenance, it should be program as instructed.",
+                "title": "Day Block"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of locking the spa via the media screen.",
+    "section": "11.7",
+    "tags": [
+      "Lock Settings",
+      "Lock the Spa",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Lock the Spa in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d83b9620-772c-47a4-b3ae-27e71893fc5e",
+              "key": "9ff11e5b-daf5-4af0-9d44-45fa993b1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d0f71eb-d2ed-4463-a65c-bb2a45cca3db",
+              "key": "dad47ecf-b3e5-4bee-b09e-877a2824014d",
+              "label": "Lock Button",
+              "box_2d": [
+                462.64359352041276,
+                371.59991455078125,
+                524.4083193488952,
+                433.59991455078125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.7-Locking-the-Spa-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "0d841593-afed-4d98-8410-c6f53129f79c",
+              "key": "eb956e8e-373b-4ce9-a33c-3aff40711451",
+              "label": "Settings Button",
+              "box_2d": [
+                418.8018005349069,
+                602.000061035156,
+                480.56652636338936,
+                664.000061035156
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Settings Lock</b><br>Lock the settings and all its functions.<br>Scroll through each column to select a number.<br>Then move on to the next number until a four-digit code has been selected.<br>Once pin code is entered, click confirm button to lock the settings.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "lock-settings"
+              }
+            },
+            {
+              "uid": "957a22be-2af1-41b6-bcf9-4596013e27f8",
+              "key": "03d245cb-f214-4031-a719-7c70af9a6662",
+              "label": "Access Button",
+              "box_2d": [
+                472.3135062205255,
+                602.800109863281,
+                534.078232049008,
+                664.800109863281
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Access Lock</b><br>Lock all activation and adjustment features.<br>Scroll through each column to select a number.<br>Then move on to the next number until a four-digit code has been selected.<br>Once pin code is entered, click confirm button to lock the access features.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "lock-access"
+              }
+            },
+            {
+              "uid": "4bbfc56f-54d7-4c30-bcf5-80b8fd035a51",
+              "key": "2487ae4c-7a57-407b-b28f-4a21280459f0",
+              "label": "Maintenance Button",
+              "box_2d": [
+                521.8118952190104,
+                602.800109863281,
+                583.5766210474928,
+                664.800109863281
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Maintenance Lock</b><br>All spa functions are locked to allow<br>for a temporary service mode such as filter cleaning.<br><br>Scroll through each column to select a number.<br>Then move on to the next number until a four-digit code has been selected.<br>Once pin code is entered, click confirm button to lock all functions.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "lock-maintenance"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-settings",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.7-locks-figure-c.webp"
+          },
+          "anchors": [
+            {
+              "uid": "55d8b23a-8867-48be-8349-569f3dcd7c66",
+              "key": "83a00efa-c477-41c3-8280-68bca88770c0",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              }
+            },
+            {
+              "uid": "b4534ac8-c3e3-4581-a904-02e1fc3604e1",
+              "key": "70434f6d-c7c1-4881-82dc-7e7989b5948b",
+              "label": "Cancel Button",
+              "box_2d": [
+                558.8477171057746,
+                355.60003662109375,
+                620.612442934257,
+                417.60003662109386
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved version.",
+                "title": "Cancel Button"
+              }
+            },
+            {
+              "uid": "015e2749-17e7-4a87-8165-7e6bd8b17b89",
+              "key": "b109153c-4332-4722-94ef-2619f2ac2696",
+              "label": "Confirm Button",
+              "box_2d": [
+                558.8477171057746,
+                614.7999877929688,
+                620.612442934257,
+                676.7999877929689
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "The Settings Menu and all it functions are now disabled,<br>but the spa will still perform all scheduled tasks.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "93cbe053-f647-4b93-a57f-ef6eb6d6f556",
+              "key": "042b3fea-36dc-4d8e-89c4-882739cf0347",
+              "label": "Number Block",
+              "box_2d": [
+                483.6799523524712,
+                444.40002441406244,
+                545.4446781809537,
+                506.40002441406256
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move on to the next number until a four-digit code has been selected.",
+                "title": "Number Block"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-access",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.7-locks-figure-d.webp"
+          },
+          "anchors": [
+            {
+              "uid": "fcaa7102-e896-44ed-9b85-cab610b561d9",
+              "key": "18c451a7-4cc1-4b4b-ae0c-6ccbdec30480",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              }
+            },
+            {
+              "uid": "3aeb3e60-7642-42fb-880f-624938f3da3a",
+              "key": "53cef2ba-81c2-4da7-9c97-b7e5b31d2736",
+              "label": "Cancel Button",
+              "box_2d": [
+                558.8477171057746,
+                355.60003662109375,
+                620.612442934257,
+                417.60003662109386
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved version.",
+                "title": "Cancel Button"
+              }
+            },
+            {
+              "uid": "f89591f4-89a2-4abe-81d0-5651bdece76f",
+              "key": "b3f0ef1a-c759-4bdc-ac05-fe200f43e7fe",
+              "label": "Confirm Button",
+              "box_2d": [
+                558.8477171057746,
+                614.7999877929688,
+                620.612442934257,
+                676.7999877929689
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "All activation and adjustment features are disabled<br>but the spa will still perform all scheduled tasks.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "1ff63e33-a639-448a-8f0c-a5e46e4a4800",
+              "key": "32075207-2578-470a-bf97-7917d0f88cc6",
+              "label": "Number Block",
+              "box_2d": [
+                483.6799523524712,
+                444.40002441406244,
+                545.4446781809537,
+                506.40002441406256
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move on to the next number until a four-digit code has been selected.",
+                "title": "Number Block"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-maintenance",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.7-locks-figure-e.webp"
+          },
+          "anchors": [
+            {
+              "uid": "77116c72-a3b9-46bd-ae41-271c201bb93e",
+              "key": "e7a83c7c-e867-46a6-a407-fd7c5ded62fa",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              }
+            },
+            {
+              "uid": "adf1da05-b44b-4b83-8434-f68fc3c67d61",
+              "key": "448e003b-86a2-425e-bbef-e84f94ae35a8",
+              "label": "Cancel Button",
+              "box_2d": [
+                558.8477171057746,
+                355.60003662109375,
+                620.612442934257,
+                417.60003662109386
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Reverting to the last saved version.",
+                "title": "Cancel Button"
+              }
+            },
+            {
+              "uid": "07cd7db2-cb76-4434-8955-3d9d462b055a",
+              "key": "205b87cd-7ee0-4402-b7ad-df877f2aa8ac",
+              "label": "Confirm Button",
+              "box_2d": [
+                558.8477171057746,
+                614.7999877929688,
+                620.612442934257,
+                676.7999877929689
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "All spa functions are locked to allow for a temporary service mode such as filter cleaning.<br><br><b>Note:</b> This mode has a time out of 2 hours. <br>The spa should not be left in this lock mode for an extended period. <br>Especially in colder climate or when freezing conditions exist.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "30d635a8-c38f-4ccc-99da-7c79f481f6fa",
+              "key": "4e037f06-b8d6-4d90-9870-744e3265567b",
+              "label": "Number Block",
+              "box_2d": [
+                483.6799523524712,
+                444.40002441406244,
+                545.4446781809537,
+                506.40002441406256
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move on to the next number until a four-digit code has been selected.",
+                "title": "Number Block"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of unlocking the spa via the media screen.",
+    "section": "11.7.D",
+    "tags": [
+      "Unlock Settings",
+      "Unlock the Spa",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Unlock the Spa in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d83b9620-772c-47a4-b3ae-27e71893fc5e",
+              "key": "9ff11e5b-daf5-4af0-9d44-45fa993b1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d0f71eb-d2ed-4463-a65c-bb2a45cca3db",
+              "key": "dad47ecf-b3e5-4bee-b09e-877a2824014d",
+              "label": "Lock Button",
+              "box_2d": [
+                462.64359352041276,
+                371.59991455078125,
+                524.4083193488952,
+                433.59991455078125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Select one of the locked features.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.8-unlock-the-spa.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "957a22be-2af1-41b6-bcf9-4596013e27f8",
+              "key": "03d245cb-f214-4031-a719-7c70af9a6662",
+              "label": "Access Button",
+              "box_2d": [
+                458.79988960708613,
+                610.0001831054688,
+                520.5646154355686,
+                672.0001831054688
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>Lock Menu</b><br>To unlock the feature scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been entered.<br>Once you have your full pin entered, click confirm to unlock the feature.<br><br><b>Note:</b> A default passcode can be used in case the original<br>passcode is lost or forgotten. The code \"0772\" will unlock the locked setting.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "lock-access"
+              }
+            }
+          ]
+        },
+        {
+          "id": "lock-access",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.7-locks-figure-d.webp"
+          },
+          "anchors": [
+            {
+              "uid": "fcaa7102-e896-44ed-9b85-cab610b561d9",
+              "key": "18c451a7-4cc1-4b4b-ae0c-6ccbdec30480",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              }
+            },
+            {
+              "uid": "3aeb3e60-7642-42fb-880f-624938f3da3a",
+              "key": "53cef2ba-81c2-4da7-9c97-b7e5b31d2736",
+              "label": "Cancel Button",
+              "box_2d": [
+                558.8477171057746,
+                355.60003662109375,
+                620.612442934257,
+                417.60003662109386
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Cancelling the unlocking process.<br>Going back to the Locks Menu.",
+                "title": "Cancel Button"
+              }
+            },
+            {
+              "uid": "312393b3-c99b-4f92-aa17-a5562f4afb29",
+              "key": "2c5bf0cd-c2ab-4210-b85a-2c213a592fb4",
+              "label": "Confirm Button",
+              "box_2d": [
+                560.1766004827991,
+                615.60009765625,
+                621.9413263112816,
+                677.60009765625
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "If pin code is entered correctly, this unlocks the feature.",
+                "title": "Confirm Button"
+              }
+            },
+            {
+              "uid": "1ff63e33-a639-448a-8f0c-a5e46e4a4800",
+              "key": "32075207-2578-470a-bf97-7917d0f88cc6",
+              "label": "Number Block",
+              "box_2d": [
+                483.6799523524712,
+                444.40002441406244,
+                545.4446781809537,
+                506.40002441406256
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "lock-menu"
+              },
+              "actionMsg": {
+                "message": "Scroll through each column to select a number.<br>Then move on to the next number until a four-digit code has been selected.",
+                "title": "Number Block"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of setting the units via the media screen.",
+    "section": "11.8",
+    "tags": [
+      "Unit Settings",
+      "Set Units",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Unit Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d83b9620-772c-47a4-b3ae-27e71893fc5e",
+              "key": "9ff11e5b-daf5-4af0-9d44-45fa993b1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d0f71eb-d2ed-4463-a65c-bb2a45cca3db",
+              "key": "dad47ecf-b3e5-4bee-b09e-877a2824014d",
+              "label": "Units Button",
+              "box_2d": [
+                502.7773727846269,
+                369.199951171875,
+                564.5420986131094,
+                431.199951171875
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "unit-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Units Menu</b><br>Tap on Either Temperature Display or<br>Time Display to change their relative display units.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "unit-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.8-Unit-Display-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "957a22be-2af1-41b6-bcf9-4596013e27f8",
+              "key": "03d245cb-f214-4031-a719-7c70af9a6662",
+              "label": "Temperature Unit",
+              "box_2d": [
+                421.21595602644436,
+                618.800109863281,
+                482.98068185492684,
+                680.800109863281
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Switching to <b>Celsius</b> Temperature Units.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "unit-menu-celsius"
+              }
+            },
+            {
+              "uid": "b8b7a9c7-60e9-4723-996f-aaadda2158e7",
+              "key": "8baa4907-d3f1-401d-b956-d53a99e1d7fd",
+              "label": "Time Unit",
+              "box_2d": [
+                505.77975537889824,
+                584.399963378906,
+                567.5444812073807,
+                646.399963378906
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Switching to <b>24-HR</b> Time format.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "unit-menu-24h"
+              }
+            }
+          ]
+        },
+        {
+          "id": "unit-menu-celsius",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.8-Unit-Display-Figure-B-c.webp"
+          },
+          "anchors": [
+            {
+              "uid": "986d7d54-efcc-4e94-b2b6-dcb502ec0f42",
+              "key": "98d18615-f2e9-4726-b0f1-5d8306f41f94",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "6c4c4845-34cd-47ab-9aca-69f80ce47888",
+              "key": "069f55ce-38a2-4b57-b5e1-bc9baba6857a",
+              "label": "Temperature Unit",
+              "box_2d": [
+                421.21595602644436,
+                618.800109863281,
+                482.98068185492684,
+                680.800109863281
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Switching to <b>Fahrenheit</b> Temperature Units.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "unit-menu"
+              }
+            },
+            {
+              "uid": "eb77d946-e81a-4b01-81ae-128cf5155fad",
+              "key": "7deb8824-6ea3-49b6-8aeb-1b2a6c039f78",
+              "label": "Time Unit",
+              "box_2d": [
+                505.77975537889824,
+                584.399963378906,
+                567.5444812073807,
+                646.399963378906
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Switching to <b>24-HR</b> Time format.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "unit-menu-24h"
+              }
+            }
+          ]
+        },
+        {
+          "id": "unit-menu-24h",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.8-Unit-Display-Figure-B-24hr.webp"
+          },
+          "anchors": [
+            {
+              "uid": "4e1bd54d-b735-4b9c-93de-718ef4217995",
+              "key": "6bcccfca-3738-4d50-a147-62cd02ef9ccf",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "1f572a3e-0e1f-41eb-bddf-2808648de085",
+              "key": "46a79547-47a9-4d6e-b00c-4c7fc80dd1d6",
+              "label": "Temperature Unit",
+              "box_2d": [
+                421.21595602644436,
+                618.800109863281,
+                482.98068185492684,
+                680.800109863281
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Switching to <b>Fahrenheit</b> Temperature Units.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "unit-menu"
+              }
+            },
+            {
+              "uid": "891e2652-bb32-4940-b094-87e0512753ff",
+              "key": "99cbfc0a-8bcf-4ef5-85f2-10dd3c94479d",
+              "label": "Time Unit",
+              "box_2d": [
+                505.77975537889824,
+                584.399963378906,
+                567.5444812073807,
+                646.399963378906
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Switching to <b>12-HR</b> Time format.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "unit-menu"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of setting the language via the media screen.",
+    "section": "11.9",
+    "tags": [
+      "Set Language",
+      "Language Settings",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Language Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click"
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d83b9620-772c-47a4-b3ae-27e71893fc5e",
+              "key": "9ff11e5b-daf5-4af0-9d44-45fa993b1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d0f71eb-d2ed-4463-a65c-bb2a45cca3db",
+              "key": "dad47ecf-b3e5-4bee-b09e-877a2824014d",
+              "label": "Language Button",
+              "box_2d": [
+                540.235505525273,
+                388.39996337890625,
+                602.0002313537555,
+                450.39996337890625
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "language-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Language Menu</b><br>There are 10 languages to select from: English, French, Spanish, <br>German, Italian, Czech, Swedish, Norwegian, Finnish, and Polish.<br><br>To select a language, scroll through and select the language you\nwant to display.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "language-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.9-Programming-the-Language-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "957a22be-2af1-41b6-bcf9-4596013e27f8",
+              "key": "03d245cb-f214-4031-a719-7c70af9a6662",
+              "label": "Cancel Button",
+              "box_2d": [
+                540.026330721364,
+                364.39990234375,
+                601.7910565498465,
+                426.39990234375
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Language change canceled.<br>Reverting to the last saved setting.",
+                "title": "Canceled"
+              },
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "b8b7a9c7-60e9-4723-996f-aaadda2158e7",
+              "key": "8baa4907-d3f1-401d-b956-d53a99e1d7fd",
+              "label": "Confirm Button",
+              "box_2d": [
+                540.026330721364,
+                600.39990234375,
+                601.7910565498465,
+                662.39990234375
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Language change confirmed.",
+                "title": "Confirmed"
+              },
+              "targetScreen": {
+                "id": "settings-screen-2"
+              }
+            },
+            {
+              "uid": "19c8e01b-77ad-4cb5-9c92-9c1059e5bc2b",
+              "key": "09051755-10fd-418e-a3ff-83acdf7c4f99",
+              "label": "Language Block",
+              "box_2d": [
+                477.01265299367765,
+                481.1998291015625,
+                538.7773788221601,
+                543.1998291015625
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through and select the language you want to display.<br>Once selected, tap the confirm button.",
+                "title": "Language Block"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of setting panel timeout via the media screen.",
+    "section": "11.10",
+    "tags": [
+      "Panel Timeout",
+      "Panel Sleep",
+      "Control Panel Timeout",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Panel Timeout Settings in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Swipe Up to access the next page.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Swipe Up Again to access the next page.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              },
+              "actionMsg": {
+                "message": "Swipe Up again to access the next page.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d83b9620-772c-47a4-b3ae-27e71893fc5e",
+              "key": "9ff11e5b-daf5-4af0-9d44-45fa993b1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d0f71eb-d2ed-4463-a65c-bb2a45cca3db",
+              "key": "dad47ecf-b3e5-4bee-b09e-877a2824014d",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-3",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.10-Programming-the-Panel-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "800675e8-003e-476d-af5d-e3dee4c31311",
+              "key": "6bd71def-cbf9-4b46-88c5-a5e5a120df48",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a2e63d2f-5c85-4d4b-89f0-8d44f9cdc1c6",
+              "key": "976fcc29-ebcc-4135-b5b3-d3d8b5fc8c18",
+              "label": "Panel Button",
+              "box_2d": [
+                423.62535672363117,
+                376.39996337890625,
+                485.39008255211365,
+                438.39996337890625
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "panel-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Panel Timeout Menu</b><br>Program how long the display stays active before going<br>to sleep. Scroll through and select the number of minutes. <br>The range is <b>one to five minutes</b>.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "panel-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.10-Programming-the-Panel-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-3"
+              }
+            },
+            {
+              "uid": "957a22be-2af1-41b6-bcf9-4596013e27f8",
+              "key": "03d245cb-f214-4031-a719-7c70af9a6662",
+              "label": "Cancel Button",
+              "box_2d": [
+                537.2958928014091,
+                361.9998779296875,
+                599.0606186298916,
+                423.9998779296875
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Reverting to the last saved setting.",
+                "title": "Canceled"
+              },
+              "targetScreen": {
+                "id": "settings-screen-3"
+              }
+            },
+            {
+              "uid": "b8b7a9c7-60e9-4723-996f-aaadda2158e7",
+              "key": "8baa4907-d3f1-401d-b956-d53a99e1d7fd",
+              "label": "Confirm Button",
+              "box_2d": [
+                537.2959969569654,
+                605.1998291015625,
+                599.0607227854479,
+                667.1998291015625
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Panel Timeout has been confirmed.",
+                "title": "Confirmed"
+              },
+              "targetScreen": {
+                "id": "settings-screen-3"
+              }
+            },
+            {
+              "uid": "19c8e01b-77ad-4cb5-9c92-9c1059e5bc2b",
+              "key": "09051755-10fd-418e-a3ff-83acdf7c4f99",
+              "label": "Minute Block",
+              "box_2d": [
+                473.13221609359084,
+                482.7998046875,
+                534.8969419220733,
+                544.7998046875
+              ],
+              "interactionStyle": "swipe-down",
+              "actionMsg": {
+                "message": "Scroll through and select the number of minutes.<br>Once selected, tap the confirm button.",
+                "title": "Minute Block"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pdfID": "26-SDS-780-EN",
+    "pdf_id": "26-SDS-780-EN",
+    "productID": "sds-780-montclair",
+    "product_id": "sds-780-montclair",
+    "caption": "Interactive 3D model of diagnostics menu, access to gfci test, fault log and system information via the media screen.",
+    "section": "11.11",
+    "tags": [
+      "Diagnostics Menu",
+      "System Information",
+      "Fault Log",
+      "GFCI Test",
+      "Media Screen"
+    ],
+    "suggestedLabel": "Diagnostics Menu in 3D",
+    "type": "interactiveP3DModel",
+    "interactiveP3DModel": {
+      "type": "screenController",
+      "p3dID": "MkxcX",
+      "productMount": {
+        "baseUrl": "/images/controllerScreens/SDS_780-880_BaseLayer.webp",
+        "beautyLayerUrl": "/images/controllerScreens/SDS_780-880_BeautyLayer.webp",
+        "screenCorners": [
+          {
+            "x": 0.31,
+            "y": 0.363
+          },
+          {
+            "x": 0.725,
+            "y": 0.363
+          },
+          {
+            "x": 0.73,
+            "y": 0.632
+          },
+          {
+            "x": 0.304,
+            "y": 0.632
+          }
+        ]
+      },
+      "screenOptions": [
+        {
+          "id": "main-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/8.7-Set-spa-to-heat-100.webp"
+          },
+          "anchors": [
+            {
+              "key": "music-menu-btn",
+              "box_2d": [
+                564.7299458472731,
+                587.9151095019565,
+                622.8589415439352,
+                653.0814164578961
+              ],
+              "label": "Settings Menu",
+              "targetScreen": {
+                "id": "settings-screen"
+              },
+              "uid": "e47c2e94-4b8a-416f-ab13-768dd8ebde5b",
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Swipe Up to access the next page.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.0-Programming-Instructions-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "6212c832-d9ca-40f3-ab28-18c7a9eb5bc0",
+              "key": "9db47dc6-427b-4f19-927b-03ad6bfe71b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              },
+              "actionMsg": {
+                "message": "Swipe Up Again to access the next page.",
+                "notificationOnly": true
+              }
+            },
+            {
+              "uid": "a34e69ee-53d2-4aa9-8595-d1b4378b9928",
+              "key": "01de8359-4470-4b60-889f-b38ffb87d098",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "swipe-up",
+              "targetScreen": {
+                "id": "settings-screen-2"
+              },
+              "actionMsg": {
+                "message": "Swipe Up again to access the next page.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-2",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.6-Water-Care-Programming-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "d83b9620-772c-47a4-b3ae-27e71893fc5e",
+              "key": "9ff11e5b-daf5-4af0-9d44-45fa993b1977",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "0d0f71eb-d2ed-4463-a65c-bb2a45cca3db",
+              "key": "dad47ecf-b3e5-4bee-b09e-877a2824014d",
+              "label": "Swipe Up Button",
+              "box_2d": [
+                481.3726088579963,
+                498,
+                543.1373346864788,
+                560
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-3"
+              }
+            }
+          ]
+        },
+        {
+          "id": "settings-screen-3",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.10-Programming-the-Panel-Figure-A.webp"
+          },
+          "anchors": [
+            {
+              "uid": "800675e8-003e-476d-af5d-e3dee4c31311",
+              "key": "6bd71def-cbf9-4b46-88c5-a5e5a120df48",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "main-menu"
+              }
+            },
+            {
+              "uid": "a2e63d2f-5c85-4d4b-89f0-8d44f9cdc1c6",
+              "key": "976fcc29-ebcc-4135-b5b3-d3d8b5fc8c18",
+              "label": "Diagnostics Button",
+              "box_2d": [
+                465.65923433883256,
+                398.7999267578125,
+                527.423960167315,
+                460.7999267578125
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "diagnostics-menu"
+              },
+              "actionMsg": {
+                "message": "<b>Diagnostics Menu</b><br><br><b>Note:</b> Most of the information provided in this menu is to assist<br>a qualified technician troubleshoot the system.",
+                "notificationOnly": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "diagnostics-menu",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.11-Diagnostic-Menu-Figure-B.webp"
+          },
+          "anchors": [
+            {
+              "uid": "ba8d7e2f-3cec-4f05-86a6-2cfa51e1ff33",
+              "key": "476eb4ad-6e4a-41f6-9ccb-3155a62542b2",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "settings-screen-3"
+              }
+            },
+            {
+              "uid": "957a22be-2af1-41b6-bcf9-4596013e27f8",
+              "key": "03d245cb-f214-4031-a719-7c70af9a6662",
+              "label": "System Information",
+              "box_2d": [
+                423.81706399063717,
+                431.599853515625,
+                485.58178981911965,
+                493.599853515625
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Displays various system information about the hot tub.<br>This information is helpful when servicing the hot tub.",
+                "title": "System Information"
+              }
+            },
+            {
+              "uid": "b8b7a9c7-60e9-4723-996f-aaadda2158e7",
+              "key": "8baa4907-d3f1-401d-b956-d53a99e1d7fd",
+              "label": "Fault Log",
+              "box_2d": [
+                469.0226897598475,
+                393.19976806640625,
+                519.8285741860931,
+                452.79974365234375
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Displays any faults detected by the hot tub.<br>It will store up to 50 fault settings.",
+                "title": "Fault Log"
+              }
+            },
+            {
+              "uid": "19c8e01b-77ad-4cb5-9c92-9c1059e5bc2b",
+              "key": "09051755-10fd-418e-a3ff-83acdf7c4f99",
+              "label": "GFCI Test",
+              "box_2d": [
+                512.8582643933019,
+                393.999755859375,
+                563.6641488195474,
+                456.7998046875
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "<b>GFCI Test Menu</b><br>Perform a test for the GFCI breaker.",
+                "notificationOnly": true
+              },
+              "targetScreen": {
+                "id": "gfci-test-screen"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gfci-test-screen",
+          "image": {
+            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-780-montclair/screens/11.11-Diagnostic-Menu-Figure-D.webp"
+          },
+          "anchors": [
+            {
+              "uid": "f9ba35e0-f18e-48da-92e9-8971743b83b0",
+              "key": "4e08f758-a71a-4b32-92a8-c24727bae5be",
+              "label": "Back Button",
+              "box_2d": [
+                345.4248266282423,
+                298.800048828125,
+                407.18955245672475,
+                360.80004882812506
+              ],
+              "interactionStyle": "click",
+              "targetScreen": {
+                "id": "diagnostics-menu"
+              }
+            },
+            {
+              "uid": "df1dcebd-90b7-4e3a-9adb-610df573fb16",
+              "key": "85cb5401-38b3-4fe2-8d6e-bf2e083c8240",
+              "label": "GFCI Test Button",
+              "box_2d": [
+                435.6605785156055,
+                389.2000732421875,
+                497.425304344088,
+                451.2000732421875
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "Click here to start the GFCI Test breaker.<br>The result will return either a pass or fail message.",
+                "title": "GFCI Test Button"
+              }
+            },
+            {
+              "uid": "91247b6a-b7e7-4c86-8c05-ae6184604963",
+              "key": "d07d3256-b246-463c-8621-5e71dd3fcc60",
+              "label": "GFCI Test Status",
+              "box_2d": [
+                570.3407131957401,
+                570.0001220703125,
+                632.1054390242226,
+                632.0001220703125
+              ],
+              "interactionStyle": "click",
+              "actionMsg": {
+                "message": "GFCI Status - either Armed or Tripping.",
+                "title": "GFCI Test Status"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
 
 
 
@@ -17963,277 +21736,3739 @@ export const fullDataJSON =
 
 
 
-  
+
   {
-    "pdfID": "26_J4_EN",
-    "pdf_id": "26_J4_EN",
-    "productID": "jht-j-408",
-    "product_id": "jht-j-408",
-    "caption": "Interactive 3D model controlling jet settings via the media screen.",
-    "section": "10.3.B",
-    "tags": [
-      "Jet Settings",
-      "IR Therapy",
-      "Media Screen"
-    ],
-    "suggestedLabel": "Jet Settings in 3D",
-    "type": "interactiveP3DModel",
-    "interactiveP3DModel": {
-      "type": "screenController",
-      "p3dID": "WdK3K",
-      "productMount": {
-        "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BaseLayer_v2.webp",
-        "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/_J-300_BeautyLayer_v2.webp",
-        "screenCorners": [
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model controlling jet settings via the media screen.",
+  "section": "10.3.B",
+  "tags": [
+    "Jet Settings",
+    "IR Therapy",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Jet Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
           {
-            "x": 0.329,
-            "y": 0.3775
-          },
-          {
-            "x": 0.685,
-            "y": 0.3775
-          },
-          {
-            "x": 0.687,
-            "y": 0.632
-          },
-          {
-            "x": 0.326,
-            "y": 0.629
+            "key": "jet-btn",
+            "box_2d": [
+              415.9487437590941,
+              608.3690849485863,
+              516.8888676401456,
+              691.8653509494086
+            ],
+            "label": "Jet button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "Accessing Jet Menu",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "jet-menu"
+            },
+            "interactionStyle": "click"
           }
         ]
       },
-      "screenOptions": [
-        {
-          "id": "main-menu",
-          "image": {
-            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+      {
+        "id": "main-menu-ir-active",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-E_home-IR.webp"
+        },
+        "anchors": [
+          {
+            "key": "91ce03ea-999c-415a-8333-b02c5b6bc86f",
+            "box_2d": [
+              415.9487437590941,
+              608.3690849485863,
+              516.8888676401456,
+              691.8653509494086
+            ],
+            "label": "Jet button",
+            "uid": "f984cd99-69b9-4282-9e4b-a936d50564bb",
+            "actionMsg": {
+              "message": "Accessing Jet Menu",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "jet-menu"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "jet-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR-passive.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              369.0379488918867,
+              327.1537501030351,
+              442.21953996491095,
+              385.7613920719772
+            ],
+            "label": "Back button",
+            "uid": "f238d843-cfc5-47fb-bcbb-6854c12ec27d",
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
           },
-          "anchors": [
-            {
-              "key": "jet-btn",
-              "box_2d": [
-                407.61541042576084,
-                599.6190849485863,
-                508.5555343068123,
-                683.1153509494086
-              ],
-              "label": "Jet button",
-              "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
-              "actionMsg": {
-                "message": "Accessing Jet Menu",
-                "notificationOnly": true
-              },
-              "targetScreen": {
-                "id": "jet-menu"
-              },
-              "interactionStyle": "click"
-            }
-          ]
+          {
+            "uid": "015365f1-0873-4fd1-b274-b94a16c095b3",
+            "key": "jet-1",
+            "label": "Jet Pump 1",
+            "box_2d": [
+              462.85930566768945,
+              346.74279177720666,
+              575.9436784529042,
+              468.2271983129715
+            ],
+            "actionMsg": {
+              "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+              "title": "Jet Pump 1"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "e497fe26-9007-48b3-8134-d98684235856",
+            "key": "jet-2",
+            "label": "Jet Pump 2",
+            "box_2d": [
+              462.8593056676892,
+              452.72728357070446,
+              575.943678452904,
+              574.2116901064693
+            ],
+            "actionMsg": {
+              "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+              "title": "Jet Pump 2"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "80524b54-4aa6-4507-968c-b0ad2c7a5b32",
+            "key": "ir-btn",
+            "label": "IR Therapy Light",
+            "box_2d": [
+              461.1243464074911,
+              565.2013005353122,
+              574.2087191927059,
+              686.685707071077
+            ],
+            "targetScreen": {
+              "id": "ir-menu"
+            },
+            "actionMsg": {
+              "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "jet-menu-ir-active",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR.webp"
+        },
+        "anchors": [
+          {
+            "key": "9946596f-353f-46aa-8e63-ee1b78abcdf4",
+            "box_2d": [
+              369.0379488918867,
+              327.1537501030351,
+              442.21953996491095,
+              385.7613920719772
+            ],
+            "label": "Back button",
+            "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+            "targetScreen": {
+              "id": "main-menu-ir-active"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "fa91aa64-a6bc-40ad-9a46-4c039a24b14c",
+            "key": "62524962-7da7-4878-a8ef-edb38bbed7d1",
+            "label": "Jet Pump 1",
+            "box_2d": [
+              462.85930566768945,
+              346.74279177720666,
+              575.9436784529042,
+              468.2271983129715
+            ],
+            "actionMsg": {
+              "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+              "title": "Jet Pump 1"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "46abfc49-bbe5-446e-808e-07ea7d97161b",
+            "key": "6457b119-e50e-4366-a900-02a81528c35d",
+            "label": "Jet Pump 2",
+            "box_2d": [
+              462.8593056676892,
+              452.72728357070446,
+              575.943678452904,
+              574.2116901064693
+            ],
+            "actionMsg": {
+              "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
+              "title": "Jet Pump 2"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "cf95a36b-db52-40a3-851c-bd8d56996d46",
+            "key": "5e5b0988-0d1e-4e5e-91c4-b47cb0eeadef",
+            "label": "IR Therapy Light",
+            "box_2d": [
+              461.1243464074911,
+              565.2013005353122,
+              574.2087191927059,
+              686.685707071077
+            ],
+            "targetScreen": {
+              "id": "ir-menu"
+            },
+            "actionMsg": {
+              "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "ir-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-C_IR-time.webp"
+        },
+        "anchors": [
+          {
+            "uid": "516ec29c-913c-42db-a86a-44a1d8ffe84d",
+            "key": "ok-btn",
+            "label": "Ok button",
+            "box_2d": [
+              541.2271120724736,
+              393.9723684877073,
+              608.5761222779242,
+              463.6212914546562
+            ],
+            "actionMsg": {
+              "message": "20 minute timer will be visible under the button and in the main menu.",
+              "title": "IR therapy is now starting"
+            },
+            "targetScreen": {
+              "id": "jet-menu-ir-active"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model controlling the temperature via the media screen.",
+  "section": "10.2.A",
+  "tags": [
+    "Temperature Controls",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Temperature controls in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
         },
         {
-          "id": "main-menu-ir-active",
-          "image": {
-            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-E_home-IR.webp"
-          },
-          "anchors": [
-            {
-              "key": "91ce03ea-999c-415a-8333-b02c5b6bc86f",
-              "box_2d": [
-                407.61541042576084,
-                599.6190849485863,
-                508.5555343068123,
-                683.1153509494086
-              ],
-              "label": "Jet button",
-              "uid": "f984cd99-69b9-4282-9e4b-a936d50564bb",
-              "actionMsg": {
-                "message": "Accessing Jet Menu",
-                "notificationOnly": true
-              },
-              "targetScreen": {
-                "id": "jet-menu"
-              },
-              "interactionStyle": "click"
-            }
-          ]
+          "x": 0.695,
+          "y": 0.385
         },
         {
-          "id": "jet-menu",
-          "image": {
-            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR-passive.webp"
-          },
-          "anchors": [
-            {
-              "key": "back-btn",
-              "box_2d": [
-                359.0379488918867,
-                327.1537501030351,
-                432.21953996491095,
-                385.7613920719772
-              ],
-              "label": "Back button",
-              "uid": "f238d843-cfc5-47fb-bcbb-6854c12ec27d",
-              "targetScreen": {
-                "id": "main-menu"
-              },
-              "interactionStyle": "click"
-            },
-            {
-              "uid": "015365f1-0873-4fd1-b274-b94a16c095b3",
-              "key": "jet-1",
-              "label": "Jet Pump 1",
-              "box_2d": [
-                456.1926390010227,
-                345.49279177720666,
-                569.2770117862375,
-                466.9771983129715
-              ],
-              "actionMsg": {
-                "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
-                "title": "Jet Pump 1"
-              },
-              "interactionStyle": "click"
-            },
-            {
-              "uid": "e497fe26-9007-48b3-8134-d98684235856",
-              "key": "jet-2",
-              "label": "Jet Pump 2",
-              "box_2d": [
-                456.1926390010227,
-                448.97728357070446,
-                569.2770117862375,
-                570.4616901064693
-              ],
-              "actionMsg": {
-                "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
-                "title": "Jet Pump 2"
-              },
-              "interactionStyle": "click"
-            },
-            {
-              "uid": "80524b54-4aa6-4507-968c-b0ad2c7a5b32",
-              "key": "ir-btn",
-              "label": "IR Therapy Light",
-              "box_2d": [
-                454.4576797408246,
-                557.7013005353122,
-                567.5420525260394,
-                679.185707071077
-              ],
-              "targetScreen": {
-                "id": "ir-menu"
-              },
-              "actionMsg": {
-                "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
-                "notificationOnly": true
-              },
-              "interactionStyle": "click"
-            }
-          ]
+          "x": 0.696,
+          "y": 0.636
         },
         {
-          "id": "jet-menu-ir-active",
-          "image": {
-            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-B_JetPumps-IR.webp"
-          },
-          "anchors": [
-            {
-              "key": "9946596f-353f-46aa-8e63-ee1b78abcdf4",
-              "box_2d": [
-                359.0379488918867,
-                327.1537501030351,
-                432.21953996491095,
-                385.7613920719772
-              ],
-              "label": "Back button",
-              "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
-              "targetScreen": {
-                "id": "main-menu-ir-active"
-              },
-              "interactionStyle": "click"
-            },
-            {
-              "uid": "fa91aa64-a6bc-40ad-9a46-4c039a24b14c",
-              "key": "62524962-7da7-4878-a8ef-edb38bbed7d1",
-              "label": "Jet Pump 1",
-              "box_2d": [
-                456.1926390010227,
-                345.49279177720666,
-                569.2770117862375,
-                466.9771983129715
-              ],
-              "actionMsg": {
-                "message": "<b>Turn on/off</b> Jet Pump 1.<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
-                "title": "Jet Pump 1"
-              },
-              "interactionStyle": "click"
-            },
-            {
-              "uid": "46abfc49-bbe5-446e-808e-07ea7d97161b",
-              "key": "6457b119-e50e-4366-a900-02a81528c35d",
-              "label": "Jet Pump 2",
-              "box_2d": [
-                456.1926390010227,
-                448.97728357070446,
-                569.2770117862375,
-                570.4616901064693
-              ],
-              "actionMsg": {
-                "message": "<b>Turn on/off</b> Jet 2 Pump 2 (if equipped).<br><b>Note</b>: Anytime a pump has been manually turned on, it will automatically turn off after approximately 20 minutes.<br>If at this time you desire more jet operation you may simply turn the pump(s) back on.",
-                "title": "Jet Pump 2"
-              },
-              "interactionStyle": "click"
-            },
-            {
-              "uid": "cf95a36b-db52-40a3-851c-bd8d56996d46",
-              "key": "5e5b0988-0d1e-4e5e-91c4-b47cb0eeadef",
-              "label": "IR Therapy Light",
-              "box_2d": [
-                454.4576797408246,
-                557.7013005353122,
-                567.5420525260394,
-                679.185707071077
-              ],
-              "targetScreen": {
-                "id": "ir-menu"
-              },
-              "actionMsg": {
-                "message": "Tap \"OK\" on the pop-up menu to activate for 20-minute period.",
-                "notificationOnly": true
-              },
-              "interactionStyle": "click"
-            }
-          ]
-        },
-        {
-          "id": "ir-menu",
-          "image": {
-            "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.3-Figure-C_IR-time.webp"
-          },
-          "anchors": [
-            {
-              "uid": "516ec29c-913c-42db-a86a-44a1d8ffe84d",
-              "key": "ok-btn",
-              "label": "Ok button",
-              "box_2d": [
-                534.5246992038406,
-                391.4723684877073,
-                601.8737094092912,
-                461.1212914546562
-              ],
-              "actionMsg": {
-                "message": "20 minute timer will be visible under the button and in the main menu.",
-                "title": "IR therapy is now starting"
-              },
-              "targetScreen": {
-                "id": "jet-menu-ir-active"
-              },
-              "interactionStyle": "click"
-            }
-          ]
+          "x": 0.323,
+          "y": 0.636
         }
       ]
-    }
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "up-btn",
+            "box_2d": [
+              409.0091396769136,
+              468.38632957890013,
+              509.9492635579651,
+              551.8825955797224
+            ],
+            "label": "Up button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "Increasing the temperature.<br>The maximum water temperature setting for your spa is <b>104°F (40°C)</b>.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp96.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp97.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp98.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp99.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp101.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp102.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp103.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp104.webp"
+              ]
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "key": "down-btn",
+            "box_2d": [
+              532.3239885209424,
+              468.38632957890013,
+              633.2641124019939,
+              551.8825955797224
+            ],
+            "label": "Down buttn",
+            "uid": "d9d805c3-3d32-4395-ab50-44b621e22369",
+            "actionMsg": {
+              "message": "Decreasing the temperature.<br>The minimum water temperature setting for your spa is <b>65°F (18°C)</b>.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp96.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp97.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp98.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp99.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp101.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp102.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp103.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/7-SetSpaToHeat_temp104.webp"
+              ]
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
   }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of inverting the media screen via the media screen.",
+  "section": "10.2",
+  "tags": [
+    "Screen Invert",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Screen Inverting in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "invert-btn",
+            "box_2d": [
+              358.69695184145337,
+              638.4373528587994,
+              447.492826818342,
+              703.5945771854504
+            ],
+            "label": "Invert Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "Tap to invert the display image.",
+              "title": "Invert Button"
+            },
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "main-menu-inv"
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-menu-inv",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/home-screen-inv.webp"
+        },
+        "anchors": [
+          {
+            "key": "d8d73a41-da10-4a7d-a94f-3301917e9789",
+            "box_2d": [
+              573.6969518414537,
+              317.1873528587994,
+              662.4928268183423,
+              382.34457718545036
+            ],
+            "label": "Invert Button",
+            "uid": "03569135-0ae5-4362-b8ce-21fd4177774f",
+            "actionMsg": {
+              "message": "Tap to invert the display image.",
+              "title": "Invert Button"
+            },
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of controlling the light settings via the media screen.",
+  "section": "10.4",
+  "tags": [
+    "Light Controls",
+    "Light Settings",
+    "Lighting Controls",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Light controls in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "light-menu-btn",
+            "box_2d": [
+              409.0091396769136,
+              324.533987517481,
+              522.0936289414336,
+              410.6500161038582
+            ],
+            "label": "Ligth button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "lighting-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "lighting-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              365.7046155585533,
+              317.98422926594935,
+              438.8862066315776,
+              376.5918712348914
+            ],
+            "label": "Back button",
+            "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "key": "intensity-btn",
+            "box_2d": [
+              417.7517626542109,
+              357.2221939070698,
+              532.571211178929,
+              466.9173170201942
+            ],
+            "label": "Intensity button",
+            "uid": "1abf07e3-e25a-4f71-b19b-9f353e1908ac",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Interior/Intensity Light</b>: Press to activate the interior lights.<br>The lights will default to the last setting used at a 100% intensity<br>The lights can also be turned on b selecting a color or pressing the blend button.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityHigh.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityMid.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityLow.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityHigh.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityMid.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intensityLow.webp "
+              ]
+            }
+          },
+          {
+            "key": "speed-controls-btn",
+            "box_2d": [
+              417.75176265421135,
+              455.34687026243694,
+              532.5712111789295,
+              565.0419933755613
+            ],
+            "label": "Speed Control",
+            "uid": "7f61a0c5-128a-4b9a-a9ae-671714393df8",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Speed Control</b>: Controls the blending speed for the lights.<br>Tap to increase or freeze the blending speed, of the colors.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-low.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-med.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-high.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-freeze.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-low.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-med.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-high.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-blend-freeze.webp  "
+              ]
+            }
+          },
+          {
+            "key": "solid-color-btn",
+            "box_2d": [
+              419.48672191440926,
+              554.661489431205,
+              534.3061704391274,
+              664.3566125443294
+            ],
+            "label": "Solid Color Selector",
+            "uid": "4f5ad512-a99d-49dd-88a5-15883bac3330",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Solid Color Selector</b>: Continually tap to scroll through and select a single color.<br>The colors available are: red, orange, green, teal, blue, violet, white and yellow.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "exterior-light-btn",
+            "box_2d": [
+              506.23200590027466,
+              455.34687026243694,
+              621.0514544249928,
+              565.0419933755613
+            ],
+            "label": "Exterior Light",
+            "uid": "656aa195-c867-4e0b-b483-df16ed09958f",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Exterior Light</b>: The exterior corner lighting has 2 settings.<br>The lights display a solid White color only.<br>By continually tapping the button you will scroll through the following:<br><br><b>Press once for high intensity.</b><br><b>Press a second time for Auto feature.</b><br><b>Press a third time to turn off.</b><br><br>Either preset has an 8-hour timeout.<br>Lights on from 7pm to 12am.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward-backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/10.4-Figure-B_LightingMenu-intens-high.webp",
+                " "
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of activating the ClearRay Active Oxygen system via the media screen.",
+  "section": "10.9",
+  "tags": [
+    "Clear Ray",
+    "Active Oxygen",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Activate ClearRay system in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "clearray-btn",
+            "box_2d": [
+              527.0510511054282,
+              323.283987517481,
+              640.1355403699482,
+              409.4000161038582
+            ],
+            "label": "ClearRay Active Oxygen® system",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "The ClearRay Active Oxygen® system on demand<br> feature activates the water purification system.<br>Continuously tap this button to activate the system for:<br><b>1 tap</b>: 1 hour<br><b>2 taps</b>: 2 hours<br><b>3 taps</b>: 3 hours<br><br><b>NOTE</b>: When the ClearRay Active Oxygen® system is on,<br>due to a programmed or scheduled setting, the feature cannot be turned off.",
+              "title": "ClearRay Active Oxygen® system"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of controlling the heat settings via the media screen.",
+  "section": "11.0",
+  "tags": [
+    "Heat Settings",
+    "Heat Controls",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Control Heating Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.1193436989596,
+              608.3689090547648,
+              640.2038329634796,
+              694.484937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              367.34900262534654,
+              329.7138072896346,
+              440.5305936983708,
+              388.32144925857665
+            ],
+            "label": "Back button",
+            "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+            "key": "heat-btn",
+            "label": "Heat button",
+            "box_2d": [
+              447.22740774667693,
+              362.6417147441555,
+              520.4089988197012,
+              421.24935671309754
+            ],
+            "targetScreen": {
+              "id": "heat-menu"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "heat-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-B.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              365.6867685827933,
+              327.2138072896346,
+              438.8683596558176,
+              385.82144925857665
+            ],
+            "label": "Back button",
+            "uid": "40ee4807-9158-423a-8c68-326eff16a06c",
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "014df3e7-8dc4-4b3c-a1e6-f538a9b602fc",
+            "key": "heat-btn",
+            "label": "Heat button",
+            "box_2d": [
+              448.88964178923027,
+              386.16057619048115,
+              522.0712328622545,
+              444.7682181594232
+            ],
+            "targetScreen": {
+              "id": "heat-mode-selector-menu"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "heat-mode-selector-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-C.webp"
+        },
+        "anchors": [
+          {
+            "uid": "94da73b3-2283-41ab-a256-0b9b299840e9",
+            "key": "cancel-btn",
+            "label": "Cancel Button",
+            "box_2d": [
+              455.9197015855092,
+              350.6724356555387,
+              529.1012926585335,
+              409.2800776244808
+            ],
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "heat-menu"
+            }
+          },
+          {
+            "uid": "f2595224-c958-4296-a2ee-fb1dfe84d2d7",
+            "key": "confirm-btn",
+            "label": "Confirm Button",
+            "box_2d": [
+              455.9197015855094,
+              596.6395069249012,
+              529.1012926585337,
+              655.2471488938432
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Once the heat mode is selected, press this button to confirm your selection.",
+              "title": "Confirm"
+            }
+          },
+          {
+            "uid": "6b1e09f7-5989-407c-9388-7a42fd36d1ff",
+            "key": "day-btn",
+            "label": "Day Heating Button",
+            "box_2d": [
+              468.06395048967227,
+              469.9359119366085,
+              516.9569272750656,
+              516.7542704829106
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Day Heating</b>: When programmed to Day, the spa will only be allowed to heat the water<br>between <b>7:00 AM to 5:00 PM</b> every day. The hours cannot be adjusted.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward-backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-day.webp"
+              ]
+            }
+          },
+          {
+            "uid": "049bb4fc-0045-498f-b3da-bd46f206069f",
+            "key": "auto-btn",
+            "label": "Auto Heating Button",
+            "box_2d": [
+              499.3604614530158,
+              469.9359119366085,
+              548.2534382384091,
+              516.7542704829106
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Auto Heating</b>: When programmed to Auto, the spa will maintain the water temperature<br>to the set temperature. Heating will occur when necessary.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward-backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-C.webp"
+              ]
+            }
+          },
+          {
+            "uid": "f4cbd1aa-b370-474d-9f76-1f3678c5fd6c",
+            "key": "economy-btn",
+            "label": "Economy Heating Button",
+            "box_2d": [
+              532.1871703752682,
+              469.9359119366085,
+              581.0801471606616,
+              516.7542704829106
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Economy Heating</b>: This is an energy saving heating program that allows the spa to heat during non-peak hours.<br>When programmed to Economy, the spa will only be allowed to heat the water between 5:00 PM to 7:00 AM every day.<br>The hours cannot be adjusted.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward-backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.1-HeatSettings_Figure-economy.webp"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of programming the true water filtration via the media screen.",
+  "section": "11.2",
+  "tags": [
+    "True Water Filtration",
+    "Filtration Menu",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Control True Water Filtration Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.1193436989598,
+              607.1189090547648,
+              640.2038329634798,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              365.6867685827933,
+              327.2138072896346,
+              438.8683596558176,
+              385.82144925857665
+            ],
+            "label": "Back button",
+            "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+            "key": "filtration-btn",
+            "label": "Filtration button",
+            "box_2d": [
+              481.57855278484465,
+              376.00987036375216,
+              554.7601438578689,
+              434.6175123326942
+            ],
+            "targetScreen": {
+              "id": "filtration-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "During a primary filtration, the circulation pump and the ClearRay Active Oxygen®<br> system are activated. The factory default cycle starts at 12:00 AM and last for 8 hours.<br>",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "filtration-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureB-24hr.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              364.0245345402402,
+              324.7138072896346,
+              437.2061256132645,
+              383.32144925857665
+            ],
+            "label": "Back button",
+            "uid": "40ee4807-9158-423a-8c68-326eff16a06c",
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "014df3e7-8dc4-4b3c-a1e6-f538a9b602fc",
+            "key": "mode-btn",
+            "label": "Mode",
+            "box_2d": [
+              444.39526546959416,
+              608.2030833950924,
+              498.4928870769696,
+              656.7242700326227
+            ],
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "mode"
+            }
+          },
+          {
+            "uid": "fae1ca03-7010-41e3-b272-fa98131427e0",
+            "key": "ozone-btn",
+            "label": "Ozone",
+            "box_2d": [
+              487.3037436245403,
+              610.0258499656976,
+              541.4013652319157,
+              658.5470366032279
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Displays the number of days left for True™ Ozone unit before a replacement is needed.",
+              "title": "Additional Information: Ozone"
+            }
+          },
+          {
+            "uid": "0d82470d-4662-449d-8014-cc9569d4b1fe",
+            "key": "filter-btn",
+            "label": "Filter",
+            "box_2d": [
+              531.3821300140156,
+              609.2261381501356,
+              585.4797516213911,
+              657.7473247876659
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Displays the number of days left for True™ Air Filter unit before a replacement is needed.",
+              "title": "Additional Information: Filter"
+            }
+          },
+          {
+            "uid": "1920be0d-8d25-4882-af43-2595482ef81a",
+            "key": "64ea9529-012d-4781-9aa5-2650f6667402",
+            "label": "Run Time",
+            "box_2d": [
+              574.6002151203987,
+              619.2261381501356,
+              628.6978367277742,
+              667.7473247876659
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Displays the amount of time the True Water™ System has been activated.",
+              "title": "Additional Information: Run Time"
+            }
+          },
+          {
+            "uid": "706464f7-e216-43df-9bab-edfde96c88ed",
+            "key": "1bbb3f67-0068-4a7e-b919-2dbfb76f7f9c",
+            "label": "Swipe Up",
+            "box_2d": [
+              586.2358534182712,
+              482.9761381501356,
+              640.3334750256466,
+              531.4973247876659
+            ],
+            "interactionStyle": "swipe-up",
+            "targetScreen": {
+              "id": "filtration-menu-2nd"
+            }
+          }
+        ]
+      },
+      {
+        "id": "filtration-menu-2nd",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureB-2.webp"
+        },
+        "anchors": [
+          {
+            "key": "303d17fb-9d35-453d-8616-04ceccd0c7a7",
+            "box_2d": [
+              364.0245345402402,
+              324.7138072896346,
+              437.2061256132645,
+              383.32144925857665
+            ],
+            "label": "Back button",
+            "uid": "fbd1f9cd-b602-4d18-adfd-4571860d8392",
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "56ff7d7a-031b-4fa6-817e-e49939eade26",
+            "key": "8459ee2a-8694-478a-9be1-0923a26fa3ce",
+            "label": "Start Time",
+            "box_2d": [
+              574.6002151203987,
+              619.2261381501356,
+              628.6978367277742,
+              667.7473247876659
+            ],
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "start-time"
+            },
+            "actionMsg": {
+              "message": "The factory default cycle starts at 12:00 a.m. but can be changed.<br>Scroll through the first column to change the hour in 1-hour increments.<br>You cannot adjust the minutes column.<br><br>To select am or pm, you will need to round a 12-hour period.",
+              "title": "Cycle Start Time"
+            }
+          },
+          {
+            "uid": "2d57dc19-a565-4757-8685-68742c8b58b2",
+            "key": "2827285e-7883-4918-b8b4-82641c1f00d2",
+            "label": "Swipe Down",
+            "box_2d": [
+              418.35021512039873,
+              482.9761381501356,
+              472.4478367277742,
+              531.4973247876659
+            ],
+            "interactionStyle": "swipe-down",
+            "targetScreen": {
+              "id": "filtration-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "mode",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-mode-24hr.webp"
+        },
+        "anchors": [
+          {
+            "uid": "ded86add-957c-407b-91b6-57fa73a40b58",
+            "key": "9a116748-0376-4b2f-9f95-939c0a1d14f1",
+            "label": "Cancel button",
+            "box_2d": [
+              461.3409805282279,
+              348.0511527377521,
+              522.7913622076169,
+              411.0194524495678
+            ],
+            "targetScreen": {
+              "id": "filtration-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved time.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "62855b2d-79ad-4542-ac8d-1abf64c77d93",
+            "key": "d49f4221-c8ba-41eb-b439-f1a4146fe161",
+            "label": "Confirm button",
+            "box_2d": [
+              461.3409805282281,
+              594.5028818443805,
+              522.7913622076171,
+              657.4711815561961
+            ],
+            "targetScreen": {
+              "id": "filtration-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "041d4919-a8aa-451c-b6a2-65b864ac6e0d",
+            "key": "7c370ff9-c52c-471a-a74a-ec5a94960f6c",
+            "label": "24 Hour",
+            "box_2d": [
+              475.9293995183086,
+              478.08357348703146,
+              512.3797811976976,
+              524.8018731988471
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "The circulation pump and True Water™ System are always active.<br>Time and duration cannot be altered for the cycle.<br><br>• System runs 24-hours.",
+              "title": "24 Hour Mode"
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-mode-24hr.webp"
+              ]
+            }
+          },
+          {
+            "uid": "32abea22-b39b-44ee-850d-0d3ef100de40",
+            "key": "7ee39c42-b8f7-4b19-8b57-ca195d91bfae",
+            "label": "Light",
+            "box_2d": [
+              505.9293995183086,
+              478.08357348703146,
+              542.3797811976976,
+              524.8018731988471
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "The factory default cycle starts at 12:00 a.m. and provides 8 hours of filtration.<br>Time and duration cannot be altered for the cycles, but you can change the start time.<br><br>• Factory default cycle starts at 12:00 a.m.<br>• 8 hours of primary filtration per day (2 hours at 12 a.m., 6 a.m., 12 p.m., 6 p.m.).<br>The circulation pump and True Water™ System are active.<br>• 4 purge cycles (15-minute purge runs at the end of each cycle).<br>The circulation and air pump are active.",
+              "title": "Light Mode"
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-mode-light.webp"
+              ]
+            }
+          },
+          {
+            "uid": "56115ebe-facb-4f16-b7d7-351b8e5478f6",
+            "key": "19cc4735-2550-457d-82fb-482d9e71590b",
+            "label": "Medium",
+            "box_2d": [
+              535.9293995183086,
+              476.83357348703146,
+              572.3797811976976,
+              523.5518731988471
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "The factory default cycle starts at 12 a.m. and provides 12 hours of filtration.<br>Time and duration cannot be altered.<br><br>• Factory default cycle starts at 12 a.m.<br>12 hours of primary filtration per day (2 hours at 12 a.m., 4 a.m., 8 a.m., 12 p.m., 4 p.m., 8 p.m.).<br>The circulation pump and True Water™ System are active.<br>• 6 purge cycles (10-minute purge runs at the end of each cycle).<br>The circulation and air pump are active.",
+              "title": "Medium Mode"
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-mode-medium.webp"
+              ]
+            }
+          },
+          {
+            "uid": "b4ecbaa5-bfc6-431c-9cc5-3d00aefa1ee4",
+            "key": "941563c8-373f-426b-a055-b95408d2d174",
+            "label": "Heavy",
+            "box_2d": [
+              555.9293995183086,
+              535.5835734870313,
+              592.3797811976976,
+              582.301873198847
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "The factory default cycle starts at 12 a.m. and provides 16 hours of filtration.<br>Time and duration cannot be altered.<br><br>• Factory default cycle starts at 12 a.m.<br>16 hours of primary filtration per day (2 hours at 12 a.m., 3 a.m., 6 a.m., 9 a.m., 12 p.m., 3 p.m., 6 p.m, 9 p.m..).<br>The circulation pump and True Water™ System are active.<br>• 8 purge cycles (7.5-minute purge runs at the end of each cycle).<br>The circulation and air pump are active.",
+              "title": "Heavy Mode"
+            },
+            "targetScreen": {
+              "id": "mode-heavy"
+            }
+          }
+        ]
+      },
+      {
+        "id": "mode-heavy",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.2-mode-heavy.webp"
+        },
+        "anchors": [
+          {
+            "uid": "8d55cbf3-1000-4be6-ab72-d2b09c391bcd",
+            "key": "3d19a1bc-069e-411a-a109-4670c3d3b91a",
+            "label": "Cancel button",
+            "box_2d": [
+              461.3409805282279,
+              348.0511527377521,
+              522.7913622076169,
+              411.0194524495678
+            ],
+            "targetScreen": {
+              "id": "filtration-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved time.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "81c6bdd0-2ca3-4320-aa6a-aa55bc9d46df",
+            "key": "3d21739a-0aed-440b-bf4e-eaaca749c2b9",
+            "label": "Confirm button",
+            "box_2d": [
+              461.3409805282281,
+              594.5028818443805,
+              522.7913622076171,
+              657.4711815561961
+            ],
+            "targetScreen": {
+              "id": "filtration-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "1e2ef881-9197-4c97-bc22-e48b140438db",
+            "key": "89067575-7105-4ae4-b237-6c4e9ac018e0",
+            "label": "Light",
+            "box_2d": [
+              475.9293995183086,
+              478.08357348703146,
+              512.3797811976976,
+              524.8018731988471
+            ],
+            "interactionStyle": "swipe-down",
+            "targetScreen": {
+              "id": "mode"
+            }
+          }
+        ]
+      },
+      {
+        "id": "start-time",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureC.webp"
+        },
+        "anchors": [
+          {
+            "uid": "97775e70-9124-4325-8fef-afe79a1b6cb5",
+            "key": "b8e92fbf-c40c-4d66-bffb-02f4515108f6",
+            "label": "Cancel button",
+            "box_2d": [
+              451.34098052822765,
+              378.0511527377521,
+              512.7913622076167,
+              441.0194524495678
+            ],
+            "targetScreen": {
+              "id": "filtration-menu-2nd"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved time.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "96f689e9-5789-4101-bb36-169db048104f",
+            "key": "955b66ee-dc0f-4e03-91ab-f1f4eeee0cf8",
+            "label": "Confirm button",
+            "box_2d": [
+              451.3409805282281,
+              574.5028818443805,
+              512.7913622076171,
+              637.4711815561961
+            ],
+            "targetScreen": {
+              "id": "filtration-menu-2nd"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "ee860d1b-760c-4e99-abe7-2b0e7e8c976d",
+            "key": "2672d265-34f4-4275-a112-c827aa60383f",
+            "label": "Hour Block",
+            "box_2d": [
+              499.78939290438507,
+              456.0338616714697,
+              538.3390112249956,
+              500.27017291066306
+            ],
+            "interactionStyle": "swipe-down",
+            "actionMsg": {
+              "message": "Scroll through this block to change the hour in 1-hour increments.<br>You cannot adjust the minutes column.",
+              "title": "Hour Block"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of setting the time via the media screen.",
+  "section": "11.3",
+  "tags": [
+    "Setting Time",
+    "Time Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Control Time Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.1193436989598,
+              608.3689090547648,
+              640.2038329634798,
+              694.484937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.12-ProgrammingTheOptionalTrueWaterCareFiltration_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              367.34900262534643,
+              323.4638072896346,
+              440.5305936983707,
+              382.07144925857665
+            ],
+            "label": "Back button",
+            "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+            "key": "time-btn",
+            "label": "Time Button",
+            "box_2d": [
+              514.021300876448,
+              363.50987036375216,
+              587.2028919494722,
+              422.1175123326942
+            ],
+            "targetScreen": {
+              "id": "time-menu"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "time-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.4-ProgrammingTime-FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "7f80d445-18af-4e0e-b151-9c768414c144",
+            "key": "af44ad1c-1e5d-4782-bb08-64c8eb9279c2",
+            "label": "Cancel button",
+            "box_2d": [
+              449.3970277732658,
+              374.9783861671468,
+              510.8474094526548,
+              437.9466858789625
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved time.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "83bfd97c-fc46-4296-b400-39cefcb0938c",
+            "key": "bb40b30e-9877-41f6-bcbf-ac8aadb37e26",
+            "label": "Confirm button",
+            "box_2d": [
+              449.39702777326625,
+              581.707492795389,
+              510.84740945265526,
+              644.6757925072047
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "f3d4b3e0-96a1-41bf-9bb8-a9b2a0cddde8",
+            "key": "0ffc6e7b-7eb2-4cee-9fa3-d3741975ad57",
+            "label": "Hour Block",
+            "box_2d": [
+              491.627923501705,
+              441.0698847262246,
+              553.078305181094,
+              504.0381844380403
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through the hour block to change the hour.",
+              "title": "Hour Block"
+            }
+          },
+          {
+            "uid": "e473549c-b4db-49f4-ae3a-31625a1edad8",
+            "key": "56556c30-5b2b-41ef-a048-ba71ffc276b2",
+            "label": "Minute Block",
+            "box_2d": [
+              491.38176059769376,
+              501.58861671469697,
+              552.8321422770828,
+              564.5569164265127
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through the minute block to change the minutes.",
+              "title": "Minute Block"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of setting the date via the media screen.",
+  "section": "11.4",
+  "tags": [
+    "Setting Date",
+    "Date Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Control Date Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.1193436989598,
+              607.1189090547648,
+              640.2038329634798,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.0-Settings_Figure-B.webp"
+        },
+        "anchors": [
+          {
+            "key": "back-btn",
+            "box_2d": [
+              365.6867685827933,
+              328.4638072896346,
+              438.8683596558176,
+              387.07144925857665
+            ],
+            "label": "Back button",
+            "uid": "baa3fac8-3a1c-484d-a5d0-173c31d56c50",
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "0805083f-fc6b-40e1-82ca-6e11d863acaa",
+            "key": "time-btn",
+            "label": "Date Button",
+            "box_2d": [
+              548.3724459146162,
+              360.8189481735503,
+              621.5540369876404,
+              419.4265901424924
+            ],
+            "targetScreen": {
+              "id": "date-menu"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "date-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.5-ProgrammingDate_FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "7f80d445-18af-4e0e-b151-9c768414c144",
+            "key": "af44ad1c-1e5d-4782-bb08-64c8eb9279c2",
+            "label": "Cancel button",
+            "box_2d": [
+              449.397027773266,
+              373.7283861671468,
+              510.84740945265503,
+              436.6966858789625
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved time.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "83bfd97c-fc46-4296-b400-39cefcb0938c",
+            "key": "bb40b30e-9877-41f6-bcbf-ac8aadb37e26",
+            "label": "Confirm button",
+            "box_2d": [
+              447.7347937307129,
+              581.707492795389,
+              509.1851754101019,
+              644.6757925072047
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "f3d4b3e0-96a1-41bf-9bb8-a9b2a0cddde8",
+            "key": "0ffc6e7b-7eb2-4cee-9fa3-d3741975ad57",
+            "label": "Month Block",
+            "box_2d": [
+              491.3817605976935,
+              436.9380403458209,
+              545.1985544908232,
+              482.61527377521577
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through the month block to change the month.",
+              "title": "Month Block"
+            }
+          },
+          {
+            "uid": "e473549c-b4db-49f4-ae3a-31625a1edad8",
+            "key": "56556c30-5b2b-41ef-a048-ba71ffc276b2",
+            "label": "Day Block",
+            "box_2d": [
+              491.38176059769285,
+              485.5475504322766,
+              545.1985544908225,
+              531.2247838616714
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through the day block to change the day.",
+              "title": "Day Block"
+            }
+          },
+          {
+            "uid": "85f20774-220e-4089-a2c8-4dc6ee803466",
+            "key": "93d0317f-76fb-4d42-a6cb-2435280b90dc",
+            "label": "Year Block",
+            "box_2d": [
+              491.3817605976931,
+              531.6570605187318,
+              545.1985544908227,
+              577.3342939481266
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through the year block to change the year.",
+              "title": "Day Block"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of setting water care reminders via the media screen.",
+  "section": "11.5",
+  "tags": [
+    "Water Care Settings",
+    "ProClarity Settings",
+    "ProClarity Depth Settings",
+    "Water Refresh Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Control Water Care Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.11934369896,
+              607.1189090547648,
+              640.2038329634801,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+            "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+            "label": "Back button",
+            "box_2d": [
+              363.7961021326821,
+              325.58196290923115,
+              436.9776932057064,
+              384.1896048781732
+            ],
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+            "key": "807bea85-335f-40da-aaed-b46368215c57",
+            "label": "Water Care Button",
+            "box_2d": [
+              443.9487738884071,
+              383.40977270750204,
+              522.8555558011257,
+              446.34018124704926
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "water-care-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.5-ProgrammingWaterCareReminders-FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+            "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+            "label": "Back button",
+            "box_2d": [
+              367.1028397213346,
+              325.58196290923115,
+              440.28443079435885,
+              384.1896048781732
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "8cde8f03-1e2e-4f51-b38e-184b4069b282",
+            "key": "687b0721-0c92-4d4e-8829-edd6910e2092",
+            "label": "Water Refresh",
+            "box_2d": [
+              426.03471265728797,
+              398.40977270750193,
+              499.21630373031223,
+              457.017414676444
+            ],
+            "targetScreen": {
+              "id": "water-refresh-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Water Refresh Timer</b><br>Scroll through the column to change days in 30-day increments.<br>The range is from <b>OFF (---) to 180 days</b>.<br><br>To continually maintain the water healthy and clean,<br>in addition to chemical maintenance, it should be programmed as instructed.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "uid": "147d7bd8-9858-4547-823f-562df872cada",
+            "key": "4a5ad1cc-ef7f-42d7-a3b0-6d243e2a12f8",
+            "label": "ProClarity",
+            "box_2d": [
+              471.35277881505056,
+              363.7736055605279,
+              534.5343698880744,
+              418.63124752947
+            ],
+            "targetScreen": {
+              "id": "pro-clarity-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>ProClarity Filter Timer</b><br>Scroll through the column to change days in 10-day increments.<br>The range is from <b>OFF (---) to 180 days</b>.<br><br>To continually maintain the water healthy and clean,<br>in addition to chemical maintenance, it should be programmed as instructed.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+            "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+            "label": "ProClarity Depth",
+            "box_2d": [
+              521.3527788150492,
+              363.7736055605279,
+              569.5343698880732,
+              418.6312475294699
+            ],
+            "targetScreen": {
+              "id": "pro-clarity-depth"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>ProClarity Depth Filter Timer</b><br>Scroll through the column to change days in 10-day increments.<br>The range is from <b>OFF (---) to 90 days</b>.<br><br>It is not recommended for this feature to be turned OFF.<br>To continually maintain the water healthy and clean,<br>in addition to chemical maintenance, it should be programmed as instructed.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "uid": "8c52d028-8539-4a7a-8445-ade651c8e70b",
+            "key": "38cc894d-2ba7-4208-a1bb-dbaae5b6cd8d",
+            "label": "True Filtration",
+            "box_2d": [
+              571.178519164787,
+              373.23686204467765,
+              611.0267769044777,
+              428.0945040136197
+            ],
+            "targetScreen": {
+              "id": "true-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Ture™ Ozone Timer</b><br>Scroll through the column to change days in 30-day increments.<br>The range is from <b>OFF (---) to 730 days</b>.<br><br>It is not recommended for this feature to be turned OFF.<br>To continually maintain the water healthy and clean,<br>in addition to chemical maintenance, it should be programmed as instructed.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "pro-clarity-depth",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.13-ProgrammingTheOptionalTrueWaterCareReminders-FigureD-ProClairtyD.webp"
+        },
+        "anchors": [
+          {
+            "uid": "ded86add-957c-407b-91b6-57fa73a40b58",
+            "key": "9a116748-0376-4b2f-9f95-939c0a1d14f1",
+            "label": "Cancel button",
+            "box_2d": [
+              460.8829652610523,
+              380.9329971181555,
+              522.3333469404413,
+              443.9012968299712
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "62855b2d-79ad-4542-ac8d-1abf64c77d93",
+            "key": "d49f4221-c8ba-41eb-b439-f1a4146fe161",
+            "label": "Confirm button",
+            "box_2d": [
+              460.8829652610523,
+              574.5028818443805,
+              522.3333469404413,
+              637.4711815561961
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "9fa96b85-5f9c-4df0-84d3-68f4c3b8ff4a",
+            "key": "9a266b40-de1b-4aca-a72b-d6295ebe139e",
+            "label": "Day Column",
+            "box_2d": [
+              499.05090419235034,
+              477.283861671469,
+              560.5012858717394,
+              540.2521613832847
+            ],
+            "interactionStyle": "swipe-down",
+            "actionMsg": {
+              "message": "Scroll through the column to change days in 10-day increments.<br>The range is from <b>OFF (---) to 90 days</b>.",
+              "title": "Day Column"
+            }
+          }
+        ]
+      },
+      {
+        "id": "water-refresh-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureD.webp"
+        },
+        "anchors": [
+          {
+            "uid": "5d5385b8-4fe2-41d6-af71-51d924458f91",
+            "key": "f0714fd8-290d-4cb6-a463-9c1037c5c5cd",
+            "label": "Cancel button",
+            "box_2d": [
+              460.8829652610523,
+              380.9329971181555,
+              522.3333469404413,
+              443.9012968299712
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "a21b3b5a-80e7-41ee-8654-5fcc3dc450bc",
+            "key": "fdd8a379-9df0-4795-b8f0-a8b291f16b29",
+            "label": "Confirm button",
+            "box_2d": [
+              460.8829652610523,
+              574.5028818443805,
+              522.3333469404413,
+              637.4711815561961
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "0ef9ef16-c3d8-4050-b806-51e40157d323",
+            "key": "c269aab7-9f7d-4092-915a-2189ba7ef6e4",
+            "label": "Day Column",
+            "box_2d": [
+              499.05090419235034,
+              477.283861671469,
+              560.5012858717394,
+              540.2521613832847
+            ],
+            "interactionStyle": "swipe-down",
+            "actionMsg": {
+              "message": "Scroll through the column to change days in 30-day increments.<br>The range is from <b>OFF (---) to 180 days</b>.",
+              "title": "Day Column"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pro-clarity-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.13-ProgrammingTheOptionalTrueWaterCareReminders-FigureD-ProClairty.webp"
+        },
+        "anchors": [
+          {
+            "uid": "d79e8526-0dee-4560-bbea-c77ce8af427b",
+            "key": "ac9eda59-8dd6-44c1-a1c5-6f2107560c44",
+            "label": "Cancel button",
+            "box_2d": [
+              460.8829652610523,
+              380.9329971181555,
+              522.3333469404413,
+              443.9012968299712
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "bc6bc188-c93e-46ff-96a6-1a65b9debefc",
+            "key": "97764a22-2696-44cb-aabe-a8d3f409a527",
+            "label": "Confirm button",
+            "box_2d": [
+              460.8829652610523,
+              574.5028818443805,
+              522.3333469404413,
+              637.4711815561961
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "09104d05-562a-4107-95f0-57f0974a76de",
+            "key": "fedbaa60-c97f-40a1-8619-9a7f4aba9aaa",
+            "label": "Day Column",
+            "box_2d": [
+              499.05090419235034,
+              477.283861671469,
+              560.5012858717394,
+              540.2521613832847
+            ],
+            "interactionStyle": "swipe-down",
+            "actionMsg": {
+              "message": "Scroll through the column to change days in 10-day increments.<br>The range is from <b>OFF (---) to 180 days</b>.",
+              "title": "Day Column"
+            }
+          }
+        ]
+      },
+      {
+        "id": "true-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.13-ProgrammingTheOptionalTrueWaterCareReminders-FigureE.webp"
+        },
+        "anchors": [
+          {
+            "uid": "b980cd0c-b160-4fbf-a13a-afc790fef25d",
+            "key": "1ae5129b-04f4-4655-b386-642401daea95",
+            "label": "Cancel button",
+            "box_2d": [
+              460.8829652610523,
+              380.9329971181555,
+              510.66668027377455,
+              433.9012968299712
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "8c441a0a-6f4c-4d36-ba9e-a3d0c9550e4b",
+            "key": "a74b9e04-3ed1-4e4c-9e56-b6f13f341372",
+            "label": "Confirm button",
+            "box_2d": [
+              464.21629859438553,
+              587.1829971181555,
+              514.0000136071078,
+              640.1512968299712
+            ],
+            "targetScreen": {
+              "id": "water-care-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "65a159c2-6761-46ef-a3c1-fcf316425e08",
+            "key": "328ec8c0-4c1c-4994-9191-c10bb4d13cf5",
+            "label": "Day Column",
+            "box_2d": [
+              499.05090419235034,
+              477.283861671469,
+              560.5012858717394,
+              540.2521613832847
+            ],
+            "interactionStyle": "swipe-down",
+            "actionMsg": {
+              "message": "Scroll through the column to change days in 30-day increments.<br>The range is from <b>OFF (---) to 730 days</b>.",
+              "title": "Day Column"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of locking the spa via the media screen.",
+  "section": "11.6",
+  "tags": [
+    "Settings Lock",
+    "Access Lock",
+    "Maintenance Lock",
+    "Lock Spa",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Lock the Spa in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.1193436989598,
+              607.1189090547648,
+              640.2038329634798,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+            "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+            "label": "Back button",
+            "box_2d": [
+              365.46276879934874,
+              324.33196290923115,
+              438.644359872373,
+              382.9396048781732
+            ],
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+            "key": "807bea85-335f-40da-aaed-b46368215c57",
+            "label": "Lock Button",
+            "box_2d": [
+              476.3915219800102,
+              360.1640954740726,
+              555.2983038927288,
+              423.0945040136198
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      },
+      {
+        "id": "lock-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+            "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+            "label": "Back button",
+            "box_2d": [
+              365.46276879934874,
+              325.58196290923115,
+              438.644359872373,
+              384.1896048781732
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "8cde8f03-1e2e-4f51-b38e-184b4069b282",
+            "key": "687b0721-0c92-4d4e-8829-edd6910e2092",
+            "label": "Settings Lock Button",
+            "box_2d": [
+              443.2235830487124,
+              377.64608394669494,
+              503.0718407884034,
+              438.75372591563723
+            ],
+            "targetScreen": {
+              "id": "settings-lock-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+            "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+            "label": "Access Lock Button",
+            "box_2d": [
+              490.691776432937,
+              375.6323951858881,
+              553.8733675059613,
+              435.49003715483013
+            ],
+            "targetScreen": {
+              "id": "access-lock-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "8c52d028-8539-4a7a-8445-ade651c8e70b",
+            "key": "38cc894d-2ba7-4208-a1bb-dbaae5b6cd8d",
+            "label": "Maintenance Lock Button",
+            "box_2d": [
+              546.9767637102913,
+              387.9234614683088,
+              590.1583547833155,
+              452.78110343725086
+            ],
+            "targetScreen": {
+              "id": "maintenance-lock-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Note</b>: This mode has a timeout of 2 hours.<br>The spa should not be left in this lock mode for an extended period.<br>Especially in colder climate or when freezing conditions exist.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-lock-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureC.webp"
+        },
+        "anchors": [
+          {
+            "uid": "ded86add-957c-407b-91b6-57fa73a40b58",
+            "key": "9a116748-0376-4b2f-9f95-939c0a1d14f1",
+            "label": "Cancel button",
+            "box_2d": [
+              449.4147582697201,
+              379.4920749279539,
+              501.3231552162847,
+              430.93299711815587
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "62855b2d-79ad-4542-ac8d-1abf64c77d93",
+            "key": "d49f4221-c8ba-41eb-b439-f1a4146fe161",
+            "label": "Confirm button",
+            "box_2d": [
+              449.41475826971987,
+              587.4711815561959,
+              501.3231552162845,
+              638.9121037463979
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.<br><br>The Settings Menu and all its functions are disabled,<br>but the spa will still perform all scheduled tasks.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "9fa96b85-5f9c-4df0-84d3-68f4c3b8ff4a",
+            "key": "9a266b40-de1b-4aca-a72b-d6295ebe139e",
+            "label": "Number Column",
+            "box_2d": [
+              483.76590330788804,
+              426.85158501440867,
+              535.6743002544522,
+              476.8515850144089
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+              "title": "Number Column"
+            }
+          }
+        ]
+      },
+      {
+        "id": "access-lock-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureD.webp"
+        },
+        "anchors": [
+          {
+            "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+            "key": "2e900f47-89e9-406a-a5d4-106463832302",
+            "label": "Cancel button",
+            "box_2d": [
+              449.4147582697201,
+              379.4920749279539,
+              501.3231552162847,
+              430.93299711815587
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+            "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+            "label": "Confirm button",
+            "box_2d": [
+              449.41475826971987,
+              587.4711815561959,
+              501.3231552162845,
+              638.9121037463979
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.<br><br>All activation and adjustment features are disabled<br>but the spa will still perform all scheduled tasks.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+            "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+            "label": "Number Column",
+            "box_2d": [
+              483.76590330788804,
+              426.85158501440867,
+              535.6743002544522,
+              476.8515850144089
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+              "title": "Number Column"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maintenance-lock-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureE.webp"
+        },
+        "anchors": [
+          {
+            "uid": "3ca72970-d5e1-48a9-91c4-fdeb808db296",
+            "key": "5da3fd8b-2a54-4a45-9027-4ffe9190a049",
+            "label": "Cancel button",
+            "box_2d": [
+              449.4147582697201,
+              379.4920749279539,
+              501.3231552162847,
+              430.93299711815587
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "71875fc0-c58c-434e-81ec-bb89f4c5d4fc",
+            "key": "7a31f918-a559-4431-b7b1-c0fa922a379c",
+            "label": "Confirm button",
+            "box_2d": [
+              449.41475826971987,
+              587.4711815561959,
+              501.3231552162845,
+              638.9121037463979
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.<br><br>All spa functions are locked to allow for a temporary<br>service mode such as filter cleaning.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "cf2b1612-93e3-4dca-933a-4dd581e98766",
+            "key": "4172824e-1530-4f2f-9e38-3984364b8396",
+            "label": "Number Column",
+            "box_2d": [
+              483.76590330788804,
+              426.85158501440867,
+              535.6743002544522,
+              476.8515850144089
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+              "title": "Number Column"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of unlocking the spa via the media screen.",
+  "section": "11.6.D",
+  "tags": [
+    "Settings Unlock",
+    "Access Unlock",
+    "Maintenance Unlock",
+    "Unlock Spa",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Unlock the Spa in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.11934369896,
+              608.3689090547648,
+              640.2038329634801,
+              694.484937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+            "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+            "label": "Back button",
+            "box_2d": [
+              365.46276879934874,
+              324.33196290923115,
+              438.644359872373,
+              382.9396048781732
+            ],
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+            "key": "807bea85-335f-40da-aaed-b46368215c57",
+            "label": "Lock Button",
+            "box_2d": [
+              478.05818864667697,
+              357.6640954740726,
+              556.9649705593955,
+              420.5945040136198
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Lock Menu</b><br>Select one of the locked features.<br>Each feature can be unlocked in the same way.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "lock-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureF.webp"
+        },
+        "anchors": [
+          {
+            "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+            "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+            "label": "Back button",
+            "box_2d": [
+              365.46276879934874,
+              324.33196290923115,
+              438.644359872373,
+              382.9396048781732
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+            "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+            "label": "Access Lock Button",
+            "box_2d": [
+              485.69177643293676,
+              373.1323951858881,
+              558.873367505961,
+              431.74003715483013
+            ],
+            "targetScreen": {
+              "id": "access-lock-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Note</b>: A default passcode can be used in case the original passcode is lost or forgotten.<br>The code <b>\"0772\"</b> will unlock the locked setting.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "access-lock-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.7-LockingTheSpa_FigureD.webp"
+        },
+        "anchors": [
+          {
+            "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+            "key": "2e900f47-89e9-406a-a5d4-106463832302",
+            "label": "Cancel button",
+            "box_2d": [
+              449.4505044716859,
+              379.4920749279539,
+              501.3589014182505,
+              430.93299711815587
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+            "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+            "label": "Confirm button",
+            "box_2d": [
+              449.4505044716859,
+              587.4711815561959,
+              501.3589014182505,
+              638.9121037463979
+            ],
+            "targetScreen": {
+              "id": "lock-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving all changes.<br><br>This feature is now unlocked.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+            "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+            "label": "Number Column",
+            "box_2d": [
+              482.1260462926962,
+              426.85158501440867,
+              534.0344432392603,
+              476.8515850144089
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through each column to select a number.<br>Then move to the next number until a four-digit code has been selected.",
+              "title": "Number Column"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of setting the units via the media screen.",
+  "section": "11.7",
+  "tags": [
+    "Unit Settings",
+    "Temperature Units",
+    "Time Units",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Set Units in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.11934369896,
+              607.1189090547648,
+              640.2038329634801,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+            "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+            "label": "Back button",
+            "box_2d": [
+              363.7961021326822,
+              325.58196290923115,
+              436.9776932057065,
+              384.1896048781732
+            ],
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+            "key": "807bea85-335f-40da-aaed-b46368215c57",
+            "label": "Units Button",
+            "box_2d": [
+              509.0760003515112,
+              361.6050176642743,
+              587.9827822642297,
+              424.53542620382154
+            ],
+            "targetScreen": {
+              "id": "units-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Click on Temperature Display or Time Display buttons to toggle the units.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "units-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "b07e91b5-104a-45fd-b8eb-6760af90d65a",
+            "key": "1e93f4a8-c0e8-4cc2-bcf5-f0bbea862dea",
+            "label": "Back button",
+            "box_2d": [
+              363.77837163622826,
+              326.83196290923115,
+              436.9599627092525,
+              385.4396048781732
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "8cde8f03-1e2e-4f51-b38e-184b4069b282",
+            "key": "687b0721-0c92-4d4e-8829-edd6910e2092",
+            "label": "Temperature Display Format",
+            "box_2d": [
+              446.2708598610128,
+              609.0617899985688,
+              497.8434083808455,
+              678.9194319675108
+            ],
+            "interactionStyle": "click",
+            "targetImage": {
+              "direction": "forward-backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB-C.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB.webp",
+                " "
+              ]
+            }
+          },
+          {
+            "uid": "4ab80cf8-edf6-41b6-8b68-19fd43c00e93",
+            "key": "7bb0eb3b-52ab-4ef4-88fc-9d88cc225c2a",
+            "label": "Time Display Format",
+            "box_2d": [
+              509.4357534780339,
+              591.5617899985688,
+              561.0083019978666,
+              661.4194319675108
+            ],
+            "interactionStyle": "click",
+            "targetImage": {
+              "direction": "forward-backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB-24hr.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.8-UnitDisplay_FigureB.webp",
+                " "
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of setting language via the media screen.",
+  "section": "11.8",
+  "tags": [
+    "Language Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Set Language in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.1193436989596,
+              607.1189090547648,
+              640.2038329634796,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.6-WaterCareProgramming_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+            "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+            "label": "Back button",
+            "box_2d": [
+              367.1294354660155,
+              326.83196290923115,
+              440.31102653903974,
+              385.4396048781732
+            ],
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+            "key": "807bea85-335f-40da-aaed-b46368215c57",
+            "label": "Language Button",
+            "box_2d": [
+              543.1854151097808,
+              381.20516175649345,
+              622.0921970224994,
+              444.13557029604067
+            ],
+            "targetScreen": {
+              "id": "language-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "There are 10 languages to select from:<br><b>English, French, Spanish, German, Italian, Czech, Swedish, Norwegian, Finnish, and Polish.</b>",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "language-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.9-ProgrammingTheLanguage-FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+            "key": "2e900f47-89e9-406a-a5d4-106463832302",
+            "label": "Cancel button",
+            "box_2d": [
+              460.64569130913947,
+              380.93299711815564,
+              512.5540882557041,
+              432.3739193083576
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Change canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+            "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+            "label": "Confirm button",
+            "box_2d": [
+              462.79136220761643,
+              587.4711815561957,
+              514.699759154181,
+              638.9121037463976
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving the language change.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+            "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+            "label": "Language Column",
+            "box_2d": [
+              498.8136302404366,
+              473.34293948126765,
+              562.1724088663907,
+              534.8703170028816
+            ],
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "Scroll through each column to select a language.<br>",
+              "title": "Language Column"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of setting display sleep timeout via the media screen.",
+  "section": "11.9",
+  "tags": [
+    "Screen Timeout",
+    "Display Sleep",
+    "Panel Timeout",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Set Display Sleep Timeout in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.1193436989598,
+              607.1189090547648,
+              640.2038329634798,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "uid": "a08bd30f-c59c-4b4a-aab3-0d25857d73b3",
+            "key": "7c7d06e7-8b69-4306-ad79-c08aa69b5fb1",
+            "label": "Back button",
+            "box_2d": [
+              367.1028397213346,
+              325.58196290923115,
+              440.28443079435885,
+              384.1896048781732
+            ],
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "1d443a53-52ef-48d8-9371-21f18729c0d9",
+            "key": "807bea85-335f-40da-aaed-b46368215c57",
+            "label": "Panel Button",
+            "box_2d": [
+              512.6333334682889,
+              363.04593985447605,
+              591.5401153810075,
+              425.97634839402326
+            ],
+            "targetScreen": {
+              "id": "panel-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Program how long the display stays active before going to sleep.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "panel-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+            "key": "2e900f47-89e9-406a-a5d4-106463832302",
+            "label": "Cancel button",
+            "box_2d": [
+              452.96765876238373,
+              382.37391930835736,
+              504.87605570894834,
+              433.8148414985593
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Changes canceled. This reverts to the last saved setting.",
+              "title": "Cancel Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+            "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+            "label": "Confirm button",
+            "box_2d": [
+              451.3054247198311,
+              590.1621037463976,
+              503.2138216663957,
+              641.6030259365996
+            ],
+            "targetScreen": {
+              "id": "settings-menu"
+            },
+            "actionMsg": {
+              "message": "Accepting and saving the changes.",
+              "title": "Confirm Button"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+            "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+            "label": "Timeout Column",
+            "box_2d": [
+              483.9943357154457,
+              484.29755043227647,
+              535.9027326620103,
+              535.7384726224784
+            ],
+            "interactionStyle": "swipe-down",
+            "actionMsg": {
+              "message": "Scroll through the column to select a number in minutes.<br>The range is from <b>1 minute to 5 minutes</b>.",
+              "title": "Timeout Column"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model waking up the media screen.",
+  "section": "11.9.B",
+  "tags": [
+    "Waking Up",
+    "Wake Up",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Wake Up the Display in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "screen-start",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureC.webp"
+        },
+        "anchors": [
+          {
+            "key": "slider-btn",
+            "box_2d": [
+              522.8637719984914,
+              339.0029148184533,
+              635.9482612630114,
+              425.1189434048305
+            ],
+            "label": "Slider button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "swipe-right",
+            "actionMsg": {
+              "message": "Slide this button to the right side to unlock",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureD.webp"
+              ]
+            }
+          },
+          {
+            "key": "ada40b7b-62d8-4fec-9db8-c5579249a761",
+            "box_2d": [
+              521.434403178257,
+              586.7550762017387,
+              634.518892442777,
+              672.8711047881159
+            ],
+            "label": "Retry Button",
+            "uid": "14bb964f-754a-4a1e-ac6a-7a395759875f",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Try again..",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureC.webp"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "26_J4_EN",
+  "pdf_id": "26_J4_EN",
+  "productID": "jht-j-408",
+  "product_id": "jht-j-408",
+  "caption": "Interactive 3D model of accessing diagnostics menu via the media screen.",
+  "section": "11.10",
+  "tags": [
+    "Diagnostics Menu",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Access Diagnostics Menu in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "WdK3K",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-4/J-4_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.328,
+          "y": 0.385
+        },
+        {
+          "x": 0.695,
+          "y": 0.385
+        },
+        {
+          "x": 0.696,
+          "y": 0.636
+        },
+        {
+          "x": 0.323,
+          "y": 0.636
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/home-screen.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings-btn",
+            "box_2d": [
+              527.11934369896,
+              607.1189090547648,
+              640.2038329634801,
+              693.234937641142
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.10-ProgrammingThePanel_FigureA.webp"
+        },
+        "anchors": [
+          {
+            "uid": "df18ea19-c3d2-484e-9dcf-4f1b72f5f74b",
+            "key": "6f078861-1cd5-4d53-abeb-9d573095f6c7",
+            "label": "Back button",
+            "box_2d": [
+              367.1028397213347,
+              325.58196290923115,
+              440.28443079435897,
+              384.1896048781732
+            ],
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "6533add5-f6bb-4c7a-9e18-bd632b85b363",
+            "key": "fc9f14c3-778a-4148-be06-f643edee35ee",
+            "label": "Diagnostics Button",
+            "box_2d": [
+              545.0760815598918,
+              388.9825392781072,
+              623.9828634726103,
+              451.9129478176544
+            ],
+            "targetScreen": {
+              "id": "diagnostics-menu"
+            },
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Note</b>: Most of the information provided in this menu is to assist<br>a qualified technician troubleshoot the system.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "diagnostics-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.11-DiagnosticMenu_FigureB.webp"
+        },
+        "anchors": [
+          {
+            "uid": "d30bbdba-a80b-481f-b088-a6f83eda6465",
+            "key": "2e900f47-89e9-406a-a5d4-106463832302",
+            "label": "System information Button",
+            "box_2d": [
+              462.2634805911964,
+              427.5288184438041,
+              507.5229413675481,
+              475.21974063400603
+            ],
+            "actionMsg": {
+              "message": "Displays various system information about the hot tub.<br>This information is helpful when servicing the hot tub.",
+              "title": "System information"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "04fdf8d7-37ef-4ab5-b59f-45c35868a48d",
+            "key": "79050271-da2c-4319-bd89-1401d4d832f9",
+            "label": "Fault Log",
+            "box_2d": [
+              498.2768596719184,
+              383.2420749279538,
+              540.2118523631639,
+              433.43299711815575
+            ],
+            "actionMsg": {
+              "message": "Displays any faults detected by the hot tub.<br>It will store up to 50 fault settings.",
+              "title": "Fault Log"
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "uid": "9ec469e1-dbbf-48d0-8793-495018b3259f",
+            "key": "50cf654c-a7af-4ea7-8251-43a4695af998",
+            "label": "GFCI Test",
+            "box_2d": [
+              529.5496995289907,
+              390.34221902017293,
+              581.4580964755553,
+              441.7831412103749
+            ],
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "gfci-test-menu"
+            }
+          },
+          {
+            "uid": "53961f4e-39d2-4938-813b-5952ef8788b0",
+            "key": "efbe2cea-31b8-44ef-8c23-af1aa1191197",
+            "label": "Back button",
+            "box_2d": [
+              367.1028397213346,
+              323.08196290923115,
+              440.28443079435885,
+              381.6896048781732
+            ],
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "gfci-test-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/jht-j-300/11.11-DiagnosticMenu_FigureD.webp"
+        },
+        "anchors": [
+          {
+            "uid": "af655d49-e413-4dcc-93f2-857466723f73",
+            "key": "e90172c0-13b7-4944-b68c-5245315bc3b5",
+            "label": "Back Button",
+            "box_2d": [
+              367.1294354660155,
+              323.08196290923115,
+              440.31102653903974,
+              381.6896048781732
+            ],
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "diagnostics-menu"
+            }
+          },
+          {
+            "uid": "043d6370-a61e-49dc-ba64-4c88e8d92abb",
+            "key": "83f3e212-13fd-4db9-b14e-dcaef08e96e0",
+            "label": "GFCI Test Button",
+            "box_2d": [
+              420.80628024973055,
+              379.95516175649345,
+              493.9878713227548,
+              438.5628037254355
+            ],
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Once clicked, the test for the GFCI breaker will begin.<br>The result will return either a pass or fail message.",
+              "title": "GFCI Test"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
 ]

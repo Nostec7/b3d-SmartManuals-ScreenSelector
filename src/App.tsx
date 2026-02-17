@@ -126,19 +126,37 @@ export default function App() {
         section: feature.section,
       });
     }
+
+    
+
   
     window.addEventListener(
       "featureBuilderPreview",
       handleFeatureBuilderPreview
     );
   
+    
     return () => {
       window.removeEventListener(
         "featureBuilderPreview",
         handleFeatureBuilderPreview
       );
+      
     };
   }, []);
+
+
+  useEffect(() => {
+    // Event listener for debug toggle
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.ctrlKey && e.key.toLowerCase() === "d") {
+        e.preventDefault(); // prevents browser bookmark action
+        setDebug(!debug)
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => {window.removeEventListener("keydown", onKeyDown)}
+  }, [debug])
 
   useEffect(() => {
     function onPreview(ev: any) {
