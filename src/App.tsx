@@ -185,21 +185,31 @@ export default function App() {
             <h1 className="font-black text-xl -mt-4">FEATURES</h1>
 
             {featureMap.map((f, i) => (
-              <button
-                key={`${f.pdfID}|${f.productID}|${f.caption}|${i}`}
-                className="bg-[#333] text-[#ddd] py-2 px-2 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30 text-sm text-left leading-[1.3]"
-                onClick={() =>
-                  setPLUG_IN_VARIABLES({
-                    pdfID: f.pdfID,
-                    productID: f.productID,
-                    caption: f.caption,
-                    section: f.section,
-                    tags: f.tags
-                  })
+              <div key={`wrp-${i}`}>
+                {
+                  (i == 0 || (i >= 1 && featureMap[i-1].productID != f.productID)) && (
+                    <h1 className="font-black uppercase text-2xl border-b-3 pb-1 pt-2 border-dotted">
+                      📦 {f.productID}
+                    </h1>
+                  )
                 }
-              >
-                {f.pdfID} || <b>{f.productID}</b> || {f.section} || {f.caption}
-              </button>
+                <button
+                  key={`${f.pdfID}|${f.productID}|${f.caption}|${i}`}
+                  className="bg-[#333] text-[#ddd] py-2 px-2 w-full rounded-md cursor-pointer hover:opacity-80 active:opacity-30 text-sm text-left leading-[1.3]"
+                  onClick={() =>
+                    setPLUG_IN_VARIABLES({
+                      pdfID: f.pdfID,
+                      productID: f.productID,
+                      caption: f.caption,
+                      section: f.section,
+                      tags: f.tags
+                    })
+                  }
+                >
+                  {f.pdfID} || <b>{f.productID}</b> || {f.section} || {f.caption}
+                </button>
+              </div>
+              
             ))}
           </div>
         </div>

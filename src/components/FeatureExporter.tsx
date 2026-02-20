@@ -120,19 +120,29 @@ export const FeatureExporter: React.FC = () => {
         {features.map((feature, index) => {
           const label = `${feature.pdfID} || ${feature.productID} || ${feature.section} || ${feature.caption}`;
           return (
-            <label
-              key={index}
-              className="border-b-2 border-[#ffffff33] pl-1 text-sm"
-              style={{ display: "block", marginBottom: 6 }}
-              
-            >
-              <input
-                type="checkbox"
-                checked={selectedFeatureIndexes.has(index)}
-                onChange={() => toggleFeature(index)}
-              />{" "}
-              {label}
-            </label>
+            <div key={`hd-${index}`}>
+              {
+                (index == 0 || (index >= 1 && features[index-1].productID != feature.productID)) && (
+                  <h1 className="font-black uppercase text-2xl border-b-3 pb-1 pt-2 border-dotted">
+                    📦 {feature.productID}
+                  </h1>
+                )
+              }
+              <label
+                key={index}
+                className="border-b-2 border-[#ffffff33] pl-1 text-sm"
+                style={{ display: "block", marginBottom: 6 }}
+                
+              >
+                <input
+                  type="checkbox"
+                  checked={selectedFeatureIndexes.has(index)}
+                  onChange={() => toggleFeature(index)}
+                />{" "}
+                {label}
+              </label>
+            </div>
+            
           );
         })}
       </div>
@@ -141,7 +151,7 @@ export const FeatureExporter: React.FC = () => {
       <div className="flex flex-col bg-[#222] mt-1 rounded-xl text-[#eee] p-4">
         <h3 className="font-bold pb-2">Assets</h3>
 
-        {assets.map((asset, index) => (
+        {assets.map((asset) => (
           <div
             key={asset.id}
             style={{

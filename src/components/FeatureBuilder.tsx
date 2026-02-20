@@ -485,7 +485,7 @@ export default function FeatureBuilder({ onPreview }: {
             }}
           >
             <option value="">Select feature…</option>
-            {fullDataJSON.map((f: any) => {
+            {fullDataJSON.map((f: any, i) => {
               const key = [
                 f.pdfID ?? f.pdf_id ?? "",
                 f.pdf_id ?? f.pdfID ?? "",
@@ -499,9 +499,9 @@ export default function FeatureBuilder({ onPreview }: {
               ].join("||");
 
               return (
-                <option key={key} value={key}>
-                  {`${f.pdf_id}_${f.product_id}_${f.section}_${f.caption}`}
-                </option>
+                  <option key={key} value={key} className={`${(i == 0 || (i >= 1 && fullDataJSON[i-1].pdf_id != f.pdf_id)) && 'bg-black/40'}`}>
+                    {`${f.pdf_id}_${f.product_id}_${f.section}_${f.caption}`}
+                  </option>
               );
             })}
           </select>
