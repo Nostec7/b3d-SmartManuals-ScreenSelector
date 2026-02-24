@@ -23,6 +23,7 @@ type Feature = {
 
 type AssetEntry = {
   id: string;
+  pdfID: string;
   productID: string;
   p3dID: string;
 };
@@ -37,7 +38,7 @@ export const FeatureExporter: React.FC = () => {
   >(new Set());
 
   const [assets, setAssets] = useState<AssetEntry[]>([
-    { id: crypto.randomUUID(), productID: "", p3dID: "" },
+    { id: crypto.randomUUID(), pdfID: "", productID: "", p3dID: "" },
   ]);
 
   /* ---------- Handlers ---------- */
@@ -52,7 +53,7 @@ export const FeatureExporter: React.FC = () => {
 
   const updateAsset = (
     id: string,
-    field: "productID" | "p3dID",
+    field: "pdfID" | "productID" | "p3dID",
     value: string
   ) => {
     setAssets((prev) =>
@@ -63,7 +64,7 @@ export const FeatureExporter: React.FC = () => {
   const addAsset = () => {
     setAssets((prev) => [
       ...prev,
-      { id: crypto.randomUUID(), productID: "", p3dID: "" },
+      { id: crypto.randomUUID(), pdfID: "", productID: "", p3dID: "" },
     ]);
   };
 
@@ -162,7 +163,15 @@ export const FeatureExporter: React.FC = () => {
             }}
           >
             <input
-              placeholder="productID"
+              placeholder="pdfID (25_J200_EN)"
+              value={asset.prfID}
+              onChange={(e) =>
+                updateAsset(asset.pdfID, "pdfID", e.target.value)
+              }
+              className="bg-[#eee] rounded-md px-2 py-1 font-semibold text-black border-none outline-none flex-grow"
+            />
+            <input
+              placeholder="productID (jht-j-245)"
               value={asset.productID}
               onChange={(e) =>
                 updateAsset(asset.id, "productID", e.target.value)
@@ -170,7 +179,7 @@ export const FeatureExporter: React.FC = () => {
               className="bg-[#eee] rounded-md px-2 py-1 font-semibold text-black border-none outline-none flex-grow"
             />
             <input
-              placeholder="p3dID"
+              placeholder="p3dID (qBcSd)"
               value={asset.p3dID}
               onChange={(e) =>
                 updateAsset(asset.id, "p3dID", e.target.value)

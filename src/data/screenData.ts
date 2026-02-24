@@ -39672,5 +39672,2205 @@ export const fullDataJSON =
       }
     ]
   }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling temperature settings via the media screen.",
+  "section": "12.A",
+  "tags": [
+    "Temperature Control",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Temperature Controls in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "temperature-100",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "temperature-up",
+            "box_2d": [
+              534.2438347131146,
+              613.5404521431217,
+              583.203797585683,
+              666.7066980639052
+            ],
+            "label": "temperature up",
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-75.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-76.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-77.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-79.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-80.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-81.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-82.webp "
+              ]
+            },
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "Temperature increased.<br>Maximum temperature is 104°F (40°C).<br>When the value is set higher than the current temperature, <br><b>“Heating to XX”F (”C)” will be indicated.</b>",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "key": "temperature-down",
+            "box_2d": [
+              534.2438347131146,
+              432.7405253853092,
+              583.203797585683,
+              485.90677130609265
+            ],
+            "label": "temperature down",
+            "targetImage": {
+              "direction": "backwards",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-75.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-76.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-77.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-79.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-80.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-81.webp",
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-82.webp "
+              ]
+            },
+            "uid": "88345fdc-cce2-42e2-bd67-fd8a54feb5ac",
+            "actionMsg": {
+              "message": "Temperature decreased.<br>Minimum temperature is 65°F (18.33°C).<br>When the set value is lower than the current temperature<br> <b>“Cooling to XX”F (”C)”</b> will appear. ",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling date settings via the media screen.",
+  "section": "12.B",
+  "tags": [
+    "Date Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Date Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              495.98512771710637,
+              501.5404521431216,
+              550.4245635469202,
+              561.9068323412489
+            ],
+            "label": "Date and Time",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-date-time"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-date-time",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/time_and_date.webp"
+        },
+        "anchors": [
+          {
+            "key": "565e703f-2890-4820-abd8-c432058afec1",
+            "box_2d": [
+              432.6047385707046,
+              480.7404033149966,
+              487.0441744005185,
+              541.1067835131239
+            ],
+            "label": "Date Button",
+            "uid": "ccfdb056-5eb8-4e0d-968d-dd35645a598b",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-date"
+            },
+            "actionMsg": {
+              "message": "<b>Date and Time Settings</b><br>Scroll through the year, month, day blocks to adjust the date.<br><br>Once your date is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-date",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/date_2.webp"
+        },
+        "anchors": [
+          {
+            "key": "5517c2e2-b99c-4146-a18f-dbdff017bee1",
+            "box_2d": [
+              482.0745953990505,
+              441.5404521431216,
+              536.5140312288644,
+              501.9068323412489
+            ],
+            "label": "Year Block",
+            "uid": "32c92d12-2369-4762-bb3c-a27d2264868c",
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "<b>Date Block</b><br>Scroll this block up or down to adjust the year.<br><br>Once your date is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "ab57449a-e4de-4a62-8092-d7140da5aede",
+            "box_2d": [
+              482.0745953990505,
+              516.7404033149967,
+              536.5140312288644,
+              577.1067835131239
+            ],
+            "label": "Month Block",
+            "uid": "a6c73a6c-982e-4295-9e5f-f116e75d2831",
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "<b>Month Block</b><br>Scroll this block up or down to adjust the block.<br><br>Once your date is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "4e2ffe21-1a6a-4060-bcd3-4baff424ec74",
+            "box_2d": [
+              482.0745953990505,
+              596.7404033149967,
+              536.5140312288644,
+              657.1067835131239
+            ],
+            "label": "Month Block",
+            "uid": "cee11fd8-d7aa-41f1-af3c-c12864b67f3f",
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "<b>Day Block</b><br>Scroll this block up or down to adjust the day.<br><br>Once your date is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "3fd45fd4-cb4d-49d2-bd9e-c9030038cf35",
+            "box_2d": [
+              439.6717685439272,
+              362.3405009712466,
+              494.1112043737411,
+              422.7068811693739
+            ],
+            "label": "Main Menu",
+            "uid": "5293edfd-8631-4d75-912d-e13c383af72f",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Date updated successfully</b><br>You're now back at the main menu.",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling time settings via the media screen.",
+  "section": "12.C",
+  "tags": [
+    "Time Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Time Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              495.98512771710637,
+              501.5404521431216,
+              550.4245635469202,
+              561.9068323412489
+            ],
+            "label": "Date and Time",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-date-time"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-date-time",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/time_and_date.webp"
+        },
+        "anchors": [
+          {
+            "key": "565e703f-2890-4820-abd8-c432058afec1",
+            "box_2d": [
+              466.4075769633654,
+              487.1404277290591,
+              520.8470127931793,
+              547.5068079271864
+            ],
+            "label": "Time Button",
+            "uid": "ccfdb056-5eb8-4e0d-968d-dd35645a598b",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-time"
+            },
+            "actionMsg": {
+              "message": "<b>Time Settings</b><br>Scroll through the hour, minute and time format blocks to set the time.<br><br>Once your time is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-time",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/time.webp"
+        },
+        "anchors": [
+          {
+            "key": "5517c2e2-b99c-4146-a18f-dbdff017bee1",
+            "box_2d": [
+              481.9253971269487,
+              453.5404521431216,
+              536.3648329567626,
+              513.9068323412489
+            ],
+            "label": "Hour Block",
+            "uid": "32c92d12-2369-4762-bb3c-a27d2264868c",
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "<b>Hour Block</b><br>Scroll this block up or down to adjust the hour.<br><br>Once your time is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "ab57449a-e4de-4a62-8092-d7140da5aede",
+            "box_2d": [
+              481.9253971269487,
+              499.1404277290591,
+              536.3648329567626,
+              559.5068079271864
+            ],
+            "label": "Minute Block",
+            "uid": "a6c73a6c-982e-4295-9e5f-f116e75d2831",
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "<b>Minute Block</b><br>Scroll this block up or down to adjust the minutes.<br><br>Once your time is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "4e2ffe21-1a6a-4060-bcd3-4baff424ec74",
+            "box_2d": [
+              480.5169679139757,
+              547.9403544868717,
+              534.9564037437896,
+              608.3067346849989
+            ],
+            "label": "Time Format Block",
+            "uid": "cee11fd8-d7aa-41f1-af3c-c12864b67f3f",
+            "interactionStyle": "swipe-up",
+            "actionMsg": {
+              "message": "<b>Time Format Block</b><br>Scroll this block up or down to change the time format between 24hr or 12hr AM / PM.<br><br>Once your time is set, click the water icon<br>on the left to confirm and get back to the main menu.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "3fd45fd4-cb4d-49d2-bd9e-c9030038cf35",
+            "box_2d": [
+              439.6717685439272,
+              362.3405009712466,
+              494.1112043737411,
+              422.7068811693739
+            ],
+            "label": "Main Menu",
+            "uid": "5293edfd-8631-4d75-912d-e13c383af72f",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Time updated successfully</b><br>You're now back at the main menu.",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling jets via the media screen.",
+  "section": "15.A",
+  "tags": [
+    "Jet Controls",
+    "Jet 1",
+    "Jet 2",
+    "Jet 3",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Jet Controls in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "jet-1",
+            "box_2d": [
+              435.6137395317147,
+              433.5404521431217,
+              484.57370240428315,
+              486.70669806390515
+            ],
+            "label": "Jet 1",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "<b>Jet 1</b><br>Press this pad to activate the pump.<br><br>1st press – low speed <b>(icon rotates slow)</b><br>2nd press – high speed <b>(icon rotates fast)</b><br>\n3rd press – turns off<br><br><b>Note:</b> Pump will automatically time-out after 15 minutes.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "key": "jet-2",
+            "box_2d": [
+              434.24389742046696,
+              491.1404277290592,
+              483.2038602930354,
+              544.3066736498427
+            ],
+            "label": "Jet 2",
+            "uid": "88345fdc-cce2-42e2-bd67-fd8a54feb5ac",
+            "actionMsg": {
+              "message": "<b>Jet 2</b><br>Press this pad to activate the pump.<br><br>1st press – high speed <b>(icon rotates fast)</b><br>\n2nd press – turns off<br><br><b>Note:</b> Pump will automatically time-out after 15 minutes.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          },
+          {
+            "key": "jet-3",
+            "box_2d": [
+              434.24389742046696,
+              548.7404033149967,
+              483.2038602930354,
+              601.9066492357802
+            ],
+            "label": "Jet 3",
+            "uid": "34329128-bde5-49c5-bf87-d0c1a76612c8",
+            "actionMsg": {
+              "message": "<b>Jet 2</b><br>Press this pad to activate the pump.<br><br>1st press – high speed <b>(icon rotates fast)</b><br>\n2nd press – turns off<br><br><b>Note:</b> Pump will automatically time-out after 15 minutes.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling the light settings via the media screen.",
+  "section": "15.B",
+  "tags": [
+    "Light Controls",
+    "Light Color",
+    "Light Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Light Controls in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "light-button",
+            "box_2d": [
+              484.92878712241475,
+              521.5404521431217,
+              533.8887499949832,
+              574.7066980639052
+            ],
+            "label": "Light Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "<b>Light Function Key</b><br>Press this pad to activate the light<br>\n<br>1st press: rotating colours<br>\n2nd press: solid blue colour<br>\n3rd press: solid green colour<br>\n4th press: solid red colour<br><br>\n<b>Note:</b> Pressing the light key in intervals less than three\n<br>seconds will scroll to the next colour. Once you have\n<br>selected the colour another press will turn the light off.\n<br><br>Light will automatically timeout after <b>60 Minutes.</b>",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of inverting the screen via the media screen.",
+  "section": "13.C1",
+  "tags": [
+    "Invert Screen",
+    "Screen Direction",
+    "Panel Direction",
+    "Panel Invert",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Invert Screen in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "invert-button",
+            "box_2d": [
+              439.72337037771206,
+              681.5404521431217,
+              488.6833332502805,
+              734.7066980639052
+            ],
+            "label": "Invert Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "<b>Invert Button</b><br>Tapping this pad inverts the screen.<br>Tap again to revert back.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "main-menu-inv"
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-menu-inv",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu-inv.webp"
+        },
+        "anchors": [
+          {
+            "key": "invert-button",
+            "box_2d": [
+              528.7643617558693,
+              359.9404765571842,
+              577.7243246284378,
+              413.10672247796765
+            ],
+            "label": "Invert Button",
+            "uid": "ee7fd338-944a-4d89-a1e8-edcec9942cfa",
+            "actionMsg": {
+              "message": "<b>Invert Button</b><br>Tapping this pad inverts the screen.<br>Tap again to revert back.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling the day night contrast via the media screen.",
+  "section": "13.C2",
+  "tags": [
+    "Day Night Contrast",
+    "Screen Contrast",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Control Day-Night Contrast in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "day-night-contrast-btn",
+            "box_2d": [
+              483.5590495234204,
+              671.9404765571842,
+              533.8888545072369,
+              728.3066736498427
+            ],
+            "label": "Day Night Contrast Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "<b>Day Night Contrast Button</b><br>Tapping this pad switches between <br>day and night contrast for the screen.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of entering the sleep mode via the media screen.",
+  "section": "13.C3",
+  "tags": [
+    "Sleep Mode",
+    "Enter Sleep",
+    "Sleep Controller",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Enter Sleep Mode in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "sleep-mode-btn",
+            "box_2d": [
+              528.7645707803769,
+              682.3405009712467,
+              579.0943757641934,
+              738.7066980639052
+            ],
+            "label": "Sleep Mode Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "actionMsg": {
+              "message": "<b>Sleep Mode Button</b><br>Tapping this pad enter the sleep mode.",
+              "notificationOnly": true
+            },
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling water care mode via the media screen.",
+  "section": "15.C",
+  "tags": [
+    "Water Care",
+    "Water Care Mode",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Water Care Settings in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              430.9674814397764,
+              493.5404521431216,
+              485.4069172695903,
+              553.9068323412489
+            ],
+            "label": "Water Care Button",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-water-care"
+            },
+            "actionMsg": {
+              "message": "<b>Water Care Menu</b><br>The Water Care section will help you set up your ideal<br>\nfiltration and heating settings. <br><br>Choose from Away,\nBeginner, Energy Savings, Super Energy Savings and<br>\nWeekender, depending on your needs.<br>",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-water-care",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/WaterCare-awayFromHome-standard.webp"
+        },
+        "anchors": [
+          {
+            "key": "565e703f-2890-4820-abd8-c432058afec1",
+            "box_2d": [
+              439.67187637989207,
+              516.7404033149967,
+              475.73671077143297,
+              565.1067835131239
+            ],
+            "label": "Away From Home",
+            "uid": "ccfdb056-5eb8-4e0d-968d-dd35645a598b",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Away From Home</b><br>In this mode the spa will always be in economy; the set<br>\npoint will be reduced by 20°F (11C) and the filtration<br>\ncan be reduced.<br><br><b>Note:</b> The selected mode will be marked by<br>a green checkmark next to the mode's icon.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/WaterCare-awayFromHome.webp"
+              ]
+            }
+          },
+          {
+            "key": "fc4b43b3-14ac-42b4-bf6e-59d7f773c844",
+            "box_2d": [
+              473.59415943118415,
+              486.3403789009342,
+              509.65899382272505,
+              534.7067590990614
+            ],
+            "label": "Standard",
+            "uid": "6d6b1a65-9374-4cf5-89f5-7840ea65b3fd",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Standard</b><br>In this mode the spa will always be in economy.<br><br><b>Note:</b> The selected mode will be marked by<br>a green checkmark next to the mode's icon.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/WaterCare-awayFromHome-standard.webp"
+              ]
+            }
+          },
+          {
+            "key": "310e3964-867d-4a09-8ed1-eb2851db76eb",
+            "box_2d": [
+              507.5164424824761,
+              503.9403544868717,
+              543.581276874017,
+              552.3067346849989
+            ],
+            "label": "Energy Saving",
+            "uid": "c109e94b-2486-4dae-abc1-512d35834d0b",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Energy Saving</b><br>The spa will be in economy mode during the peak<br>\nhours of the day and resume normal mode on the<br>\nweekend.<br><br><b>Note:</b> The selected mode will be marked by<br>a green checkmark next to the mode's icon.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/WaterCare-awayFromHome-energysaver.webp"
+              ]
+            }
+          },
+          {
+            "key": "6faf6588-056f-46d1-beb7-ba538ca1e960",
+            "box_2d": [
+              538.6119135444794,
+              509.5404521431217,
+              574.6767479360203,
+              557.9068323412489
+            ],
+            "label": "Super Energy",
+            "uid": "4b432170-6829-41a8-9cd7-cf378a872642",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Super Energy</b><br>The spa will always be in economy mode during peak<br>\nhours, every day of the week.<br><br><b>Note:</b> The selected mode will be marked by<br>a green checkmark next to the mode's icon.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/WaterCare-awayFromHome-superEnergy.webp"
+              ]
+            }
+          },
+          {
+            "key": "7ad3193b-24e1-4216-bd13-0a4c79dcca48",
+            "box_2d": [
+              575.3610085850603,
+              498.3405009712467,
+              611.4258429766012,
+              546.7068811693739
+            ],
+            "label": "Weekender",
+            "uid": "1e454755-fd97-47c9-90cb-f34ee6a9618b",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Weekender</b><br>The spa will be in economy mode from Monday to<br>\nFriday, and will run normally on the weekend.<br><br><b>Note:</b> The selected mode will be marked by<br>a green checkmark next to the mode's icon.",
+              "notificationOnly": true
+            },
+            "targetImage": {
+              "direction": "forward",
+              "urls": [
+                "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/WaterCare-awayFromHome-weekender.webp"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling filtration cycle schedules via the media screen.",
+  "section": "16.B",
+  "tags": [
+    "Filtration Schedule",
+    "Filtration Cycle",
+    "Control Filtration",
+    "Modify Schedules",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Modify Filtration Schedules in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              430.9674814397764,
+              493.5404521431216,
+              485.4069172695903,
+              553.9068323412489
+            ],
+            "label": "Water Care Button",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-water-care"
+            },
+            "actionMsg": {
+              "message": "<b>Water Care Settings</b><br>Your currently active mode is highlighted and marked by a green checkmark.<br>Click on it again to edit its filtration schedules.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-water-care",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/WaterCare-energysaving-edit.webp"
+        },
+        "anchors": [
+          {
+            "key": "fc4b43b3-14ac-42b4-bf6e-59d7f773c844",
+            "box_2d": [
+              507.516550318441,
+              619.1404277290592,
+              543.5813847099819,
+              667.5068079271864
+            ],
+            "label": "Energy Saving",
+            "uid": "6d6b1a65-9374-4cf5-89f5-7840ea65b3fd",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Schedule Editing Menu</b><br>In this menu you can edit the selected <br>water care mode's filtration schedules.",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "settings-water-care-setup"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-water-care-setup",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings_EnergySaving.webp"
+        },
+        "anchors": [
+          {
+            "key": "3ab1337a-02be-4283-ab54-d2599f3ca3f2",
+            "box_2d": [
+              524.4776379261043,
+              442.3405009712467,
+              560.5424723176452,
+              490.7068811693739
+            ],
+            "label": "Mon-Fri",
+            "uid": "edd5ec52-f2cf-4baf-b449-1a313b0c50bc",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Scheduling</b><br>You have several possibilities for the schedule<br>\n<b>(Mon-Fri, weekend, every day, or single days).</b> The<br>\nschedules will be repeated every week.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "66ecf16c-6219-431d-8ca2-a07e38d88f9c",
+            "box_2d": [
+              523.0641240954949,
+              516.7404033149967,
+              559.1289584870358,
+              565.1067835131239
+            ],
+            "label": "Time and Duration",
+            "uid": "af388bd0-45a8-490e-916a-197ecc80f141",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Time and Duration</b><br>The time and duration are set in 30 minute increments. <br>\nOnce you have set the schedule, use Spa Function Icon to go<br>\nback. Ensure that you have selected the desired Water<br>\nCare option in the main Water Care menu.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "b33d73c3-1e1b-4e2a-91da-d85670280245",
+            "box_2d": [
+              450.9793400089777,
+              579.9403544868717,
+              487.0441744005186,
+              628.3067346849989
+            ],
+            "label": "Filtrater Cycle",
+            "uid": "f7db3ac9-7128-4342-bfe3-d8011f401f19",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Filtrater Cycle</b><br>The filtration schedule shown on the screen will apply\nto the main filtration pump. \n<br>Your spa uses a circulation\npump configured to run <b>24 hours by default </b>and the<br>\nscreen will show you the purge setting instead of\nfiltration. <br><br>The purges are pre-programmed for a fixed<br>\nnumber of minutes, therefore the duration will be set\n<br>to N/A on the screen, and only the start time can be\nmodified.",
+              "notificationOnly": true
+            }
+          },
+          {
+            "key": "4c3f35b2-d2b2-44d8-b8f6-4a6acf3fdce5",
+            "box_2d": [
+              448.1525280196888,
+              369.5404521431217,
+              484.2173624112297,
+              417.9068323412489
+            ],
+            "label": "Back to Main Menu",
+            "uid": "c99fa962-d9d5-48c3-b284-09915f034d19",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Going back to the main menu...",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling reminders via the media screen.",
+  "section": "17.A",
+  "tags": [
+    "Control Reminders",
+    "Reset Reminders",
+    "Reminders",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Clear Reminders in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              463.47625066045896,
+              495.1405497993716,
+              517.9156864902728,
+              555.5069299974989
+            ],
+            "label": "Maintenance Button",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "maintenance-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maintenance-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Maintenance.webp"
+        },
+        "anchors": [
+          {
+            "key": "fc4b43b3-14ac-42b4-bf6e-59d7f773c844",
+            "box_2d": [
+              442.2683450117586,
+              501.5404521431217,
+              478.3331794032995,
+              549.9068323412489
+            ],
+            "label": "Reminders",
+            "uid": "6d6b1a65-9374-4cf5-89f5-7840ea65b3fd",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Reminders Menu</b><br>In this menu you can tap on either reminder to clear it.<br>This should be performed only once the operation has been completed <br>so that you get accurate reminders next time it needs cleaning.",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "reminders-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "reminders-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/reminders.webp"
+        },
+        "anchors": [
+          {
+            "key": "8d56a5e4-6a6c-452d-a80f-bfdfa89590c2",
+            "box_2d": [
+              440.84981872075673,
+              515.9404765571842,
+              476.91465311229763,
+              564.3068567553114
+            ],
+            "label": "Rinse with Hose",
+            "uid": "bb169be9-96f3-4e00-a429-c33729c0b10d",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "reminders-clear"
+            }
+          },
+          {
+            "key": "7a270f16-aa58-4685-9638-4a07f6a3c2af",
+            "box_2d": [
+              473.473975483279,
+              507.9404765571842,
+              509.5388098748199,
+              556.3068567553114
+            ],
+            "label": "Clean Filter",
+            "uid": "7f1c9891-2b45-47c0-b4d1-cc266078a69a",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "reminders-clear"
+            }
+          },
+          {
+            "key": "8d69b212-5112-4b76-b758-79906ee3522e",
+            "box_2d": [
+              507.5164421000784,
+              508.7404033149967,
+              543.5812764916193,
+              557.1067835131239
+            ],
+            "label": "Change Water",
+            "uid": "c20a80ae-4227-4c24-9981-236c3a3df8da",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "reminders-clear"
+            }
+          },
+          {
+            "key": "648fc26b-b42b-47d2-9bed-3ab2ffd82581",
+            "box_2d": [
+              540.1405988626009,
+              515.1405497993717,
+              576.2054332541418,
+              563.5069299974989
+            ],
+            "label": "Have a spa check up",
+            "uid": "a80b5f6e-9c19-4d5f-b8d3-cde7032b29e3",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "reminders-clear"
+            }
+          },
+          {
+            "key": "fb3c7264-a748-4f66-aa41-fdf295d0efab",
+            "box_2d": [
+              445.10518115703803,
+              368.74046435015293,
+              481.17001554857893,
+              417.10684454828015
+            ],
+            "label": "Back to Main Menu",
+            "uid": "53dcba52-384b-425a-a5e9-1bb1ba68ab3b",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "main-menu"
+            },
+            "actionMsg": {
+              "message": "Going back to the main menu...",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "reminders-clear",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/reminders-clean.webp"
+        },
+        "anchors": [
+          {
+            "key": "a5e8eccf-f3b2-4d06-b0c2-307ec89f60e1",
+            "box_2d": [
+              577.020118061404,
+              466.3405009712467,
+              613.0849524529449,
+              514.7068811693739
+            ],
+            "label": "Cancel Button",
+            "uid": "89bd9551-5d5e-479f-b268-92bd1d6542cb",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Canceling changes</b>",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "reminders-menu"
+            }
+          },
+          {
+            "key": "1736f50c-4dff-482a-9b18-1624d1df8af9",
+            "box_2d": [
+              577.020118061404,
+              583.9404765571842,
+              613.0849524529449,
+              632.3068567553114
+            ],
+            "label": "Confirm Button",
+            "uid": "260a2d2d-b047-4c49-838d-76b532f869c3",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Confirming reminder reset</b>",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "reminders-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling standby mode via the media screen.",
+  "section": "17.B",
+  "tags": [
+    "Standby Mode",
+    "Standby Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Enable Standby in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              463.47625066045896,
+              495.1405497993716,
+              517.9156864902728,
+              555.5069299974989
+            ],
+            "label": "Maintenance Button",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "maintenance-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "maintenance-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Maintenance.webp"
+        },
+        "anchors": [
+          {
+            "key": "fc4b43b3-14ac-42b4-bf6e-59d7f773c844",
+            "box_2d": [
+              473.473975483279,
+              488.7405253853092,
+              509.5388098748199,
+              537.1069055834364
+            ],
+            "label": "Standby",
+            "uid": "6d6b1a65-9374-4cf5-89f5-7840ea65b3fd",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Standby Mode</b>The Standby mode allows you to service your spa.<br>\nPumps will stop for 30 minutes, and automatically<br>\nrestart after this time.<br>\n<br>\nOnce Standby mode has been activated a screen will<br>\nappear to show the pumps are stopped. The normal<br>\nspa page will return at the end of the maintenance.<br><br>Press Cancel to leave Standby mode and restart the\nspa.",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "standby-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "standby-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/standby.webp"
+        },
+        "anchors": [
+          {
+            "key": "a5e8eccf-f3b2-4d06-b0c2-307ec89f60e1",
+            "box_2d": [
+              577.020118061404,
+              466.3405009712467,
+              613.0849524529449,
+              514.7068811693739
+            ],
+            "label": "Cancel Button",
+            "uid": "89bd9551-5d5e-479f-b268-92bd1d6542cb",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Canceling changes</b>",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "reminders-menu"
+            }
+          },
+          {
+            "key": "1736f50c-4dff-482a-9b18-1624d1df8af9",
+            "box_2d": [
+              577.020118061404,
+              583.9404765571842,
+              613.0849524529449,
+              632.3068567553114
+            ],
+            "label": "Confirm Button",
+            "uid": "260a2d2d-b047-4c49-838d-76b532f869c3",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Standby Mode Activated</b><br>Pumps will now stop for 30 minutes,<br>and automatically restart after this time.",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "reminders-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of setting the temperature units via the media screen.",
+  "section": "18.A",
+  "tags": [
+    "Temperature Units",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Set Temperature Units in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              510.119403335481,
+              498.3405009712466,
+              564.5588391652949,
+              558.7068811693739
+            ],
+            "label": "Scroll Button",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "swipe-up",
+            "targetScreen": {
+              "id": "settings-menu-2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu-2",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/settings_2nd.webp"
+        },
+        "anchors": [
+          {
+            "key": "2bde2481-df43-42be-95fa-c466b7050276",
+            "box_2d": [
+              432.3807795984559,
+              506.3405009712466,
+              486.82021542826976,
+              566.7068811693739
+            ],
+            "label": "Temperature Units Button",
+            "uid": "8b2c203d-4dfa-4b8e-9cbd-88a8494df3b3",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "temperature-units-menu"
+            },
+            "actionMsg": {
+              "message": "<b>Temperature Units Menu</b><br>Here you can switch between Celsius and Fahrenheit as temperature units.<br>Once done, click the Menu button to get back to the main Menu.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "temperature-units-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-units-f.webp"
+        },
+        "anchors": [
+          {
+            "key": "fc4b43b3-14ac-42b4-bf6e-59d7f773c844",
+            "box_2d": [
+              440.9650984266316,
+              482.3405009712467,
+              477.0299328181725,
+              530.7068811693739
+            ],
+            "label": "Celsius",
+            "uid": "6d6b1a65-9374-4cf5-89f5-7840ea65b3fd",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Switching to Celsius units</b>",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "temperature-units-menu-c"
+            }
+          },
+          {
+            "key": "8705aa2d-6dfe-4b7d-9228-8ca94807bbe8",
+            "box_2d": [
+              448.0322362358188,
+              367.9404765571842,
+              484.0970706273597,
+              416.3068567553114
+            ],
+            "label": "Menu Button",
+            "uid": "79e219e0-9331-4405-a8eb-a3339126ef72",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Going back to the main menu...",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "temperature-units-menu-c",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/temp-units-c.webp"
+        },
+        "anchors": [
+          {
+            "key": "2fe3baf7-d5f6-42a3-aa5f-50c845caed44",
+            "box_2d": [
+              473.473975483279,
+              488.7405253853092,
+              509.5388098748199,
+              537.1069055834364
+            ],
+            "label": "Fahrenheit",
+            "uid": "75363053-ca0f-436f-8684-f1bfc3748f80",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Switching to Fahrenheit units</b>",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "temperature-units-menu"
+            }
+          },
+          {
+            "key": "7cba8c75-bcd6-49bb-a515-6dacf722cd0d",
+            "box_2d": [
+              448.0322362358188,
+              367.9404765571842,
+              484.0970706273597,
+              416.3068567553114
+            ],
+            "label": "Menu Button",
+            "uid": "59008333-cf36-4b74-90e8-b28d766edc56",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Going back to the main menu...",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "25_SDSSwimSpa_EN",
+  "pdf_id": "25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of setting the language via the media screen.",
+  "section": "18.B",
+  "tags": [
+    "Language",
+    "Language Settings",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Set Language in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/SDS_SwimSpa_Main_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.367,
+          "y": 0.406
+        },
+        {
+          "x": 0.729,
+          "y": 0.405
+        },
+        {
+          "x": 0.733,
+          "y": 0.615
+        },
+        {
+          "x": 0.365,
+          "y": 0.6145
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "settings",
+            "box_2d": [
+              526.0246775333736,
+              355.9404155220279,
+              580.4641133631875,
+              416.3067957201551
+            ],
+            "label": "Settings Button",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "settings-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/Settings.webp"
+        },
+        "anchors": [
+          {
+            "key": "d681c4b9-9098-4c22-8f4f-8bbf34b252c2",
+            "box_2d": [
+              510.119403335481,
+              498.3405009712466,
+              564.5588391652949,
+              558.7068811693739
+            ],
+            "label": "Scroll Button",
+            "uid": "afad5ebb-1259-4bbc-b147-afd654d2f1bd",
+            "interactionStyle": "swipe-up",
+            "targetScreen": {
+              "id": "settings-menu-2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "settings-menu-2",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/settings_2nd.webp"
+        },
+        "anchors": [
+          {
+            "key": "2bde2481-df43-42be-95fa-c466b7050276",
+            "box_2d": [
+              531.3207089270778,
+              488.7404033149967,
+              585.7601447568917,
+              549.1067835131239
+            ],
+            "label": "Language Button",
+            "uid": "8b2c203d-4dfa-4b8e-9cbd-88a8494df3b3",
+            "interactionStyle": "click",
+            "targetScreen": {
+              "id": "language-menu"
+            },
+            "actionMsg": {
+              "message": "<b>Language Menu</b><br>Here you can switch between English and French as the control panel's language.<br>Once done, click the Menu button to get back to the main Menu.",
+              "notificationOnly": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "language-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/language-en.webp"
+        },
+        "anchors": [
+          {
+            "key": "fc4b43b3-14ac-42b4-bf6e-59d7f773c844",
+            "box_2d": [
+              476.3007874725678,
+              443.9404765571842,
+              512.3656218641087,
+              492.3068567553114
+            ],
+            "label": "French",
+            "uid": "6d6b1a65-9374-4cf5-89f5-7840ea65b3fd",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Switching to French language</b>",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "language-menu-fr"
+            }
+          },
+          {
+            "key": "8705aa2d-6dfe-4b7d-9228-8ca94807bbe8",
+            "box_2d": [
+              448.0322362358188,
+              367.9404765571842,
+              484.0970706273597,
+              416.3068567553114
+            ],
+            "label": "Menu Button",
+            "uid": "79e219e0-9331-4405-a8eb-a3339126ef72",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Going back to the main menu...",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      },
+      {
+        "id": "language-menu-fr",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/language-fr.webp"
+        },
+        "anchors": [
+          {
+            "key": "2fe3baf7-d5f6-42a3-aa5f-50c845caed44",
+            "box_2d": [
+              443.79191041592014,
+              443.9404765571842,
+              479.85674480746104,
+              492.3068567553114
+            ],
+            "label": "English",
+            "uid": "75363053-ca0f-436f-8684-f1bfc3748f80",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "<b>Switching to English language</b>",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "language-menu"
+            }
+          },
+          {
+            "key": "7cba8c75-bcd6-49bb-a515-6dacf722cd0d",
+            "box_2d": [
+              448.0322362358188,
+              367.9404765571842,
+              484.0970706273597,
+              416.3068567553114
+            ],
+            "label": "Menu Button",
+            "uid": "59008333-cf36-4b74-90e8-b28d766edc56",
+            "interactionStyle": "click",
+            "actionMsg": {
+              "message": "Going back to the main menu...",
+              "notificationOnly": true
+            },
+            "targetScreen": {
+              "id": "main-menu"
+            }
+          }
+        ]
+      }
+    ]
+  }
+},
+{
+  "pdfID": "[Don't Have Screens!!!]25_SDSSwimSpa_EN",
+  "pdf_id": "[Don't Have Screens!!!]25_SDSSwimSpa_EN",
+  "productID": "sds-swimspa-surf-17",
+  "product_id": "sds-swimspa-surf-17",
+  "caption": "Interactive 3D model of controlling temperature settings via the media screen.",
+  "section": "12.A",
+  "tags": [
+    "Temperature Control",
+    "Media Screen"
+  ],
+  "suggestedLabel": "Temperature Controls in 3D",
+  "type": "interactiveP3DModel",
+  "interactiveP3DModel": {
+    "type": "screenController",
+    "p3dID": "C61FJ",
+    "productMount": {
+      "baseUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-secondary/SDS_SwimSpa_Swim_BaseLayer.webp",
+      "beautyLayerUrl": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-secondary/SDS_SwimSpa_Swim_BeautyLayer.webp",
+      "screenCorners": [
+        {
+          "x": 0.316,
+          "y": 0.43
+        },
+        {
+          "x": 0.68,
+          "y": 0.43
+        },
+        {
+          "x": 0.68,
+          "y": 0.51
+        },
+        {
+          "x": 0.316,
+          "y": 0.51
+        }
+      ]
+    },
+    "screenOptions": [
+      {
+        "id": "main-menu",
+        "image": {
+          "url": "https://storage.googleapis.com/smartmanuals-477417-t9.firebasestorage.app/productImages/sds-swimspa-main/mainMenu.webp"
+        },
+        "anchors": [
+          {
+            "key": "arrow-up",
+            "box_2d": [
+              452.05205389119703,
+              743.9405375923403,
+              521.5600664814989,
+              814.70694220453
+            ],
+            "label": "Arrow Up",
+            "uid": "475de1ff-e36f-41b2-9962-a27e1c5ef63f",
+            "interactionStyle": "click"
+          },
+          {
+            "key": "arrow-down",
+            "box_2d": [
+              498.6274172594011,
+              707.1406108345278,
+              568.135429849703,
+              777.9070154467175
+            ],
+            "label": "Arrow Down",
+            "uid": "88345fdc-cce2-42e2-bd67-fd8a54feb5ac",
+            "interactionStyle": "click"
+          }
+        ]
+      }
+    ]
+  }
 }
 ]
